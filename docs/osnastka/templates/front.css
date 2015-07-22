@@ -1,0 +1,177 @@
+.container {
+	/*background: url('/osnastka/data/img/logo.png') no-repeat 26px 9px;*/
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+/*== header =========================================================================*/
+#header {
+	font-size: 13px;
+	width: 485px;
+	padding: 25px 0px 28px 0px;
+	margin: 0px 248px 0px 291px;
+	position: relative;
+}
+
+#order_terms {
+	position: absolute;
+	left: 810px;
+	top: 19px;
+}
+
+#logo {
+	position: absolute;
+	left: 26px;
+	top: 9px;
+}
+
+/*== center =========================================================================*/
+
+#center {
+	width: 1024px;
+}
+
+/*== top row =========================================================================*/
+
+#top_row {
+	/*margin-bottom: 25px;*/
+	padding-left: 100px;
+}
+
+.top_item {
+	float: left;
+	margin: 0px 23px 25px;
+	width: 247px;
+	height: 306px;
+	background: url('/osnastka/data/img/front_top_back.png') no-repeat center;
+	position: relative;
+}
+
+.top_item_first {
+	margin-left: 0px;
+}
+
+.top_item_last {
+}
+
+.top_item_image {
+	position: absolute;
+	width: 180px;
+	height: 221px;
+	left: 33.5px;
+	top: 16px;
+	background: url('/osnastka/data/img/front_top_image.png') no-repeat center;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.top_item_image img {
+	vertical-align: middle;
+}
+
+.top_item_image span {
+	display:inline-block;
+	vertical-align:middle;
+	height: 100%;
+	width: 1px;
+}
+
+.top_item_name {
+	position: absolute;
+	width: 180px;
+	height: 39px;
+	left: 33.5px;
+	top: 250px;
+	background: url('/osnastka/data/img/front_top_text.png') no-repeat center;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 39px;
+	font-size: 23.4px;
+}
+
+.top_item_name a {
+	text-decoration: none;
+}
+
+.top_item_link {
+	position: absolute;
+	width: 180px;
+	height: 16px;
+	left: 33.5px;
+	top: 277px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 16px;
+	font-size: 14px;
+	display: none;
+}
+
+/*== bottom row =========================================================================*/
+
+#bottom_row {
+	background: url('/osnastka/data/img/front_bottom_back.png') no-repeat top right;
+	width: 834px;
+	height: 149px;
+	margin-left: 100px;
+	clear: both;
+}
+
+#bottom_row_inner {
+	padding-left: 29px;
+}
+
+.bottom_item {
+	float: left;
+	margin: 5px 10px;
+	width: 179px;
+	height: 139px;
+	position: relative;
+	background: url('/osnastka/data/img/front_bottom_item.png') no-repeat center top;
+}
+
+.bottom_item_first {
+	margin-left: 0px;
+}
+
+.bottom_item_last {
+}
+
+.bottom_item_image {
+	position: absolute;
+	width: 169px;
+	height: 98px;
+	left: 5px;
+	top: 5px;
+	background: url('/osnastka/data/img/front_bottom_image.png') no-repeat center;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.bottom_item_image img {
+	vertical-align: middle;
+}
+
+.bottom_item_image span {
+	display:inline-block;
+	vertical-align:middle;
+	height: 100%;
+	width: 1px;
+}
+
+.bottom_item_name {
+	position: absolute;
+	width: 179px;
+	height: 18px;
+	left: 0px;
+	top: 111px;
+	background: url('/osnastka/data/img/front_bottom_text.png') no-repeat center;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 18px;
+	font-size: 16px;
+}
+

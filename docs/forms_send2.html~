@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Изготовление печатей и штамов</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<META NAME="Classification" CONTENT="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
+<META NAME="keywords" CONTENT="печати, изготовление  печатей, штампов факсимиле пломбир пломбиратор красконаполненные печати штампы  ПЕЧАТЬ ШТАМП  фотополимер экспонирующая камера штемпельная продукция автоматическая оснастка для печатей Trodat Colop канцелярские товары регистрация предприятий юридические услуги  подделка печатей оборудование ИЗГОТОВЛЕНИЕ ПЕЧАТЕЙ  рельефные печати полиграфия изготовление визиток оттиск конфиденциально флексо подделать печать штамп">
+<META NAME="Description" CONTENT="Изготовление печатей, штампов, факсимиле, визиток. Полный спектр оборудования, расходных материалов для производства штемпельной продукции по всем известным технологиям.">
+	<link rel="STYLESHEET" type="text/css" href="css/pechati.css">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		  <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+
+</head>
+
+<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
+
+<table cellpadding="0" cellspacing="0" border="0" width="990" height="100%" align="center">
+	<tr>
+		<td><a href="http://pechati.ru/"><img src="i/top-order.jpg" width="990" height="85" border="0" alt=""></a></td>
+	</tr>
+	<tr valign="top">
+		<td height="100%" bgcolor="#ffffff" background="i/bg1-c.jpg" style="background-repeat: repeat-y;">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" background="i/bg2-c.jpg" style="background-position: top right; background-repeat: repeat-y;">
+				<tr valign="top">
+					<td width="186" height="100%">
+						<table cellpadding="0" cellspacing="0" border="0" width="186" background="i/bg4-c.jpg" style="background-repeat: repeat-y;">
+							<tr>
+								<td width="186">
+
+<!-- Menu -->
+
+<!--<div><img src="i/bg3-c.jpg" width="186" height="70" alt=""></div>
+<div style="padding: 0 15px;">
+	<div class="menu">
+		<div><a href="/" style="color: #f00;"><strong>изготовление печатей</strong></a></div>
+		<div><a href="/oborudovanie/"><strong>оборудование</strong></a></div>
+		<div><a href="http://www.photopolymer.ru/"><strong>материалы</strong></a></div>
+		<div><a href="/info/"><strong>информация</strong></a></div>
+		<div><a href="/contacts/"><strong>контакты</strong></a></div>
+	</div>
+	<div style="padding: 20px 0;"><img src="i/m_lin.gif" width="136" height="1" alt=""></div>
+</div>
+<div align="center" style="padding: 10px 0 10px 0;"><a href="/contacts/"><img src="pics/map-mini.jpg" width="109" height="135" alt="" border="0"></a></div>
+-->
+<!-- /Menu -->
+
+								</td>
+							</tr>
+							<tr>
+								<td><img src="i/m_btm_c.gif" width="185" height="13" alt=""></td>
+							</tr>
+						</table>
+					</td>
+					<td width="804" background="i/bg6-c.jpg" style="background-repeat: no-repeat; background-position: left top;">
+
+<!-- Content -->
+
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td valign="top" height="52" class="txt2">
+
+<!-- Top text -->
+
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr valign="top" class="top1">
+		<td width="360">&nbsp;</td>
+		<td height="52" width="105"><a href="#"></a></td>
+		<td><a href="#"></a></td>
+	</tr>
+</table>
+
+<!-- /Top text -->
+
+		</td>
+	</tr>
+	<tr>
+		<td class="txt2">
+
+<!-- Text -->
+
+<h1 align="center">Заявка успешно отправлена!<div style="border-bottom: 1px dotted #000;"></div></h1>
+Наши менеджеры свяжутся с вами!
+<!-- Модальное окно-->
+ <script>
+	$(function() {
+		$( "#dialog" ).dialog({
+			autoOpen: false,
+			show: {
+				duration: 1000
+			},
+			hide: {
+				duration: 1000
+			}
+		});
+		$( "#opener" ).click(function() {
+			$( "#dialog" ).dialog( "open" );
+		});
+	});
+</script>
+
+<div id="dialog" title="Basic dialog">
+<p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+
+
+
+
+
+<div id="ext">
+<script type="text/javascript">	
+	$('#ext').load('/extdata/externalform.txt',function(responseTxt,statusTxt,xhr){
+    if(statusTxt=="error")
+      alert("Ошибка: "+xhr.status+": "+xhr.statusText);
+  });
+
+</script>
+</div>
+
+<div id="dop-zakaz">
+<script type="text/javascript">	
+	$('#dop-zakaz').load('/extdata/dop-zakaz.txt',function(responseTxt,statusTxt,xhr){
+    if(statusTxt=="error")
+      alert("Ошибка: "+xhr.status+": "+xhr.statusText);
+  });
+
+</script>
+</div>
+
+<!-- Text -->
+
+<!-- Добавляем таблицу с филиалами карты, метро, список-->
+
+<!--
+<script>
+  window.onload;
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+</script>
+
+<h3 style="text-align: center;">Расположение филиалов ПечатиРу</h3>
+<div id="tabs" style="min-height: 600px;">
+  <ul>
+    <li style="width:33%;"><a href="#tabs-1" style="width:95%; text-align:center;">На схеме метро</a></li>
+    <li style="width:32%;"><a href="#tabs-2" style="width:95%; text-align:center;">На карте</a></li>
+    <li style="width:33%;"><a href="#tabs-3" style="width:95%; text-align:center;">Список</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Тут пока ничего нет :)</p>
+  </div>
+  <div id="tabs-2">
+	<a name="maps"></a>
+	
+	<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=gxYIEhytmRYL9gfErzGzeCtsnO_2NiZm&width=700&height=500">
+	</script>
+  </div>
+  <div id="tabs-3">
+	<div id="extlist">
+		<script type="text/javascript">	
+			$('#extlist').load('/extdata/filialtables.txt',function(responseTxt,statusTxt,xhr){
+		    if(statusTxt=="error")
+		      alert("Ошибка: "+xhr.status+": "+xhr.statusText);
+		  });
+
+		</script>
+	</div>
+  </div>
+  
+  
+</div>
+-->
+<!--<div id="exttab">
+	<script type="text/javascript">	
+		$('#exttab').load('/extdata/tabschemefilials.txt',function(responseTxt,statusTxt,xhr){
+		    if(statusTxt=="error")
+		      alert("Ошибка: "+xhr.status+": "+xhr.statusText);
+		  });
+
+	</script>
+</div>
+-->
+
+		</td>
+	</tr>
+</table>
+
+<!-- Content -->
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="i/btm1-c.jpg" width="990" height="30" alt=""></td>
+	</tr>
+	<tr>
+		<td class="btm1-c">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr valign="top">
+					<td width="100%" class="btm2">
+						<p>Срочное изготовление печатей и штампов в Москве "Печати.ru" R Москва 2002г.<br><a href="http://pechati.ru/">Срочное изготовление печатей и штампов</a></p>
+					</td>
+					<td width="80" nowrap><a href="http://pechati.ru/"><strong>главная</strong></a></td>
+					<td width="110" nowrap><a href="http://pechati.ru/contacts/"><strong>контакты</strong></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+
+</body>
+</html>

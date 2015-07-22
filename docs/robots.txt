@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /uslugi/$
+Disallow: *.xls
+Host: pechati.ru
+
+Sitemap: http://pechati.ru/sitemap.xml

@@ -1,0 +1,30 @@
+
+<h3 style="text-align: center;">Расположение филиалов ПечатиРу</h3>
+<div id="tabs" style="min-height: 400px;">
+  <ul>
+    <li style="width:33%;"><a href="#tabs-1" style="width:95%; text-align:center;">На схеме метро</a></li>
+    <li style="width:32%;"><a href="#tabs-2" style="width:95%; text-align:center;">На карте</a></li>
+    <li style="width:33%;"><a href="#tabs-3" style="width:95%; text-align:center;">Список</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Тут пока ничего нет :)</p>
+  </div>
+  <div id="tabs-2">
+    <p></p>
+	<a name="maps"></a>
+	
+	<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=gxYIEhytmRYL9gfErzGzeCtsnO_2NiZm&width=900&height=500">
+	</script>
+  </div>
+  <div id="tabs-3">
+    <p></p>
+	<div id="extlist"><script type="text/javascript">	
+	$('#extlist').load('/extdata/filialtables.txt',function(responseTxt,statusTxt,xhr){
+    if(statusTxt=="error")
+      alert("Ошибка: "+xhr.status+": "+xhr.statusText);
+  });
+
+</script>
+</div>
+  </div>
+</div>

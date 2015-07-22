@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<companies version="1.0">
+	<company>
+		<company-id>46</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>127018</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>проезд 4-й Стрелецкий</street>
+		<house>4</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (916) 993-19-19</number>
+			<info/>
+		</phone>
+		<email>pr@pechati.ru</email>
+		<url>http://pechati.ru/contacts/46.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>48</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>127018</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>ул. Кастанаевская</street>
+		<house>54, к.3</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (916) 500-75-83</number>
+			<info/>
+		</phone>
+		<email>t5007583@yandex.ru</email>
+		<url>http://pechati.ru/contacts/48.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>49</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>127018</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>ул. Авиамоторная</street>
+		<house>14</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (926) 845-61-71</number>
+			<info/>
+		</phone>
+		<email>perovo@pechati.ru</email>
+		<url>http://pechati.ru/contacts/49.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>23</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>127549</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Бибиревская</street>
+		<house>17</house>
+		<house-add>б</house-add>
+		<address-add>оф. 3</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 665-22-56</number>
+			<info/>
+		</phone>
+		<email>t6652256@yandex.ru</email>
+		<url>http://pechati.ru/contacts/23.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>1</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>119019</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Арбат</street>
+		<house>4</house>
+		<build>1-1А</build>
+		<address-add>оф. 48</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 545-48-42</number>
+			<info/>
+		</phone>
+		<email>5454842@mail.ru</email>
+		<url>http://pechati.ru/contacts/1.html</url>
+		<working-time>пн-пт 09:00-19:00, сб 10:00-18:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>16</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>129281</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Летчика Бабушкина</street>
+		<house>30</house>
+		<house-add>3</house-add>
+		<corps>1</corps>
+		<build>1</build>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 798-81-43</number>
+			<info/>
+		</phone>
+		<email>mdv@pechati.ru</email>
+		<url>http://pechati.ru/contacts/16.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>19</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>125284</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>проезд 1-й Боткинский</street>
+		<house>4</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 585-81-62</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 664-38-81</number>
+			<info/>
+		</phone>
+		<email>bgv@pechati.ru</email>
+		<url>http://pechati.ru/contacts/19.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>2</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>125212</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>бульвар Кронштадтский</street>
+		<house>7</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 979-88-73</number>
+			<info/>
+		</phone>
+		<email>vs@pechati.ru</email>
+		<url>http://pechati.ru/contacts/2.html</url>
+		<working-time>пн-пт 10:00-20:00, сб 11:00-16:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>27</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>127287</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Писцовая</street>
+		<house>16</house>
+		<corps>2</corps>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (916) 993-19-19</number>
+			<info/>
+		</phone>
+		<email>pr@pechati.ru</email>
+		<url>http://pechati.ru/contacts/27.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>4</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>115522</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>шоссе Каширское</street>
+		<house>26</house>
+		<corps>3</corps>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 728-45-98</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (985) 915-46-85</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (903) 527-39-47</number>
+			<info/>
+		</phone>
+		<email>chertanovo@pechati.ru</email>
+		<url>http://pechati.ru/contacts/4.html</url>
+		<working-time>пн-чт 10:00-19:00, пт 10:00-18:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424863506</actualization-date>
+	</company>
+	<company>
+		<company-id>7</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>107140</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>площадь Комсомольская</street>
+		<house>6</house>
+		<address-add>Универмаг Московский, 3 этаж</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 517-67-23</number>
+			<info/>
+		</phone>
+		<email>5176723@mail.ru</email>
+		<url>http://pechati.ru/contacts/7.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>26</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>109443</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>проспект Волгоградский</street>
+		<house>88</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 988-14-14</number>
+			<info/>
+		</phone>
+		<email>kuzminki@pechati.ru</email>
+		<url>http://pechati.ru/contacts/26.html</url>
+		<working-time>пн-сб 10:00-20:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>5</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>121357</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Верейская</street>
+		<house>29</house>
+		<corps>134</corps>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 518-70-71</number>
+			<info/>
+		</phone>
+		<email>518-70-71@mail.ru</email>
+		<url>http://pechati.ru/contacts/5.html</url>
+		<working-time>пн-пт 10:00-19:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>8</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>125310</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>проезд Новотушинский</street>
+		<house>6</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (926) 235-52-76</number>
+			<info/>
+		</phone>
+		<email>mitino@pechati.ru</email>
+		<url>http://pechati.ru/contacts/8.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>37</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>111558</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>проспект Свободный</street>
+		<house>33</house>
+		<house-add>а</house-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (916) 232-80-30</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (926) 845-61-71</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (915) 377-06-09</number>
+			<info/>
+		</phone>
+		<email>perovo@pechati.ru</email>
+		<url>http://pechati.ru/contacts/37.html</url>
+		<working-time>пн-пт 10:00-20:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>10</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>117335</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Гарибальди</street>
+		<house>21</house>
+		<build>6</build>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (499) 724-50-02</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (905) 591-37-34</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (926) 498-25-53</number>
+			<info/>
+		</phone>
+		<email>5002@pechati.ru</email>
+		<email>pechati5002@yandex.ru</email>
+		<url>http://pechati.ru/contacts/10.html</url>
+		<working-time>пн-пт 10:00-18:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>11</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>119049</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>проспект Ленинский</street>
+		<house>1</house>
+		<address-add>оф. 723</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 988-14-14</number>
+			<info/>
+		</phone>
+		<email>taganka@pechati.ru</email>
+		<url>http://pechati.ru/contacts/11.html</url>
+		<working-time>пн-пт 10:00-18:00б сб-вс 11:00-16:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1425285854</actualization-date>
+	</company>
+	<company>
+		<company-id>12</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>123298</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Машала Малиновского</street>
+		<house>8</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (925) 406-63-96</number>
+			<info/>
+		</phone>
+		<email>bgv@pechati.ru</email>
+		<url>http://pechati.ru/contacts/12.html</url>
+		<working-time>ежедн. 9:30-20:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>22</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>117519</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Кировоградская</street>
+		<house>24</house>
+		<house-add>а</house-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (903) 527-39-47</number>
+			<info/>
+		</phone>
+		<email>chertanovo@pechati.ru</email>
+		<url>http://pechati.ru/contacts/22.html</url>
+		<working-time>ежедн. 10:00-20:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>30</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>107076</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица 1-я Бухвостова</street>
+		<house>12</house>
+		<house-add>11</house-add>
+		<address-add>2 этаж, оф. 18</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 763-77-89</number>
+			<info/>
+		</phone>
+		<email>preo@pechati.ru</email>
+		<url>http://pechati.ru/contacts/30.html</url>
+		<working-time>пн-пт 10:00-20:00, сб 11:00-17:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>42</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>123182</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Маршала Василевского</street>
+		<house>17</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 585-81-62</number>
+			<info/>
+		</phone>
+		<email>bgv@pechati.ru</email>
+		<url>http://pechati.ru/contacts/42.html</url>
+		<working-time>пн-пт 10:00-21:00, сб 10:00-16:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>13</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>109044</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Большие Каменщики</street>
+		<house>1</house>
+		<address-add>5 этаж, офис 507</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 506-22-77</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 988-14-14</number>
+			<info/>
+		</phone>
+		<email>taganka@pechati.ru</email>
+		<url>http://pechati.ru/contacts/13.html</url>
+		<working-time>пн-пт 9:00-19:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>33</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>115191</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>переулок Холодильный</street>
+		<house>3</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 988-14-14</number>
+			<info/>
+		</phone>
+		<email>taganka@pechati.ru</email>
+		<url>http://pechati.ru/contacts/33.html</url>
+		<working-time>пн-пт 10:00-18:00б сб-вс 11:00-16:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1425285854</actualization-date>
+	</company>
+	<company>
+		<company-id>9</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>127473</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Садовая-Самотечная</street>
+		<house>13</house>
+		<build>14</build>
+		<address-add>оф. 206</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 545-48-42</number>
+			<info/>
+		</phone>
+		<email>5454842@mail.ru</email>
+		<url>http://pechati.ru/contacts/9.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>29</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>107207</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Уральская</street>
+		<house>4</house>
+		<house-add>а</house-add>
+		<build>1</build>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (499) 748-11-82</number>
+			<info/>
+		</phone>
+		<email>slk@pechati.ru</email>
+		<url>http://pechati.ru/contacts/29.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>14</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>107023</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>переулок Медовый</street>
+		<house>5</house>
+		<build>2</build>
+		<address-add>в здании гостиницы "КАЛИНКА", ком-та 110</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (499) 748-11-82</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 645-99-00</number>
+			<info/>
+		</phone>
+		<email>pechaty60@yandex.ru</email>
+		<url>http://pechati.ru/contacts/14.html</url>
+		<working-time>пн-пт 10:00-18:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>15</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>119526</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>проспект Вернадского</street>
+		<house>91</house>
+		<corps>3</corps>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (925) 518-70-71</number>
+			<info/>
+		</phone>
+		<email>518-70-71@mail.ru</email>
+		<url>http://pechati.ru/contacts/15.html</url>
+		<working-time>пн-пт 9:00-18:00, сб 10:00-16:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>24</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>117587</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Кировоградская</street>
+		<house>9</house>
+		<corps>4</corps>
+		<build>8</build>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (903) 527-39-47</number>
+			<info/>
+		</phone>
+		<email>chertanovo@pechati.ru</email>
+		<url>http://pechati.ru/contacts/24.html</url>
+		<working-time>пн-пт 10:00-19:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>201</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>124575</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<sub-locality-name>город Зеленоград</sub-locality-name>
+		<street>улица Панфилова</street>
+		<house>30</house>
+		<address-add>2-й этаж</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 664-37-18</number>
+			<info/>
+		</phone>
+		<email>6643718@mail.ru</email>
+		<url>http://pechati.ru/contacts/20.html</url>
+		<working-time>пн-пт 9:00-18:00, сб 11:00-16:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>202</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>124460</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<sub-locality-name>город Зеленоград</sub-locality-name>
+		<street>проспект Панфиловский</street>
+		<house>10</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 664-37-18</number>
+			<info/>
+		</phone>
+		<email>6643718@mail.ru</email>
+		<url>http://pechati.ru/contacts/20.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>203</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>141500</post-index>
+		<country>Россия</country>
+		<admn-area>Московская область</admn-area>
+		<locality-name>город Солнечногорск</locality-name>
+		<street>улица Красная</street>
+		<house>176</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (925) 664-37-18</number>
+			<info/>
+		</phone>
+		<email>6643718@mail.ru</email>
+		<url>http://pechati.ru/contacts/20.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>171</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>143406</post-index>
+		<country>Россия</country>
+		<admn-area>Московская область</admn-area>
+		<sub-admn-area>Красногорский район</sub-admn-area>
+		<locality-name>город Красногорск</locality-name>
+		<street>переулок Железнодорожный</street>
+		<house>1</house>
+		<house-add>а</house-add>
+		<address-add>в здании ТЦ Красногорского РАЙПО, маг. "Пятерочка" цокольный этаж, в ФОТОСТУДИИ вход слева</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (901) 575-70-74</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (498) 698-55-33</number>
+			<info/>
+		</phone>
+		<email>krasnogorsk@pechati.ru</email>
+		<url>http://pechati.ru/contacts/17.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>172</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>143400</post-index>
+		<country>Россия</country>
+		<admn-area>Московская область</admn-area>
+		<sub-admn-area>Красногорский район</sub-admn-area>
+		<locality-name>город Красногорск</locality-name>
+		<street>улица Ленина</street>
+		<house>55</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (901) 575-70-74</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (498) 698-55-33</number>
+			<info/>
+		</phone>
+		<email>krasnogorsk@pechati.ru</email>
+		<url>http://pechati.ru/contacts/17.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>18</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>123022</post-index>
+		<country>Россия</country>
+		<admn-area>Московская область</admn-area>
+		<locality-name>город Одинцово</locality-name>
+		<street>улица Союзная</street>
+		<house>1</house>
+		<house-add>в</house-add>
+		<address-add>8 подъезд 3 этаж офис 310</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 973-50-08</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (901) 553-50-08</number>
+			<info/>
+		</phone>
+		<email>5008@pechati.ru</email>
+		<url>http://pechati.ru/contacts/18.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>40</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>119618</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица 50 лет Октября</street>
+		<house>4</house>
+		<address-add>оф. 121</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 410-18-85</number>
+			<info/>
+		</phone>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (985) 410-18-85</number>
+			<info/>
+		</phone>
+		<email>sol@pechati.ru</email>
+		<url>http://pechati.ru/contacts/40.html</url>
+		<working-time>пн-пт 10:00-19:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>6</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>109341</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>улица Перерва</street>
+		<house>43</house>
+		<house-add>а</house-add>
+		<address-add>2-й этаж</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (925) 498-20-48</number>
+			<info/>
+		</phone>
+		<email>marino@pechati.ru</email>
+		<url>http://pechati.ru/contacts/6.html</url>
+		<working-time>ежедн. 10:00-21:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1426586512</actualization-date>
+	</company>
+	<company>
+		<company-id>47</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>142784</post-index>
+		<country>Россия</country>
+		<locality-name>город Москва</locality-name>
+		<street>шоссе Киевское</street>
+		<house>Бизнес Парк Румянцево</house>
+		<corps>в</corps>
+		<address-add>подъезд 2, 2 этаж, офис 104в</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (925) 125-45-55</number>
+			<info/>
+		</phone>
+		<email>9251254555@mail.ru</email>
+		<url>http://pechati.ru/contacts/47.html</url>
+		<working-time>пн-сб 10:00-19:00</working-time>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>311</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>141400</post-index>
+		<country>Россия</country>
+		<admn-area>Московская область</admn-area>
+		<locality-name>город Химки</locality-name>
+		<street>улица Панфилова</street>
+		<house>1</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 664-37-18</number>
+			<info/>
+		</phone>
+		<email>6643718@mail.ru</email>
+		<url>http://pechati.ru/contacts/31.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>312</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>141420</post-index>
+		<country>Россия</country>
+		<admn-area>Московская область</admn-area>
+		<locality-name>город Химки</locality-name>
+		<street>улица Железнодорожная</street>
+		<address-add>платформа №1</address-add>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 664-37-18</number>
+			<info/>
+		</phone>
+		<url>http://pechati.ru/contacts/31.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+	<company>
+		<company-id>313</company-id>
+		<name-ru>Печати.RU</name-ru>
+		<post-index>141400</post-index>
+		<country>Россия</country>
+		<admn-area>Московская область</admn-area>
+		<locality-name>город Химки</locality-name>
+		<street>проспект Мельникова</street>
+		<house>10</house>
+		<phone>
+			<ext/>
+			<type>phone</type>
+			<number>+7 (495) 664-37-18</number>
+			<info/>
+		</phone>
+		<url>http://pechati.ru/contacts/31.html</url>
+		<rubric-id>184105422</rubric-id>
+		<rubric-id>184105352</rubric-id>
+		<rubric-id>184105542</rubric-id>
+		<actualization-date>1424250225</actualization-date>
+	</company>
+</companies>

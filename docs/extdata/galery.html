@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery Gallery</title>
+<style type="text/css">
+
+#large {
+	width: 600px;
+	height: 500px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	background: url(indicato.gif) no-repeat 50% 40%;
+}
+#large img {
+	width: 600px;
+	height: 500px;
+	border: 1px ridge #223348;
+	margin: auto;
+}
+#thumbnail {
+	width: 90px;
+	height: 500px;
+	overflow: hidden;
+	float: left;
+	list-style: none;
+	margin-top: 0px;
+	margin-left: -90px;
+	_margin-left: 10px;
+	padding: 0;
+	border: 1px ridge #999;
+}
+#thumbnail li {
+	width: 85px;
+	margin: 0;
+	_margin: 0;
+}
+#thumbnail li img {
+	width: 85px;
+}
+#thumbnail a {
+	display: block;
+	width: 85px;
+	height: 65px;
+	padding: 1px;
+}
+#thumbnail a:hover {
+	border-color: #405061;
+}
+
+#thumbnail2 {
+	clear:both;
+	width: 600px;
+	height: 65px;
+	overflow: hidden;
+	float: left;
+	display:inline;
+	list-style: none;
+	margin-top: -85px;
+	margin-left: 0;
+	_margin-left: 0;
+	padding: 0;
+	border: 1px ridge #999;
+}
+#thumbnail2 li {
+	width: 85px;
+	float: left;
+	display:inline;
+	margin: 0;
+	_margin: 0;
+}
+#thumbnail2 li img {
+	width: 85px;
+}
+#thumbnail2 a {
+	display: block;
+	width: 85px;
+	height: 65px;
+	padding: 1px;
+}
+#thumbnail2 a:hover {
+	border-color: #405061;
+}
+</style>
+
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#thumbnail li a").click(function(){
+		$("#large img").hide().attr({"src": $(this).attr("href"), "title": $("> img", this).attr("title")});
+		$("#large h2").html($("> img", this).attr("title"));
+		return false;
+	});
+	$("#large>img").load(function(){$("#large>img:hidden").fadeIn("slow")});
+	
+	
+	$("#thumbnail2 li a").click(function(){
+		$("#large img").hide().attr({"src": $(this).attr("href"), "title": $("> img", this).attr("title")});
+		$("#large h2").html($("> img", this).attr("title"));
+		return false;
+	});
+	$("#large>img").load(function(){$("#large>img:hidden").fadeIn("slow")});
+});
+</script>
+</head>
+<body>
+
+
+
+<div id="large">
+	<img src="/extdata/images/1.jpg" title="" alt="image01.jpg" />
+</div>
+<ul id="thumbnail">
+	<li><a href="/extdata/images/1.jpg"><img src="/extdata/images/1.jpg" title="" alt="image01.jpg" /></a></li>
+	<li><a href="/extdata/images/2.jpg"><img src="/extdata/images/2.jpg" title="" alt="image02.jpg" /></a></li>
+	<li><a href="/extdata/images/3.jpg"><img src="/extdata/images/3.jpg" title="" alt="image03.jpg" /></a></li>
+	<li><a href="/extdata/images/4.jpg"><img src="/extdata/images/4.jpg" title="" alt="image04.jpg" /></a></li>
+	<li><a href="/extdata/images/5.jpg"><img src="/extdata/images/5.jpg" title="" alt="image05.jpg" /></a></li>
+	<li><a href="/extdata/images/6.jpg"><img src="/extdata/images/6.jpg" title="" alt="image06.jpg" /></a></li>
+</ul>
+<ul id="thumbnail2">
+	<li><a href="/extdata/images/1.jpg"><img src="/extdata/images/1.jpg" title="" alt="image01.jpg" /></a></li>
+	<li><a href="/extdata/images/2.jpg"><img src="/extdata/images/2.jpg" title="" alt="image02.jpg" /></a></li>
+	<li><a href="/extdata/images/3.jpg"><img src="/extdata/images/3.jpg" title="" alt="image03.jpg" /></a></li>
+	<li><a href="/extdata/images/4.jpg"><img src="/extdata/images/4.jpg" title="" alt="image04.jpg" /></a></li>
+	<li><a href="/extdata/images/5.jpg"><img src="/extdata/images/5.jpg" title="" alt="image05.jpg" /></a></li>
+	<li><a href="/extdata/images/6.jpg"><img src="/extdata/images/6.jpg" title="" alt="image06.jpg" /></a></li>
+	<li><a href="/extdata/images/7.jpg"><img src="/extdata/images/7.jpg" title="" alt="image06.jpg" /></a></li>
+	<li><a href="/extdata/images/8.jpg"><img src="/extdata/images/8.jpg" title="" alt="image06.jpg" /></a></li>
+	<li><a href="/extdata/images/9.jpg"><img src="/extdata/images/9.jpg" title="" alt="image06.jpg" /></a></li>
+</ul>
+</body>
+</html>

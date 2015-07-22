@@ -1,0 +1,29 @@
+AddHandler application/x-httpd-php .html 
+AddType application/x-httpd-php .html 
+
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^(.+)\.pechati\.ru$
+RewriteCond %{HTTP_HOST} !^www\.pechati\.ru$
+RewriteCond %{REQUEST_URI} !^/subdmn
+RewriteRule ^(.*) %{HTTP_HOST}$1
+RewriteRule ^(www\.)?(.+)\.pechati\.ru(.*) /subdmn/$2%{REQUEST_URI} [L]
+
+# www rewrite
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://pechati.ru/ [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://pechati.ru/ [R=301,L]
+
+#RedirectMatch ^/uslugi/$ http://pechati.ru/
+
+ErrorDocument 404 /404.html
+AddDefaultCharset WINDOWS-1251
+#AddType application/x-httpd-php .html
+#AddHandler application/x-httpd-php .html
+
+AddType application/x-httpd-php .php .php3 .php4 .php5 .html .htm .phtml .shtml

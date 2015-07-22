@@ -1,0 +1,9 @@
+<div id="dialog-message" title="Форма отправлена!">
+	<p>
+	<span class="ui-icon ui-icon-circle-check" style="float:left; margin:0 7px 50px 0;"></span>
+	Форма успешно отправлена! Спасибо за уделённое время.
+	</p>
+	<p>
+	Компания <b>ПечатиРУ</b>.
+	</p>
+</div>

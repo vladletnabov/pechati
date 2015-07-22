@@ -1,0 +1,435 @@
+body {
+	background-color: #f5f2dd;
+}
+
+.container {
+	width: 100%;
+	min-width: 1024px;
+	background-color: white;
+}
+
+a:link, a:visited {
+	color: #745a00;
+}
+
+/*== header =========================================================================*/
+
+#logo {
+	position: absolute;
+	left: 30px;
+	top: 37px;
+}
+
+#top_logos {
+	/*width: 100%;*/
+	min-width: 719px;
+	height: 60px;
+	padding: 22px 0px 35px 0px;
+	margin: 0px 34px 0px 271px;
+	position: relative;
+}
+
+#top_logos table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+
+#top_logos table tr td {
+	margin: 0px;
+	padding: 0px;
+}
+
+#top_logos table tr td span {
+	display:inline-block;
+	vertical-align:middle;
+	height: 100%;
+	width: 1px;
+}
+
+.top_logo {
+	float: left;
+	margin: 0px;
+	width: 109px;
+	height: 60px;
+	background: url('/osnastka/data/img/page_top_back1.png') no-repeat center;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.top_logo img {
+	vertical-align: middle;
+}
+
+.top_logo span {
+	display:inline-block;
+	vertical-align:middle;
+	height: 100%;
+	width: 1px;
+}
+
+.top_cat_cell {
+	width: 69px;
+}
+
+.top_cat {
+	float: left;
+	margin: 0px;
+	width: 69px;
+	height: 60px;
+	background: url('/osnastka/data/img/page_top_back2.png') no-repeat center;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.top_cat img {
+	vertical-align: middle;
+}
+
+.top_cat span {
+	display:inline-block;
+	vertical-align:middle;
+	height: 100%;
+	width: 1px;
+}
+
+#cat_name {
+	text-align: center;
+	padding-bottom: 35px;
+}
+
+#order_terms {
+	float: right;
+	margin-right: 36px;
+}
+
+/*== center =========================================================================*/
+
+#center {
+	padding-right: 36px;
+}
+
+#right {
+	float: right;
+	width: 210px;
+	/*height: 524px;*/
+	/*margin-bottom: 37px;*/
+	/*margin-right: 36px;*/
+	position: relative;
+}
+
+#right_top {
+	background: url('/osnastka/data/img/page_right_back_top.png') no-repeat center;
+	height: 5px;
+	display: inline-block;
+	width: 210px;
+	font-size: 1px;
+}
+#right_mid {
+	background: url('/osnastka/data/img/page_right_back_mid.png') repeat-y center;
+	display: inline-block;
+	width: 210px;
+}
+#right_bot {
+	background: url('/osnastka/data/img/page_right_back_bot.png') no-repeat center;
+	height: 5px;
+	display: inline-block;
+	width: 210px;
+	font-size: 1px;
+}
+
+.right_item_top {
+	background: url('/osnastka/data/img/page_right_image_top.png') no-repeat center;
+	height: 10px;
+	display: inline-block;
+	width: 196px;
+	margin: 1px 7px 0px;
+	font-size: 1px;
+}
+.right_item_mid {
+	width: 196px;
+	margin: 0px 7px;
+	background: url('/osnastka/data/img/page_right_image_mid.png') repeat-y center;
+	padding: 0px 0px;
+	text-align: center;
+}
+.right_item_bot {
+	background: url('/osnastka/data/img/page_right_image_bot.png') no-repeat center;
+	height: 10px;
+	display: inline-block;
+	width: 196px;
+	margin: 0px 7px 1px;
+	font-size: 1px;
+}
+
+.right_image {
+	text-align: center;
+}
+
+.right_image span {
+	display:inline-block;
+	vertical-align:middle;
+	height: 100%;
+	width: 1px;
+}
+
+.right_image img {
+	vertical-align:middle;
+}
+
+.right_name {
+	text-align: center;
+	font-size: 15px;
+}
+
+.right_name a {
+	font-size: 16px;
+	color: #575757;
+}
+
+.right_name strong {
+	font-size: 24px;
+	color: red;
+}
+
+.container #center p {
+	margin: 0.6em 265px 0.6em 17px;
+}
+
+#list, #list_custom, #map {
+	/*position: relative;*/
+	padding-left: 17px;
+	padding-right: 265px;
+}
+#map div {
+	margin: 0px auto;
+}
+
+#list table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+
+#list table tr td {
+	margin: 0px;
+	padding: 0px 0px 37px;
+	/*position: relative;*/
+}
+
+#list table tr td span {
+	display:inline-block;
+	vertical-align:middle;
+	height: 100%;
+	width: 1px;
+}
+
+.list_cell {
+	width: 200px;
+	height: 300px;
+}
+
+.list_item {
+	width: 200px;
+	height: 300px;
+	/*background: url('/osnastka/data/img/page_items_back.png') no-repeat center;*/
+	position: relative;
+}
+
+.list_image {
+	width: 160px;
+	height: 205px;
+	/*background: url('/osnastka/data/img/page_items_image.png') no-repeat center;*/
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.plus_image {
+	display: none;
+}
+.plus .plus_image {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.list_image img {
+	vertical-align: middle;
+}
+
+.list_image span {
+	display:inline-block;
+	vertical-align:middle;
+	height: 100%;
+	width: 1px;
+}
+
+.list_name {
+	text-align: center;
+	font-size: 14px;
+	position: absolute;
+	width: 200px;
+	top: 210px;
+}
+
+.list_price {
+	text-align: center;
+	font-size: 14px;
+	position: absolute;
+	width: 200px;
+	top: 270px;
+}
+
+.list_price strong {
+	font-size: 19px;
+}
+
+table.product {
+	width: 100%;
+	margin: 30px 0px;
+}
+
+table.product td {
+	vertical-align: top;
+}
+
+table.product .product_image {
+	text-align: center;
+	vertical-align: middle;
+	width: 200px;
+	/*height: 200px;*/
+	position: relative;
+}
+
+table.product .product_image img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+table.product .product_title {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+table.product .product_colors {
+	width: 0%;
+}
+
+table.product .product_colors td {
+	padding: 0px 5px;
+	width: 20px;
+	height: 20px;
+}
+
+table.product .product_colors img {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+table.product .product_colors td img {
+	width: 20px;
+	height: 20px;
+}
+
+table.product .product_colors td.red img {
+	background-color: red;
+}
+
+table.product .product_colors td.yellow img {
+	background-color: yellow;
+}
+
+table.product .product_colors td.black img {
+	background-color: black;
+}
+
+table.product .product_colors td.lblue img {
+	background-color: lightblue;
+}
+
+table.product .product_colors td.blue img {
+	background-color: blue;
+}
+
+table.product .product_colors td.grey img {
+	background-color: grey;
+}
+
+table.product .product_colors td.green img {
+	background-color: green;
+}
+
+table.product .product_price {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 10px auto 0px;
+}
+
+table.product .product_price th,
+table.product .product_price td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+
+
+/*== footer =========================================================================*/
+
+#footer {
+	height: 93px;
+	background: url('/osnastka/data/img/page_footer.png') repeat-x;
+	clear: both;
+	padding: 20px 36px 0px;
+}
+
+#footer table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+
+#footer table tr td {
+	margin: 0px;
+	padding: 0px;
+}
+
+.address {
+	float: left;
+	font-size: 12px;
+}
+
+#buttons {
+	width: 210px;
+	text-align: center;
+}
+
+
+
+.product_title {
+	font-size: 36px;
+	font-weight: bold;
+}
+.product_price {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 10px auto 0px;
+}
+
+.product_price th,
+.product_price td {
+	border: 1px solid black;
+	text-align: center;
+}
+
