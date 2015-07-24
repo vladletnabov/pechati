@@ -17,6 +17,23 @@
 		  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 		  <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
 
+		  
+	<!--	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+    <script src="feedback/js/feedback.js"></script>
+    <script src="feedback/js/jquery.arcticmodal.js"></script>
+    <script src="feedback/js/jquery.jgrowl.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).on('click', '.modal_btn', function(){
+			$('#small-modal').arcticmodal();
+		});
+	});
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.jgrowl.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	
 </head>
 
 <body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
@@ -87,7 +104,55 @@
 
 <h1 align="center">Заявка успешно отправлена!<div style="border-bottom: 1px dotted #000;"></div></h1>
 Наши менеджеры свяжутся с вами!
+
+			<div class="well" style="width:300px;  clear: both; margin: 20px auto;">
+                <legend style="color: #AA000D !important; font-size: 21px !important; text-align:center;">Укажите контактную информацию для заказа</legend>
+                <form action="" method="get" name="form-2">
+					<div class="input-prepend">
+                        <span class="add-on"><i class="icon-th-list"></i></span>
+						<select class="input-large focused" name="companytype">
+							<option disabled selected>Юридическая форма:</option>
+							<option value="ip">ИП</option>
+							<option value="ooo">ООО</option>
+							<option value="ao">Акционерное общество</option>					
+						</select>
+					</div>					
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-home"></i></span>
+                        <input class="input-large focused" name="city" type="text" placeholder="Город:">
+                    </div>
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-user"></i></span>
+                        <input class="input-large focused" name="name" type="text" placeholder="Название">
+                    </div>
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-book"></i></span>
+                        <input class="input-large focused" name="tell" type="text" placeholder="Ваш телефон">
+                    </div>
+                    <div class="input-prepend">
+                        <span class="add-on"><i class="icon-envelope"></i></span>
+                        <input class="input-large focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+                    </div>
+					<div class="input-prepend">
+                        <span class="add-on"><i class="icon-star-empty"></i></span>
+                        <input class="input-large focused" name="inn" type="text" placeholder="ИНН:" >
+                    </div>
+					<div class="input-prepend">
+                        <span class="add-on"><i class="icon-star"></i></span>
+                        <input class="input-large focused" name="ogrn" type="text" placeholder="ОГРН:" >
+                    </div>
+                    <textarea class="input-large focused" style="width:300px; height: 90px;" name="text" placeholder="Ваше сообщение"></textarea>
+                    <label class="checkbox">
+                        <input type="checkbox" value="да" name="checkbox" checked > Получать новости
+                    </label>
+                    <input class="feedback btn btn-block btn-large btn-success" name="send" type="button" value="Отправить">
+                </form>
+            </div>
+
+
+
 <!-- Модальное окно-->
+<!--
  <script>
 	$(function() {
 		$( "#dialog" ).dialog({
@@ -120,7 +185,7 @@
 
 </script>
 </div>
-
+-->
 
 <div id="dop-zakaz" style="width:100%; height:auto; border: 1px dashed navy">
 

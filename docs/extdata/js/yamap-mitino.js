@@ -33,7 +33,9 @@ function init () {
                 }
             }
         );
-
+	
+    
+	
     var myPlacemark = new ymaps.Placemark([55.848357, 37.351195], {
         address: "Москва, 3-й Митинский переулок, д.1 ",
         object: "Филиал №1 в Митино"
