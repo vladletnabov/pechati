@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+.input-append, .input-prepend {
+    display: inline-block;
+    margin-left: 90px;
+    
+}
+
+.well {
+  width: 500px;
+  margin: 19px auto;
+}
+
+legend {
+  
+  color:navy;
+  text-align: center;
+  
+}
+
+.input-large {
+    margin: 0 auto;
+    width: 300px;
+ 
+}
