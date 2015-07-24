@@ -3,6 +3,10 @@
     <td colspan="2"><strong>Заголовок в теле письма</strong></td>
   </tr>
   <tr>
+    <td>%%companytype.title%%</td>
+    <td>%%companytype.value%%</td>
+  </tr>
+  <tr>
     <td>%%name.title%%</td>
     <td>%%name.value%%</td>
   </tr>
@@ -13,6 +17,18 @@
   <tr>
     <td>%%e-mail.title%%</td>
     <td>%%e-mail.value%%</td>
+  </tr>
+  <tr>
+    <td>%%inn.title%%</td>
+    <td>%%inn.value%%</td>
+  </tr>
+  <tr>
+    <td>%%ogrn.title%%</td>
+    <td>%%ogrn.value%%</td>
+  </tr>
+  <tr>
+    <td>%%city.title%%</td>
+    <td>%%city.value%%</td>
   </tr>
   <tr>
     <td>%%text.title%%</td>
