@@ -98,7 +98,7 @@ $form['form-2'] = array(
 			'title' => 'Сообщение',
 		),
 		'checkbox' => array(
-			'title' => 'Checkbox',
+			'title' => 'Получать рассылку',
 			'validate' => array(
 				'minlength' => '1',
 			),
@@ -108,12 +108,12 @@ $form['form-2'] = array(
 		),
 	),
 	'cfg' => array(
-		'charset' => 'windows-1251',
-		'subject' => 'Заказ расходных матреиалов с сайта photopolymer.ru',
-		'title' => 'Заголовок в теле письма',
+		'charset' => 'utf8',
+		'subject' => 'Вторая расширенная форма заказа pechati.ru',
+		'title' => 'Вторая расширенная форма заказа pechati.ru <br / >'http://pechati.ru/forms_send2-2.html,
 		'ajax' => true,
 		'validate' => true,
-		'from_email' => 'noreply@photopolymer.ru',
+		'from_email' => 'zakaz@pechati.ru',
 		'from_name' => 'noreply',
 		'to_email' => 'zakaz@pechati.ru',
 		'to_name' => 'zakaz',

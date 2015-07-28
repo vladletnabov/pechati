@@ -8,9 +8,24 @@
 	<meta HTTP-EQUIV="Keywords" NAME="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
 	<meta name="Description" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
 	<meta HTTP-EQUIV="description" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
-	<link rel="STYLESHEET" type="text/css" href="../css/pechati.css">
+	<link rel="STYLESHEET" type="text/css" href="css/pechati.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	
+    <script src="extdata/js/jquery-1.11.3.min.js"></script>
+    <script src="feedback/js/feedback.js"></script>
+    <script src="feedback/js/jquery.arcticmodal.js"></script>
+    <script src="feedback/js/jquery.jgrowl.js"></script>
+	<script type="text/javascript">
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.jgrowl.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	
+	
+	
 	<script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -24,21 +39,6 @@
   })();
 
 </script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="feedback/js/feedback.js"></script>
-    <script src="feedback/js/jquery.arcticmodal.js"></script>
-    <script src="feedback/js/jquery.jgrowl.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$(document).on('click', '.modal_btn', function(){
-			$('#small-modal').arcticmodal();
-		});
-	});
-    </script>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.arcticmodal.css">
-    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.jgrowl.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333"><script>
@@ -111,15 +111,15 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
 Наши менеджеры свяжутся с вами!
 
 			<div class="well">
-                <legend>Укажите контактную информацию для заказа</legend>
+                <legend>Получите больше заполнив форму!</legend>
                 <form action="" method="get" name="form-2">
 					<div class="input-prepend">
                         <span class="add-on"><i class="icon-th-list"></i></span>
 						<select class="input-large focused" name="companytype">
 							<option disabled selected>Юридическая форма:</option>
-							<option value="ip">ИП</option>
-							<option value="ooo">ООО</option>
-							<option value="ao">Акционерное общество</option>					
+							<option value="ИП">ИП</option>
+							<option value="ООО">ООО</option>
+							<option value="АО">Акционерное общество</option>					
 						</select>
 					</div>
                     <div class="input-prepend">
@@ -150,17 +150,18 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
                     <label class="checkbox">
                         <input type="checkbox" value="да" name="checkbox" checked > Получать новости
                     </label>
-                    <input class="feedback btn btn-block btn-large btn-success" name="send" type="button" value="Отправить">
+                    <input class="feedback btn btn-block btn-large btn-success" name="send" type="button" value="Отправить" onclick="feedbackclick(this)">
                 </form>
+				
             </div>
 
-            <hrstyle="background-color:#efefef;" />
+            <hr style="background-color:#efefef;" />
 <div style="display:table; margin: 10px 10px 15px 10px; padding:0px;">            
             
     <div class="block block-image is-image" id="block-new39">
 		  
 	<div style="margin: 0 auto;">
-	  <h1 style="color: #D7103F; text-align: center; font-size: 20px;">ПЕЧАТИ С ЗАЩИТОЙ</h1>
+	  <h1 style="color: #D7103F; text-align: center; font-size: 18px;">ПЕЧАТИ С ЗАЩИТОЙ</h1>
 	</div>
 	<div style="margin: 0px auto;width: 200px;">
 	<img src="/pics/uslugi/z02.jpg" alt="" height="200" width="200" >
@@ -179,7 +180,7 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
     <div class="block block-image is-image" id="block-new40" style="margin-left: 15px;">
 		  
 	<div style="margin: 0px auto;">
-	  <h1 style="color: #D7103F; text-align: center; font-size: 20px;">МНОГОЦВЕТНЫЕ ПЕЧАТИ</h1>
+	  <h1 style="color: #D7103F; text-align: center; font-size: 18px;">МНОГОЦВЕТНЫЕ ПЕЧАТИ</h1>
 	</div>
 	<div style="margin: 0px auto;width: 200px;">
 	<img src="/pics/uslugi/pechat-cvet.png" alt="" height="200" width="200" >
@@ -200,7 +201,7 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
     <div class="block block-image is-image" id="block-new41" style="margin-left: 15px;">
 		  
 	<div style="margin: 0px auto;">
-	  <h1 style="color: #D7103F; text-align: center; font-size: 20px;">ГЕРБОВЫЕ ПЕЧАТИ</h1>
+	  <h1 style="color: #D7103F; text-align: center; font-size: 18px;">ГЕРБОВЫЕ ПЕЧАТИ</h1>
 	</div>
 	<div style="margin: 0px auto;width: 250px;">
 	<img src="/pics/uslugi/pechat_po_gost_250.jpg" alt="" height="250" width="250" >
@@ -256,12 +257,14 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
 
 
 
-<!--- SmartLog ---><script language="javascript">
+<!--- SmartLog --->
+<!--<script language="javascript">
 i=Math.random();w=screen.width;h=screen.height;
 bps=screen.colorDepth;ln=navigator.systemLanguage;
 if(navigator.cookieEnabled) cook = "Y"; else cook = "N";
  document.write('<a href="http://www.smartlog.ru/" target="_top"><img width=1 height=1 src="http://www.smartlog.ru/counter/?i='+i+'&cid=999&r='+escape(document.referrer)+'&sid=1193&cook='+cook+'&s='+w+'x'+h+'&pg='+escape(window.location.href)+'" alt="SmartLog.ru - интернет статистика" border=0></a>')
-</script><!--- SmartLog --->
+</script>-->
+<!--- SmartLog --->
 
 <!--begin of Rambler's Top100 code -->
 <a href="http://top100.rambler.ru/top100/">
