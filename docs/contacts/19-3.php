@@ -1,6 +1,7 @@
 <html>
 <head>
 <?php require_once "../extdata/head.php"?>
+
 </head>
 
 <body>

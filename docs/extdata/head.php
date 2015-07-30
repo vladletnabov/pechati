@@ -18,6 +18,20 @@
 	<link rel="stylesheet" type="text/css" href="/extdata/css/carousel.css"> <!-- подключаем стилевой файл -->
 	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script src="/extdata/js/yamap-begovaya.js" type="text/javascript"></script>
+	
+	
+ <script src="/extdata/js/jquery-1.11.3.min.js"></script>
+    <script src="/feedback/js/feedback.js"></script>
+    <script src="/feedback/js/jquery.arcticmodal.js"></script>
+    <script src="/feedback/js/jquery.jgrowl.js"></script>
+	
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/feedback/css/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="/feedback/css/jquery.jgrowl.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	
+	
 		  
 		  
 	<script type="text/javascript">

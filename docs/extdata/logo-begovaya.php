@@ -7,7 +7,7 @@
 		
 		</div>
 		<div style="text-align: center;">
-			<h1 style="font-size: 20px; color: #3c17a2;">Печати.Ру <br /> на <br /> Беговой </h1>
+			<h1 style="font-size: 20px; color: #3c17a2; text-align: center; margin: 0 auto; line-height: 1.2;">Печати.Ру <br /> на <br /> Беговой </h1>
 		</div>
 	</div>
 	
