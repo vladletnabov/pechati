@@ -10,8 +10,114 @@
 	<link rel="STYLESHEET" type="text/css" href="../css/pechati.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	
+	
 	<!-- Add jQuery library -->
-	<script type="text/javascript" src="/extdata/lib/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="/extdata/js/jquery-1.11.3.min.js"></script>
+	
+	<!-- For modal window -->
+	
+	
+	<script src="feedback/js/feedback.js"></script>
+	<script src="feedback/js/jquery.arcticmodal.js"></script>
+	<script src="feedback/js/jquery.jgrowl.js"></script>
+	    <script type="text/javascript">
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-soligor', function(){
+			    $('#soligor-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-plc', function(){
+			    $('#plc-modal').arcticmodal();
+		    });
+	    }); 
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-moyka', function(){
+			    $('#moyka-modal').arcticmodal();
+		    });
+	    });
+	     
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-soft', function(){
+			    $('#soft-modal').arcticmodal();
+		    });
+	    });
+	     
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-lamp', function(){
+			    $('#lamp-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-fly', function(){
+			    $('#fly-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-sun', function(){
+			    $('#sun-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-ultimark', function(){
+			    $('#ultimark-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-royal', function(){
+			    $('#royal-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-rgm', function(){
+			    $('#rgm-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-wood', function(){
+			    $('#wood-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-rmmp', function(){
+			    $('#rmmp-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-rvp', function(){
+			    $('#rvp-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-rtpk', function(){
+			    $('#rtpk-modal').arcticmodal();
+		    });
+	    });
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-gerb', function(){
+			    $('#gerb-modal').arcticmodal();
+		    });
+	    });
+	    
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-fk', function(){
+			    $('#fk-modal').arcticmodal();
+		    });
+	    });
+	    
+	    $(document).ready(function() {
+		    $(document).on('click', '#zakaz-soligor', function(){
+			    $('#question-modal').arcticmodal();
+		    });
+	    });
+	    
+	</script>
+	
+	<!-- end modal window-->
+	
+	
+	
 	<!-- Add mousewheel plugin (this is optional) -->
 	<script type="text/javascript" src="/extdata/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 	<!-- Add fancyBox main JS and CSS files -->
@@ -36,6 +142,18 @@
 			box-shadow: 0 0 0 #222;
 		}
 	</style>
+	
+	
+	
+	<!-- CSS modal-->
+	
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="feedback/css/jquery.arcticmodal.css">
+	<link rel="stylesheet" type="text/css" href="feedback/css/jquery.jgrowl.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	
+	<!-- END CSS modal-->
 	
 	
 	
@@ -164,6 +282,45 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 														<td align="center">9990</td>
 													</tr>
 												</table>
+												<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+													<span id="zakaz-soligor" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>
+												    
+												</div>
+												<div style="display:none;">
+												<!-- Формы в модальных окнах -->
+												    <div class="box-modal" id="soligor-modal">
+													<div class="modal-close arcticmodal-close">x</div>
+													<div class="modal-content-box">
+													    <legend>Заказать камеру Soligor</legend>
+													    <form action="" method="get" name="soligor">
+														<div class="input-prepend">
+														    <span class="add-on"><i class="icon-user"></i></span>
+														    <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+														</div>
+														<div class="input-prepend">
+														    <span class="add-on"><i class="icon-book"></i></span>
+														    <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+														</div>
+														
+														<div class="input-prepend">
+														    <span class="add-on"><i class="icon-envelope"></i></span>
+														    <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+														</div>
+														 <select class="span2" name="camera">
+														      <option value="" selected disabled>Сделайте выбор</option>
+														      <option value="Soligor E-45">Soligor E-45</option>
+														      <option value="Soligor E-60">Soligor E-60</option>
+														      <option value="Soligor E-90">Soligor E-90</option>
+														  </select>
+														<input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+													    </form>
+													</div>
+												    </div>
+												<!-- // Формы в модальных окнах -->
+												</div>
+												
+												
+												
 											</td>
 											<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 											<td style="border: 1px solid #eeeafb;" width="50%">
@@ -183,6 +340,37 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 													</tr>
 													
 												</table>
+												
+												<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+													<span id="zakaz-plc" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>
+												    
+												</div>
+												<div style="display:none;">
+												<!-- Формы в модальных окнах -->
+												    <div class="box-modal" id="plc-modal">
+													<div class="modal-close arcticmodal-close">x</div>
+													<div class="modal-content-box">
+													    <legend>Заказать камеру PLC</legend>
+													    <form action="" method="get" name="plc">
+														<div class="input-prepend">
+														    <span class="add-on"><i class="icon-user"></i></span>
+														    <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+														</div>
+														<div class="input-prepend">
+														    <span class="add-on"><i class="icon-book"></i></span>
+														    <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+														</div>
+														
+														<div class="input-prepend">
+														    <span class="add-on"><i class="icon-envelope"></i></span>
+														    <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+														</div>
+														<input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+													    </form>
+													</div>
+												    </div>
+												<!-- // Формы в модальных окнах -->
+												</div>
 
 											</td>
 										</tr>
@@ -256,6 +444,43 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">4500</td>
 	</tr>
 </table>
+
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-moyka" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="moyka-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать автоматическую мойку</legend>
+	    <form action="" method="get" name="moyka">
+		<div class="input-prepend">
+		    <span class="add-on"><i class="icon-user"></i></span>
+		    <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		</div>
+		<div class="input-prepend">
+		    <span class="add-on"><i class="icon-book"></i></span>
+		    <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		</div>
+		
+		<div class="input-prepend">
+		    <span class="add-on"><i class="icon-envelope"></i></span>
+		    <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		</div>
+		<select class="span2" name="moyka">
+		    <option value="" selected disabled>Сделайте выбор</option>
+		    <option value="U4">Мойка U4</option>
+		    <option value="U6">Мойка U6</option>
+		</select>
+		<input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
+
+
 		</td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 		<td style="border: 1px solid #eeeafb;" rowspan="3" align="justify" width="50%">
@@ -274,10 +499,44 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 	</tr>
 	<tr bgcolor="#ebeaef">
 		<td>Программы д/изготовления печатей</td>
-		<td align="center" style="color: #f00;"><strong>бесплатно</strong></td>
+		<td align="center" style="color: #f00;"><strong>бесплатно</strong>
+		
+		
+		
+		</td>
 	</tr>
 </table>
 <p><a href="javascript:void(window.open('programm.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=800,left=1,top=1'))">подробнее &raquo;</a></p>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+		<span id="zakaz-soft" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+		</div>
+		<div style="display:none;">
+		<!-- Формы в модальных окнах -->
+		    <div class="box-modal" id="soft-modal">
+			<div class="modal-close arcticmodal-close">x</div>
+			<div class="modal-content-box">
+			    <legend>Заказать ПО для печатей</legend>
+			    <form action="" method="get" name="soft">
+				<div class="input-prepend">
+				    <span class="add-on"><i class="icon-user"></i></span>
+				    <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+				</div>
+				<div class="input-prepend">
+				    <span class="add-on"><i class="icon-book"></i></span>
+				    <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+				</div>
+				
+				<div class="input-prepend">
+				    <span class="add-on"><i class="icon-envelope"></i></span>
+				    <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+				</div>
+				<input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+			    </form>
+			</div>
+		    </div>
+		<!-- // Формы в модальных окнах -->
+		</div>		
+		
 		</td>
 	</tr>
 	<tr>
@@ -305,6 +564,43 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">600</td>
 	</tr>
 </table>
+
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-lamp" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="lamp-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать лампы для камер</legend>
+	    <form action="" method="get" name="lamp">
+		<div class="input-prepend">
+		    <span class="add-on"><i class="icon-user"></i></span>
+		    <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		</div>
+		<div class="input-prepend">
+		    <span class="add-on"><i class="icon-book"></i></span>
+		    <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		</div>
+		
+		<div class="input-prepend">
+		    <span class="add-on"><i class="icon-envelope"></i></span>
+		    <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		</div>
+		<select class="span2" name="lamp">
+		    <option value="" selected disabled>Сделайте выбор</option>
+		    <option value="Cleo 15 W">Cleo 15 W</option>
+		    <option value="Cleo 20 W">Cleo 20 W</option>
+		    <option value="20W TL">20W TL</option>
+		</select>
+		<input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
+
 		</td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
@@ -334,6 +630,39 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td style="border: 1px solid #eeeafb;" width="50%" align="justify">
 <p><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Fly - 3</strong></p>
 <p><img src="../pics/oborudovanie/flash_fly_3.jpg" width="200" height="241" alt="" align="left">Технические характеристики:<br>площадь засветки 140 х 80 мм<br>2 лампы<br>мощность вспышки 1180 джоулей<br>габариты 400 х 300 х 140 мм<br>вес 8 кг<br></p><p><strong>Цена 27 000 руб</strong></p>
+
+
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center; float:right;">
+	<span id="zakaz-fly" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="fly-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать Fly-3</legend>
+	    <form action="" method="get" name="fly">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
+
+
 		</td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 		<td style="border: 1px solid #eeeafb;" width="50%" align="justify">
@@ -350,6 +679,37 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 	</tr>
 </table>
 <p><a href="javascript:void(window.open('ms1100.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=800,left=1,top=1'))">подробнее &raquo;</a></p>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+			<span id="zakaz-sun" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+		</div>
+		<div style="display:none;">
+		<!-- Формы в модальных окнах -->
+		    <div class="box-modal" id="sun-modal">
+			<div class="modal-close arcticmodal-close">x</div>
+			<div class="modal-content-box">
+			    <legend>Заказать Sun Stamper MS-1100</legend>
+			    <form action="" method="get" name="sun">
+				<div class="input-prepend">
+				    <span class="add-on"><i class="icon-user"></i></span>
+				    <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+				</div>
+				<div class="input-prepend">
+				    <span class="add-on"><i class="icon-book"></i></span>
+				    <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+				</div>
+				
+				<div class="input-prepend">
+				    <span class="add-on"><i class="icon-envelope"></i></span>
+				    <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+				</div>
+				<input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+			    </form>
+			</div>
+		    </div>
+		<!-- // Формы в модальных окнах -->
+		</div>
+
+
 		</td>
 	</tr>
 </table>
@@ -397,6 +757,36 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">500</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-royal" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="royal-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать оснастку Royal</legend>
+	    <form action="" method="get" name="royal">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
+
 		</td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 		<td style="border: 1px solid #eeeafb;" width="50%">
@@ -448,6 +838,36 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">350</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-ultimark" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="ultimark-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать оснастку Ultimark</legend>
+	    <form action="" method="get" name="ultimark">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
+
 		</td>
 	</tr>
 	<tr>
@@ -503,6 +923,35 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">250</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-wood" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="wood-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать оснастку Wood</legend>
+	    <form action="" method="get" name="wood">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
 		</td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 		<td style="border: 1px solid #eeeafb;">
@@ -518,6 +967,35 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">300</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-rgm" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="rgm-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать оснастку RGM</legend>
+	    <form action="" method="get" name="rgm">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
 		</td>
 	</tr>
 	<tr>
@@ -541,6 +1019,35 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">350</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-rmmp" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="rmmp-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать оснастку RMMP</legend>
+	    <form action="" method="get" name="rmmp">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
 		</td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 		<td style="border: 1px solid #eeeafb;">
@@ -568,6 +1075,35 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">150</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-rvp" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="rvp-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать оснастку Стандарт</legend>
+	    <form action="" method="get" name="rvp">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
 		</td>
 	</tr>
 	<tr>
@@ -587,6 +1123,35 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">150</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-rtpk" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="rtpk-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать карманную оснастку</legend>
+	    <form action="" method="get" name="rtpk">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
 		</td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 		<td style="border: 1px solid #eeeafb;">
@@ -622,6 +1187,35 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">190</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-gerb" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="gerb-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать оснастку с гербом</legend>
+	    <form action="" method="get" name="gerb">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
 		</td>
 	</tr>
 	<tr>
@@ -661,18 +1255,84 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td align="center">190</td>
 	</tr>
 </table>
+<div class="span3" style="margin: 10px 0px 10px 60px; text-align:center;float:right;">
+	<span id="zakaz-fk" class="btn btn-block btn-large btn-success modal_btn">Заказать</span>    
+</div>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="fk-modal">
+	<div class="modal-close arcticmodal-close">x</div>
+	<div class="modal-content-box">
+	    <legend>Заказать Fly-3</legend>
+	    <form action="" method="get" name="fk">
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-user"></i></span>
+		      <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+		  </div>
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-book"></i></span>
+		      <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+		  </div>
+
+		  <div class="input-prepend">
+		      <span class="add-on"><i class="icon-envelope"></i></span>
+		      <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+		  </div>
+		  <input class="feedback btn btn-block btn-success" name="send" type="button" value="Оформить заказ!">
+	    </form>
+	</div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>
 		</td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""</td>
 	</tr>
 </table>
+
 <p>Оснастки имеют цвета: серый, черный, синий, бордовый.</p>
+
+					<div class="well">
+					    <legend>Задайте Ваш вопрос</legend>
+					    <form action="" method="get" name="question">
+						<div class="input-prepend" style="clear:both; margin-right:200px;">
+						    <span class="add-on"><i class="icon-user"></i></span>
+						    <input class="input-medium focused" name="name" type="text" placeholder="Ваше имя">
+						</div>
+						<div class="input-prepend" style="clear:both; margin-right:200px;">
+						    <span class="add-on"><i class="icon-book"></i></span>
+						    <input class="input-medium focused" name="tell" type="text" placeholder="Ваш телефон">
+						</div>
+						<div class="input-prepend" style="clear:both; margin-right:200px;">
+						    <span class="add-on"><i class="icon-envelope"></i></span>
+						    <input class="input-medium focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+						</div>
+						<textarea class="input-large focused" name="text" placeholder="Ваше сообщение"></textarea>
+						<input class="feedback btn btn-block btn-large btn-success" name="send" type="button" value="Отправить">
+					    </form>
+					</div>
 
 <!-- /Текст под баннерами -->
 					</td>
 				
+				
+				
+					  
+				
+				
+				
+				
+				
+				
+				
 						</div>
 						<!-- END OLD-->
+						
+						
+						
+						
+						
+						
 <!-- Content -->
 
 					</td>

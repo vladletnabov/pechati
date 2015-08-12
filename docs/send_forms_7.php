@@ -112,7 +112,7 @@ $mail->FromName = $from;   // от кого
 	elseif ($_POST[adress]=="м. Марьино"){$mail->AddAddress('pechati-v-marino@mail.ru', '');}
 	//elseif ($_POST[adress]=="м. Медведково"){$mail->AddAddress('5422661@mail.ru', '');}
 	elseif ($_POST[adress]=="м. Митино"){$mail->AddAddress('mitino@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Молодёжная"){$mail->AddAddress('SLK@pechati.ru', '');}
+	elseif ($_POST[adress]=="м. Молодёжная"){$mail->AddAddress('molod@pechati.ru', '');}
 	elseif ($_POST[adress]=="м. Новослободская"){$mail->AddAddress('5454842@mail.ru', '');}
 	//elseif ($_POST[adress]=="м. Новые черемушки"){$mail->AddAddress('5002@pechati.ru', '');}
 	elseif ($_POST[adress]=="м. Новогиреево"){$mail->AddAddress('perovo@pechati.ru', '');}
@@ -226,7 +226,7 @@ $mail->From = $_POST[eml];      // от кого
 	elseif ($_POST[adress]=="м. Марьино"){$mail->AddAddress('pechati-v-marino@mail.ru', '');}
 	//elseif ($_POST[adress]=="м. Медведково"){$mail->AddAddress('5422661@mail.ru', '');}
 	elseif ($_POST[adress]=="м. Митино"){$mail->AddAddress('mitino@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Молодёжная"){$mail->AddAddress('SLK@pechati.ru', '');}
+	elseif ($_POST[adress]=="м. Молодёжная"){$mail->AddAddress('molod@pechati.ru', '');}
 	elseif ($_POST[adress]=="м. Новослободская"){$mail->AddAddress('5454842@mail.ru', '');}
 	//elseif ($_POST[adress]=="м. Новые черемушки"){$mail->AddAddress('5002@pechati.ru', '');}
 	elseif ($_POST[adress]=="м. Новогиреево"){$mail->AddAddress('perovo@pechati.ru', '');}

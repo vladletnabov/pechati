@@ -1,4 +1,4 @@
-<div style="display:table; width:245px; height: 300px;  padding-left: 15px;padding-bottom:10px;  margin-left: 50px; box-shadow: 0 0 5px 2px #7f7f7f; background-color: #fff;">
+<div style="display:table; width:245px; height: 300px;  padding-left: 15px;padding-bottom:10px;  margin-left: 50px; box-shadow: 0 0 5px 2px #7f7f7f; background-color: #fff;  position:relative; z-index:111;">
 	<div style="background:url(/extdata/images/header-quick-zakaz.png) no-repeat; height:150px; margin:0; padding-top:10px;"><h1 style="text-align:center;color: #fff; margin-top:10px;">Быстрый заказ</h1></div>
 
 	<div class="input-prepend" style="margin-left:0px; ">
@@ -11,7 +11,9 @@
                     </div>
 					
 	
- <script src="/extdata/js/jquery-1.11.3.min.js"></script>
+ <!--<script src="/extdata/js/jquery-1.11.3.min.js"></script>-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
     <script src="/feedback/js/feedback.js"></script>
     <script src="/feedback/js/jquery.arcticmodal.js"></script>
     <script src="/feedback/js/jquery.jgrowl.js"></script>

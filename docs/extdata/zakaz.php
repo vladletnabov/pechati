@@ -1,22 +1,26 @@
-<p><a name="zakaz" title="Заказать"> </a></p><p><a style="font-size: 26px;">Заказать:</a><br /></p>
+<!--<p><a name="zakaz" title="Заказать"> </a></p><p><a style="font-size: 26px;">Заказать:</a><br /></p>
 <p><a style="font-size: 20px; color: navy;">Шаг 1: выберите печать, штамп или факсимиле</a><br /></p>
 <!-- Дефолтная цена печати-->
+<!--
 <script>
 	var price1 = 500;
-</script>
+</script>-->
 <!-- Конец дефолта-->
-	<?php  require_once "../extdata/table-price-div.php" ?>
+
+	<?php  require_once "../zakaz/tovar1.php" ?>
+	<?php  require_once "../zakaz/tovar2.php" ?>
+	<?php  //require_once "../extdata/table-price-div.php" ?>
 <br />
 <a name="ceny"></a><P align=justify>Все цены указаны в рублях РФ без стоимости оснастки. </P>
 
 <!-- Доставка -->
-<UL>
+<!--<UL>
 	<LI>
 <P align=justify>Доставка по Москве ОДНОЙ-ДВУХ печатей - 300р, от трёх единиц - <B>бесплатно!</B> </P>
 	<LI>
 <P align=justify>По желанию заказчика мы можем разместить на печати ПРОСТЫЕ элементы защиты: оригинальные шрифты, отсутствующие элементы в буквах, изображениях или звёздочках, имитация заплыва краски, кляксы, имитация дефекта клише.</P>
 	</LI>
-</UL>
+</UL>-->
 <!-- Конец блока доставки-->
 <!-- Стоимость осснастки по дефолту -->
 <script>
@@ -26,7 +30,7 @@
 
 <!-- Оснастки-->
 
-<p><a style="font-size: 20px; color: navy;">Шаг 2: выберите оснастку</a><br /></p>
+<!--<p><a style="font-size: 20px; color: navy;">Шаг 2: выберите оснастку</a><br /></p>
 <table cellpadding="10" cellspacing="0" border="0" align="center">
 	<tr valign="top" align="center">
 <td width="25%">
@@ -64,12 +68,12 @@
 	<p>Элитные оснастки<BR>от 1500 р.</p>
 	</td>
 	</tr>
-</table>
+</table>-->
 <!-- Конец оснасток-->
 
 <!-- Форма отправки-->
 
-<p><a style="font-size: 20px; color: navy;">Шаг 3: свяжитесь с нами</a><br /></p>
+<!--p><a style="font-size: 20px; color: navy;">Шаг 3: свяжитесь с нами</a><br /></p>
 <script>
 	var price3 = 0;
 </script>
@@ -118,5 +122,5 @@ return;
 	}
 	count_price();
 </script>
-
+-->
 <!-- конец формы отправки -->

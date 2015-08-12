@@ -12,15 +12,17 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<!-- Обязательный блок -->
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-		  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-		  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>		  
+	<!--	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>		  -->
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="/extdata/js/carousel.js"></script>  <!-- подключаем наш скрипт -->
 	<link rel="stylesheet" type="text/css" href="/extdata/css/carousel.css"> <!-- подключаем стилевой файл -->
 	<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script src="/extdata/js/yamap-begovaya.js" type="text/javascript"></script>
 	
 	
- <script src="/extdata/js/jquery-1.11.3.min.js"></script>
+	<!--<script src="/extdata/js/jquery-1.11.3.min.js"></script>-->
     <script src="/feedback/js/feedback.js"></script>
     <script src="/feedback/js/jquery.arcticmodal.js"></script>
     <script src="/feedback/js/jquery.jgrowl.js"></script>
