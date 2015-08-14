@@ -47,6 +47,9 @@ $msg="Бланк заказа автоматических моек\n\n";
 #######
 if ($_POST[form]!=5 AND $_POST[form]!=6 AND $_POST[form]!=7 AND $_POST[form]!=8) {
 $msg=$msg."Тип печати и срок изготовления - $_POST[srok]\n\n";
+if($_POST[otrisov]){$msg=$msg."Отрисовка - $_POST[otrisov]\n\n";}
+if($_POST[zaschit]){$msg=$msg."Защита - $_POST[zaschit]\n\n";}
+if($_POST[dostav]){$msg=$msg."Доставка - $_POST[dostav]\n\n";}
 
 if($_POST[osnast]){$msg=$msg."Оснастка - $_POST[osnast]\n\n";}
 
@@ -121,7 +124,7 @@ if($_POST[adress]){
 	elseif ($_POST[adress]=="м. Марьина роща"){$mail->AddAddress('pr@pechati.ru', '');}
 	//elseif ($_POST[adress]=="м. Медведково"){$mail->AddAddress('zakaz@mpechati.ru', '');}
 	elseif ($_POST[adress]=="м. Митино"){$mail->AddAddress('mitino@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Молодёжная"){$mail->AddAddress('molod@pechati.ru', '');}
+	elseif ($_POST[adress]=="м. Молодёжная"){$mail->AddAddress('mld@pechati.ru', '');}
 	elseif ($_POST[adress]=="м. Новослободская"){$mail->AddAddress('5454842@mail.ru', '');}
 	//elseif ($_POST[adress]=="м. Новые черемушки"){$mail->AddAddress('5002@pechati.ru', '');}
 	elseif ($_POST[adress]=="м. Новогиреево"){$mail->AddAddress('perovo@pechati.ru', '');}
@@ -234,7 +237,7 @@ if($_POST[adress]){
 	elseif ($_POST[adress]=="м. Марьина роща"){$mail->AddAddress('pr@pechati.ru', '');}
 	//elseif ($_POST[adress]=="м. Медведково"){$mail->AddAddress('5422661@mail.ru', '');}
 	elseif ($_POST[adress]=="м. Митино"){$mail->AddAddress('mitino@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Молодёжная"){$mail->AddAddress('molod@pechati.ru', '');}
+	elseif ($_POST[adress]=="м. Молодёжная"){$mail->AddAddress('mld@pechati.ru', '');}
 	elseif ($_POST[adress]=="м. Новослободская"){$mail->AddAddress('5454842@mail.ru', '');}
 	//elseif ($_POST[adress]=="м. Новые черемушки"){$mail->AddAddress('5002@pechati.ru', '');}
 	elseif ($_POST[adress]=="м. Новогиреево"){$mail->AddAddress('perovo@pechati.ru', '');}

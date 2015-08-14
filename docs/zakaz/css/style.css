@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+.input-append, .input-prepend {
+    display: inline-block;
+    margin-left: 90px;
+    
+}
+
+.well {
+  width: 500px;
+  margin: 19px auto;
+}
+
+legend {
+  
+  color:#ff0033;
+  text-align: center;
+  
+}
+
+.input-large {
+    margin: 0 auto;
+    width: 300px;
+ 
+}
+
+#block-new39 {
+    display: inline;
+    float: left;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    border: 1px solid #efefef;
+    height: 333px;
+    width: 280px;
+}
+#block-new40 {
+    display: inline;
+    float: left;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    border: 1px solid #efefef;
+    height: 333px;
+    width: 280px;
+}
+
+#block-new41 {
+    display: inline;
+    float:left;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    border: 1px solid #efefef;
+    height: 333px;
+    width: 280px;
+}
+
+#block-new72 {
+    display: inline;
+    float: left;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    font-weight: normal;
+    color: #FFF;
+    z-index: 139;
+    height: 46px;
+    /*border-color: #045169;*/
+    left: 36px;
+    font-family: Arial,Helvetica,sansserif;
+    border-style: solid;
+    width: 143px;
+    background-color: #D7103F;
+    margin-top:14px;
+    margin-left:-4px;
+}
+
+#block-new72 > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 143px;
+    height: 46px;
+    line-height: 46px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Arial,Helvetica,sansserif;
+    font-weight: normal;
+}
+
+#block-new73 {
+    display: inline;
+    float: left;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    font-weight: normal;
+    color: #FFF;
+    z-index: 139;
+    height: 46px;
+    /*border-color: #045169;*/
+    left: 36px;
+    font-family: Arial,Helvetica,sansserif;
+    border-style: solid;
+    width: 143px;
+    background-color: #D7103F;
+    margin-top:14px;
+    margin-left:-4px;
+}
+
+#block-new73 > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 143px;
+    height: 46px;
+    line-height: 46px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Arial,Helvetica,sansserif;
+    font-weight: normal;
+}
+
+#block-new74 {
+    display: inline;
+    float:left;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    font-weight: normal;
+    color: #FFF;
+    z-index: 139;
+    height: 46px;
+    /*border-color: #045169;*/
+    left: 36px;
+    font-family: Arial,Helvetica,sansserif;
+    border-style: solid;
+    width: 143px;
+    background-color: #D7103F;
+    margin-top:19px;
+    margin-left:-4px;
+}
+
+#block-new74 > a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 143px;
+    height: 46px;
+    line-height: 46px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Arial,Helvetica,sansserif;
+    font-weight: normal;
+}
+
+.fileUpload {
+	display:inline-block;
+    background: #fff;
+    display: block;
+    margin: 0;
+	height:28px;
+    /* border radius */
+    -o-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	max-width:226px;
+}
+/* Blurry text fix with Webkit browsers */
+* {	-webkit-font-smoothing: antialiased; }
+/* Removes the default, orange outline with Chrome. */
+*:focus { outline: none; }
+/* The button */
+.fileUpload .fileBtn {
+	display:inline;
+	float:left;
+	position:relative;
+    background: #eeeeee;
+    cursor: pointer;
+    /*float: left;*/
+    font-size: 1em;
+    font-weight: bold;
+    padding:0;
+    text-align: center;
+    width: 26px;
+	height:28px;
+	margin-top:0;
+	margin-right:-1px;
+    /* border radius */
+    -o-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	transition: border linear .2s, box-shadow linear .2s;
+	border:1px solid #cccccc;
+}
+.fileUpload .fileBtn:hover {
+    background: #cccccc;
+}
+/* Where the input-name will be filled in */
+.fileUpload .fileName {
+	display:inline-block;
+	position relative;
+    /*float: left;*/
+    overflow: hidden;
+    white-space: nowrap;
+    width: 197px;
+	height:28px;
+    text-align: center;
+    color: #000;
+    padding: 0;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	transition: border linear .2s, box-shadow linear .2s;
+	border: 1px solid #cccccc;
+	border-radius: 0 4px 4px 0;
+}
+/* Animation (hover) */
+.fileUpload .fileBtn:hover {
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-in;
+    -moz-transition-property: background;
+    -moz-transition-duration: 0.4s;
+    -moz-transition-timing-function: ease-in;
+    -o-transition-property: background;
+    -o-transition-duration: 0.4s;
+    -o-transition-timing-function: ease-in;
+    -ms-transition-property: background;
+    -ms-transition-duration: 0.4s;
+    -ms-transition-timing-function: ease-in;
+    transition-property: background;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+}
+/* Clear input-parent, due to child-floats */
+.fileUpload:after {
+    clear: both;
+    content: " ";
+    display: block-inline;
+	height:28px;
+    line-height: 20px;
+    visibility: hidden;
+}
+
+table tr td a img {
+	border:0;
+}
+
+table tr td a img:hover {
+	border:1px solid red;
+}
+
+.tblprice {
+	border: 1px solid navy;
+}
+.tblprice td {
+	position: relative;
+	border: 1px solid navy;
+	margin: -1px 0 0 -1px;
+}

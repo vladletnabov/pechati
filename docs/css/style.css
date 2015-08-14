@@ -253,7 +253,7 @@ table tr td a img {
 }
 
 table tr td a img:hover {
-	border:1px solid red;
+	/*border:1px solid red;*/
 }
 
 .tblprice {
@@ -263,4 +263,13 @@ table tr td a img:hover {
 	position: relative;
 	border: 1px solid navy;
 	margin: -1px 0 0 -1px;
+}
+
+label {
+display: inline;
+margin: 0;
+}
+input[type="radio"], input[type="checkbox"]
+{
+margin: 0;
 }

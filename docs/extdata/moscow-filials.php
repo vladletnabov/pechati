@@ -47,8 +47,18 @@
 	
 	<div class="cont1" onclick="document.location.href='/contacts/46.html'" title="Изготовление печатей и штампов м. Марьина роща">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/46.html" class="area" title="Изготовление печатей и штампов м. Марьина роща"><strong>м. Марьина роща</strong></a><br>Тел.: <strong>(916)</strong> 993-19-19<br>Стрелецкий проезд 4-й, д.4</div>
+	</div>
+	
+	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов в Митино">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/50.html" class="area" title="Изготовление печатей и штампов в Митино"><strong>Митино</strong></a><br>Тел.: <strong>(925)</strong> 709-43-94<br /> 4 филиала с единым номером </div>
+	</div>
 		</td>
 		<td width="240">
+	
+	
+	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов на Молодёжной">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/51.html" class="area" title="Изготовление печатей и штампов на Молодёжной"><strong>Молодёжная</strong></a><br>Тел.: <strong>(499)</strong> 714-68-28 <br /> ул. Ярцевская 22, стр.1 </div>
+	</div>
 	
     <div class="cont1 date1 date2" onclick="document.location.href='/contacts/37.html'" title="Изготовление печатей и штампов м. Новогиреево">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/37.html" class="area" title="Изготовление печатей и штампов м. Новогиреево"><strong>м. Новогиреево</strong></a><br>Тел.: <strong>(916)</strong> 232-80-30<br>Свободный пр-т. д.33а</div>
@@ -95,9 +105,6 @@
 	</div>
 	<div class="cont1 date2" onclick="document.location.href='/contacts/15.html'" title="Изготовление печатей и штампов м. Юго-Западная">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" class="area" title="Изготовление печатей и штампов м. Юго-Западная"><strong>м. Юго-Западная</strong></a><br>Тел.: <strong>(925)</strong> 518-70-71<br>пр. Вернадского, д.91 кор. 3 </div>
-	</div>
-	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов в Митино">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/50.html" class="area" title="Изготовление печатей и штампов в Митино"><strong>Митино</strong></a><br>Тел.: <strong>(925)</strong> 709-43-94<br /> 4 филиала с единым номером </div>
 	</div>
 	<!-- <div class="cont1" id="cont2_24" title="Изготовление печатей и штампов м. Южная">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="#24" class="area" title="Изготовление печатей и штампов м. Южная"><strong>м. Южная</strong></a><br>Тел.: <strong>(926)</strong> 457-87-18<br>ул. Коровоградская д.9</div>

@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn-success {
+    color: #FFF;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+    background-color: #dc143c;
+    background-image: linear-gradient(to bottom, #dc143c, #ad102f);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.btn-success:hover,.btn-success:focus,.btn-success:active,.btn-success.active,.btn-success.disabled,.btn-success[disabled]{
+  color:#ffffff;
+  background-color:#ad102f;
+  *background-color:#ad102f;
+  
+}
+
+btn:hover,.btn:focus,.btn:active,.btn.active,.btn.disabled,.btn[disabled]{
+  color:#ffc2cf;
+  background-color:#900020;
+  *background-color:#900020;
+  
+}
+input[type="text"]{
+  height:30px;
+  width: 230px;
+}
+.input-medium .focused{
+  height:30px;
+  width: 200px;
+}

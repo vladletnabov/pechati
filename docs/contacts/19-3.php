@@ -45,7 +45,7 @@
 			  });
 			  </script>
 			<p style="margin-bottom:60px;"><a name="scheme" title="Схема проезда"> </a></p><p><a style="font-size: 26px;">Как к нам добраться:</a><br /></p>
-			<?php require_once "../extdata/pic-scheme-begovaya.php" ?>
+			<?php require_once "../extdata/pic-scheme-molodejnaya.php" ?>
 			
 			<div id="map" style="clear:both; margin-bottom:20px;"></div>
 			

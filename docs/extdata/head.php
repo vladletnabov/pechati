@@ -33,6 +33,7 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 	
 	
+	<link rel="STYLESHEET" type="text/css" href="/css/pechati-asgat.css">
 	
 		  
 		  
