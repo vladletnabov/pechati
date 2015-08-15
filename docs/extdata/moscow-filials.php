@@ -4,6 +4,10 @@
 	<div class="cont1 " onclick="document.location.href='/contacts/49.html'" title="Изготовление печатей и штампов м. Авиамоторная">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/49.html" class="area" title="Изготовление печатей и штампов м. Авиамоторная"><strong>м. Авиамоторная</strong></a><br>Тел.: <strong style="font-size: 8pt;">(915)</strong> 377-0609<br>ул. Авиамоторная, д.14</div>
 	</div>
+	
+	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/16.html'" title="Изготовление печатей и штампов м. Алексеевская">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/39.html" class="area" title="Изготовление печатей и штампов м. Алексеевская"><strong>м. Алексеевская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 798-81-43<br>ул. Летчика Бабушкина, д. 30, стр 1</div>
+	</div>
 
 	<div class="cont1" onclick="document.location.href='/contacts/23.html'" title="Изготовление печатей и штампов м. Алтуфьево">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/23.html" class="area" title="Изготовление печатей и штампов м. Алтуфьево"><strong>м. Алтуфьево</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 665-22-56<br>ул. Бибиревская, 17-б</div>
@@ -44,11 +48,11 @@
 <!--	<div class="cont1 date1 date2" id="cont2_8" title="Изготовление печатей и штампов м. Митино">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="#8" class="area" title="Изготовление печатей и штампов м. Митино"><strong>м. Митино</strong></a><br>Тел.: <strong>(926)</strong> 235-52-76<br>ул. Митинская, 36, к.1</div>
 	</div>-->
-	
+	<!--
 	<div class="cont1" onclick="document.location.href='/contacts/46.html'" title="Изготовление печатей и штампов м. Марьина роща">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/46.html" class="area" title="Изготовление печатей и штампов м. Марьина роща"><strong>м. Марьина роща</strong></a><br>Тел.: <strong>(916)</strong> 993-19-19<br>Стрелецкий проезд 4-й, д.4</div>
 	</div>
-	
+	-->
 	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов в Митино">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/50.html" class="area" title="Изготовление печатей и штампов в Митино"><strong>Митино</strong></a><br>Тел.: <strong>(925)</strong> 709-43-94<br /> 4 филиала с единым номером </div>
 	</div>

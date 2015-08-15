@@ -2,7 +2,7 @@
 	<tr valign="top">
 		<td width="33%">
 			<p><img src="/pics/line8.gif" width="19" height="9" alt="Авиамоторная" align="absmiddle"> <a href="/contacts/49.html" title="Изготовление печатей на Авиамоторной" >м. Авиамоторная</a></p> 
-		 	<p><img src="/pics/line6.gif" width="19" height="9" alt="Проспект Мира" align="absmiddle"> <a href="/contacts/46.html" title="Изготовление печатей на Алексеевской" >м. Алексеевская</a></p>   
+		 	<p><img src="/pics/line6.gif" width="19" height="9" alt="Проспект Мира" align="absmiddle"> <a href="/contacts/39.html" title="Изготовление печатей на Алексеевской" >м. Алексеевская</a></p>   
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/23.html" title="Печати и штампы в Алтуфьево"  >м. Алтуфьево</a></p>
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/1.html" title="Экспонирующие камеры на Арбате"  >м. Арбатская</a></p>
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/16.html" title="Сделать печать или штамп на Бабушкинской"  >м. Бабушкинская</a></p>

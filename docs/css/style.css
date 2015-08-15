@@ -273,3 +273,11 @@ input[type="radio"], input[type="checkbox"]
 {
 margin: 0;
 }
+
+[class^="icon2-"],[class*=" icon2-"]{display:inline-block;width:34px;height:34px;*margin-right:.3em;line-height:14px;vertical-align:text-top;background-image:url("../extdata/images/blue-icon.png");background-position:34px 34px;background-repeat:no-repeat;margin-top:1px;}
+
+.icon2-home{background-position:-274px 0;}
+.icon2-time{background-position:-91px -232px;}
+.icon2-phone{background-position:-137px -47px;}
+.icon2-email{background-position:-183px -232px;}
+

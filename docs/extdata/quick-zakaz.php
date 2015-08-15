@@ -1,5 +1,5 @@
-<div style="display:table; width:245px; height: 300px;  padding-left: 15px;padding-bottom:10px;  margin-left: 50px; box-shadow: 0 0 5px 2px #7f7f7f; background-color: #fff;  position:relative; z-index:111;">
-	<div style="background:url(/extdata/images/header-quick-zakaz.png) no-repeat; height:150px; margin:0; padding-top:10px;"><h1 style="text-align:center;color: #fff; margin-top:10px;">Быстрый заказ</h1></div>
+<div style="display:table; width:245px; height: 300px;  padding-left: 15px;padding-bottom:10px;  margin-left: 50px; box-shadow: 0 0 5px 2px #7f7f7f; background-color: #fff;  position:absolute; left: 750px; z-index:98;">
+	<div style="background:url(/extdata/images/header-quick-zakaz.png) no-repeat; height:150px; margin:0; padding-top:10px;"><h1 id="quick-zakaz-text" style="text-align:center;color: #fff; margin-top:10px;">Быстрый заказ</h1></div>
 
 	<div class="input-prepend" style="margin-left:0px; ">
                         <span class="add-on"><i class="icon-user"></i></span>
@@ -36,11 +36,11 @@
 	</style>
 	
 	
-	<div class="input-prepend" style="margin-left:0px; height:30px;">
+	<!--<div class="input-prepend" style="margin-left:0px; height:30px;">
                         <input type="file" name="file1"" >
-	</div>
+	</div>-->
 										<!--</div>-->
 	<!--<input type="file" name="pict"  placeholder="Прикрепите файл" style="font-size: 10px; width:190px;; margin-top:3px;">-->
 	<textarea type="text" name="text"  placeholder="Пожелания по заказу" class="input-large focused"  style="margin-left:0px; width:228px; max-width:230px;"></textarea>
-	<input type="button" onclick="checkRequired()" value="Заказать" style="width:229; height: 35px; margin-top:3px; background-color:#3c17a2; border: 1px solid #8c4bc1; border-radius: 4px 4px 4px 4px; color: #fff; margin-top: 10px;">
+	<input type="button" onclick="checkRequired()" value="Заказать" style="width:229; height: 50px; margin-top:3px; background-color:#191970; border: 1px solid #8c4bc1; border-radius: 4px 4px 4px 4px; color: #fff; margin-top: 10px; font-size: 1.6em;">
 </div>
