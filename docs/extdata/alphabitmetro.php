@@ -12,7 +12,7 @@
 			<p><img src="/pics/line11.png" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/41.html" title="Изготовление печатей по оттиску на Динамо"  >м. Динамо</a></p>
 <!--		<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/28.html">м. Домодедовская</a></p>  -->
 			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/4.html" title="Печати и штампы по оттиску на Каширке" >м. Каширская</a></p>
-			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/7.html" title="Печать за 1 час на Комсомольской" >м. Комсомольская</a></p>
+			<!--<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/7.html" title="Печать за 1 час на Комсомольской" >м. Комсомольская</a></p>-->
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/26.html" title="Сделать печать в Кузьминках" >м. Кузьминки</a></p>
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/5.html" title="Штампы и печати за час на Кунцевской" >м. Кунцевская</a></p>
 		</td>
@@ -34,18 +34,18 @@
 			<!--<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/29.html" title="Изготовление печатей по оттиску на Щелковской" >м. Щелковская</a></p>
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/42.html" title="Срочное Изготовление печатей на Щукинской" >м. Щукинская</a></p>-->
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/14.html" title="Срочное изготовление печатей на Электрозаводской" >м. Электрозаводская</a></p>
-			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" title="Сделать печать или штамп на Юго-Западной">м. Юго-Западная</a></p>
+			
 		</td>
 		<td width="33%">		 		    	
-			
+			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" title="Сделать печать или штамп на Юго-Западной">м. Юго-Западная</a></p>
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/24.html" title="Изготовление печатей по оттиску на Южной" >м. Южная</a></p>
 		<!--	<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/35.html">м. Ясенево</a></p>   -->
-		    <p><a href="/contacts/20.html" title="Срочное изготовление печатей и штампов в Зеленограде" >Зеленоград</a></p>
-			<!--<p><a href="/contacts/17.html" title="Сделать печать в Красногорске" >Красногорск</a></p>-->
+		    <!--<p><a href="/contacts/20.html" title="Срочное изготовление печатей и штампов в Зеленограде" >Зеленоград</a></p>
+			<p><a href="/contacts/17.html" title="Сделать печать в Красногорске" >Красногорск</a></p>-->
 			<p><a href="/contacts/18.html" title="Печати по оттиску в Одинцово"  >Одинцово</a></p>
 			<p><a href="/contacts/40.html" title="Печати и штампы по оттиску в Солнцево" >Солнцево</a></p>
 			<p><a href="/contacts/47.html" title="Изготовление печатей в Румянцево" >Румянцево</a></p>
-			<p><a href="/contacts/31.html" title="Сделать Печать по оттиску в Химках" >Химки</a></p>
+			<!--<p><a href="/contacts/31.html" title="Сделать Печать по оттиску в Химках" >Химки</a></p> -->
 		</td>
 	</tr>
 </table>
