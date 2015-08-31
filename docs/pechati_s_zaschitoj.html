@@ -618,11 +618,7 @@ function checkRequired() {
 	</tr>
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-			<p><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Информация о заказе</strong></p>
-<table border="0" cellspacing="0" cellpadding="3" width="100%">
-<tr bgcolor="#efefef"><td valign="top"><b>Информация о заказе</b><br><font size=-2> (вид изделия, кол-во, контактные данные, способ доставки - курьером или заберете в выбранном офисе)</font></td><td><textarea type="text" class="text_forms" style="width:650px; height:150px" name="text" id="text"></textarea></td></tr>
-</table>
-<p align="center"><input type="reset" value="очистить форму" style="width:30%" class="button">&nbsp;<input type="button" onclick="checkRequired()" value="отправить заказ" style="width:48%" class="button"><input type="Hidden" name="form" value="6"></p>
+			<?php require_once "../extdata/baseparts/sendform-price.php" ?>
 		</td>
 	</tr>
 </form>

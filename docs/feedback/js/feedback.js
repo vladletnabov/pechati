@@ -62,11 +62,13 @@ $(document).ready(function() {
                 });
             }
   })();
+  
+
 });
 
 
 /**
- * РћС‚РїСЂР°РІРєР° С„РѕСЂРј.
+ * Отправка форм.
  *
  */
 
@@ -161,21 +163,26 @@ function feedback(vars) {
 
 
 /**
- * РћР±СЂР°Р±РѕС‚С‡РёРє РєРЅРѕРїРєРё С„РѕСЂРј.
- * РљРЅРѕРїРєР° РґРѕР»Р¶РЅР° Р±С‹С‚СЊ РІРЅСѓС‚СЂРё С‚РµРіРѕРІ <form> c РєР»Р°СЃСЃРѕРј .feedback
- * Р±СѓРґРµС‚ РѕС‚РїСЂР°РІР»РµРЅРѕ Р»СЋР±РѕРµ РєРѕР»-РІРѕ РїРѕР»РµР№, РєСЂРѕРјРµ С„Р°Р№Р»РѕРІ
+ * Обработчик кнопки форм.
+ * Кнопка должна быть внутри тегов <form> c классом .feedback
+ * будет отправлено любое кол-во полей, кроме файлов
  *
  */
 
 $(document).on('click', '.feedback', function(){
-   var form = $(this).closest('form'), name = form.attr('name'), obj = {};
+	alert('clicked!');
+   /*var form = $(this).closest('form'), name = form.attr('name'), obj = {};
        obj.form = form;
        obj.act = name;
        obj.data = $(form).serialize();
 
       feedback(obj);
-
+*/
     return false;
 });
+
+function tttt(){
+	alert('aaaaa');
+};
 
 }); // done

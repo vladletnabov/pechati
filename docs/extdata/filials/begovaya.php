@@ -11,6 +11,19 @@
 Заезд к офису сейчас возможен сейчас с 5-й Магистральной улицы (ориентрир «Шиномонтаж»). Свернув с 5-й Магистральной улицы во дворы, нужно продолжать свое движение прямо, таким образом, чтобы гаражи оставались по правую сторону от автомобиля по ходу его движения. Доехать нужно до дальней белой кирпичной 5-этажкой (яркий ориентир красная высокая кирпичная квадратная труба).<br />
 Вход к нам в офис прямо за трубой.</p>
 
+<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 0 #222;
+		}
+	</style>
+		  
+		  
+	<script type="text/javascript">
+		$(document).ready(function(){
+				$('.fancybox').fancybox();
+		});
+	</script>
+
 <p>
   <a class="fancybox" href="/pics/contacts/begovaya/scheme1.jpg" data-fancybox-group="gallery" title="Схема проезда в офис Печати.РУ на Беговой">
     <img src="/pics/contacts/begovaya/scheme1.jpg" width="495" />

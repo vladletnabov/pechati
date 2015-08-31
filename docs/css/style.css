@@ -9,12 +9,16 @@
 .well {
   width: 500px;
   margin: 19px auto;
+  background: url(/extdata/images/top-form-bg.png) no-repeat;
 }
 
-legend {
+.legend {
   
-  color:#ff0033;
+  /*color:#ff0033;*/
+  color: #fff;
   text-align: center;
+  height: 105px;
+  font-size: 1.6em;
   
 }
 
@@ -137,7 +141,7 @@ legend {
     border-style: solid;
     width: 143px;
     background-color: #D7103F;
-    margin-top:19px;
+    margin-top:15px;
     margin-left:-4px;
 }
 

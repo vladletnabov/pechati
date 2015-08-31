@@ -10,14 +10,16 @@
 	<meta HTTP-EQUIV="description" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
 	<link rel="STYLESHEET" type="text/css" href="css/pechati.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
 	
-    <script src="extdata/js/jquery-1.11.3.min.js"></script>
-    <script src="feedback/js/feedback.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <!--<script src="feedback/js/feedback.js"></script>-->
     <script src="feedback/js/jquery.arcticmodal.js"></script>
     <script src="feedback/js/jquery.jgrowl.js"></script>
-	<script type="text/javascript">
-    </script>
+	
+
+	
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="feedback/css/jquery.arcticmodal.css">
     <link rel="stylesheet" type="text/css" href="feedback/css/jquery.jgrowl.css">
@@ -28,20 +30,31 @@
 	
 	<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-22832049-24']);
-  _gaq.push(['_trackPageview']);
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-22832049-24']);
+	  _gaq.push(['_trackPageview']);
 
-  (function() {
-	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+	  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
 
-</script>
+	</script>
 </head>
 
-<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333"><script>
+<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
+<?php 
+session_start(); 
+@$emailclient= $_SESSION['emailclient']|| ''; 
+@$emailfilial= $_SESSION['emailfilial']|| '';
+@$fio= $_SESSION['fio']|| '';
+$email ='';
+if (($emailclient!='')&&($emailfilial!='')){ 
+	$email=$emailclient.'('.$fio.') --> '.$emailfilial; 
+}
+?>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -108,49 +121,90 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
 <!-- Text -->
 
 	<h1 align="center">Заявка успешно отправлена!<div style="border-bottom: 1px dotted #000;"></div></h1>
-Наши менеджеры свяжутся с вами!
+<center>Наши менеджеры свяжутся с вами!</center>
 
 			<div class="well">
-                <legend>Получите больше заполнив форму!</legend>
-                <form action="" method="get" name="form-2">
-					<div class="input-prepend">
+                <div class="legend">Вы можете оставить больше информации о Вашем заказе!</div>
+                <form action="" method="post" name="form-2">
+					<div class="input-prepend" style="margin-left:0;" >
                         <span class="add-on"><i class="icon-th-list"></i></span>
-						<select class="input-large focused" name="companytype">
+						<select class="input-large focused" id="companytype" name="companytype">
 							<option disabled selected>Юридическая форма:</option>
 							<option value="ИП">ИП</option>
 							<option value="ООО">ООО</option>
 							<option value="АО">Акционерное общество</option>					
 						</select>
 					</div>
-                    <div class="input-prepend">
+                    <div class="input-prepend" style="margin-left:0;" >
                         <span class="add-on"><i class="icon-user"></i></span>
-                        <input class="input-large focused" name="name" type="text" placeholder="Название">
+                        <input class="input-large focused" id="name" name="name" type="text" placeholder="Название" style="width:470px;" value="<?php echo $fio; ?>">
                     </div>
-                    <div class="input-prepend">
+                    <div class="input-prepend" style="margin-left:0;" >
                         <span class="add-on"><i class="icon-book"></i></span>
-                        <input class="input-large focused" name="tell" type="text" placeholder="Ваш телефон">
+                        <input class="input-large focused" id="tell" name="tell" type="text" placeholder="Ваш телефон" style="width:470px;">
                     </div>
-                    <div class="input-prepend">
+                    <div class="input-prepend" style="margin-left:0;" >
                         <span class="add-on"><i class="icon-envelope"></i></span>
-                        <input class="input-large focused" name="e-mail" type="text" placeholder="Ваш E-mail">
+                        <input id="e-mail" class="input-large focused" name="e-mail" type="text" placeholder="Ваш E-mail"  disabled value="<?php echo $email; ?>"  style="width:470px;" >
+						
                     </div>
-					<div class="input-prepend">
+					<div class="input-prepend" style="margin-left:0;" >
                         <span class="add-on"><i class="icon-star-empty"></i></span>
-                        <input class="input-large focused" name="inn" type="text" placeholder="ИНН:" >
+                        <input class="input-large focused"  id="inn" name="inn" type="text" placeholder="ИНН:" style="width:470px;" >
                     </div>
-					<div class="input-prepend">
+					<div class="input-prepend" style="margin-left:0;" >
                         <span class="add-on"><i class="icon-star"></i></span>
-                        <input class="input-large focused" name="ogrn" type="text" placeholder="ОГРН:" >
+                        <input class="input-large focused" id="ogrn" name="ogrn" type="text" placeholder="ОГРН:" style="width:470px;" >
                     </div>					
-                    <div class="input-prepend">
+                    <div class="input-prepend" style="margin-left:0;" >
                         <span class="add-on"><i class="icon-home"></i></span>
-                        <input class="input-large focused" name="city" type="text" placeholder="Город">
+                        <input class="input-large focused"  id="city"  name="city" type="text" placeholder="Город"  style="width:470px;">
                     </div>
                     <textarea class="input-large focused" style="width:500px; height: 120px;" name="text" placeholder="Ваше сообщение"></textarea>
-                    <label class="checkbox">
-                        <input type="checkbox" value="да" name="checkbox" checked > Получать новости
-                    </label>
-                    <input class="feedback btn btn-block btn-large btn-success" name="send" type="button" value="Отправить" onclick="feedbackclick(this)">
+					<div style="margin: 10px 0 10px 20px;;" >
+						<label class="checkbox" >
+							<input type="checkbox" value="да" id="checkbox" name="checkbox" checked  style="margin-top: 3px;" > Получать новости
+						</label>
+					</div>
+                    <input id="sendextform" class="feedback btn btn-block btn-large btn-success" name="send" type="button" onclick="checkRequired();" value="Отправить" >
+					<script language="javascript">
+						function checkRequired() {
+							s = "Пожалуйста, заполните следующие обязательные поля:\n\n";
+							flgSub = true;
+							if (document.forms['form-2'].companytype.value == "Юридическая форма:") {
+								s = s + "Тип юрлица \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].name.value == "") {
+								s = s + "Название компании \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].tell.value == "") {
+								s = s + "Номер телефона \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].inn.value == "") {
+								s = s + "ИНН \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].ogrn.value == "") {
+								s = s + "ОГРН \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].city.value == "") {
+								s = s + "Город \n";
+								flgSub = false;
+							}
+							if (flgSub == false) {
+								alert(unescape(s));	
+							} else {	
+								document.forms["form-2"].action="/send_forms_4a.php";
+								document.forms["form-2"].target="";
+								document.forms["form-2"].submit();
+							}
+						}
+						</script>
+					
                 </form>
 				
             </div>
@@ -161,14 +215,14 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
     <div class="block block-image is-image" id="block-new39">
 		  
 	<div style="margin: 0 auto;">
-	  <h1 style="color: #D7103F; text-align: center; font-size: 18px;">ПЕЧАТИ С ЗАЩИТОЙ</h1>
+	  <h1 style="color: #D7103F; text-align: center; font-size: 1.4em;">ПЕЧАТИ С ЗАЩИТОЙ</h1>
 	</div>
 	<div style="margin: 0px auto;width: 200px;">
 	<img src="/pics/uslugi/z02.jpg" alt="" height="200" width="200" >
 	</div>
 
 	<div class="block block-popupv2 is-popupv2" id="block-new72">
-              <a href="#" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
+              <a href="/pechati_s_zaschitoj.html" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
 	</div>
 	
 	<div style="display: inline; float: right; margin-top: 25px; ; background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;height: 38px;width: 128px;z-index: 122;">
@@ -180,7 +234,7 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
     <div class="block block-image is-image" id="block-new40" style="margin-left: 15px;">
 		  
 	<div style="margin: 0px auto;">
-	  <h1 style="color: #D7103F; text-align: center; font-size: 18px;">МНОГОЦВЕТНЫЕ ПЕЧАТИ</h1>
+	  <h1 style="color: #D7103F; text-align: center; font-size: 1.4em;;">МНОГОЦВЕТНЫЕ ПЕЧАТИ</h1>
 	</div>
 	<div style="margin: 0px auto;width: 200px;">
 	<img src="/pics/uslugi/pechat-cvet.png" alt="" height="200" width="200" >
@@ -189,7 +243,7 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
 	
 
 	<div class="block block-popupv2 is-popupv2" id="block-new73">
-              <a href="#" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
+              <a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
 	</div>
 	
 	<div style="display: inline; float: right; margin-top: 25px; ; background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;height: 38px;width: 128px;z-index: 123;">
@@ -201,20 +255,20 @@ var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
     <div class="block block-image is-image" id="block-new41" style="margin-left: 15px;">
 		  
 	<div style="margin: 0px auto;">
-	  <h1 style="color: #D7103F; text-align: center; font-size: 18px;">ГЕРБОВЫЕ ПЕЧАТИ</h1>
+	  <h1 style="color: #D7103F; text-align: center; font-size: 1.4em;;">МЕТАЛИЧЕСКИЕ ПЕЧАТИ</h1>
 	</div>
-	<div style="margin: 0px auto;width: 250px;">
-	<img src="/pics/uslugi/pechat_po_gost_250.jpg" alt="" height="250" width="250" >
+	<div style="margin: 0px auto; width: 200px; height:200px; overflow:hidden;">
+	<img src="/extdata/images/metal250.jpg" alt="" height="200" width="200" >
 	</div>
 
 	
 
 	<div class="block block-popupv2 is-popupv2" id="block-new74">
-              <a href="#" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
+              <a href="/uslugi/plombiry_i_plombiratory.html" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
 	</div>
 	
-	<div style="display: inline; float: right; margin-top: 29px; ; background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;height: 38px;width: 128px;z-index: 125;">
-              <p><span style="font-size:15px;"><span style="color:#010206;"><span style="font-family:lora,sans-serif;">от <span style="font-size:20px;">2 000</span> руб.</span></span></span></p>
+	<div style="display: inline; float: right; margin-top: 25px; ; background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;height: 38px;width: 128px;z-index: 125;">
+              <p><span style="font-size:15px;"><span style="color:#010206;"><span style="font-family:lora,sans-serif;">от <span style="font-size:20px;">600</span> руб.</span></span></span></p>
 
           </div>
 

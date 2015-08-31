@@ -1,3 +1,8 @@
+<?php
+session_start(); 
+$_SESSION['test'] = 'qwerty';
+?>
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
 <html>
@@ -245,7 +250,7 @@ var price2 = 450;
 			<p align="center"><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Выберете ближайший к Вам филиал</strong></p>
 			
 				<!-- Список филиалов -->
-				<?php require_once "../extdata/listfilials-old.php" ?>
+				<?php require_once "../extdata/listfilials-old-uslugi.php" ?>
 				<!-- Конец списка-->
 		</td>
 	</tr>
@@ -254,26 +259,7 @@ var price2 = 450;
 	</tr>
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-<script>
-var price3 = 0;
-</script>
-			<p><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Информация о заказе</strong></p>
-<table border="0" cellspacing="0" cellpadding="3" width="100%">
-<tr bgcolor="#e0e0e0"><td><b>Телефон, Имя</b></td><td><input type="text" class="text_forms" style="width: 300px; font-size: 14pt;" name="tel"></td></tr>
-<tr bgcolor="#efefef"><td><b>E-mail</b></td><td><input type="text" class="text_forms" style="width: 300px; font-size: 14pt;" name="eml" id="eml"></td></tr>
-<tr bgcolor="#e0e0e0"><td width="300"><b>Файл-Вложение</b><br><font size=-2>файл во вложении должен быть не более 2Мб</font></td><td width="650"><input type="file" class="text_forms" style="width: 300px;" name="pict"></td></tr>
-<tr bgcolor="#efefef"><td valign="top"><b>Дополнительная информация</b></td><td><textarea type="text" class="text_forms" style="width:300px; height:70px" name="text"></textarea></td></tr>
-</table>
-<p style="font-size: 14pt;"><strong>Стоимость Вашего заказа: <span style="color: #f00;" id="price"></span>&nbsp;руб</strong></p>
-<p align="center"><input type="Hidden" name="form" value="1"><input type="button" onclick="checkRequired()" value="Заказать печать сейчас" style="width: 278px; height: 80px; background: #f90 url('/i/button.jpg') left top no-repeat; border: 0; color: #fff; font-size: 14pt;"></p>
-<script language="JavaScript">
-	function count_price()
-	{
-		document.getElementById('price').innerHTML = price1 + price2 + price3;
-		return;
-	}
-	count_price();
-</script>
+			<?php require_once "../extdata/baseparts/sendform-price-uslugi.php" ?>
 		</td>
 	</tr>
 </form>
@@ -416,53 +402,10 @@ var price3 = 0;
 	margin: 0 4px;
 }
 </style>
-<table cellpadding="0" cellspacing="5" border="0" width="100%" class="inline">
-	<tr valign="top">
-		<td width="33%">
-		 	<p><img src="/pics/line6.gif" width="19" height="9" alt="Проспект Мира" align="absmiddle"> <a href="/contacts/46.html" title="Изготовление печатей на Алексеевской" >м. Алексеевская</a></p>   
-			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/23.html" title="Печати и штампы в Алтуфьево"  >м. Алтуфьево</a></p>
-			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/1.html" title="Экспонирующие камеры на Арбате"  >м. Арбатская</a></p>
-			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/16.html" title="Сделать печать или штамп на Бабушкинской"  >м. Бабушкинская</a></p>
-			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/19.html" title="Заказать печать на Беговой"  >м. Беговая</a></p>
-			<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/6.html" title="" >м. Братиславская</a></p>
-			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/2.html" title="Печати на заказ м. Речной вокзал">м. Водный стадион</a></p>
-			<p><img src="/pics/line11.png" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/41.html" title="Изготовление печатей по оттиску на Динамо"  >м. Динамо</a></p>
-<!--		<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/28.html">м. Домодедовская</a></p>  -->
-			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/4.html" title="Печати и штампы по оттиску на Каширке" >м. Каширская</a></p>
-			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/7.html" title="Печать за 1 час на Комсомольской" >м. Комсомольская</a></p>
-			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/26.html" title="Сделать печать в Кузьминках" >м. Кузьминки</a></p>
-			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/5.html" title="Штампы и печати за час на Кунцевской" >м. Кунцевская</a></p>
-		</td>
-		<td width="34%">
-			<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/46.html" title="" >м. Марьина роща</a></p>
-			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/8.html" title="Изготовление факсимиле в Митино" >м. Митино</a></p>
-			<p><img src="/pics/line8.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/37.html" title="Сделать печать в Новогиреево" >м. Новогиреево</a></p>
-			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/10.html" title="Изготовление печатей по оттиску в Новых Черемушках" >м. Новые черемушки</a></p>
-			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/11.html" title="Печати с защитой на Октябрьской" >м. Октябрьская</a></p>
-			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/12.html" title="Красконаполненные печати на Октябрьском поле" >м. Октябрьское поле</a></p>
-			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/22.html" title="Сделать печать на Пражской" >м. Пражская</a></p>
-			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/30.html" title="Печать за 1 час на Преображенской площади" >м. Преображенская площадь</a></p>
-			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" title="Изготовить печать на Савеловской" >м. Савеловская</a></p>
-			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/13.html" title="Изготовление гербовых печатей на Таганке" >м. Таганская</a></p>
-			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/33.html" title="Печати с защитой на Тульской"  >м. Тульская</a></p> 
-		    <p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/9.html" title="Многоцветные печати на Цветном бульваре" >м. Цветной бульвар</a></p>
-		</td>
-		<td width="33%">
-			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/29.html" title="Изготовление печатей по оттиску на Щелковской" >м. Щелковская</a></p>
-			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/42.html" title="Срочное Изготовление печатей на Щукинской" >м. Щукинская</a></p>
-			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/14.html" title="Срочное изготовление печатей на Электрозаводской" >м. Электрозаводская</a></p>
-			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" title="Сделать печать или штамп на Юго-Западной">м. Юго-Западная</a></p>
-			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/24.html" title="Изготовление печатей по оттиску на Южной" >м. Южная</a></p>
-		<!--	<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/35.html">м. Ясенево</a></p>   -->
-		    <p><a href="/contacts/20.html" title="Срочное изготовление печатей и штампов в Зеленограде" >Зеленоград</a></p>
-			<p><a href="/contacts/17.html" title="Сделать печать в Красногорске" >Красногорск</a></p>
-			<p><a href="/contacts/18.html" title="Печати по оттиску в Одинцово"  >Одинцово</a></p>
-			<p><a href="/contacts/40.html" title="Печати и штампы по оттиску в Солнцево" >Солнцево</a></p>
-			<p><a href="/contacts/47.html" title="Изготовление печатей в Румянцево" >Румянцево</a></p>
-			<p><a href="/contacts/31.html" title="Сделать Печать по оттиску в Химках" >Химки</a></p>
-		</td>
-	</tr>
-</table>
+				<!-- Список филиалов -->
+				<?php require_once "../extdata/alphabitmetro-uslugi.php" ?>
+				<!-- Конец списка-->		
+		
 		</td>
 	</tr>
 </table>
@@ -519,14 +462,7 @@ if(navigator.cookieEnabled) cook = "Y"; else cook = "N";
 <!--end of Top100 logo -->
 
 <!-- Yandex.Metrika counter -->
-<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
-<script type="text/javascript">
-try { var yaCounter114010 = new Ya.Metrika({id:114010,
-          clickmap:true,
-          accurateTrackBounce:true, webvisor:true});}
-catch(e) { }
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/114010" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<?php require_once "../extdata/baseparts/counter-yandex.php" ?>
 <!-- /Yandex.Metrika counter -->
 <!--Openstat-->
 <span id="openstat1"></span>

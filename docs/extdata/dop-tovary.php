@@ -46,8 +46,8 @@
 	<div style="margin: 0px auto;">
 	  <h1 style="color: #D7103F; text-align: center; font-size: 18px;">цепанбше оевюрх</h1>
 	</div>
-	<div style="margin: 0px auto;width: 250px;">
-	<img src="/pics/uslugi/pechat_po_gost_250.jpg" alt="" height="250" width="250" >
+	<div style="margin: 0px auto;width: 254px;">
+	<img src="/pics/uslugi/pechat_po_gost_250.jpg" alt="" height="254" width="254" >
 	</div>
 
 	

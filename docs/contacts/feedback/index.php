@@ -10,7 +10,7 @@ $form = array();
 $host = $_SERVER['HTTP_HOST'];
 $ref = $_SERVER['HTTP_REFERER'];
 
-$form['zakaz-begovaya'] = array(
+$form['quick-zakaz-begovaya'] = array(
 	'fields' => array(
 		'name' => array(
 			'title' => 'Имя',
@@ -25,7 +25,7 @@ $form['zakaz-begovaya'] = array(
 				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
 			)
 		),
-		'tell' => array(
+		/*'tell' => array(
 			'title' => 'Телефон',
 			'validate' => array(
 				'preg' => "/^((8|\+)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{5,10}$/",
@@ -35,9 +35,9 @@ $form['zakaz-begovaya'] = array(
 				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
 				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
 			)
-		),
+		),*/
 		'e-mail' => array(
-			'title' => 'E-mail',
+			'title' => 'E-mails',
 			'validate' => array(
 				'preg' => '%@%is',
 				'minlength' => '5',
