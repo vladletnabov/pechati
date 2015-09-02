@@ -23,9 +23,8 @@ if(navigator.cookieEnabled) cook = \"Y\"; else cook = \"N\";
 if (preg_match('/\/uslugi\/index.html/',$url)) {
 	echo $openstat;
 }
-else (
-	echo $li;
-)
+else {echo $li;}
+
 
 ?>
 
