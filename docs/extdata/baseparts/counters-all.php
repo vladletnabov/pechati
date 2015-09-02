@@ -1,20 +1,33 @@
 <div><div style="display:none;"><!--550080641835--></div><noindex>
-<!--LiveInternet counter--><script type="text/javascript"><!--
-document.write("<a href='http://www.liveinternet.ru/click' "+
-"target=_blank><img src='http://counter.yadro.ru/hit?t45.1;r"+
-escape(document.referrer)+((typeof(screen)=="undefined")?"":
-";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
-screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
-";"+Math.random()+
-"' alt='' title='LiveInternet' "+
-"border=0 width=31 height=31><\/a>")//--></script><!--/LiveInternet-->
+<?
+$url=$_SERVER['PHP_SELF'];
+$li = "<!--LiveInternet counter--><script type=\"text/javascript\"><!--
+document.write(\"<a href='http://www.liveinternet.ru/click' \"+
+\"target=_blank><img src='http://counter.yadro.ru/hit?t45.1;r\"+
+escape(document.referrer)+((typeof(screen)==\"undefined\")?\"\":
+\";s\"+screen.width+\"*\"+screen.height+\"*\"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+\";u\"+escape(document.URL)+
+\";\"+Math.random()+
+\"' alt='' title='LiveInternet' \"+
+\"border=0 width=31 height=31><\/a>\")//--></script><!--/LiveInternet-->
+";
 
-<!--- SmartLog ---><script language="javascript">
+
+$openstat = "<!--- SmartLog ---><script language=\"javascript\">
 i=Math.random();w=screen.width;h=screen.height;
 bps=screen.colorDepth;ln=navigator.systemLanguage;
-if(navigator.cookieEnabled) cook = "Y"; else cook = "N";
- document.write('<a href="http://www.smartlog.ru/" target="_top"><img width=1 height=1 src="http://www.smartlog.ru/counter/?i='+i+'&cid=999&r='+escape(document.referrer)+'&sid=1193&cook='+cook+'&s='+w+'x'+h+'&pg='+escape(window.location.href)+'" alt="SmartLog.ru - интернет статистика" border=0></a>')
-</script><!--- SmartLog --->
+if(navigator.cookieEnabled) cook = \"Y\"; else cook = \"N\";
+ document.write('<a href=\"http://www.smartlog.ru/\" target=\"_top\"><img width=1 height=1 src=\"http://www.smartlog.ru/counter/?i='+i+'&cid=999&r='+escape(document.referrer)+'&sid=1193&cook='+cook+'&s='+w+'x'+h+'&pg='+escape(window.location.href)+'\" alt=\"SmartLog.ru - интернет статистика\" border=0></a>')
+</script><!--- SmartLog --->";
+
+if (preg_match('/\/uslugi\/index.html/',$url)) {
+	echo $openstat;
+}
+else (
+	echo $li;
+)
+
+?>
 
 <!--begin of Rambler's Top100 code -->
 <a href="http://top100.rambler.ru/top100/">
