@@ -35,7 +35,7 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/41.html" class="area" title="Изготовление печатей и штампов м. Динамо"><strong>м. Динамо</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 532-70-49<br>Хорошевское шоссе 13А, к.2</div>
 	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/55.html'" title="Изготовление печатей и штампов м. Домодедовская">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/28.html" class="area" title="Изготовление печатей и штампов м. Домодедовская"><strong>м. Домодедовская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(926)</strong> 498-20-48<br>ул. Перерва, д. 43а, 2-й этаж</div>
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/55.html" class="area" title="Изготовление печатей и штампов м. Домодедовская"><strong>м. Домодедовская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(925)</strong> 498-20-48<br>ул. Перерва, д. 43а, 2-й этаж</div>
 	</div>
 	<div class="cont1 date2" onclick="document.location.href='/contacts/4.html'" title="Изготовление печатей и штампов м. Каширская">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/4.html" class="area" title="Изготовление печатей и штампов м. Каширская"><strong>м. Каширская</strong></a><br>Тел.: <strong>(495)</strong> 728-45-98<br>Каширское шоссе, д.26, кор.3</div>
