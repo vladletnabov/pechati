@@ -35,7 +35,7 @@ if (preg_match('/\/uslugi\/index.html/',$url)) {
 	echo $openstat;
 }
 else {echo $li;}
-echo $emartlog;
+echo $smartlog;
 if (preg_match('/\/forms_send.html/',$url)) {
 	
 	require_once "extdata/baseparts/counters-google-kms.php";

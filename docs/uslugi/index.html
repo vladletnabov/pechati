@@ -64,16 +64,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 
 <!-- Content -->
 
-<!--Openstat-->
-<script type="text/javascript">
-var openstat = { counter: 1, image: 89, color: "828282", next: openstat, track_links: "all" };
-(function(d, t, p) {
-var j = d.createElement(t); j.async = true; j.type = "text/javascript";
-j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
-var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
-})(document, "script", document.location.protocol);
-</script>
-<!--/Openstat-->
+
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 	<tr>
 		<td valign="top" height="52" class="txt2">
@@ -441,35 +432,8 @@ var price2 = 450;
 		</td>
 	</tr>
 </table>
-<div><div style="display:none;"><!--550080641835--></div><noindex>
 
-
-
-<!--- SmartLog ---><script language="javascript">
-i=Math.random();w=screen.width;h=screen.height;
-bps=screen.colorDepth;ln=navigator.systemLanguage;
-if(navigator.cookieEnabled) cook = "Y"; else cook = "N";
- document.write('<a href="http://www.smartlog.ru/" target="_top"><img width=1 height=1 src="http://www.smartlog.ru/counter/?i='+i+'&cid=999&r='+escape(document.referrer)+'&sid=1193&cook='+cook+'&s='+w+'x'+h+'&pg='+escape(window.location.href)+'" alt="SmartLog.ru - интернет статистика" border=0></a>')
-</script><!--- SmartLog --->
-
-<!--begin of Rambler's Top100 code -->
-<a href="http://top100.rambler.ru/top100/">
-<img src="http://counter.rambler.ru/top100.cnt?146655" alt="" width=1 height=1 border=0></a>
-
-<!--end of Top100 code--><!--begin of Top100 logo-->
-<a href="http://top100.rambler.ru/top100/">
-<img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width=88 height=31 border=0></a>
-<!--end of Top100 logo -->
-
-<!-- Yandex.Metrika counter -->
-<?php require_once "../extdata/baseparts/counter-yandex.php" ?>
-<!-- /Yandex.Metrika counter -->
-<!--Openstat-->
-<span id="openstat1"></span>
-<!--/Openstat-->
-</noindex>
-</div>
-
+<?php require_once "../extdata/baseparts/counters-all.php" ?>
 
 </body>
 </html>
