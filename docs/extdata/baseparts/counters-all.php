@@ -13,7 +13,18 @@ screen.colorDepth:screen.pixelDepth))+\";u\"+escape(document.URL)+
 ";
 
 
-$openstat = "<!--- SmartLog ---><script language=\"javascript\">
+$openstat = "<!--Openstat-->
+<script type=\"text/javascript\">
+var openstat = { counter: 1, image: 89, color: \"828282\", next: openstat, track_links: \"all\" };
+(function(d, t, p) {
+var j = d.createElement(t); j.async = true; j.type = \"text/javascript\";
+j.src = (\"https:\" == p ? \"https:\" : \"http:\") + \"//openstat.net/cnt.js\";
+var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+})(document, \"script\", document.location.protocol);
+</script>
+<!--/Openstat-->";
+
+$smartlog = "<!--- SmartLog ---><script language=\"javascript\">
 i=Math.random();w=screen.width;h=screen.height;
 bps=screen.colorDepth;ln=navigator.systemLanguage;
 if(navigator.cookieEnabled) cook = \"Y\"; else cook = \"N\";
@@ -24,6 +35,7 @@ if (preg_match('/\/uslugi\/index.html/',$url)) {
 	echo $openstat;
 }
 else {echo $li;}
+echo $emartlog;
 if (preg_match('/\/forms_send.html/',$url)) {
 	
 	require_once "extdata/baseparts/counters-google-kms.php";
