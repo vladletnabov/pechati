@@ -314,6 +314,97 @@ if (now.getDay() == 7) {
 
 	</div>
 </div>
+
+<div style="max-width:945px; height:450px; position:relative; margin-left:-427px; margin-right:-20px; display:table;position:relative;">
+<script language="javascript">
+function checkRequired() {
+	s = "Пожалуйста, заполните следующие обязательные поля:\n\n";
+	flgSub = true;
+	if (document.forms['form1'].eml.value == "") {
+		s = s + "E-mail\n";
+		flgSub = false;
+	}
+	if (flgSub == false) {
+		alert(unescape(s));	
+	} else {	
+		document.forms["form1"].action="/send_forms_4.php";
+		document.forms["form1"].target="";
+		document.forms["form1"].submit();
+	}
+}
+</script>
+<table cellpadding="10" cellspacing="0" border="0" width="100%">
+<form name="form1" id="form1" method="post" action="/send_forms_4.php" enctype="multipart/form-data">
+
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+		<!-- базовая стоимость клише и доставки остальные делать на основе этого файла и подключать отдельно-->
+		<?php require_once "../extdata/filials/base-clishe-price.php" ?>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+		
+		<!-- базовая стоимость оснасток остальные делать на основе этого файла и подключать отдельно-->
+		<?php require_once "../extdata/filials/base-osnastka-price.php" ?>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+		<!-- базовая форма отправки контактов и калькуляции стоимости-->
+		<?php require_once "../extdata/baseparts/sendform-price.php" ?>
+		</td>
+	</tr>
+</form>
+	<!--<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt="">-->
+		<!-- О филиале -->
+		<?php //require_once "../extdata/filials/aviamotornaya.php" ?>
+		
+		<!--</td>
+	</tr>-->
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+		
+		
+			<!-- печати ру это -->
+			<?php require_once "../extdata/baseparts/pechatiru-is.php" ?>
+
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+			<!-- Сколько стоит печать в сравнении -->
+			<?php require_once "../extdata/baseparts/howmuch.php" ?>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+    <tr>
+    	<td style="border: 1px solid #eeeafb;">
+		
+			<!-- список клиентов -->
+			<?php require_once "../extdata/baseparts/our-clients.php" ?>
+		</td>
+    </tr>
+
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+</table>
+</div>
+
+
 		</td>
 	</tr>
 </table>
