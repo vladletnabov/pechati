@@ -233,24 +233,26 @@ var price2 = 450;
 </table>
 		</td>
 	</tr>
-	<tr>
+	<!--<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
 	<tr  id="thirdContent">
 		<td style="border: 1px solid #eeeafb;">
-			<p align="center"><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Выберете ближайший к Вам филиал</strong></p>
+			<p align="center"><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Выберете ближайший к Вам филиал</strong></p>-->
 			
 				<!-- Список филиалов -->
-				<?php require_once "../extdata/listfilials-old-uslugi.php" ?>
+				<input type="hidden" name="adress" value="м. Беговая" form="form1">
+				<?php //require_once "../extdata/listfilials-old-uslugi.php" ?>
 				<!-- Конец списка-->
-		</td>
-	</tr>
+		<!--</td>
+	</tr>-->
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-			<?php require_once "../extdata/baseparts/sendform-price-uslugi.php" ?>
+			<?php require_once "../extdata/baseparts/sendform-price.php" ?>
+			<h1 style="color:#cc000a; font-size:2em;"><center>Остались вопросы? Звоните: (495) 532-70-49</center></h1>
 		</td>
 	</tr>
 </form>
