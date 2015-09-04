@@ -117,7 +117,7 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="#42" class="area" title="Изготовление печатей и штампов м. Щукинская"><strong>м. Сходненская</strong></a><br>Тел.: <strong>(495)</strong> 585-81-62<br>бульвар Яна Райниса, 2</div>
 	</div> -->
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/56.html'" title="Изготовление печатей и штампов м. Третьяковская">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/33.html" class="area" title="Изготовление печатей и штампов м. Третьяковская"><strong>м. Третьяковская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 506-22-77<br>ул. Большие каменщики д.1, 5 этаж офис 507</div>
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/56.html" class="area" title="Изготовление печатей и штампов м. Третьяковская"><strong>м. Третьяковская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 506-22-77<br>ул. Большие каменщики д.1, 5 этаж офис 507</div>
 	</div>
 	
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/33.html'" title="Изготовление печатей и штампов м. Тульская">
@@ -127,7 +127,7 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/9.html" class="area" title="Изготовление печатей и штампов м. Цветной бульвар"><strong>м. Цветной бульвар</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 545-48-42<br>ул. Садовая-Самотечная 13, стр 14</div>
 	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/57.html'" title="Изготовление печатей и штампов м. Чистые пруды">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/7.html" class="area" title="Изготовление печатей и штампов м. Чистые пруды"><strong>м. Чистые пруды</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 517-67-23<br>Комсомольская площадь, д. 6</div>
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/57.html" class="area" title="Изготовление печатей и штампов м. Чистые пруды"><strong>м. Чистые пруды</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 517-67-23<br>Комсомольская площадь, д. 6</div>
 	</div>
 	<div class="cont1 date2" onclick="document.location.href='/contacts/15.html'" title="Изготовление печатей и штампов м. Юго-Западная">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" class="area" title="Изготовление печатей и штампов м. Юго-Западная"><strong>м. Юго-Западная</strong></a><br>Тел.: <strong>(925)</strong> 518-70-71<br>пр. Вернадского, д.91 кор. 3 </div>
