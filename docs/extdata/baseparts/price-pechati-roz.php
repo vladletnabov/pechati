@@ -1,7 +1,7 @@
 <script>
 var price1 = 550;
 
-			function uncheckCheckbox(var idElement){
+			function uncheckCheckbox(idElement){
 				document.getElementById(idElement).checked = false;
 			}
 </script>
@@ -52,14 +52,14 @@ var price1 = 550;
 <TD>
 <P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 450; count_price();" id="srok12"> <label for="srok8">450</label></P></TD></TR>-->
 <tr bgcolor="#ebeaef" align="center">
-		<td align="left">Изготовление клише из резины</td>
-		<td colspan="3">
+		<td align="left">Изготовление клише из резины
+		
 			<script>
 			var clisherez=250;
 			var clisherezsrochno=450;
 			var priceclisherez=0;
 			function countclisherez() {
-				if (document.getElementById("clisherez2").checked) {
+				if (document.getElementById("clisherez1").checked) {
 					priceclisherez = clisherez;
 				}
 				if(document.getElementById("clisherez2").checked){					
@@ -67,15 +67,21 @@ var price1 = 550;
 				}
 				if((!document.getElementById("clisherez1").checked)&&(!document.getElementById("clisherez2").checked)){
 					priceclisherez = 0;
+					//alert("Клише будет изготовлено на базе фотополимера");
+					
 				}
+				/*if ((document.getElementById("clisherez1").checked)&&(!document.getElementById("clisherez2").checked)){
+					priceclisherez = 0;
+					alert("Клише будет изготовлено на базе фотополимера");
+				}*/
 			}
 			</script>
-			<P align=center><input type="checkbox" name="clisherez" value="Изготовление клише из резины"  onClick="uncheckCheckbox('clisherez1'); countclisherez(); count_price();" id="clisherez1"> <label for="otrisovka1">25</label></P>
 		</td>
-		<td colspan="3">
-			<script>
-			</script>
-			<P align=center><input type="checkbox" name="clisherezsrochno" value="Изготовление клише из резины срочно"  onClick="uncheckCheckbox('clisherez2'); countclisherez(); count_price();" id="clisherez2"> <label for="otrisovka1">450</label></P>
+		<td>
+			<P align=center><input type="checkbox" name="clisherez" value="Изготовление клише из резины"  onClick="uncheckCheckbox('clisherez2'); countclisherez(); count_price();" id="clisherez1"> <label for="clisherez1">250</label></P>
+		</td>
+		<td >
+			<P align=center><input type="checkbox" name="clisherezsrochno" value="Изготовление клише из резины срочно"  onClick="uncheckCheckbox('clisherez1'); countclisherez(); count_price();" id="clisherez2"> <label for="clisherez2">450</label></P>
 		</td>
 	</tr>
 
@@ -98,11 +104,11 @@ var price1 = 550;
 			</td>
 	</tr>
 	<tr bgcolor="#ebeaef" align="center">
-		<td align="left">Отрисовка логотипа, графического изображения в Corel Draw</td>
-		<td colspan="3">
+		<td align="left">Отрисовка логотипа, графического изображения в Corel Draw
+		
 			<script>
-			var otrisovka=350;
-			var otrisovkasrochno=500;
+			var otrisovka=300;
+			var otrisovkasrochno=700;
 			var priceotrisovka=0;
 			function countotrisovka() {
 				if (document.getElementById("otrisovka1").checked) {
@@ -113,15 +119,17 @@ var price1 = 550;
 				}
 				if((!document.getElementById("otrisovka1").checked)&&(!document.getElementById("otrisovka2").checked)){
 					priceotrisovka = 0;
+					alert("Без отрисовки");
 				}
 			}
 			</script>
-			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения"  onClick="uncheckCheckbox('otrisovka1'); countotrisovka(0); count_price();" id="otrisovka1"> <label for="otrisovka1">от 300</label></P>
+		
 		</td>
-		<td colspan="3">
-			<script>
-			</script>
-			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения срочно"  onClick="uncheckCheckbox('otrisovka2'); countotrisovka(); count_price();" id="otrisovka2"> <label for="otrisovka1">от 700</label></P>
+		<td>
+			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения"  onClick="uncheckCheckbox('otrisovka2'); countotrisovka(); count_price();" id="otrisovka1"> <label for="otrisovka1">от 300</label></P>
+		</td>
+		<td>
+			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения срочно" onClick="uncheckCheckbox('otrisovka1'); countotrisovka(); count_price();" id="otrisovka2"><label for="otrisovka2">от 700</label></P>
 		</td>
 	</tr>
 	<!--<tr bgcolor="#ebeaef" align="center">

@@ -30,7 +30,7 @@ var price3 = 0;
 		{ 
 			 priceclisherez=0;
 		} 
-		document.getElementById('price').innerHTML = price1 + price2 + price3 + pricedostav + priceotrisovka + pricezaschit + priceclisherez;
+		document.getElementById('price').innerHTML = price1 + price2 + price3  + priceotrisovka + priceclisherez;
 		return;
 	}
 	count_price();
