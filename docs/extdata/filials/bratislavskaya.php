@@ -55,7 +55,7 @@
 	    <td>&nbsp;</td>
 	    </tr>
 	  </table><br>
-     
+     <img src="/pics/contacts/marino/adress.png" />
 <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=CqGwtqMn7q0JFCPQbMY6fG0U6PAUqsC6&width=485&height=335"></script><br>     
       
       
