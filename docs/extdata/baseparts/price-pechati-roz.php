@@ -1,5 +1,9 @@
 <script>
 var price1 = 550;
+
+			function uncheckCheckbox(var idElement){
+				document.getElementById(idElement).checked = false;
+			}
 </script>
 <TABLE border=0 cellSpacing=1 cellPadding=5 width="100%">
 <TR bgcolor="#ebeaef">
@@ -36,13 +40,44 @@ var price1 = 550;
 <P align=center><input type="Radio" name="srok" value="Изготовление экслибриса, личной печати срочно" onClick="price1 = 5000; count_price();" id="srok14"> <label for="srok14">5000</label></P></TD></TR>
 <!-- Добавление резины-->
 
-<TR bgcolor="#ebeaef">
+<!--<TR bgcolor="#ebeaef">
 <TD>Изготовление клише из резины</TD>
 <TD>
 <P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 250; count_price();" id="srok11"> <label for="srok7">250</label></P></TD>
 <TD>
-<P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 450; count_price();" id="srok12"> <label for="srok8">450</label></P></TD></TR>
-
+<P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 450; count_price();" id="srok12"> <label for="srok8">450</label></P></TD></TR>-->
+<!--<TD>Изготовление клише из резины</TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 250; count_price();" id="srok11"> <label for="srok7">250</label></P></TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 450; count_price();" id="srok12"> <label for="srok8">450</label></P></TD></TR>-->
+<tr bgcolor="#ebeaef" align="center">
+		<td align="left">Изготовление клише из резины</td>
+		<td colspan="3">
+			<script>
+			var clisherez=250;
+			var clisherezsrochno=450;
+			var priceclisherez=0;
+			function countclisherez() {
+				if (document.getElementById("clisherez2").checked) {
+					priceclisherez = clisherez;
+				}
+				if(document.getElementById("clisherez2").checked){					
+					priceclisherez = clisherezsrochno;
+				}
+				if((!document.getElementById("clisherez1").checked)&&(!document.getElementById("clisherez2").checked)){
+					priceclisherez = 0;
+				}
+			}
+			</script>
+			<P align=center><input type="checkbox" name="clisherez" value="Изготовление клише из резины"  onClick="uncheckCheckbox('clisherez1'); countclisherez(); count_price();" id="clisherez1"> <label for="otrisovka1">25</label></P>
+		</td>
+		<td colspan="3">
+			<script>
+			</script>
+			<P align=center><input type="checkbox" name="clisherezsrochno" value="Изготовление клише из резины срочно"  onClick="uncheckCheckbox('clisherez2'); countclisherez(); count_price();" id="clisherez2"> <label for="otrisovka1">450</label></P>
+		</td>
+	</tr>
 
 <!-- конец блока --> 
 <TR bgcolor="#ebeaef">
@@ -58,13 +93,46 @@ var price1 = 550;
 <TD>
 <P align=center><input type="Radio" name="srok" value="Маленькие штампы 1-2 слова типа 'копия верна', 'оплачено' срочно" onClick="price1 = 400; count_price();" id="srok10"> <label for="srok10">400</label></P></TD></TR>
 <tr>
-		<td colspan="3">
-<a name="uslugi"></a><p align="center"><strong>Дополнительные услуги</strong></p>
-		</td>
+			<td colspan="3">
+	<a name="uslugi"></a><p align="center"><strong>Дополнительные услуги</strong></p>
+			</td>
 	</tr>
 	<tr bgcolor="#ebeaef" align="center">
 		<td align="left">Отрисовка логотипа, графического изображения в Corel Draw</td>
-		<td>+ 350</td>
-		<td>+ 700</td>
+		<td colspan="3">
+			<script>
+			var otrisovka=350;
+			var otrisovkasrochno=500;
+			var priceotrisovka=0;
+			function countotrisovka() {
+				if (document.getElementById("otrisovka1").checked) {
+					priceotrisovka = otrisovka;
+				}
+				if(document.getElementById("otrisovka2").checked){					
+					priceotrisovka = otrisovkasrochno;
+				}
+				if((!document.getElementById("otrisovka1").checked)&&(!document.getElementById("otrisovka2").checked)){
+					priceotrisovka = 0;
+				}
+			}
+			</script>
+			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения"  onClick="uncheckCheckbox('otrisovka1'); countotrisovka(0); count_price();" id="otrisovka1"> <label for="otrisovka1">от 300</label></P>
+		</td>
+		<td colspan="3">
+			<script>
+			</script>
+			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения срочно"  onClick="uncheckCheckbox('otrisovka2'); countotrisovka(); count_price();" id="otrisovka2"> <label for="otrisovka1">от 700</label></P>
+		</td>
 	</tr>
+	<!--<tr bgcolor="#ebeaef" align="center">
+		<td align="left">Доставка</td>
+		<td colspan="3">
+		<script>
+			var dostavka=300;
+			var pricedostav=0;
+			</script>
+			<P align=center><input type="checkbox" name="dostav" value="Отрисовка логотипа, графического изображения"  onClick="countdostavka(); count_price();" id="dostavka1"> <label for="dostav1">300</label></P>
+		
+		</td>
+	</tr>-->
 </TABLE></P>
