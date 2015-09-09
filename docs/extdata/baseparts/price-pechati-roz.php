@@ -107,7 +107,7 @@ var price1 = 550;
 		<td align="left">Отрисовка логотипа, графического изображения в Corel Draw
 		
 			<script>
-			var otrisovka=300;
+			var otrisovka=350;
 			var otrisovkasrochno=700;
 			var priceotrisovka=0;
 			function countotrisovka() {
@@ -126,7 +126,7 @@ var price1 = 550;
 		
 		</td>
 		<td>
-			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения"  onClick="uncheckCheckbox('otrisovka2'); countotrisovka(); count_price();" id="otrisovka1"> <label for="otrisovka1">от 300</label></P>
+			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения"  onClick="uncheckCheckbox('otrisovka2'); countotrisovka(); count_price();" id="otrisovka1"> <label for="otrisovka1">от 350</label></P>
 		</td>
 		<td>
 			<P align=center><input type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения срочно" onClick="uncheckCheckbox('otrisovka1'); countotrisovka(); count_price();" id="otrisovka2"><label for="otrisovka2">от 700</label></P>
