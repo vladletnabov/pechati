@@ -10,7 +10,7 @@ var price3 = 0;
 <tr bgcolor="#efefef"><td valign="top"><b>Дополнительная информация</b></td><td><textarea type="text" class="text_forms" style="width:300px; height:70px" name="text"></textarea></td></tr>
 </table>
 <p style="font-size: 14pt;"><strong>Стоимость Вашего заказа: <span style="color: #f00;" id="price"></span>&nbsp;руб</strong></p>
-<p align="center"><input type="Hidden" name="form" value="1"><input type="reset" value="очистить форму" style="width:30%" class="button">&nbsp;<input type="button" onclick="checkRequired()" value="Заказать печать" style="width: 278px; height: 80px; background: #f90 url('/i/button.jpg') left top no-repeat; border: 0; color: #fff; font-size: 14pt;"></p>
+<p align="center"><input type="Hidden" name="form" value="1"><input type="reset" value="очистить форму" style="width:30%" class="button" hidden>&nbsp;<input type="button" onclick="checkRequired()" value="Заказать печать" style="width: 278px; height: 80px; background: #f90 url('/i/button.jpg') left top no-repeat; border: 0; color: #fff; font-size: 14pt;"></p>
 <script language="JavaScript">
 	function count_price()
 	{

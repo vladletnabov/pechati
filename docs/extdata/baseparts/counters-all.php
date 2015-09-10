@@ -53,14 +53,15 @@ if (preg_match('/\/forms_send.html/',$url)) {
 <!--end of Top100 logo -->
 
 <!-- Yandex.Metrika counter -->
-<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<!--<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
 <script type="text/javascript">
 try { var yaCounter114010 = new Ya.Metrika({id:114010,
           clickmap:true,
           accurateTrackBounce:true, webvisor:true});}
 catch(e) { }
 </script>
-<noscript><div><img src="//mc.yandex.ru/watch/114010" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript><div><img src="//mc.yandex.ru/watch/114010" style="position:absolute; left:-9999px;" alt="" /></div></noscript>-->
+	<?php require_once "counter-yandex.php" ?>
 <!-- /Yandex.Metrika counter -->
 </noindex>
 </div>

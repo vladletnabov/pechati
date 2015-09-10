@@ -93,4 +93,10 @@ function removeHTTP(url){
 						
 						return url;
 }
+
+function checkContactButton(button){
+	yaCounter114010.reachGoal(button);
+	return true;
+}
+
 </script>

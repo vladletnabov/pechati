@@ -18,7 +18,7 @@ var price2 = 450;
 		</td>
 		<td width="25%">
 <A href="javascript:void(window.open('http://www.pechati.ru/uslugi/osn_profline.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=750,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/colop-r3040.jpg" width=100 height=133></A>
-<p>Colop R 3040<BR>Диам. 45 мм.<BR><input type="Radio" name="osnast" value="Professional Line 5215 Диам. 45 мм." onClick="price2 = 1000; count_price();" id="osnast4"> <label for="osnast4">от 1000 руб.</label></p>
+<p>Colop R 3040<BR>Диам. 45 мм.<BR><input type="Radio" name="osnast" value="Professional Line 5215 Диам. 45 мм." onClick="price2 = 1000; count_price();" id="osnast4"> <label for="osnast4">от 1500 руб.</label></p>
 		</td>
 	</tr>
 	<tr valign="top" align="center">

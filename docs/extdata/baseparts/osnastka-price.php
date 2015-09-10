@@ -21,7 +21,7 @@ var price2 = 450;
 		</td>
 		<td width="25%">
 <A href="javascript:void(window.open('http://www.pechati.ru/uslugi/osn_profline.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=750,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/colop-r3040.jpg" width=100 height=133></A>
-<p>Colop R 3040<BR>Диам. 45 мм.<BR><input type="Radio" name="osnast" value="Professional Line 5215 Диам. 45 мм." onClick="price2 = 1000; count_price();" id="osnast4"> <label for="osnast4">от 1000 руб.</label></p>
+<p>Colop R 3040<BR>Диам. 45 мм.<BR><input type="Radio" name="osnast" value="Professional Line 5215 Диам. 45 мм." onClick="price2 = 1000; count_price();" id="osnast4"> <label for="osnast4">от 1500 руб.</label></p>
 		</td>
 	</tr>
 	<tr valign="top" align="center">
@@ -37,6 +37,6 @@ var price2 = 450;
 <p>Оснастка с гербом<BR>Диам. 40 мм.<BR><input type="Radio" name="osnast" value="Оснастка с гербом Диам. 40 мм." onClick="price2 = 0; count_price();" id="osnast7"> <label for="osnast7">Бесплатно.</label></p>
 		</td><td>
 <A href="javascript:void(window.open('http://www.pechati.ru/uslugi/elit_osn.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=1000,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/elit_osn.jpg" width=100 height=133></A>
-<p>Элитные оснастки<BR>от 1500 р.</p></td>
+<p>Элитные оснастки<BR>от 5500 р.</p></td>
 	</tr>
 </table>

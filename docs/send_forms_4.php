@@ -196,7 +196,8 @@ if($_POST[adress]){
 	error_log($str,0);
 }
 /*\po filialam*/
-$mail->AddBCC('pechati@russia.ru', ''); // кому - адрес, Имя
+//$mail->AddBCC('pechati@russia.ru', ''); // кому - адрес, Имя
+$mail->AddBCC('jm@pechati.ru', ''); // кому - адрес, Имя
 $mail->IsHTML(false);        // выставляем формат письма HTML
 $mail->Subject = $subject;
 if ($_FILES[pict]['error']==0) {
