@@ -25,9 +25,6 @@
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/19.html'" title="Изготовление печатей и штампов м. Беговая">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/19.html" class="area" title="Изготовление печатей и штампов м. Беговая"><strong>м. Беговая</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 585-81-62<br>Хорошевское шоссе 13А, к.2</div>
 	</div>
-	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/6.html'" title="Изготовление печатей и штампов м. Братиславская">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/6.html" class="area" title="Изготовление печатей и штампов м. Братиславская"><strong>м. Братиславская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(926)</strong> 498-20-48<br>ул. Перерва, д. 43а, 2-й этаж</div>
-	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/43.html'" title="Изготовление печатей и штампов м. Деловой центр">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/43.html" class="area" title="Изготовление печатей и штампов м. Деловой центр"><strong>м. Деловой центр</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 741-10-58<br>Пресненская набережная, д. 12</div>
 	</div>
@@ -57,6 +54,9 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/46.html" class="area" title="Изготовление печатей и штампов м. Марьина роща"><strong>м. Марьина роща</strong></a><br>Тел.: <strong>(916)</strong> 993-19-19<br>Стрелецкий проезд 4-й, д.4</div>
 	</div>
 	-->
+	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/6.html'" title="Изготовление печатей и штампов м. Марьино">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/6.html" class="area" title="Изготовление печатей и штампов м. Марьино"><strong>м. Марьино</strong></a><br>Тел.: <strong style="font-size: 8pt;">(926)</strong> 498-20-48<br>ул. Перерва, д. 43а, 2-й этаж</div>
+	</div>
 	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов в Митино">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/50.html" class="area" title="Изготовление печатей и штампов в Митино"><strong>Митино</strong></a><br>Тел.: <strong>(901)</strong> 57-57-074<br /> 4 филиала с единым номером </div>
 	</div>
