@@ -31,6 +31,9 @@
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/41.html'" title="Изготовление печатей и штампов м. Динамо">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/41.html" class="area" title="Изготовление печатей и штампов м. Динамо"><strong>м. Динамо</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 532-70-49<br>Хорошевское шоссе 13А, к.2</div>
 	</div>
+	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/27.html'" title="Изготовление печатей и штампов м. Петровско-Разумовская">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" class="area" title="Изготовление печатей и штампов м. Дмитровская"><strong>м. Дмитровская</strong></a><br>Тел.: <strong>(499)</strong> 394-03-32<br>Бескудниковский бульвар, д.2</div>
+	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/55.html'" title="Изготовление печатей и штампов м. Домодедовская">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/55.html" class="area" title="Изготовление печатей и штампов м. Домодедовская"><strong>м. Домодедовская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(925)</strong> 498-20-48<br>ул. Перерва, д. 43а, 2-й этаж</div>
 	</div>
@@ -88,9 +91,6 @@
 	</div>
 	<div class="cont1" onclick="document.location.href='/contacts/48.html'" title="Изготовление печатей и штампов м. Пионерская">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/48.html" class="area" title="Изготовление печатей и штампов м. Пионерская"><strong>м. Пионерская</strong></a><br>Тел.: <strong>(916)</strong> 500-75-83<br>ул. Кастанаевская, д. 54, к.3 "ТЦ Давыдково"</div>
-	</div>
-	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/27.html'" title="Изготовление печатей и штампов м. Петровско-Разумовская">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" class="area" title="Изготовление печатей и штампов м. Петровско-Разумовская"><strong>м. Петровско-Разумовская</strong></a><br>Тел.: <strong>(499)</strong> 394-03-32<br>Бескудниковский бульвар, д.2</div>
 	</div>
 	<div class="cont1" id="cont2_22" title="Изготовление печатей и штампов м. Пражская">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/22.html" class="area" title="Изготовление печатей и штампов м. Пражская"><strong>м. Пражская</strong></a><br>Тел.: <strong>(499)</strong> 391-97-27<br>ул. Варшавское шоссе, 129 к.2, эт.2, оф. 207</div>
