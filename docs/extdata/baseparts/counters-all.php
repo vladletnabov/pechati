@@ -71,3 +71,18 @@ catch(e) { }
 </noindex>
 </div>
 
+
+<?php 
+$db = mysql_connect('pechatiru.mysql','pechatiru_sql','pn8vr_jY');
+mysql_select_db('pechatiru_pechati', $db);
+$ip = $_SERVER['REMOTE_ADDR'];
+//echo "$ip $url";
+$result = mysql_query ("INSERT INTO ipcounter (ip, url) VALUES ('$ip', '$url')");
+if ($result == 'true'){
+	echo "+";
+}
+else{
+	echo "-";
+}
+
+?>

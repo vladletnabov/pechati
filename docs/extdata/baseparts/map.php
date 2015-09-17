@@ -328,50 +328,66 @@ label a{
 
 
 <div style="position:relative;">
-	<img src="/extdata/images/map.png" />
+	<img src="/extdata/images/map-45per.png" />
 	
 	
 	<!-- красная ветка -->
-	<div style="position:absolute; left:430px; top:450px; ">
+	<!--<div style="position:absolute; left:430px; top:450px; ">
 		<input id="filial1" type="radio" name="filialy" value="м. Комсомольская" hidden>
 			<label for="filial1"  class="red" ><a hidden>м. Комсомольская</a></label>
+	</div>-->	
+	<div style="position:absolute; left:190px; top:160px;">
+		<input id="filial2a" type="radio" name="filialy" value="м. Преображенская площадь" hidden>
+			<label for="filial2a"  class="red" ><a hidden>м. Преображенская площадь</a></label>
+	</div>	
+	<div style="position:absolute; left:105px; top:230px; ">
+		<input id="filial2b" type="radio" name="filialy" value="м. Спортивная" hidden>
+			<label for="filial2b"  class="red" ><a hidden>м. Спортивная</a></label>
 	</div>
-	<div style="position:absolute; left:180px; top:720px;">
+	<div style="position:absolute;  left:70px; top:275px; ">
 		<input id="filial2" type="radio" name="filialy" value="м. Юго-Западная" hidden>
 			<label for="filial2"  class="red" ><a hidden>м. Юго-Западная</a></label>
 	</div>
 	<!-- жёлтая ветка-->
-	<div style="position:absolute; left:500px; top:500px; z-index:15;">
+	<!--<div style="position:absolute; left:500px; top:500px; z-index:15;">
 		<input id="filial3" type="radio" name="filialy" value="м. Авиамоторная" hidden>
 			<label for="filial3"  class="yellow" ><a hidden>м. Авиамоторная</a></label>
-	</div>
-	<div style="position:absolute; left:620px; top:520px; ">
+	</div>-->
+	<div style="position:absolute; left:245px; top:200px; ">
 		<input id="filial4" type="radio" name="filialy" value="м. Новогиреево" hidden>
 			<label for="filial4"  class="yellow" ><a hidden>м. Новогиреево</a></label>
 	</div>
 	<!-- оранжевая ветка-->
-	<div style="position:absolute; left:390px; top:380px; ">
+	<!--<div style="position:absolute; left:390px; top:380px; ">
 		<input id="filial5" type="radio" name="filialy" value="м. Алексеевская" hidden>
 			<label for="filial5"  class="orange" ><a hidden>м. Алексеевская</a></label>
-	</div>
-	<div style="position:absolute; left:470px; top:220px; ">
+	</div>-->
+	<div style="position:absolute; left:170px; top:100px;">
 		<input id="filial6" type="radio" name="filialy" value="м. Бабушкинская" hidden>
 			<label for="filial6"  class="orange" ><a hidden>м. Бабушкинская</a></label>
 	</div>
-	<div style="position:absolute; left:260px; top:700px; ">
+	<div style="position:absolute; left:105px; top:270px; ">
 		<input id="filial6a" type="radio" name="filialy" value="male" hidden>
 			<label for="filial6a"  class="orange" ><a hidden>м. Новые черёмушки</a></label>
 	</div>
-	<div style="position:absolute; left:340px; top:550px; ">
+	<div style="position:absolute; left:125px; top:220px; ">
 		<input id="filial7" type="radio" name="filialy" value="male" hidden>
 			<label for="filial7"  class="orange" ><a hidden>м. Октябрьская</a></label>
 	</div>
 	<!-- серая ветка-->
-	<div style="position:absolute; left:350px; top:180px;">
+	<div style="position:absolute; left:120px; top:60px;">
 		<input id="filial8" type="radio" name="filialy" value="male" hidden>
 			<label for="filial8"  class="grey" ><a hidden>м. Алтуфьево</a></label>
 	</div>
-	<div style="position:absolute; left:350px; top:830px;  ">
+	<div style="position:absolute; left:130px; top:270px; ">
+		<input id="filial8a" type="radio" name="filialy" value="male" hidden>
+			<label for="filial8a"  class="grey" ><a hidden>м. Нахимовский проспект</a></label>
+	</div>
+	<div style="position:absolute; left:130px; top:160px;">
+		<input id="filial8b" type="radio" name="filialy" value="male" hidden>
+			<label for="filial8b"  class="grey" ><a hidden>м. Савеловская</a></label>
+	</div>
+	<!--<div style="position:absolute; left:350px; top:830px;  ">
 		<input id="filial" type="radio" name="filialy" value="male" hidden>
 			<label for="filial"  class="grey" ><a hidden>м. Пражская</a></label>
 	</div>
@@ -386,9 +402,9 @@ label a{
 	<div style="position:absolute; left:360px; top:780px;">
 		<input id="filial11" type="radio" name="filialy" value="male" hidden>
 			<label for="filial11"  class="grey" ><a hidden>м. Южная</a></label>
-	</div>
+	</div>-->
 	<!-- синяя ветка-->
-	<div style="position:absolute; left:370px; top:500px; ">
+	<!--<div style="position:absolute; left:370px; top:500px; ">
 		<input id="filial12" type="radio" name="filialy" value="male" hidden>
 			<label for="filial12"  class="blue" ><a hidden>м. Арбатская</a></label>
 	</div>
@@ -399,66 +415,66 @@ label a{
 	<div style="position:absolute;  left:40px; top:290px;">
 		<input id="filial14" type="radio" name="filialy" value="male" hidden>
 			<label for="filial14"  class="cadetblue" ><a hidden>м. Митино</a></label>
-	</div>
-	<div style="position:absolute; left:110px; top:520px; ">
+	</div>-->
+	<div style="position:absolute; left:30px; top:195px;">
 		<input id="filial15" type="radio" name="filialy" value="male" hidden>
-			<label for="filial15"  class="aqua" ><a hidden>м. Молоёжная</a></label>
+			<label for="filial15"  class="aqua" ><a hidden>м. Молодёжная</a></label>
 	</div>
-	<div style="position:absolute; left:190px; top:530px; ">
+	<!--<div style="position:absolute; left:190px; top:530px; ">
 		<input id="filial16" type="radio" name="filialy" value="male" hidden>
 			<label for="filial16"  class="aqua" ><a hidden>м. Пионерская</a></label>
 	</div>
 	<div style="position:absolute; left:620px; top:370px; ">
 		<input id="filial17" type="radio" name="filialy" value="male" hidden>
 			<label for="filial17"  class="blue" ><a hidden>м. Щёлковская</a></label>
-	</div>
-	<div style="position:absolute; left:475px; top:445px;">
+	</div>-->
+	<div style="position:absolute; left:180px; top:180px;">
 		<input id="filial17a" type="radio" name="filialy" value="male" hidden>
 			<label for="filial17a"  class="blue" ><a hidden>м. Электрозаводская</a></label>
 	</div>
 	<!-- фиолетовая ветка-->
-	<div style="position:absolute; left:280px; top:450px;">
+	<div style="position:absolute; left:105px; top:170px;">
 		<input id="filial18" type="radio" name="filialy" value="male" hidden>
 			<label for="filial18"  class="violet" ><a hidden>м. Беговая</a></label>
 	</div>
-	<div style="position:absolute; left:560px; top:590px;">
+	<!--<div style="position:absolute; left:560px; top:590px;">
 		<input id="filial19" type="radio" name="filialy" value="male" hidden>
 			<label for="filial19"  class="violet" ><a hidden>м. Кузьминки</a></label>
-	</div>
-	<div style="position:absolute;  left:190px; top:400px;">
+	</div>-->
+	<div style="position:absolute;  left:75px; top:165px;">
 		<input id="filial20" type="radio" name="filialy" value="male" hidden>
 			<label for="filial20"  class="violet" ><a hidden>м. Октябрьское поле</a></label>
 	</div>
-	<div style="position:absolute; left:400px; top:530px;">
+	<div style="position:absolute; left:160px; top:210px;">
 		<input id="filial21" type="radio" name="filialy" value="male" hidden>
 			<label for="filial21"  class="violet" ><a hidden>м. Таганская</a></label>
 	</div>
-	<div style="position:absolute; left:160px; top:370px;">
+	<!--<div style="position:absolute; left:160px; top:370px;">
 		<input id="filial22" type="radio" name="filialy" value="male" hidden>
 			<label for="filial22"  class="violet" ><a hidden>м. Щукинская</a></label>
 	</div>-->
 	<!-- светло-зелёная ветка-->
-	<div style="position:absolute; left:540px; top:700px;">
+	<!--<div style="position:absolute; left:540px; top:700px;">
 		<input id="filial23" type="radio" name="filialy" value="male" hidden>
 			<label for="filial23"  class="lightgreen" ><a hidden>м. Братиславская</a></label>
 	</div>
 	<div style="position:absolute; left:335px; top:410px; ">
 		<input id="filial24" type="radio" name="filialy" value="male" hidden>
 			<label for="filial24"  class="grey" ><a hidden>м. Марьина роща</a></label>
-	</div>
+	</div>-->
 	<!-- зелёная ветка-->
-	<div style="position:absolute; left:200px; top:310px;">
+	<div style="position:absolute; left:85px; top:140px;">
 		<input id="filial25" type="radio" name="filialy" value="male" hidden>
 			<label for="filial25"  class="green" ><a hidden>м. Водный стадион</a></label>
 	</div>
-	<div style="position:absolute;  left:295px; top:415px;">
+	<div style="position:absolute;  left:115px; top:150px;">
 		<input id="filial26" type="radio" name="filialy" value="male" hidden>
 			<label for="filial26"  class="green" ><a hidden>м. Динамо</a></label>
 	</div>
-	<div style="position:absolute; left:410px; top:730px;">
+	<!--<div style="position:absolute; left:410px; top:730px;">
 		<input id="filial27" type="radio" name="filialy" value="male" hidden>
 			<label for="filial27"  class="green" ><a hidden>м. Каширская</a></label>
-	</div>
+	</div>-->
 	
 	
 </div>
