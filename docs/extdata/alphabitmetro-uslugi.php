@@ -1,7 +1,7 @@
 <table cellpadding="0" cellspacing="5" border="0" width="100%" class="inline">
 	<tr valign="top">
 		<td width="33%">
-			<p><img src="/pics/line8.gif" width="19" height="9" alt="Авиамоторная" align="absmiddle"> <a href="/contacts/49.html" title="Изготовление печатей на Авиамоторной" >м. Авиамоторная</a></p> 
+			<!--<p><img src="/pics/line8.gif" width="19" height="9" alt="Авиамоторная" align="absmiddle"> <a href="/contacts/49.html" title="Изготовление печатей на Авиамоторной" >м. Авиамоторная</a></p> -->
 			<p><img src="/pics/line8.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/37.html" title="Сделать печать в Новогиреево" >м. Новогиреево</a></p>
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="Акадеическая" align="absmiddle"> <a href="/contacts/53.html" title="Изготовление печатей на Академической" >м. Академической</a></p>  
 		 	<p><img src="/pics/line6.gif" width="19" height="9" alt="Проспект Мира" align="absmiddle"> <a href="/contacts/39.html" title="Изготовление печатей на Алексеевской" >м. Алексеевская</a></p>   
@@ -11,12 +11,12 @@
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/56.html" title="Сделать печать или штамп на Третьяковской"  >м. Третьяковская</a></p>
 		<!--	<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/35.html">м. Ясенево</a></p>   -->
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/23.html" title="Печати и штампы в Алтуфьево"  >м. Алтуфьево</a></p>
-			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/52.html" title="Сделать печать в Нахимовский бульвар" >м. Нахимовский бульвар</a></p>
+			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/52.html" title="Сделать печать в Нахимовский проспект" >м. Нахимовский проспект</a></p>
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/22.html" title="Сделать печать на Пражской" >м. Пражская</a></p>
+			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" title="Изготовить печать на Савеловской" >м. Савеловская</a></p>
 			
 		</td>
 		<td width="34%">
-			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" title="Изготовить печать на Савеловской" >м. Савеловская</a></p>
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/33.html" title="Печати с защитой на Тульской"  >м. Тульская</a></p>			
 			<!--<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/9.html" title="Многоцветные печати на Цветном бульваре" >м. Цветной бульвар</a></p>-->
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/24.html" title="Изготовление печатей по оттиску на Южной" >м. Южная</a></p>
@@ -30,12 +30,12 @@
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/19.html" title="Заказать печать на Беговой"  >м. Беговая</a></p>
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/26.html" title="Сделать печать в Кузьминках" >м. Кузьминки</a></p>
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/12.html" title="Красконаполненные печати на Октябрьском поле" >м. Октябрьское поле</a></p>
-			
-		</td>
-		<td width="33%">		 
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/13.html" title="Изготовление гербовых печатей на Таганке" >м. Таганская</a></p>
 			<!--<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/42.html" title="Срочное Изготовление печатей на Щукинской" >м. Щукинская</a></p>-->
 			<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/6.html" title="Печати на заказ в Марьино" >м. Марьино</a></p>
+			
+		</td>
+		<td width="33%">		 
 			<!--<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/46.html" title="" >м. Марьина роща</a></p>-->
 			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/2.html" title="Печати на заказ м. Речной вокзал">м. Водный стадион</a></p>
 			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/41.html" title="Изготовление печатей по оттиску на Динамо"  >м. Динамо</a></p>	    
