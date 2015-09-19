@@ -15,11 +15,11 @@
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" title="Изготовить печать на Савеловской" >м. Савеловская</a></p>
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/33.html" title="Печати с защитой на Тульской"  >м. Тульская</a></p>
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/9.html" title="Многоцветные печати на Цветном бульваре" >м. Цветной бульвар</a></p>	
+			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/50.html" title="Изготовление факсимиле в Митино" >м. Митино</a></p>	
 		</td>
 		<td width="34%">			
 			<!--<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/5.html" title="Штампы и печати за час на Кунцевской" >м. Кунцевская</a></p>
 			<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/46.html" title="" >м. Марьина роща</a></p>-->
-			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/50.html" title="Изготовление факсимиле в Митино" >м. Митино</a></p>	
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/51.html" title="Изготовление факсимиле на Молодёжной" >м. Молодёжная</a></p>
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/48.html" title="Сделать печать на Пражской" >м. Пионерская</a></p>
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/14.html" title="Срочное изготовление печатей на Электрозаводской" >м. Электрозаводская</a></p>	 	

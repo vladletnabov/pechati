@@ -68,9 +68,6 @@
 	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов на Молодёжной">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/51.html" class="area" title="Изготовление печатей и штампов на Молодёжной"><strong>Молодёжная</strong></a><br>Тел.: <strong>(499)</strong> 714-68-28 <br /> ул. Ярцевская 22, стр.1 </div>
 	</div>
-	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/52.html'" title="Изготовление печатей и штампов м. Нахимовский проспект">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/10.html" class="area" title="Изготовление печатей и штампов м. Нахимовский проспект"><strong>м. Нахимовский проспект</strong></a><br>Тел.: <strong>(499)</strong> 724-50-02<br>ул.Гарибальди д.21, стр.6 </div>
-	</div>
 		</td>
 		<td width="240">
 	
