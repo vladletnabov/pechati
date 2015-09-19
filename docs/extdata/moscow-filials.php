@@ -1,9 +1,9 @@
 <table cellpadding="0" cellpadding="0" border="0" id="contacts1">
 	<tr valign="top">
 		<td width="240">
-	<div class="cont1 " onclick="document.location.href='/contacts/49.html'" title="Изготовление печатей и штампов м. Авиамоторная">
+	<!--<div class="cont1 " onclick="document.location.href='/contacts/49.html'" title="Изготовление печатей и штампов м. Авиамоторная">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/49.html" class="area" title="Изготовление печатей и штампов м. Авиамоторная"><strong>м. Авиамоторная</strong></a><br>Тел.: <strong style="font-size: 8pt;">(915)</strong> 377-0609<br>ул. Авиамоторная, д.14</div>
-	</div>
+	</div>-->
 	
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/10.html'" title="Изготовление печатей и штампов м. Академическая">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/10.html" class="area" title="Изготовление печатей и штампов м. Академическая"><strong>м. Академическая</strong></a><br>Тел.: <strong>(499)</strong> 724-50-02<br>ул.Гарибальди д.21, стр.6 </div>
@@ -67,6 +67,9 @@
 	
 	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов на Молодёжной">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/51.html" class="area" title="Изготовление печатей и штампов на Молодёжной"><strong>Молодёжная</strong></a><br>Тел.: <strong>(499)</strong> 714-68-28 <br /> ул. Ярцевская 22, стр.1 </div>
+	</div>
+	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/52.html'" title="Изготовление печатей и штампов м. Нахимовский проспект">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/10.html" class="area" title="Изготовление печатей и штампов м. Нахимовский проспект"><strong>м. Нахимовский проспект</strong></a><br>Тел.: <strong>(499)</strong> 724-50-02<br>ул.Гарибальди д.21, стр.6 </div>
 	</div>
 		</td>
 		<td width="240">
