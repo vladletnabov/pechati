@@ -32,6 +32,7 @@ $mailfilial = array(
 	//"м. Медведково"=>'5422661@mail.ru',
 	"м. Митино"=>'mitino@pechati.ru',
 	"м. Молодёжная"=>'mld@pechati.ru',
+	"м. Нахимовский проспект"=>'l1@pechati.ru',
 	"м. Новослободская"=>'5454842@mail.ru',
 	//"м. Новые черемушки"=>'5002@pechati.ru',
 	"м. Новогиреево"=>'perovo@pechati.ru',
