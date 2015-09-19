@@ -149,7 +149,7 @@ var price2 = 450;
 				</div>
 				<div class="osnatka-icon" style="width:24%; margin:0;padding:0;display:inline;float:left;">
 					<IMG border=0 src="../pics/uslugi/colop-r3040.jpg" width=100 height=133  onclick="runEffect(4);">
-					<p>Colop R 3040<BR>Диам. 45 мм.<BR><input type="Radio" name="osnast" value="Professional Line 5215 Диам. 45 мм." onClick="price2 = 1000; count_price();" id="osnast4"> <label for="osnast4">от 1500 руб.</label></p>
+					<p>Colop R 3040<BR>Диам. 45 мм.<BR><input type="Radio" name="osnast" value="Professional Line 5215 Диам. 45 мм." onClick="price2 = 1500; count_price();" id="osnast4"> <label for="osnast4">от 1500 руб.</label></p>
 				</div>
 				<div id="osnastka1" class="oshastka-akkord">
 					<div>
