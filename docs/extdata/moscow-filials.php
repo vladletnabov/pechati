@@ -80,6 +80,10 @@
     <div class="cont1 date1 date2" onclick="document.location.href='/contacts/37.html'" title="Изготовление печатей и штампов м. Новогиреево">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/37.html" class="area" title="Изготовление печатей и штампов м. Новогиреево"><strong>м. Новогиреево</strong></a><br>Тел.: <strong>(916)</strong> 232-80-30<br>Свободный пр-т. д.33а</div>
 	</div>
+	
+    <div class="cont1 date1 date2" onclick="document.location.href='/contacts/37.html'" title="Изготовление печатей и штампов м. Новогиреево">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/58.html" class="area" title="Изготовление печатей и штампов м. Новогиреево"><strong>м. Новокосино</strong></a><br>Тел.: <strong>(916)</strong> 232-80-30<br>Свободный пр-т. д.33а</div>
+	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/10.html'" title="Изготовление печатей и штампов м. Новые Черемушки">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/10.html" class="area" title="Изготовление печатей и штампов м. Новые Черемушки"><strong>м. Новые Черемушки</strong></a><br>Тел.: <strong>(499)</strong> 724-50-02<br>ул.Гарибальди д.21, стр.6 </div>
 	</div>
