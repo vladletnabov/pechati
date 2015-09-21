@@ -8,7 +8,7 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/18.html" class="area" title="Изготовление печатей и штампов Одинцово"><strong>г. Одинцово</strong></a><br>Тел.: <strong>(495)</strong> 973-5008<br>ул. Союзная 1В</div>
 	</div>
 		<div class="cont1 date1 date2" onclick="document.location.href='/contacts/20.html'" style="width: 189px;" title="Изготовление печатей и штампов Зеленоград">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/20.html" class="area" title="Изготовление печатей и штампов Зеленоград"><strong>г. Зеленоград, г. Солнечногорск </strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 664-37-18<br>Панфиловский пр-т, д.10</div>
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/20.html" class="area" title="Изготовление печатей и штампов Зеленоград"><strong>г. Зеленоград, г. Солнечногорск </strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 664-37-18<br>ул. Панфилова д.30</div>
 	</div>
 		<div class="cont1 date1 date2" onclick="document.location.href='/contacts/40.html'" style="width: 189px;" title="Изготовление печатей и штампов р-н Солнцево">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/40.html" class="area" title="Изготовление печатей и штампов р-н Солнцево"><strong>р-н Солнцево</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 410-18-85<br>ул. 50 лет Октября, д. 4, офис 121</div>
