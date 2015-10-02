@@ -1267,7 +1267,289 @@ $form['form-3'] = array(
 	)
 );
 
+$form['rstamp'] = array(
+	'fields' => array(
+		'name' => array(
+			'title' => 'Имя',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '3',
+				'maxlength' => '35',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'tell' => array(
+			'title' => 'Телефон',
+			'validate' => array(
+				'preg' => "/^((8|\+)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{5,10}$/",
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'e-mail' => array(
+			'title' => 'E-mail',
+			'validate' => array(
+				'preg' => '%@%is',
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'rstamp' => array(
+			'title' => 'Модель оснастки',
+			'validate' => array(
+				'minlength' => '1',
+			),
+			'messages' => array(
+				'minlength' => '[ %1$s ] необходимо выбрать',
+			)
+		),
+	),
+	'cfg' => array(
+		'charset' => 'utf-8',
+		'subject' => 'Оснастка для печатей Shiny круглая',
+		'title' => 'Оснастка для печатей Shiny круглая',
+		'ajax' => true,
+		'validate' => true,
+		'from_email' => 'taganka@pechati.ru',
+		'from_name' => 'zakaz',
+		'to_email' => 'taganka@pechati.ru',
+		'to_name' => 'Таганка',
+		'geoip' => true,
+		'referer' => true,
+		'type' => 'html',
+		'tpl' => true,
+		'antispam' => 'email77',
+		'antispamjs' => 'address77',
+		'okay' => 'Заказ зарегистрирован - УСПЕШНО',
+		'fuck' => 'Заказ зарегистрирован - ОШИБКА',
+		'spam' => 'Cпам робот',
+		'notify' => 'color-modal-textbox',
+		'usepresuf' => false,
+	)
+);
 
+$form['sstamp'] = array(
+	'fields' => array(
+		'name' => array(
+			'title' => 'Имя',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '3',
+				'maxlength' => '35',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'tell' => array(
+			'title' => 'Телефон',
+			'validate' => array(
+				'preg' => "/^((8|\+)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{5,10}$/",
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'e-mail' => array(
+			'title' => 'E-mail',
+			'validate' => array(
+				'preg' => '%@%is',
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'sstamp' => array(
+			'title' => 'Модель оснастки',
+			'validate' => array(
+				'minlength' => '1',
+			),
+			'messages' => array(
+				'minlength' => '[ %1$s ] необходимо выбрать',
+			)
+		),
+	),
+	'cfg' => array(
+		'charset' => 'utf-8',
+		'subject' => 'Оснастка для штампов Shiny малого размера',
+		'title' => 'Оснастка для штампов Shiny малого размера',
+		'ajax' => true,
+		'validate' => true,
+		'from_email' => 'taganka@pechati.ru',
+		'from_name' => 'zakaz',
+		'to_email' => 'taganka@pechati.ru',
+		'to_name' => 'Таганка',
+		'geoip' => true,
+		'referer' => true,
+		'type' => 'html',
+		'tpl' => true,
+		'antispam' => 'email77',
+		'antispamjs' => 'address77',
+		'okay' => 'Заказ зарегистрирован - УСПЕШНО',
+		'fuck' => 'Заказ зарегистрирован - ОШИБКА',
+		'spam' => 'Cпам робот',
+		'notify' => 'color-modal-textbox',
+		'usepresuf' => false
+	)
+);
+
+$form['mstamp'] = array(
+	'fields' => array(
+		'name' => array(
+			'title' => 'Имя',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '3',
+				'maxlength' => '35',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'tell' => array(
+			'title' => 'Телефон',
+			'validate' => array(
+				'preg' => "/^((8|\+)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{5,10}$/",
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'e-mail' => array(
+			'title' => 'E-mail',
+			'validate' => array(
+				'preg' => '%@%is',
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'mstamp' => array(
+			'title' => 'Модель оснастки',
+			'validate' => array(
+				'minlength' => '1',
+			),
+			'messages' => array(
+				'minlength' => '[ %1$s ] необходимо выбрать',
+			)
+		),
+	),
+	'cfg' => array(
+		'charset' => 'utf-8',
+		'subject' => 'Оснастка для штампов Shiny среднего размера',
+		'title' => 'Оснастка для штампов Shiny среднего размера',
+		'ajax' => true,
+		'validate' => true,
+		'from_email' => 'taganka@pechati.ru',
+		'from_name' => 'zakaz',
+		'to_email' => 'taganka@pechati.ru',
+		'to_name' => 'Таганка',
+		'geoip' => true,
+		'referer' => true,
+		'type' => 'html',
+		'tpl' => true,
+		'antispam' => 'email77',
+		'antispamjs' => 'address77',
+		'okay' => 'Заказ зарегистрирован - УСПЕШНО',
+		'fuck' => 'Заказ зарегистрирован - ОШИБКА',
+		'spam' => 'Cпам робот',
+		'notify' => 'color-modal-textbox',
+		'usepresuf' => false
+	)
+);
+
+$form['bstamp'] = array(
+	'fields' => array(
+		'name' => array(
+			'title' => 'Имя',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '3',
+				'maxlength' => '35',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'tell' => array(
+			'title' => 'Телефон',
+			'validate' => array(
+				'preg' => "/^((8|\+)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{5,10}$/",
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'e-mail' => array(
+			'title' => 'E-mail',
+			'validate' => array(
+				'preg' => '%@%is',
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+		'bstamp' => array(
+			'title' => 'Модель оснастки',
+			'validate' => array(
+				'minlength' => '1',
+			),
+			'messages' => array(
+				'minlength' => '[ %1$s ] необходимо выбрать',
+			)
+		),
+	),
+	'cfg' => array(
+		'charset' => 'utf-8',
+		'subject' => 'Оснастка для штампов Shiny большого размера',
+		'title' => 'Оснастка для штампов Shiny большого размера',
+		'ajax' => true,
+		'validate' => true,
+		'from_email' => 'taganka@pechati.ru',
+		'from_name' => 'zakaz',
+		'to_email' => 'taganka@pechati.ru',
+		'to_name' => 'Таганка',
+		'geoip' => true,
+		'referer' => true,
+		'type' => 'html',
+		'tpl' => true,
+		'antispam' => 'email77',
+		'antispamjs' => 'address77',
+		'okay' => 'Заказ зарегистрирован - УСПЕШНО',
+		'fuck' => 'Заказ зарегистрирован - ОШИБКА',
+		'spam' => 'Cпам робот',
+		'notify' => 'color-modal-textbox',
+		'usepresuf' => false
+	)
+);
 
 
 if($act == 'cfg') {
