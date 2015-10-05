@@ -1,4 +1,4 @@
-<p align="center"><h3>Автоматическая оснастка для малых штампов</h3></p>
+<!--<p align="center"><h3>Автоматическая оснастка для малых штампов</h3></p>
 			<table cellpadding="5" cellspacing="0" border="0" width="99%" align="center">
 				<tr valign="top" align="center">
 					<td width="33%">
@@ -35,3 +35,38 @@
 <p><strong>Размер поля</strong></p>
 <p><img src="../pics/uslugi/osn_automat_mal.gif" width="400" height="150" alt=""></p>
 </div>
+-->
+
+    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-2.css">
+    <script src="/extdata/osnastka-slider/js/initslider-2.js"></script>
+<h3>Автоматическая оснастка для малых штампов</h3>
+
+<!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-wrapper-2" style="display:block;position:relative;max-width:600px;margin:0px auto;">
+        <div id="amazingslider-2" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="/extdata/osnastka-slider/images/am-colop-p-60.jpg" alt="200 р."  title="200 р." data-description="Для малых штампов<br />Colop Printer 60" />
+                </li>
+                <li><img src="/extdata/osnastka-slider/images/am-grm-4913.jpg" alt="200 р."  title="200 р." data-description="Для малых штампов<br />GRM 4913 2Pads" />
+                </li>
+                <li><img src="/extdata/osnastka-slider/images/am-shiny-p-s844.jpg" alt="200 р."  title="200 р." data-description="Для малых штампов<br />Shiny Printer S-842" />
+                </li>
+                <li><img src="/extdata/osnastka-slider/images/am-shiny-s843.jpg" alt="200 р."  title="200 р." data-description="Для малых штампов<br />Shiny Printer S-842" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="/extdata/osnastka-slider/images/am-colop-p-60-tn.jpg" alt="200 р." title="200 р." /></li>
+                <li><img src="/extdata/osnastka-slider/images/am-grm-4913-tn.jpg" alt="200 р." title="200 р." /></li>
+                <li><img src="/extdata/osnastka-slider/images/am-shiny-p-s844-tn.jpg" alt="200 р." title="200 р." /></li>
+                <li><img src="/extdata/osnastka-slider/images/am-shiny-s843-tn.jpg" alt="200 р." title="200 р." /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Slideshow">Responsive jQuery Slideshow</a></div>
+        </div>
+		<div style="position:absolute; top:25px; left:5px; z-index:1000; border: 2px solid navy;padding:3px;-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	transform: rotate(-15deg);"><a href="pechati.ru" style="text-decoration:none; color:navy;font:16px Arial,Tahoma,Helvetica,sans-serif; ">Печати.RU</a></div>
+	<div style="height:45px;"></div>
+    </div>
+    <!-- End of body section HTML codes -->

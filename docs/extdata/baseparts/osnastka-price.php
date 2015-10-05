@@ -41,6 +41,28 @@ var price2 = 450;
 	</tr>
 </table>-->
 
+
+    <!--<script src="/extdata/osnastka-slider/js/jquery.js"></script>
+    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-1.css">
+    <script src="/extdata/osnastka-slider/js/initslider-1.js"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-2.css">
+    <script src="/extdata/osnastka-slider/js/initslider-2.js"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-3.css">
+    <script src="/extdata/osnastka-slider/js/initslider-3.js"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-4.css">
+    <script src="/extdata/osnastka-slider/js/initslider-4.js"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-5.css">
+    <script src="/extdata/osnastka-slider/js/initslider-5.js"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-6.css">
+    <script src="/extdata/osnastka-slider/js/initslider-6.js"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-7.css">
+    <script src="/extdata/osnastka-slider/js/initslider-7.js"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-8.css">
+    <script src="/extdata/osnastka-slider/js/initslider-8.js"></script>-->
+
+
+
 <script>
 var price2 = 450;
 </script>
