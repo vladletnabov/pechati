@@ -37,34 +37,110 @@
 			</table>
 -->
 
-    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
-    <link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-1.css">
-    <script src="/extdata/osnastka-slider/js/initslider-1.js"></script>
+<script>
+$(document).ready(function(){
+  $('.autoplay').slick({
+		slidesToShow: 3,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 2000,
+  });
+});
+				
+</script>
+
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick-theme.css"/>
+<script type="text/javascript" src="/extdata/osnastka-slider2/slick/slick.min.js"></script>
+
+    <!--<script src="/extdata/osnastka-slider2/js/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/js/amazingslider-1.css">
+    <script src="/extdata/osnastka-slider2/js/initslider-1.js"></script>-->
 	<h1 style="margin-top:-20px;">Автоматические оснастки</h1>
-<!-- Insert to your webpage where you want to display the slider -->
+	
+	<div class="autoplay" style="width:600px;">
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/a-colop-p-r40.jpg" alt="a-colop-p-r40"  title="700 р." data-description="Автоматическая оснастка <br />Colop Pocket Stamp R40" />
+				<div class="text-slider">
+					<div class="title-slider">700 р.</div>
+					<div class="description-slider">Автоматическая оснастка <br />Colop Pocket Stamp R40<br /> </div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/a-colop-r40.gif" alt="a-colop-r40"  title="450 р." data-description="Автоматическая оснастка <br />Colop R40" />
+				<div class="text-slider">
+					<div class="title-slider">450 р.</div>
+					<div class="description-slider">Автоматическая оснастка <br />Colop R40<br /> </div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/a-color-r2045.jpg" alt="a-color-r2045"  title="1500 р." data-description="Печать с усиленной конструкцией<br />ДЛЯ ПЕЧАТЕЙ ПО ГОСТ" />
+				<div class="text-slider">
+					<div class="title-slider">1500 р.</div>
+					<div class="description-slider">Печать с усиленной конструкцией<br />ДЛЯ ПЕЧАТЕЙ ПО ГОСТ </div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/a-shiny-r542.jpg" alt="a-shiny-r542"  title="450 р." data-description="Автоматическая оснастка <br />Shiny R542 для круглой печати" />
+				<div class="text-slider">
+					<div class="title-slider">450 р.</div>
+					<div class="description-slider">Автоматическая оснастка <br />Shiny R542 для круглой печати </div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/a-shiny-s542.jpg" alt="a-shiny-s542"  title="450 р." data-description="Автоматическая оснастка <br />Shiny S542 для круглой печати" />
+				<div class="text-slider">
+					<div class="title-slider">450 р.</div>
+					<div class="description-slider">Автоматическая оснастка <br />Shiny S542 для круглой печати </div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/a-shiny-sq42.jpg" alt="a-shiny-sq42"  title="400 р." data-description="Полуавтоматическая оснастка <br />Shiny SQ42 для печатей и штампов" />
+				<div class="text-slider">
+					<div class="title-slider">400 р.</div>
+					<div class="description-slider">Полуавтоматическая оснастка <br />Shiny SQ42 для печатей и штампов</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+<!-- Insert to your webpage where you want to display the slider 
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:600px;margin:0px auto;">
         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/extdata/osnastka-slider/images/a-colop-p-r40.jpg" alt="a-colop-p-r40"  title="700 р." data-description="Автоматическая оснастка <br />Colop Pocket Stamp R40" />
+                <li><img src="/extdata/osnastka-slider2/images/a-colop-p-r40.jpg" alt="a-colop-p-r40"  title="700 р." data-description="Автоматическая оснастка <br />Colop Pocket Stamp R40" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/a-colop-r40.gif" alt="a-colop-r40"  title="450 р." data-description="Автоматическая оснастка <br />Colop R40" />
+                <li><img src="/extdata/osnastka-slider2/images/a-colop-r40.gif" alt="a-colop-r40"  title="450 р." data-description="Автоматическая оснастка <br />Colop R40" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/a-color-r2045.jpg" alt="a-color-r2045"  title="1500 р." data-description="Печать с усиленной конструкцией<br />ДЛЯ ПЕЧАТЕЙ ПО ГОСТ" />
+                <li><img src="/extdata/osnastka-slider2/images/a-color-r2045.jpg" alt="a-color-r2045"  title="1500 р." data-description="Печать с усиленной конструкцией<br />ДЛЯ ПЕЧАТЕЙ ПО ГОСТ" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/a-shiny-r542.jpg" alt="a-shiny-r542"  title="450 р." data-description="Автоматическая оснастка <br />Shiny R542 для круглой печати" />
+                <li><img src="/extdata/osnastka-slider2/images/a-shiny-r542.jpg" alt="a-shiny-r542"  title="450 р." data-description="Автоматическая оснастка <br />Shiny R542 для круглой печати" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/a-shiny-s542.jpg" alt="a-shiny-s542"  title="450 р." data-description="Автоматическая оснастка <br />Shiny S542 для круглой печати" />
+                <li><img src="/extdata/osnastka-slider2/images/a-shiny-s542.jpg" alt="a-shiny-s542"  title="450 р." data-description="Автоматическая оснастка <br />Shiny S542 для круглой печати" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/a-shiny-sq42.jpg" alt="a-shiny-sq42"  title="400 р." data-description="Полуавтоматическая оснастка <br />Shiny SQ42 для печатей и штампов" />
+                <li><img src="/extdata/osnastka-slider2/images/a-shiny-sq42.jpg" alt="a-shiny-sq42"  title="400 р." data-description="Полуавтоматическая оснастка <br />Shiny SQ42 для печатей и штампов" />
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
-                <li><img src="/extdata/osnastka-slider/images/a-colop-p-r40-tn.jpg" alt="a-colop-p-r40" title="a-colop-p-r40" /></li>
-                <li><img src="/extdata/osnastka-slider/images/a-colop-r40-tn.gif" alt="a-colop-r40" title="a-colop-r40" /></li>
-                <li><img src="/extdata/osnastka-slider/images/a-color-r2045-tn.jpg" alt="a-color-r2045" title="a-color-r2045" /></li>
-                <li><img src="/extdata/osnastka-slider/images/a-shiny-r542-tn.jpg" alt="a-shiny-r542" title="a-shiny-r542" /></li>
-                <li><img src="/extdata/osnastka-slider/images/a-shiny-s542-tn.jpg" alt="a-shiny-s542" title="a-shiny-s542" /></li>
-                <li><img src="/extdata/osnastka-slider/images/a-shiny-sq42-tn.jpg" alt="a-shiny-sq42" title="a-shiny-sq42" /></li>
+                <li><img src="/extdata/osnastka-slider2/images/a-colop-p-r40-tn.jpg" alt="a-colop-p-r40" title="a-colop-p-r40" /></li>
+                <li><img src="/extdata/osnastka-slider2/images/a-colop-r40-tn.gif" alt="a-colop-r40" title="a-colop-r40" /></li>
+                <li><img src="/extdata/osnastka-slider2/images/a-color-r2045-tn.jpg" alt="a-color-r2045" title="a-color-r2045" /></li>
+                <li><img src="/extdata/osnastka-slider2/images/a-shiny-r542-tn.jpg" alt="a-shiny-r542" title="a-shiny-r542" /></li>
+                <li><img src="/extdata/osnastka-slider2/images/a-shiny-s542-tn.jpg" alt="a-shiny-s542" title="a-shiny-s542" /></li>
+                <li><img src="/extdata/osnastka-slider2/images/a-shiny-sq42-tn.jpg" alt="a-shiny-sq42" title="a-shiny-sq42" /></li>
             </ul>
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Slider jQuery">Slider jQuery</a></div>
 		
@@ -76,4 +152,4 @@
 	<div style="height:45px;"></div>
 	
     </div>
-    <!-- End of body section HTML codes -->
+	End of body section HTML codes -->
