@@ -6,7 +6,7 @@
 			<p><img src="/pics/line8.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/37.html" title="Сделать печать в Новогиреево" >м. Новогиреево</a></p>
 			<p><img src="/pics/line8.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/58.html" title="Сделать печать в Новокосино" >м. Новокосино</a></p>
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="Акадеическая" align="absmiddle"> <a href="/contacts/53.html" title="Изготовление печатей на Академической" >м. Академической</a></p>  
-		 	<p><img src="/pics/line6.gif" width="19" height="9" alt="Алексеевская" align="absmiddle"> <a href="/contacts/39.html" title="Изготовление печатей на Алексеевской" >м. Алексеевская</a></p>  
+		 	<p><img src="/pics/line6.gif" width="19" height="9" alt="Алексеевская" align="absmiddle"> <a href="/contacts/39.html" title="Изготовление печатей на Алексеевской" >м. Алексеевская</a></p> 
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/16.html" title="Сделать печать или штамп на Бабушкинской"  >м. Бабушкинская</a></p> 
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/10.html" title="Изготовление печатей по оттиску в Новых Черемушках" >м. Новые черемушки</a></p>
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/11.html" title="Печати с защитой на Октябрьской" >м. Октябрьская</a></p>

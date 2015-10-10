@@ -22,6 +22,12 @@ var price1 = 550;
 <P align=center><input type="Radio" name="srok" value="Печать, штамп по оттиску за 1 день" onClick="price1 = 850; count_price();" id="srok1"> <label for="srok1">850</label></P></TD>
 <TD>
 <P align=center><input type="Radio" name="srok" value="Печать, штамп по оттиску срочно" onClick="price1 = 1400; count_price();" id="srok2"> <label for="srok2">1400</label></P></TD></TR>
+<TR bgcolor="#ebeaef">
+<TD>Изготовление печатей <b>БЕСПЛАТНО</b></TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" onClick="price1 = 0; count_price();" id="srok23"> <label for="srok23">Бесплатно</label></P></TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно" onClick="price1 = 0; count_price();" id="srok24"> <label for="srok4">Бесплатно</label></P></TD></TR>
 <tr>
 		<td colspan="3">
 <a name="uslugi"></a><p align="center"><strong>Дополнительные услуги</strong></p>
@@ -36,11 +42,16 @@ var price1 = 550;
 		<td align="left">Изготовление клише из резины</td>
 		<td>+ 250</td>
 		<td>+ 450</td>
-	</tr>
+	</tr>	
 </TABLE></P>
+<UL>
+<LI>
+<P align=justify>БЕСПЛАТНОЕ изготовление печати при условии открытия счёта в Банке "Открытие". Подробности узнавайте у наших менеджеров.</P></li>
+</UL>
+
 <a name="ceny"></a><P align=justify>Все цены указаны в рублях РФ без стоимости оснастки. </P>
 <UL>
 <LI>
-<P align=justify>Доставка по Москве ОДНОЙ-ДВУХ печатей - 300р, от трёх единиц - <B>бесплатно!</B> </P>
+<P align=justify>Доставка по Москве ОДНОЙ-ДВУХ печатей - 300р, от трёх единиц - <B>бесплатно!</B> </P></li>
 <LI>
 <P align=justify>По желанию заказчика мы можем разместить на печати ПРОСТЫЕ элементы защиты: оригинальные шрифты, отсутствующие элементы в буквах, изображениях или звёздочках, имитация заплыва краски, кляксы, имитация дефекта клише.</P></LI></UL>

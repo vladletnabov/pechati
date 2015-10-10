@@ -100,5 +100,6 @@
 <p ><strong style="font-size: 20px;"><u>ƒополнительные услуги:<br></u></strong>- заправка лазерных картриджей (всех моделей);<br>- продажа новых и восстановленных лазерных картриджей;<br>- ремонт оргтехники.</p>
 
 
+<script src="/extdata/js/yamap-begovaya.js" type="text/javascript"></script>
 
 <div id="map" style="height:500px; width:945px;margin-left:-35px;"></div>
