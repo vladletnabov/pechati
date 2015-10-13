@@ -269,3 +269,38 @@ table{
     padding: 0 0 0 10px;
 	min-height: 60px;
 }
+
+.text-slider2 {
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+	/*position: absolute;
+	bottom:0;*/
+	width:190px;
+}
+
+.title-slider2 {
+    display: table;
+    position: relative;
+    font: 24px Georgia,serif,Arial;
+    color: #e04000;
+    white-space: nowrap;
+}
+.description-slider2 {
+    display: block;
+    position: relative;
+    font: 12px "Lucida Sans Unicode","Lucida Grande",sans-serif,Arial;
+    color: #fff;
+    /*background-color: #e04000;*/
+	background-image: url(/extdata/osnastka-slider2/images/text-bg.png);
+    margin: 10px 0 0 0;
+    padding: 0 0 0 10px;
+	min-height: 60px;
+}
+
+.text-header-slider{
+	font-size:2em;
+	color: #e04000;
+	text-align:center;
+	
+}

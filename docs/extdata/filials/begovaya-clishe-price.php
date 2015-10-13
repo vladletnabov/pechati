@@ -35,10 +35,10 @@ var price1 = 1050;
 	</TR>
 	<TR bgcolor="#ebeaef">
 		<TD>Изготовление печатей <b>БЕСПЛАТНО</b>*</TD>
-		<TD>
+		<TD colspan="3">
 		<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" onClick="price1 = 0; count_price();" id="srok23"> <label for="srok23">Бесплатно</label></P></TD>
-		<TD>
-		<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно" onClick="price1 = 0; count_price();" id="srok24"> <label for="srok4">Бесплатно</label></P></TD>
+		<!--<TD>
+		<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно" onClick="price1 = 0; count_price();" id="srok24"> <label for="srok4">Бесплатно</label></P></TD>-->
 	</TR>
 	<TR bgcolor="#ebeaef">
 		<TD>Печати <strong>по ОТТИСКУ</strong></TD>

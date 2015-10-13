@@ -2,26 +2,26 @@
   <table width="495" border="0">
     <tr>
     <td>&nbsp;</td>
-    <td colspan="3"><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> р-н Солнцево<br><br></td>
+    <td colspan="3"><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> р-н Ново-Переделкино<br><br></td>
     <td colspan="4"><strong>График работы</strong></td>
     </tr>
   <tr>
     <td>&nbsp;</td>
-    <td colspan="3">г. Москва, ул. 50 лет Октября, д. 4, офис 121 </td>
+    <td colspan="3">г. Москва, Боровское шоссе, д. 51, павильон № 6568 </td>
     <td colspan="2" rowspan="5">пн<br>
       вт<br>
       ср<br>
       чт<br>
       пт<br>
-  <br>
-      сб<br>вс<br></td>
+      сб<br>
+	  вс<br></td>
     <td width="90" rowspan="5">10:00-19:00<br>
       10:00-19:00<br>
       10:00-19:00<br>
       10:00-19:00<br>
       10:00-19:00<br>
-  <br>
-      по   договорённости</td>
+      10:00-19:00<br>
+      10:00-19:00<br></td>
     <td width="16">&nbsp;</td>
     </tr>
   <tr>
@@ -33,10 +33,7 @@
     </tr>
   <tr>
     <td>&nbsp;</td>
-    <td>Тел.: <strong>(495) 410-18-85</strong></td>
-    <td>&nbsp;</td>
-    <td>Моб.: <strong>(985) 410-18-85</strong></td>
-    <td>&nbsp;</td>
+    <td>Тел.: <strong>(916) 161-80-60</strong></td>
   </tr>
   <tr>
     <td>&nbsp;</td>
@@ -55,11 +52,14 @@
 
 </table>
 
-<img src="/pics/contacts/solncevo/s1.jpeg" /><br />
-<img src="/pics/contacts/solncevo/s2.jpeg" /><br />
-<img src="/pics/contacts/solncevo/s3.jpeg" /><br />
-<img src="/pics/contacts/solncevo/s4.jpeg" /><br />
+<img src="/pics/contacts/novo-peredelkino/p1.jpg" /><br />
+<img src="/pics/contacts/novo-peredelkino/p2.jpg" /><br />
+<img src="/pics/contacts/novo-peredelkino/p3.jpg" /><br />
+<img src="/pics/contacts/novo-peredelkino/p4.jpg" /><br />
+<img src="/pics/contacts/novo-peredelkino/p5.jpg" /><br />
+<img src="/pics/contacts/novo-peredelkino/p6.jpg" /><br />
 <p><br>
-<script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=9i4qKcP8jhLW49uAVBp-qZFQXeDZ6Ksh&width=490&height=450"></script>
+	<script src="/extdata/js/yamap-novo-peredelkino.js" type="text/javascript"></script>
 
+<div id="map" style="height:500px; width:945px;margin-left:-35px;"></div>
 </div>

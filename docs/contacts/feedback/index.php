@@ -72,6 +72,119 @@ $form['quick-zakaz-begovaya'] = array(
 	)
 );
 
+$form['quick-zakaz-vodniy'] = array(
+	'fields' => array(
+		'name' => array(
+			'title' => 'Имя',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '3',
+				'maxlength' => '35',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		/*'tell' => array(
+			'title' => 'Телефон',
+			'validate' => array(
+				'preg' => "/^((8|\+)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{5,10}$/",
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),*/
+		'e-mail' => array(
+			'title' => 'E-mails',
+			'validate' => array(
+				'preg' => '%@%is',
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+	),
+	'cfg' => array(
+		'charset' => 'utf-8',
+		'subject' => 'Быстрый заказ печати на Водном стадионе',
+		'title' => 'Быстрый заказ печати на Водном стадионе',
+		'ajax' => true,
+		'validate' => true,
+		'from_email' => 'vs@pechati.ru',
+		'from_name' => 'zakaz',
+		'to_email' => 'vs@pechati.ru',
+		'to_name' => 'Водный стадион',
+		'geoip' => true,
+		'referer' => true,
+		'type' => 'html',
+		'tpl' => true,
+		'antispam' => 'email77',
+		'antispamjs' => 'address77',
+		'okay' => 'Заказ зарегистрирован - УСПЕШНО',
+		'fuck' => 'Заказ зарегистрирован - ОШИБКА',
+		'spam' => 'Cпам робот',
+		'notify' => 'color-modal-textbox',
+		'usepresuf' => false
+	)
+);
+
+$form['quick-zakaz-electrozavodskaya'] = array(
+	'fields' => array(
+		'name' => array(
+			'title' => 'Имя',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '3',
+				'maxlength' => '35',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'e-mail' => array(
+			'title' => 'E-mails',
+			'validate' => array(
+				'preg' => '%@%is',
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+	),
+	'cfg' => array(
+		'charset' => 'utf-8',
+		'subject' => 'Быстрый заказ печати на Электрозаводской',
+		'title' => 'Быстрый заказ печати на Электрозаводской',
+		'ajax' => true,
+		'validate' => true,
+		'from_email' => 'zakaz@pechati.ru',
+		'from_name' => 'zakaz',
+		'to_email' => 'pechaty60@yandex.ru',
+		'to_name' => 'Электрозаводская',
+		'geoip' => true,
+		'referer' => true,
+		'type' => 'html',
+		'tpl' => true,
+		'antispam' => 'email77',
+		'antispamjs' => 'address77',
+		'okay' => 'Заказ зарегистрирован - УСПЕШНО',
+		'fuck' => 'Заказ зарегистрирован - ОШИБКА',
+		'spam' => 'Cпам робот',
+		'notify' => 'color-modal-textbox',
+		'usepresuf' => false
+	)
+);
+
 $form['soligor'] = array(
 	'fields' => array(
 		'name' => array(

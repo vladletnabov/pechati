@@ -48,9 +48,10 @@
 			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" title="Сделать печать или штамп на Юго-Западной">м. Юго-Западная</a></p>	
 		    <p><a href="/contacts/20.html" title="Срочное изготовление печатей и штампов в Зеленограде" >Зеленоград</a></p>
 			<!--<p><a href="/contacts/17.html" title="Сделать печать в Красногорске" >Красногорск</a></p>-->
+			<p><a href="/contacts/60.html" title="Изготовление печатей в Румянцево" >Ново-Переделкино</a></p>
 			<p><a href="/contacts/18.html" title="Печати по оттиску в Одинцово"  >Одинцово</a></p>
-			<p><a href="/contacts/40.html" title="Печати и штампы по оттиску в Солнцево" >Солнцево</a></p>
 			<p><a href="/contacts/47.html" title="Изготовление печатей в Румянцево" >Румянцево</a></p>
+			<p><a href="/contacts/40.html" title="Печати и штампы по оттиску в Солнцево" >Солнцево</a></p>
 			<p><a href="/contacts/31.html" title="Сделать Печать по оттиску в Химках" >Химки</a></p> 
 		</td>
 	</tr>
