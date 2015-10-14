@@ -49,8 +49,8 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/26.html" class="area" title="Изготовление печатей и штампов м. Кузьминки"><strong>м. Кузьминки</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 988-14-14<br>Волгоградский проспект 88</div>
 	</div>
 	
-	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/26.html'" title="Изготовление печатей и штампов м. Кузьминки">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/26.html" class="area" title="Изготовление печатей и штампов м. Люблино"><strong>м. Люблино</strong></a><br>Тел.: <strong style="font-size: 8pt;">(985)</strong> 833-19-63<br>Тихорецкий бул., д.1, С/1У-01</div>
+	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/26.html'" title="Изготовление печатей и штампов м. Люблино">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/59.html" class="area" title="Изготовление печатей и штампов м. Люблино"><strong>м. Люблино</strong></a><br>Тел.: <strong style="font-size: 8pt;">(985)</strong> 833-19-63<br>Тихорецкий бул., д.1, С/1У-01</div>
 	</div>
 
 <!--	<div class="cont1 date1 date2" id="cont2_8" title="Изготовление печатей и штампов м. Митино">

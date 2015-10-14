@@ -29,27 +29,86 @@
 <p>Оснастка пластмассовая малая.<br>
 Бесплатно.</p>-->
 
-    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
+<div style="margin: 0 auto;">
+	<h1 class="text-header-slider">Оснастки с гербом</h1>
+	
+	<div class="autoplay" style="width:600px; margin: 0 auto;">
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/g_o_3560.gif" alt="Оснастка пластмассовая овальная"  title="Бесплатно  " />
+				<div class="text-slider2">
+					<div class="title-slider">Бесплатно  </div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка пластмассовая овальная" />Оснастка пластмассовая овальная<BR />размер &empty;35х60мм </label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/g_s_1530.gif" alt="Оснастка пластмассовая малая"  title="Бесплатно  " />
+				<div class="text-slider2">
+					<div class="title-slider">Бесплатно  </div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка пластмассовая малая " />Оснастка пластмассовая малая<BR />
+размер 15х30мм</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/g-r-40.gif" alt="Оснастка с гербом круглая"  title="Бесплатно  " />
+				<div class="text-slider2">
+					<div class="title-slider">Бесплатно  </div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка с гербом круглая " />Оснастка с гербом круглая<BR />
+;&empty;40мм</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/g-s-9060.gif" alt="Оснастка пластмассовая большая"  title="Бесплатно  " />
+				<div class="text-slider2">
+					<div class="title-slider">Бесплатно  </div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка пластмассовая большая " />Оснастка пластмассовая большая<BR />
+размер 90х60мм</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/g-treug.gif" alt="Оснастка пластмассовая треугольная"  title="Бесплатно  " />
+				<div class="text-slider2">
+					<div class="title-slider">Бесплатно  </div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка пластмассовая треугольная " />Оснастка пластмассовая треугольная<BR />
+размер 45х45х45мм.</label></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<!--    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
 	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-9.css">
     <script src="/extdata/osnastka-slider/js/initslider-9.js"></script>
 <p align="center"><h3>Оснастка с гербом</h3></p>
-    <!-- Insert to your webpage where you want to display the slider -->
+
     <div id="amazingslider-wrapper-9" style="display:block;position:relative;max-width:600px;margin:0px auto 48px;">
         <div id="amazingslider-9" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/extdata/osnastka-slider/images/g_o_3560.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка пластмассовая овальная&lt;br /&gt;
+                <li><img src="/extdata/osnastka-slider/images/g_o_3560.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка пластмассовая овальная<BR />
 размер &empty;35х60мм" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/g_s_1530.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка пластмассовая малая&lt;br /&gt;
+                <li><img src="/extdata/osnastka-slider/images/g_s_1530.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка пластмассовая малая<BR />
 размер 15х30мм" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/g-r-40.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка с гербом круглая&lt;br /&gt;
+                <li><img src="/extdata/osnastka-slider/images/g-r-40.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка с гербом круглая<BR />
 ;&empty;40мм" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/g-s-9060.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка пластмассовая большая&lt;br /&gt;
+                <li><img src="/extdata/osnastka-slider/images/g-s-9060.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка пластмассовая большая<BR />
 размер 90х60мм" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/g-treug.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка пластмассовая треугольная&lt;br /&gt;
+                <li><img src="/extdata/osnastka-slider/images/g-treug.gif" alt="Бесплатно"  title="Бесплатно" data-description="Оснастка пластмассовая треугольная<BR />
 размер 45х45х45мм." />
                 </li>
             </ul>
@@ -67,5 +126,4 @@
 	-o-transform: rotate(-15deg);
 	transform: rotate(-15deg);"><a href="pechati.ru" style="text-decoration:none; color:navy;font:16px Arial,Tahoma,Helvetica,sans-serif; ">Печати.RU</a></div>
 	<div style="height:45px;"></div>
-    </div>
-    <!-- End of body section HTML codes -->
+    </div> -->

@@ -37,13 +37,77 @@
 </div>
 -->
 
-    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
+<script>
+$(document).ready(function(){
+  $('.autoplay').slick({
+		slidesToShow: 3,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 5000,
+  });
+});
+				
+</script>
+
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick-theme.css"/>
+<script type="text/javascript" src="/extdata/osnastka-slider2/slick/slick.min.js"></script>
+<div style="margin: 0 auto;">
+	<h1 class="text-header-slider">Автоматические оснастки для <br />малых штампов</h1>
+	
+	<div class="autoplay" style="width:600px; margin: 0 auto;">
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/am-colop-p-60.jpg" alt="Colop Printer 60"  title="200 р." />
+				<div class="text-slider2">
+					<div class="title-slider">200 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 200; count_price();" value="Для малых штампов Colop Printer 60" />Для малых штампов<br />Colop Printer 60</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/am-grm-4913.jpg" alt="GRM 4913 2Pads"  title="200 р." />
+				<div class="text-slider2">
+					<div class="title-slider">200 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 200; count_price();" value="Для малых штампов GRM 4913 2Pads" />Для малых штампов<br />GRM 4913 2Pads</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/am-shiny-p-s844.jpg" alt="Shiny Printer S-844"  title="200 р." />
+				<div class="text-slider2">
+					<div class="title-slider">200 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 200; count_price();" value="Для малых штампов Shiny Printer S-844" />Для малых штампов<br />Shiny Printer S-844</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/am-shiny-s843.jpg" alt="Shiny Printer S-842"  title="200 р." />
+				<div class="text-slider2">
+					<div class="title-slider">200 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 200; count_price();" value="Для малых штампов Shiny Printer S-842" />Для малых штампов<br />Shiny Printer S-842</label></div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+	
+
+
+
+
+
+<!--    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
 	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-2.css">
     <script src="/extdata/osnastka-slider/js/initslider-2.js"></script>
-<h3>Автоматическая оснастка для малых штампов</h3>
+<h3>Автоматическая оснастка для малых штампов</h3>-->
 
 <!-- Insert to your webpage where you want to display the slider -->
-    <div id="amazingslider-wrapper-2" style="display:block;position:relative;max-width:600px;margin:0px auto;">
+<!--    <div id="amazingslider-wrapper-2" style="display:block;position:relative;max-width:600px;margin:0px auto;">
         <div id="amazingslider-2" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
                 <li><img src="/extdata/osnastka-slider/images/am-colop-p-60.jpg" alt="200 р."  title="200 р." data-description="Для малых штампов<br />Colop Printer 60" />
@@ -69,4 +133,4 @@
 	transform: rotate(-15deg);"><a href="pechati.ru" style="text-decoration:none; color:navy;font:16px Arial,Tahoma,Helvetica,sans-serif; ">Печати.RU</a></div>
 	<div style="height:45px;"></div>
     </div>
-    <!-- End of body section HTML codes -->
+-->    <!-- End of body section HTML codes -->

@@ -7,7 +7,7 @@ function init () {
         }, {
             searchControlProvider: 'yandex#search'
         }),
-        HintLayout = ymaps.templateLayoutFactory.createClass( "<div class='my-hint' style='height: 50px;'>" +
+        HintLayout = ymaps.templateLayoutFactory.createClass( "<div class='my-hint' style='height: 60px;'>" +
             "<b>{{ properties.object }}</b><br />" +
             "{{ properties.address }}" +
             "</div>", {
@@ -29,7 +29,7 @@ function init () {
         );
 
     var myPlacemark = new ymaps.Placemark([55.636595, 37.352228], {
-        address: "Москва, Кронштадтский бульвар д.7",
+        address: "Москва, Боровское шоссе, д. 51, п. №6568",
         object: "Офис ПечатиРУ в Ново-Переделкино"
     }, {
         hintLayout: HintLayout

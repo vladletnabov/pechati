@@ -37,6 +37,7 @@ $mailfilial = array(
 	//"м. Новые черемушки"=>'5002@pechati.ru',
 	"м. Новогиреево"=>'perovo@pechati.ru',
 	"м. Новокосино"=>'perovo@pechati.ru',
+	"р-н Ново-Переделкино"=>'npd@pechati.ru',
 	"м. Новые черемушки"=>'l1@pechati.ru',
 	//"м. Октябрьская"=>'5060354@mail.ru',
 	"м. Октябрьская"=>'l1@pechati.ru',

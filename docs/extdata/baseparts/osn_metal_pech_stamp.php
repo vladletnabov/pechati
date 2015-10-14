@@ -62,7 +62,87 @@
 	</tr>
 </table>
 -->
-    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
+<div style="margin: 0 auto;">
+	<h1 class="text-header-slider">Металические оснастки для <br />для печатей и штампов</h1>
+	
+	<div class="autoplay" style="width:600px; margin: 0 auto;">
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/m-classic.gif" alt="Классика"  title="500 р." />
+				<div class="text-slider2">
+					<div class="title-slider">500 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 500; count_price();" value="Классика" />Металическая оснастка &quot;Классика&quot;<BR />&empty;40мм</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/m-derevo.gif" alt="дерево"  title="500 р." />
+				<div class="text-slider2">
+					<div class="title-slider">500 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 500; count_price();" value="Дерево" />Металическая оснастка "Деревянная ручка" со встроенной подушкой</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/m-pramoug.gif" alt="Металлическая прямоугольная"  title="500 р." />
+				<div class="text-slider2">
+					<div class="title-slider">500 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 500; count_price();" value="Металлическая прямоугольная" />Металлическая прямоугольная оснастка более 40 размеров</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/mk-goldring.gif" alt="Золотое кольцо"  title="500 р." />
+				<div class="text-slider2">
+					<div class="title-slider">500 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 500; count_price();" value="Золотое кольцо" />Карманная металическая оснастка &quot;Золотое кольцо&quot;<BR />&empty;40мм</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/mk-nlo.gif" alt="НЛО"  title="500 р." />
+				<div class="text-slider2">
+					<div class="title-slider">500 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 500; count_price();" value="НЛО" />Карманная металическая оснастка &quot;НЛО&quot;<BR />&empty;40мм</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/mk-tabletka.gif" alt="Таблетка"  title="500 р." />
+				<div class="text-slider2">
+					<div class="title-slider">500 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 500; count_price();" value="Таблетка" />Карманная металическая оснастка &quot;Таблетка&quot;<BR />&empty;40мм</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/mp-karman.gif" alt="Карманный полуавтомат"  title="600 р." />
+				<div class="text-slider2">
+					<div class="title-slider">600 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 600; count_price();" value="Карманный полуавтомат" />&quot;Карманный полуавтомат&quot;<BR /> со встроенное подушкой <br />Размер: &empty;40мм</label></div>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="img-slider">
+				<img src="/extdata/osnastka-slider2/images/mp-poluavtomat.gif" alt="Полуавтомат"  title="600 р." />
+				<div class="text-slider2">
+					<div class="title-slider">600 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 600; count_price();" value="Полуавтомат" />&quot;Полуавтомат&quot;<BR /> со встроенное подушкой <br />Размер: &empty;40мм</label></div>
+				</div>
+			</div>
+		</div>
+				
+	</div>
+</div>
+
+<!--    <script src="/extdata/osnastka-slider/js/amazingslider.js"></script>
     <link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-5.css">
     <script src="/extdata/osnastka-slider/js/initslider-5.js"></script>	
     <link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-6.css">
@@ -70,13 +150,13 @@
     <link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider/js/amazingslider-7.css">
     <script src="/extdata/osnastka-slider/js/initslider-7.js"></script>
 	
-<h3>Металлические оснастки для печатей и штампов</h3>
+<h3>Металлические оснастки для печатей и штампов</h3>-->
 
 <!-- Insert to your webpage where you want to display the slider -->
-    <div id="amazingslider-wrapper-5" style="display:block;position:relative;max-width:600px;margin:0px auto 48px;">
+<!--    <div id="amazingslider-wrapper-5" style="display:block;position:relative;max-width:600px;margin:0px auto 48px;">
         <div id="amazingslider-5" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/extdata/osnastka-slider/images/m-classic.gif" alt="&quot;Классика&quot; 500 р."  title="500 р." data-description="&quot;Классика&quot;,&lt;br /&gt;&empty;40мм" />
+                <li><img src="/extdata/osnastka-slider/images/m-classic.gif" alt="&quot;Классика&quot; 500 р."  title="500 р." data-description="&quot;Классика&quot;<BR />&empty;40мм" />
                 </li>
                 <li><img src="/extdata/osnastka-slider/images/m-derevo.gif" alt="Деревянная ручка 500 р."  title="500 р." data-description="Деревянная ручка&lt;br /&gt;встроенная подушка &lt;br /&gt;в доп. отделении" />
                 </li>
@@ -95,18 +175,17 @@
 	-o-transform: rotate(-15deg);
 	transform: rotate(-15deg);"><a href="pechati.ru" style="text-decoration:none; color:navy;font:16px Arial,Tahoma,Helvetica,sans-serif; ">Печати.RU</a></div>
 	<div style="height:45px;"></div>
-    </div>
+    </div>-->
     <!-- End of body section HTML codes -->
-<h3>Оснастки карманные металлические</h3>
-<!-- Insert to your webpage where you want to display the slider -->
+<!--<h3>Оснастки карманные металлические</h3>
     <div id="amazingslider-wrapper-6" style="display:block;position:relative;max-width:600px;margin:0px auto 48px;">
         <div id="amazingslider-6" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/extdata/osnastka-slider/images/mk-goldring.gif" alt="Оснастка &quot;Золотое кольцо&quot; 500 р."  title="500 р." data-description="Оснастка &quot;Золотое кольцо&quot;,&lt;br /&gt;&empty;40мм" />
+                <li><img src="/extdata/osnastka-slider/images/mk-goldring.gif" alt="Оснастка &quot;Золотое кольцо&quot; 500 р."  title="500 р." data-description="Оснастка &quot;Золотое кольцо&quot;<BR />&empty;40мм" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/mk-nlo.gif" alt="Оснастка &quot;НЛО&quot;,&lt;br /&gt; 500 р."  title="500 р." data-description="Оснастка &quot;НЛО&quot;,&lt;br /&gt;&empty;40мм" />
+                <li><img src="/extdata/osnastka-slider/images/mk-nlo.gif" alt="Оснастка &quot;НЛО&quot;<BR /> 500 р."  title="500 р." data-description="Оснастка &quot;НЛО&quot;<BR />&empty;40мм" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/mk-tabletka.gif" alt="Оснастка &quot;Таблетка&quot;,&lt;br /&gt; 500 р."  title="500 р." data-description="Оснастка &quot;Таблетка&quot;,&lt;br /&gt;&empty;40мм" />
+                <li><img src="/extdata/osnastka-slider/images/mk-tabletka.gif" alt="Оснастка &quot;Таблетка&quot;<BR /> 500 р."  title="500 р." data-description="Оснастка &quot;Таблетка&quot;<BR />&empty;40мм" />
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
@@ -121,18 +200,16 @@
 	-o-transform: rotate(-15deg);
 	transform: rotate(-15deg);"><a href="pechati.ru" style="text-decoration:none; color:navy;font:16px Arial,Tahoma,Helvetica,sans-serif; ">Печати.RU</a></div>
 	<div style="height:45px;"></div>
-    </div>
-    <!-- End of body section HTML codes -->
+    </div> -->
 
-<h3>Оснастки полуавтоматические со встроенной штемпельной подушкой</h3>
+<!--<h3>Оснастки полуавтоматические со встроенной штемпельной подушкой</h3>
 
- <!-- Insert to your webpage where you want to display the slider -->
     <div id="amazingslider-wrapper-7" style="display:block;position:relative;max-width:600px;margin:0px auto 48px;">
         <div id="amazingslider-7" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/extdata/osnastka-slider/images/mp-karman.gif" alt="600 р."  title="600 р." data-description="Оснастка &quot;Карманный полуавтомат&quot;,&lt;br /&gt;&empty;40мм" />
+                <li><img src="/extdata/osnastka-slider/images/mp-karman.gif" alt="600 р."  title="600 р." data-description="Оснастка &quot;Карманный полуавтомат&quot;<BR />&empty;40мм" />
                 </li>
-                <li><img src="/extdata/osnastka-slider/images/mp-poluavtomat.gif" alt="600 р."  title="600 р." data-description="Оснастка &quot;Полуавтомат&quot;,&lt;br /&gt;&empty;40мм" />
+                <li><img src="/extdata/osnastka-slider/images/mp-poluavtomat.gif" alt="600 р."  title="600 р." data-description="Оснастка &quot;Полуавтомат&quot;<BR />&empty;40мм" />
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
@@ -146,5 +223,4 @@
 	-o-transform: rotate(-15deg);
 	transform: rotate(-15deg);"><a href="pechati.ru" style="text-decoration:none; color:navy;font:16px Arial,Tahoma,Helvetica,sans-serif; ">Печати.RU</a></div>
 	<div style="height:45px;"></div>
-    </div>
-    <!-- End of body section HTML codes -->
+    </div> -->
