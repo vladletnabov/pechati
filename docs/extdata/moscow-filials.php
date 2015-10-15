@@ -38,7 +38,7 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/55.html" class="area" title="Изготовление печатей и штампов м. Домодедовская"><strong>м. Домодедовская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(925)</strong> 498-20-48<br>ул. Перерва, д. 43а, 2-й этаж</div>
 	</div>-->
 	<div class="cont1 date2" onclick="document.location.href='/contacts/4.html'" title="Изготовление печатей и штампов м. Каширская">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/4.html" class="area" title="Изготовление печатей и штампов м. Каширская"><strong>м. Каширская</strong></a><br>Тел.: <strong>(495)</strong> 728-45-98<br>Каширское шоссе, д.26, кор.3</div>
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/4.html" class="area" title="Изготовление печатей и штампов м. Каширская"><strong>м. Каширская</strong></a><br>Тел.: <strong>(495)</strong> 741-10-58<!--728-45-98--><br>Каширское шоссе, д.26, кор.3</div>
 	</div>
 	
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/7.html'" title="Изготовление печатей и штампов м. Комсомольская">
@@ -92,7 +92,7 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/10.html" class="area" title="Изготовление печатей и штампов м. Новые Черемушки"><strong>м. Новые Черемушки</strong></a><br>Тел.: <strong>(499)</strong> 724-50-02<br>ул.Гарибальди д.21, стр.6 </div>
 	</div>
 		<div class="cont1 date2" onclick="document.location.href='/contacts/11.html'" title="Изготовление печатей и штампов м. Октябрьская">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/11.html" class="area" title="Изготовление печатей и штампов м. Октябрьская"><strong>м. Октябрьская</strong></a><br>Тел.: <strong>(499)</strong> 988-14-14<br>Ленинский проспект дом 1</div>
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/11.html" class="area" title="Изготовление печатей и штампов м. Октябрьская"><strong>м. Октябрьская</strong></a><br>Тел.: <strong>(499)</strong> 724-50-02<!--988-14-14--><br>Ленинский проспект дом 1</div>
 	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/12.html'" title="Изготовление печатей и штампов м. Октябрьское поле">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/12.html" class="area" title="Изготовление печатей и штампов м. Октябрьское поле"><strong>м. Октябрьское поле</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 664-38-81<br>ул. Машала Малиновского д. 8</div>

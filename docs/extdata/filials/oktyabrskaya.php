@@ -8,4 +8,4 @@
 	Тел.: <strong>(499)</strong> 724-50-02, <strong>(905)</strong> 591-37-34</p>
 	<p>Часы работы: пн-пт с 10 до 18; сб-вс с 11 до 16.</p>
 	<p> Почта: <a href="mailto:5002@pechati.ru">5002@pechati.ru</a></p>
-</div>
+</div> 
