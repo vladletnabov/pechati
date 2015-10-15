@@ -17,7 +17,7 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/23.html" class="area" title="Изготовление печатей и штампов м. Алтуфьево"><strong>м. Алтуфьево</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 665-22-56<br>ул. Бибиревская, 17-б</div>
 	</div>
 	<div class="cont1" onclick="document.location.href='/contacts/1.html'" title="Изготовление печатей и штампов м. Арбатская">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/1.html" class="area" title="Изготовление печатей и штампов м. Арбатская"><strong>м. Арбатская</strong></a><br>Тел.:  <strong style="font-size: 8pt;">(495)</strong> 545-48-42<br>ул. Арбат, д. 4 стр 1-1А</div>
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/1.html" class="area" title="Изготовление печатей и штампов м. Арбатская"><strong>м. Арбатская</strong></a><br>Тел.:  <strong style="font-size: 8pt;">(906)</strong> 785-72-77<br>ул. Арбат, д. 15, стр.1</div>
 	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/16.html'" title="Изготовление печатей и штампов м. Бабушкинская">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/16.html" class="area" title="Изготовление печатей и штампов м. Бабушкинская"><strong>м. Бабушкинская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 798-81-43<br>ул. Летчика Бабушкина, д. 30, стр 1</div>
