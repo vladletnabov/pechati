@@ -26,7 +26,8 @@
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/51.html" title="Изготовление факсимиле на Молодёжной" >м. Молодёжная</a></p>
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/48.html" title="Сделать печать на Пражской" >м. Пионерская</a></p>
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/14.html" title="Срочное изготовление печатей на Электрозаводской" >м. Электрозаводская</a></p>	 	
-			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/19.html" title="Заказать печать на Беговой"  >м. Беговая</a></p>
+			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/19.html" title="Заказать печать на Беговой"  >м. Беговая</a></p>			
+			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/62.html" title="Заказать печать на Выхино"  >м. Выхино</a></p>
 			<!--<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/26.html" title="Сделать печать в Кузьминках" >м. Кузьминки</a></p>-->
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/12.html" title="Красконаполненные печати на Октябрьском поле" >м. Октябрьское поле</a></p>
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/13.html" title="Изготовление гербовых печатей на Таганке" >м. Таганская</a></p>
@@ -38,10 +39,10 @@
 		    <p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/55.html">м. Домодедовская</a></p>  
 			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/4.html" title="Печати и штампы по оттиску на Каширке" >м. Каширская</a></p>
 			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/7.html" title="Печать за 1 час на Комсомольской" >м. Комсомольская</a></p>
-			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/30.html" title="Печать за 1 час на Преображенской площади" >м. Преображенская площадь</a></p>
 		</td>
 		<td width="33%">		    	
 		
+			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/30.html" title="Печать за 1 час на Преображенской площади" >м. Преображенская площадь</a></p>
 			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/54.html" title="Печать за 1 час на Спортивной" >м. Спортивная</a></p>
 			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/57.html" title="Печать за 1 час на Чистых прудах" >м. Чистые пруды</a></p>
 			<!--<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/29.html" title="Изготовление печатей по оттиску на Щелковской" >м. Щелковская</a></p>-->

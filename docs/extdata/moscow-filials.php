@@ -25,6 +25,10 @@
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/19.html'" title="Изготовление печатей и штампов м. Беговая">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/19.html" class="area" title="Изготовление печатей и штампов м. Беговая"><strong>м. Беговая</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 585-81-62<br>Хорошевское шоссе 13А, к.2</div>
 	</div>
+	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/62.html'" title="Изготовление печатей и штампов м. Выхино">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/62.html" class="area" title="Изготовление печатей и штампов м. Беговая"><strong>м. Выхино</strong></a><br>Тел.: <strong style="font-size: 8pt;">(985)</strong> 340-90-32<br>ул. Снайперская, 9а</div>
+	</div>
+	
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/43.html'" title="Изготовление печатей и штампов м. Деловой центр">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/43.html" class="area" title="Изготовление печатей и штампов м. Деловой центр"><strong>м. Деловой центр</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 741-10-58<br>Пресненская набережная, д. 12</div>
 	</div>
@@ -64,15 +68,15 @@
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/6.html'" title="Изготовление печатей и штампов м. Марьино">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/6.html" class="area" title="Изготовление печатей и штампов м. Марьино"><strong>м. Марьино</strong></a><br>Тел.: <strong style="font-size: 8pt;">(926)</strong> 498-20-48<br>ул. Перерва, д. 43а, 2-й этаж</div>
 	</div>
-	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов в Митино">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/50.html" class="area" title="Изготовление печатей и штампов в Митино"><strong>Митино</strong></a><br>Тел.: <strong>(901)</strong> 57-57-074<br /> 4 филиала с единым номером </div>
-	</div>
 	
 	
 		</td>
 		<td width="240">
 	
 	
+	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов в Митино">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/50.html" class="area" title="Изготовление печатей и штампов в Митино"><strong>Митино</strong></a><br>Тел.: <strong>(901)</strong> 57-57-074<br /> 4 филиала с единым номером </div>
+	</div>
 	<div class="cont1 date2" onclick="document.location.href='/contacts/50.html'" title="Изготовление печатей и штампов на Молодёжной">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/51.html" class="area" title="Изготовление печатей и штампов на Молодёжной"><strong>Молодёжная</strong></a><br>Тел.: <strong>(499)</strong> 714-68-28 <br /> ул. Ярцевская 22, стр.1 </div>
 	</div>
