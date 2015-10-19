@@ -31,10 +31,10 @@
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/41.html'" title="Изготовление печатей и штампов м. Динамо">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/41.html" class="area" title="Изготовление печатей и штампов м. Динамо"><strong>м. Динамо</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 532-70-49<br>Хорошевское шоссе 13А, к.2</div>
 	</div>
-	<!--<div class="cont1 date1 date2" onclick="document.location.href='/contacts/27.html'" title="Изготовление печатей и штампов м. Петровско-Разумовская">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" class="area" title="Изготовление печатей и штампов м. Дмитровская"><strong>м. Дмитровская</strong></a><br>Тел.: <strong>(499)</strong> 394-03-32<br>Бескудниковский бульвар, д.2</div>
+	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/61.html'" title="Изготовление печатей и штампов м. Петровско-Разумовская">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/61.html" class="area" title="Изготовление печатей и штампов м. Дмитровская"><strong>м. Дмитровская</strong></a><br>Тел.: <strong>(916)</strong>  993-19-19<br>Бескудниковский бульвар, д.2</div>
 	</div>
-	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/55.html'" title="Изготовление печатей и штампов м. Домодедовская">
+	<!--<div class="cont1 date1 date2" onclick="document.location.href='/contacts/55.html'" title="Изготовление печатей и штампов м. Домодедовская">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/55.html" class="area" title="Изготовление печатей и штампов м. Домодедовская"><strong>м. Домодедовская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(925)</strong> 498-20-48<br>ул. Перерва, д. 43а, 2-й этаж</div>
 	</div>-->
 	<div class="cont1 date2" onclick="document.location.href='/contacts/4.html'" title="Изготовление печатей и штампов м. Каширская">
@@ -106,9 +106,9 @@
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/30.html'" title="Изготовление печатей и штампов м. Преображенская площадь">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/30.html" class="area" title="Изготовление печатей и штампов м. Преображенская площадь"><strong>м. Преображенская площадь</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 763-77-89<br>ул. 1-я Бухвостова, дом 12/11, 2 этаж, 18 офис</div>
 	</div>
-	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/45.html'" title="Изготовление печатей и штампов м. Савеловская">
+	<!--<div class="cont1 date1 date2" onclick="document.location.href='/contacts/45.html'" title="Изготовление печатей и штампов м. Савеловская">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/45.html" class="area" title="Изготовление печатей и штампов м. Октябрьское поле"><strong>м. Савеловская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(916)</strong> 993-19-19<br>ул. Писцовая, д.16, к. 2</div>
-	</div>
+	</div>-->
 	
 	<!--<div class="cont1 date2" onclick="document.location.href='/contacts/54.html'" title="Изготовление печатей и штампов м. Спортивная">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" class="area" title="Изготовление печатей и штампов м. Спортивная"><strong>м. Спортивная</strong></a><br>Тел.: <strong>(925)</strong> 518-70-71<br>пр. Вернадского, д.91 кор. 3 </div>
