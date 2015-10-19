@@ -12,9 +12,10 @@
 			<!--<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/56.html" title="Сделать печать или штамп на Третьяковской"  >м. Третьяковская</a></p>-->
 		<!--	<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/35.html">м. Ясенево</a></p>   -->
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/23.html" title="Печати и штампы в Алтуфьево"  >м. Алтуфьево</a></p>
+			<img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/61.html" title="Изготовить печать на Дмитровской" >м. Дмитровской</a></p>
 			<!--<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/52.html" title="Сделать печать в Нахимовский проспект" >м. Нахимовский проспект</a></p>-->
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/22.html" title="Сделать печать на Пражской" >м. Пражская</a></p>
-			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" title="Изготовить печать на Савеловской" >м. Савеловская</a></p>
+			<!--<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/27.html" title="Изготовить печать на Савеловской" >м. Савеловская</a></p>-->
 			
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/33.html" title="Печати с защитой на Тульской"  >м. Тульская</a></p>			
 			<!--<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/9.html" title="Многоцветные печати на Цветном бульваре" >м. Цветной бульвар</a></p>-->
