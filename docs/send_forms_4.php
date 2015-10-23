@@ -23,6 +23,7 @@ $mailfilial = array(
 	"м. Динамо"=>'bgv@pechati.ru',
 	"м. Дмитровская"=>'pr@pechati.ru',
 	"м. Домодедовская"=>'marino@pechati.ru',
+	"м. Добрынинская"=>'dbr@pechati.ru',
 	"м. Каширская"=>'chertanovo@pechati.ru',
 	"м. Комсомольская"=>'5176723@mail.ru',
 	//"м. Кузьминки"=>'kuzminki@pechati.ru',
