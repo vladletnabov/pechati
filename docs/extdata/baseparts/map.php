@@ -328,7 +328,7 @@ label a{
 
 
 <div style="position:relative;">
-	<img src="/extdata/images/map-45per.png" />
+	<img src="/extdata/images/map-800.png" />
 	
 	
 	<!-- красная ветка -->
