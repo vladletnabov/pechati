@@ -7,7 +7,7 @@
 
  
 	<br>Тел.: <strong>(985)</strong>  833-19-63</p>
-	<p>Почта: <a href="mailto:sol@pechati.ru">sol@pechati.ru</a></p>
+	<p>Почта: <a href="mailto:marino@pechati.ru">marino@pechati.ru</a></p>
 	<p><img src="/pics/contacts/lublino/l1.jpeg" /></p>
 	<p><img src="/pics/contacts/lublino/l2.jpeg" /></p>
 	<p><img src="/pics/contacts/lublino/l3.jpeg" /></p>
