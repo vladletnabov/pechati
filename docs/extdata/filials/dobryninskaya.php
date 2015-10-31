@@ -10,7 +10,7 @@
 	<p>Почта: <a href="mailto:t@pechati.ru">t@pechati.ru</a></p> -->
  г. Москва, ул. Пятницкая, дом 82/34 стр. 1 (вход со двора, синяя дверь)</p>
 	<p>Тел.: <b>8 (495) 532-92-20</b></p>
-	Почта: <a href="mailto:dbr@pechati.ru">dbr@pechati.ru</a></p>
+	<p>Почта: <a href="mailto:dbr@pechati.ru">dbr@pechati.ru</a></p>
 	<p>Часы работы: <br/>
 	Понедельник 09:00 - 21:00 <br/>
 	Вторник 09:00 - 21:00 <br/>

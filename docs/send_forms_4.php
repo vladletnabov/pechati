@@ -60,6 +60,7 @@ $mailfilial = array(
 	"м. ”л. 1905 года"=>'bgv@pechati.ru',
 	//"м. ÷арицино"=>'pechati555@mail.ru',
 	"м. ÷ветной бульвар"=>'5454842@mail.ru',
+	"м. „истые пруды"=>'5176723@mail.ru',
 	"м. ўелковска€"=>'SLK@pechati.ru',
 	"м. ўукинска€"=>'bgv@pechati.ru',
 	"м. Ёлектрозаводска€"=>'pechaty60@yandex.ru',

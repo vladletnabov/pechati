@@ -47,7 +47,9 @@
 		
 			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/30.html" title="Печать за 1 час на Преображенской площади" >м. Преображенская площадь</a></p>
 			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/54.html" title="Печать за 1 час на Спортивной" >м. Спортивная</a></p>
-			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/57.html" title="Печать за 1 час на Чистых прудах" >м. Чистые пруды</a></p>
+			<!--<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/57.html" title="Печать за 1 час на Чистых прудах" >м. Чистые пруды</a></p>-->
+			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/64.html" title="Печать за 1 час на Чистых прудах" >м. Чистые пруды</a></p>
+			
 			<!--<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/29.html" title="Изготовление печатей по оттиску на Щелковской" >м. Щелковская</a></p>-->
 			<p><img src="/pics/line1.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" title="Сделать печать или штамп на Юго-Западной">м. Юго-Западная</a></p>
 			<!--<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/24.html" title="Изготовление печатей по оттиску на Южной" >м. Южная</a></p>

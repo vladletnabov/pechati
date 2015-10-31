@@ -144,6 +144,9 @@
 	<!--<div class="cont1 date1 date2" onclick="document.location.href='/contacts/57.html'" title="Изготовление печатей и штампов м. Чистые пруды">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/57.html" class="area" title="Изготовление печатей и штампов м. Чистые пруды"><strong>м. Чистые пруды</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 517-67-23<br>Комсомольская площадь, д. 6</div>
 	</div>-->
+	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/57.html'" title="Изготовление печатей и штампов м. Чистые пруды">
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/64.html" class="area" title="Изготовление печатей и штампов м. Чистые пруды"><strong>м. Чистые пруды</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 517-67-23<br>ул. Покровка д.17</div>
+	</div>
 	<div class="cont1 date2" onclick="document.location.href='/contacts/15.html'" title="Изготовление печатей и штампов м. Юго-Западная">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/15.html" class="area" title="Изготовление печатей и штампов м. Юго-Западная"><strong>м. Юго-Западная</strong></a><br>Тел.: <strong>(925)</strong> 518-70-71<br>пр. Вернадского, д.91 кор. 3 </div>
 	</div>
