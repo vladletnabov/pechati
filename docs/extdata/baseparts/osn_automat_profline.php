@@ -30,46 +30,42 @@
 			</table>-->
 
 
+			
 <div style="margin: 0 auto;">
 	<h1 class="text-header-slider">Большие оснастки</h1>
 	
-	<div class="autoplay" style="width:600px; margin: 0 auto;">
-		<div>
-			<div class="img-slider">
+	<div class="container osn2">
+		<ul class="skifcarousel">
+	
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/p-colop-r3040.jpg" alt="p-colop-r3040"  title="1 000 р." />
 				<div class="text-slider2">
 					<div class="title-slider">1 000 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 1000; count_price();" value="Colop R3040" />Для больших штампов<BR />Colop R3040</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/p-colop-s3900.jpg" alt="p-colop-s3900"  title="2 000 р." />
 				<div class="text-slider2">
 					<div class="title-slider">2 000 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 2000; count_price();" value="Colop S3900" />Металлическая, для штампов<BR />Colop S3900 (85х50 мм)</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/p-shiny-h6008.jpg" alt="p-shiny-h6008"  title="1 500 р." />
 				<div class="text-slider2">
 					<div class="title-slider">1 500 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 1500; count_price();" value="Shiny Heavy Duty H6008" />Для штампа<BR />Shiny Heavy Duty H6008</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/p-shiny-h6009.jpg" alt="p-shiny-h6009"  title="1 000 р." />
 				<div class="text-slider2">
 					<div class="title-slider">1 000 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 1000; count_price();" value="Shiny Heavy Duty H6009" />Для круглой печати<BR />Shiny Heavy Duty H6009</label></div>
 				</div>
-			</div>
-		</div>
+			</div></li>
+		</ul>
 
 	</div>
 </div>

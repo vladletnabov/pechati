@@ -37,61 +37,42 @@
 </div>
 -->
 
-<script>
-$(document).ready(function(){
-  $('.autoplay').slick({
-		slidesToShow: 3,
-	  slidesToScroll: 1,
-	  autoplay: true,
-	  autoplaySpeed: 5000,
-  });
-});
-				
-</script>
 
-	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick-theme.css"/>
-<script type="text/javascript" src="/extdata/osnastka-slider2/slick/slick.min.js"></script>
 <div style="margin: 0 auto;">
 	<h1 class="text-header-slider">Автоматические оснастки для <br />малых штампов</h1>
 	
-	<div class="autoplay" style="width:600px; margin: 0 auto;">
-		<div>
-			<div class="img-slider">
+	<div class="container osn3">
+		<ul class="skifcarousel">
+	
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/am-colop-p-60.jpg" alt="Colop Printer 60"  title="200 р." />
 				<div class="text-slider2">
 					<div class="title-slider">200 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 200; count_price();" value="Для малых штампов Colop Printer 60" />Для малых штампов<br />Colop Printer 60</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/am-grm-4913.jpg" alt="GRM 4913 2Pads"  title="200 р." />
 				<div class="text-slider2">
 					<div class="title-slider">200 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 200; count_price();" value="Для малых штампов GRM 4913 2Pads" />Для малых штампов<br />GRM 4913 2Pads</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/am-shiny-p-s844.jpg" alt="Shiny Printer S-844"  title="200 р." />
 				<div class="text-slider2">
 					<div class="title-slider">200 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 200; count_price();" value="Для малых штампов Shiny Printer S-844" />Для малых штампов<br />Shiny Printer S-844</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/am-shiny-s843.jpg" alt="Shiny Printer S-842"  title="200 р." />
 				<div class="text-slider2">
 					<div class="title-slider">200 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 200; count_price();" value="Для малых штампов Shiny Printer S-842" />Для малых штампов<br />Shiny Printer S-842</label></div>
 				</div>
-			</div>
-		</div>
+			</div></li>
+		</ul>
 		
 	</div>
 </div>

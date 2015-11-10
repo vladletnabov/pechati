@@ -21,34 +21,31 @@
 <div style="margin: 0 auto;display:table;">
 	<h1 class="text-header-slider">Оснастки эксклюзивные</h1>
 	
-	<div style="width:600px; margin: 0 auto;">
-		<div style="display:block; height:100%; width: 200px;float:left;">
-			<div class="img-slider">
-				<img src="/extdata/osnastka-slider2/images/e-compact.gif" alt="e-compact"  title="1 200 р." />
+	<div class="container osn8">
+		<ul class="skifcarousel">
+	
+			<li><div>
+			<img src="/extdata/osnastka-slider2/images/e-compact.gif" alt="e-compact"  title="1 200 р." />
 				<div class="text-slider2">
 					<div class="title-slider">1 200 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 1200; count_price();" value="Компакт" />Оснастка &quot;Компакт&quot;<BR /> Размер: &empty;40мм"</label></div>
 				</div>
-			</div>
-		</div>
-		<div style="display:block; height:100%; width: 200px;float:left;">
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/e-magnetic.jpg" alt="e-magnetic"  title="1 200 р." />
 				<div class="text-slider2">
 					<div class="title-slider">1 200 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 1200; count_price();" value="Магнетик" />Оснастка &quot;Магнетик&quot;<BR /> Размер: &empty;40мм"</label></div>
 				</div>
-			</div>
-		</div>
-		<div style="display:block; height:100%; width: 200px;float:left;">
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/e-techno.gif" alt="e-techno"  title="1 200 р." />
 				<div class="text-slider2">
 					<div class="title-slider">1 200 р.</div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 1200; count_price();" value="Техно" />Оснастка &quot;Техно&quot;<BR /> Размер: &empty;40мм"</label></div>
 				</div>
-			</div>
-		</div>
+			</div></li>
+		</ul>
 
 	</div>
 </div>			

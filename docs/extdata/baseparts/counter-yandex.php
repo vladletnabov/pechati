@@ -1,3 +1,86 @@
+<script src="/extdata/js/skif-carousel.js"></script>
+
+
+<script>
+$(document).ready(function(){
+  $('.osn1').skifCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					auto: 5000,
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+  	
+  $('.osn2').skifCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					auto: 5000,
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+  	
+  $('.osn3').skifCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					auto: 5000,
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+  	
+  $('.osn4').skifCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					auto: 5000,
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+  
+  $('.osn5').skifCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					auto: 5000,
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+  	
+  $('.osn6').skifCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					auto: 5000,
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+  
+  $('.osn7').skifCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					auto: 5000,
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+  
+  $('.osn8').skifCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					auto: 5000,
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+  
+});		
+</script>
+			
+
+
+
 <!-- Yandex.Metrika counter -->
 <script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
 <script type="text/javascript">

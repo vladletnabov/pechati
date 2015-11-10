@@ -72,7 +72,7 @@ var price2 = 450;
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <!--<script src="//code.jquery.com/jquery-1.10.2.js"></script>-->
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
+  <!--<link rel="stylesheet" href="/resources/demos/style.css">-->
   <style>
   .toggler { width: 500px; height: 200px; }
   #button { padding: .5em 1em; text-decoration: none; }

@@ -89,127 +89,105 @@
 <p>Ћев<br>
 ?ена - 4500р.</p>-->
 
+
 <div style="margin: 0 auto;">
 	<h1 class="text-header-slider">Элитные оснастки</h1>
 	
-	<div class="autoplay" style="width:600px; margin: 0 auto;">
-		<div>
-			<div class="img-slider">
+	<div class="container osn6">
+		<ul class="skifcarousel">
+	
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-bender.jpg" alt=""  title="Остап Бендер" />
 				<div class="text-slider2">
 					<div class="title-slider">4 000 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4000; count_price();" value="Остап Бендер" />Остап Бендер </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-big-greece.gif" alt=""  title="Большая Греческая" />
 				<div class="text-slider2">
 					<div class="title-slider">4 250 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4250; count_price();" value="Большая Греческая" />Большая Греческая </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-cesar.gif" alt=""  title="Царь" />
 				<div class="text-slider2">
 					<div class="title-slider">4 000 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4000; count_price();" value="Царь" />Царь </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-emp-clock.gif" alt=""  title="Императрица с часами" />
 				<div class="text-slider2">
 					<div class="title-slider">5 000 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 5000; count_price();" value="Императрица с часами" />Императрица с часами </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-emperator-clock.gif" alt=""  title="Императорская с часами" />
 				<div class="text-slider2">
 					<div class="title-slider">5 000 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 5000; count_price();" value="Императорская с часами" />Императорская с часами </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-greece.gif" alt=""  title="Греческая" />
 				<div class="text-slider2">
 					<div class="title-slider">4 000 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4000; count_price();" value="Греческая" />Греческая </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-greece-uzor.gif" alt=""  title="Греческая с узором" />
 				<div class="text-slider2">
 					<div class="title-slider">4 250 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4250; count_price();" value="Греческая с узором" />Греческая с узором </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-lion.jpg" alt=""  title="Лев" />
 				<div class="text-slider2">
 					<div class="title-slider">4 500 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4500; count_price();" value="Лев" />Лев </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-rome.gif" alt=""  title="Римская" />
 				<div class="text-slider2">
 					<div class="title-slider">4 000 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4000; count_price();" value="Римская" />Римская </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-stalin.gif" alt=""  title="Сталин" />
 				<div class="text-slider2">
 					<div class="title-slider">3 000 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 3000; count_price();" value="Сталин" />Сталин </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-stamp-classic.gif" alt=""  title="Штамп Классика" />
 				<div class="text-slider2">
 					<div class="title-slider">4 000 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4000; count_price();" value="Штамп Классика" />Штамп Классика </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-titul.gif" alt=""  title="Титульная" />
 				<div class="text-slider2">
 					<div class="title-slider">4 500 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4500; count_price();" value="Титульная" />Титульная </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/el-titul-petr1.gif" alt=""  title="Титульная Петр I" />
 				<div class="text-slider2">
 					<div class="title-slider">4 500 р. </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 4500; count_price();" value="Титульная Петр I" />Титульная Петр I </label></div>
 				</div>
-			</div>
-		</div>
+			</div></li>
+		</ul>
 
 
 

@@ -1,4 +1,4 @@
-<link rel="STYLESHEET" type="text/css" href="../css/pechati.css">
+<link rel="STYLESHEET" type="text/css" href="/css/pechati.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
@@ -74,19 +74,24 @@
 	</style>
 	
 	<link rel="STYLESHEET" type="text/css" href="/css/pechati-asgat.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 	<!--	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 		  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>		  -->
-	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>-->
 	<script src="/feedback/js/feedback.js"></script>
 	<script src="/feedback/js/jquery.arcticmodal.js"></script>
 	<script src="/feedback/js/jquery.jgrowl.js"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	
+	<script src="/extdata/js/skif-carousel.js"></script>
+
 		  
 		  
 	<script type="text/javascript">
 	$(document).ready(function(){
+		
+  
+		
 		    
 		$("#quickzakaz").click(function(){
 			//alert('asdasdasd');

@@ -37,30 +37,73 @@
 			</table>
 -->
 
-<script>
-$(document).ready(function(){
-  $('.autoplay').slick({
-		slidesToShow: 3,
-	  slidesToScroll: 1,
-	  autoplay: true,
-	  autoplaySpeed: 5000,
-  });
-});
-				
-</script>
 
-	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick.css"/>
+<div style="margin: 0 auto;">
+	<h1 class="text-header-slider">Автоматические оснастки</h1>
+	
+	<div class="container osn1">
+		<ul class="skifcarousel">
+	
+			<li><div>
+				<img src="/extdata/osnastka-slider2/images/a-colop-r40.gif" alt="colop-r40"  title="450 р." />
+				<div class="text-slider2">
+					<div class="title-slider">450 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 450; count_price();" value="Круглая оснастка Colop R40" />Круглая оснастка Colop R40<br />Размер: &#8960; 40мм</label></div>
+				</div>
+			</div></li>
+			<li><div>
+				<img src="/extdata/osnastka-slider2/images/a-colop-p-r40.jpg" alt="colop-p-r40"  title="700 р." />
+				<div class="text-slider2">
+					<div class="title-slider">700 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 700; count_price();" value="Автоматическая оснастка <br />Colop Pocket Stamp R40" />Colop Pocket Stamp R40<br />Размер: &#8960; 40мм</label></div>
+				</div>
+			</div></li>
+			<li><div>
+				<img src="/extdata/osnastka-slider2/images/a-color-r2045.jpg" alt="a-color-r2045"  title="1500 р." />
+				<div class="text-slider2">
+					<div class="title-slider">1 500 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 1500; count_price();" value="Печать с усиленной конструкцией" />Печать с усиленной конструкцией<br />ДЛЯ ПЕЧАТЕЙ ПО ГОСТ</label></div>
+				</div>
+			</div></li>
+			<li><div>
+				<img src="/extdata/osnastka-slider2/images/a-shiny-r542.jpg" alt="a-shiny-r542"  title="450 р." />
+				<div class="text-slider2">
+					<div class="title-slider">450 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 450; count_price();" value="Печать с усиленной конструкцией" />Автоматическая оснастка Shiny R542 для круглой печати</label></div>
+				</div>
+			</div></li>
+			<li><div>
+				<img src="/extdata/osnastka-slider2/images/a-shiny-s542.jpg" alt="a-shiny-s542"  title="450 р." />
+				<div class="text-slider2">
+					<div class="title-slider">450 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 450; count_price();" value="Печать с усиленной конструкцией" />Автоматическая оснастка Shiny S542 для квадратной печати</label></div>
+				</div>
+			</div></li>
+			<li><div>
+				<img src="/extdata/osnastka-slider2/images/a-shiny-sq42.jpg" alt="a-shiny-sq42"  title="400 р." />
+				<div class="text-slider2">
+					<div class="title-slider">400 р.</div>
+					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 400; count_price();" value="Печать Shiny SQ42" />Полуавтоматическая оснастка Shiny SQ42 <br />для печатей и штампов</label></div>
+				</div>
+			</div></li>
+		</ul>
+	</div>
+</div>
+
+
+
+<!--	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/slick/slick-theme.css"/>
-<script type="text/javascript" src="/extdata/osnastka-slider2/slick/slick.min.js"></script>
+<script type="text/javascript" src="/extdata/osnastka-slider2/slick/slick.min.js"></script>-->
 
     <!--<script src="/extdata/osnastka-slider2/js/amazingslider.js"></script>
     <link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/js/amazingslider-1.css">
     <script src="/extdata/osnastka-slider2/js/initslider-1.js"></script>-->
-<div style="margin: 0 auto;">
+<!--<div style="margin: 0 auto;">
 	<h1 class="text-header-slider">Автоматические оснастки</h1>
 	
-	<div class="autoplay" style="width:600px; margin: 0 auto;">
-		<div>
+	<div class="autoplay">--> <!--style="width:600px; margin: 0 auto;">-->
+	<!--	<div>
 			<div class="img-slider">
 				<img src="/extdata/osnastka-slider2/images/a-colop-r40.gif" alt="colop-r40"  title="450 р." />
 				<div class="text-slider2">
@@ -115,7 +158,7 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->
 	
 	
 <!--	<h1 style="margin-top:-20px;">Автоматические оснастки</h1>

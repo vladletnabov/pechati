@@ -32,56 +32,49 @@
 <div style="margin: 0 auto;">
 	<h1 class="text-header-slider">Оснастки с гербом</h1>
 	
-	<div class="autoplay" style="width:600px; margin: 0 auto;">
-		<div>
-			<div class="img-slider">
+	<div class="container osn7">
+		<ul class="skifcarousel">
+	
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/g_o_3560.gif" alt="Оснастка пластмассовая овальная"  title="Бесплатно  " />
 				<div class="text-slider2">
 					<div class="title-slider">Бесплатно  </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка пластмассовая овальная" />Оснастка пластмассовая овальная<BR />размер &empty;35х60мм </label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/g_s_1530.gif" alt="Оснастка пластмассовая малая"  title="Бесплатно  " />
 				<div class="text-slider2">
 					<div class="title-slider">Бесплатно  </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка пластмассовая малая " />Оснастка пластмассовая малая<BR />
 размер 15х30мм</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/g-r-40.gif" alt="Оснастка с гербом круглая"  title="Бесплатно  " />
 				<div class="text-slider2">
 					<div class="title-slider">Бесплатно  </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка с гербом круглая " />Оснастка с гербом круглая<BR />
 ;&empty;40мм</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/g-s-9060.gif" alt="Оснастка пластмассовая большая"  title="Бесплатно  " />
 				<div class="text-slider2">
 					<div class="title-slider">Бесплатно  </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка пластмассовая большая " />Оснастка пластмассовая большая<BR />
 размер 90х60мм</label></div>
 				</div>
-			</div>
-		</div>
-		<div>
-			<div class="img-slider">
+			</div></li>
+			<li><div>
 				<img src="/extdata/osnastka-slider2/images/g-treug.gif" alt="Оснастка пластмассовая треугольная"  title="Бесплатно  " />
 				<div class="text-slider2">
 					<div class="title-slider">Бесплатно  </div>
 					<div class="description-slider"><label><input type="radio" name="osnast" onClick="price2 = 0; count_price();" value="Оснастка пластмассовая треугольная " />Оснастка пластмассовая треугольная<BR />
 размер 45х45х45мм.</label></div>
 				</div>
-			</div>
-		</div>
+			</div></li>
+		</ul>
 
 	</div>
 </div>
