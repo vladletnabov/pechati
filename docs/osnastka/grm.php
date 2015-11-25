@@ -4,7 +4,7 @@ include("functions.php");
 $title = "GRM";
 $description = "";
 $keywords = "";
-$price_url = "/osnastka/data/home/GRM_2010.xls";
+$price_url = "/osnastka/data/home/grm-2015.xls";
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"

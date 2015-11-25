@@ -1,0 +1,2095 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Печати.РУ новый дизайн</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .navbar {
+        margin-top: 20px;
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--<link rel="stylesheet" href="css/font-awesome.css" type="text/css" />-->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!--<link href="css/style-ico.css" rel="stylesheet">-->
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+								   
+	
+	<style>
+			.rotate {
+				-webkit-transform: rotate(0deg);
+				-moz-transform: rotate(0deg);
+				-o-transform: rotate(0deg);
+				-ms-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			.but-header-line:hover .rotate{
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+	
+			.search {
+				margin:5px 0 0 0;
+				color:red;
+			}
+			.inputbox {
+				border-radius:0 !important;
+				border:0 !important;;
+				height:24px !important;;
+				background:#fff;
+				margin:0 !important;;
+				width:94% !important;;
+				outline: 0!important;;
+				padding: 0 -15px 0 15px !important;
+			}
+			.btn_search{			
+				border-radius:0;
+				border:0;
+				height:30px;
+				width:30px;
+				background:#fff;
+				margin:0 0 0 -35px !important;
+				padding:0;
+			}
+			.navbar .nav > li > a {
+				float: none;
+				padding: 10px 15px 10px;
+				color: #fff;
+				text-decoration: none;
+				text-shadow: none;
+			}
+			.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+				color: #fff;
+				text-decoration: none;
+				background-color: #a02757;
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+			}
+			.navbar-inner {
+				padding:0;
+				border-radius:0;
+				background-image:none;
+				background-color:#16162a;
+			}
+			.but-header-line {
+				font-size:11px;
+				line-height:12px;
+				color:#16162a;
+				padding:0;
+				margin:0;
+				display: table !important;
+				width:100%;
+				margin-bottom:5px;
+			}
+			.but-header-line:after{
+				clear:both;
+			}
+			.but-header-line:hover{
+				color: #a02757;
+				font-size:11px;
+			}
+			.but-header-line:hover  .circle-but-header{
+				border-color: #a02757;
+				border-radius:30%;
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				-ms-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+			.text-but-header{
+				background-color:#ааа;
+				display:block;
+				margin-left:52px;
+			}
+			.text-but-header h5{
+				margin-bottom:0;
+			}
+			.circle-but-header{
+				margin-top:10px;
+				width: 48px;
+				height:48px;
+				border: 2px solid #16162a;
+				border-radius: 100%;
+				text-align:center;
+				background-color:#ааа;
+				line-height:48px;
+				display:table;
+				
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				-ms-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+			}
+			.header-menu-line {
+				background-color:#16162a; 
+				min-height:30px; 
+				width:100%;
+				margin-bottom: 20px;
+			}
+			
+			.footer-menu-line {
+				background-color:#16162a; 
+				min-height:230px; 
+				width:100%;
+				margin:0;
+			}
+			.header-logo-layout {				
+				background-color:white; 
+			}
+			
+			.color1 {
+				background-color:#efefef;
+			}
+			.color2 {
+				background-color:#121212;
+			}
+			.color3 {
+				background-color:#23df56;
+			}	
+			.color4 {
+				background-color:#a57f29;
+			}
+			.color5 {
+				background-color:#b36d10;
+				min-width:200px;
+			}
+			.show-grid [class^=col-] {
+				padding-top: 10px;
+				padding-bottom: 10px;
+				background-color: #eee;
+				background-color: rgba(86,61,124,.15);
+				border: 1px solid #ddd;
+				border: 1px solid rgba(86,61,124,.2);
+			}
+			ul.nav li.dropdown:hover ul.dropdown-menu{
+				display: block;
+				margin: 0;
+			}
+			 
+			a.menu:after, .dropdown-toggle:after {
+			content: none;
+			}
+			ul.nav > li:hover{
+				background-color:#a02757;
+				color: white;
+				border:none;
+			}
+			.navbar .nav > li > a:hover {
+				color: white;
+			}
+			.head-block-h1 h1{
+				color:#16162a;
+				font-size: 3em;
+				text-transform: uppercase;
+				text-align:center;
+				margin-top: 60px;
+			}
+			.head-block-under-text{
+				width: 240px;
+				height: 16px;
+				margin: 5px auto;
+			}
+			.head-block-under-text:after {
+				clear:both;
+			}
+			.head-line-text {
+				background-color: #16162a;
+				height: 2px;
+				margin-top: 7px;
+				width:100px;
+				height: 2px;
+				float: left;
+				display:block-inline;
+			}
+			.head-circle-text {
+				background-color: #16162a;
+				height: 16px;
+				width: 16px;
+				margin: 0px 10px 0px 10px;				
+				border-radius: 100%;
+				float: left;
+				display:block-inline;
+			}
+			.service-img{
+				width:100%;
+				bottom:0;
+			}
+			.content-but-head{
+				font-size: 14px;
+				padding-top:1px;
+			}
+			.but-header-line-tbl{
+				display:table;
+				margin-top: 20px;
+			}
+			.cta2{
+				width:100%;
+				height: auto;;
+				background-color:red;
+				background-image:url(img/cta2-bg.jpg);
+				
+			}
+			.cta img {
+				position:absolute;
+				left:0;
+				bottom:0;
+			}
+			.banner-text-under-img {
+				/*position:relative;*/
+				/margin: 30px auto;*/
+				z-index: 100;
+				text-align:center;
+				padding-top:100px;
+			}
+			.banner-text {
+				font-size:2em;
+				text-align:center;
+				text-transform:uppercase;
+				text-align:center;
+			}
+			.banner-text-under-img p {
+				margin: 15px auto;
+				color: #fff;
+				text-align:center;
+				font-size:14px;
+				color: #fff;
+			}
+			.white {
+				color: #fff;
+			}
+			.blue {
+				color:#45aed6;
+			}
+			.btn-zakaz {
+				/*width: 150px;*/
+				margin:0;
+				border: 1 solid #fff;
+				background-color: #16162a;
+				border-radius:0;
+				color: #fff;
+				min-height: 40px;
+				padding-left:20px;
+				padding-right:20px;
+			}
+			.video-block{
+				width:100%;
+				background-color:#dfdfdf;
+				margin:20px 0 0 0;
+				/*min-height: 180px;*/
+			}
+			.video-player {
+				width:100%;
+				height:240px;
+				/*margin:1px;*/
+			}
+			.description-block{
+				width:100%;
+				background-color:#dfdfdf;
+				height: 140px;
+				margin:0;
+				overflow: hidden;
+				color:#16162a;
+				
+			}
+			.description-block p {
+				padding:0 10px 10px 10px;
+			}
+			.description-block h5 {
+				padding: 5px 10px;
+				line-height: 16px;
+				font-size:16px;
+			}
+			.img-logo{
+				width:100px;
+				height:56px;
+				margin: 10px auto;
+			}
+			.block-center {
+				margin: 0 auto;
+				text-align: center;
+			}
+			a, .nav-collapse .dropdown-menu a {
+				padding: 9px 15px;
+				font-weight: bold;
+				color: #16162a;
+			}
+			.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
+				background-color: #16162a;
+			}
+			
+			.prslick .slick-prev
+			{
+				right:47px !important;
+				left: auto !important;
+				top: -48px;
+				background-image: none; /*url(/img/arrow/arrow-l.png);*/
+				width: 48px;
+				height:48px;
+				border:1px solid #cfcfcf;
+				border-radius:0;
+				background-color: #dfdfdf;
+				font-weight: 400;
+			}
+			.prslick .slick-prev:hover
+			{
+				right: 47px! important;
+				left: auto !important;
+				top: -48px;
+				background-image:none; /* url(/img/arrow/arrow-l-hover.png);*/
+				width: 48px;
+				height:48px;
+				border:1px solid #dfdfdf;
+				border-radius:0;
+				background-color: #cfcfcf;
+			}
+			[dir='rtl'] .prslick .slick-prev
+			{
+				right: 47px;
+				/*left: auto;*/
+			}
+			.prslick .slick-prev:before
+			{
+				/*content: '←';*/
+				font-size: 48px;
+				font-weight: 200;
+				line-height: 18px;
+				content: "\2039";
+				/*background-image: url(/img/arrow/arrow-l.png);*/
+			}
+			[dir='rtl'] .prslick  .slick-prev:before
+			{
+				/*content: '→';*/	
+				background-image: url(/img/arrow/arrow-r.png);
+			}
+
+			.prslick .slick-next
+			{
+				right: 0!important;
+				top: -48px;
+				background-image:  none; /*url(/img/arrow/arrow-r.png);*/
+				width: 48px;
+				height:48px;
+				border:1px solid #cfcfcf;
+				border-radius:0;
+				background-color: #dfdfdf;
+				font-weight: 400;
+			}
+			.slick-next {
+				right: 0!important;
+				background-image:  none;
+			}
+			.prslick .slick-next:hover
+			{
+				right: 0;
+				top: -48px;
+				background-image:  none; /*url(/img/arrow/arrow-r.png);*/
+				width: 48px;
+				height:48px;
+				border:1px solid #dfdfdf;
+				border-radius:0;
+				background-color: #cfcfcf;
+				font-weight: 400;
+			}
+			[dir='rtl'] .prslick .slick-next
+			{
+				right: auto;
+				/*left: -25px;*/
+			}
+			.prslick .slick-next:before
+			{
+				/*content: '→';*/
+				font-size: 48px;
+				font-weight: 200;
+				line-height: 18px;
+				content: "\203a";
+				/*background-image: url(/img/arrow/arrow-r.png);*/
+			}
+			[dir='rtl'] .prslick .slick-next:before
+			{
+				/*content: '←';*/
+				font-size: 48px;
+				font-weight: 200;
+				line-height: 18px;
+				content: "\203a";
+				/*background-image: url(/img/arrow/arrow-l.png);*/
+			}
+			
+			.prslick {
+				margin-top: 60px;
+			}
+			.img-logo-maker {
+				width: 200px;
+				border: 1px dotted #dfdfdf;
+				text-align:center;
+				margin: 0 auto;
+			}
+			.blog-counter {
+				min-width: 240px !important;
+			}
+			.blog-img {
+				width:100%;
+				min-height:200px;
+				background-color: #dfdfdf;
+			}
+			.blog-header {
+				width:100%;
+				font-size:16px;
+				font-weight: bold;
+				height:20px;
+				background-color: #dfdfdf;
+				margin:0;
+			}
+			.blog-date {
+				width:100%;
+				font-size:16px;
+				height:20px;
+				background-color: #dfdfdf;
+				padding-top:10px 0;
+				margin:0;
+			}
+			
+			.blog-text {
+				width:100%;
+				font-size:12px;
+				height:200px;
+				background-color: #dfdfdf;
+				overflow: hidden;
+				text-align: justify;
+			}
+			.blog-text p {				
+				font-size:12px;
+				margin: 12px;
+			}
+			
+			.blog-item {
+				min-width:220px ! important;
+				width:100%
+				min-height:440px;
+				margin:10px;
+			}
+			.slick-slide{
+				min-width:220px ! important;
+			}
+			.img-logo {
+				margin:20px 0 0 0;
+				width:140px;
+				height:80px;
+			}
+			.color-grey{
+		color: #afafaf;
+	}
+	.color-blue {
+		color:#16162a;
+	}
+	.strike {
+		text-decoration:line-through;
+	}
+	.shop-header > div, .shop-price > span, .shop-star >span {
+		margin: 0 15px;
+	}
+	.shop-item-inner{
+		margin: 5px;
+		text-align: left;
+		border: 1px dotted #efefef;
+	}
+	.shop-button-add {
+		padding:5px 20px;
+		margin: 15px;
+		background-color:#16162a;
+		color: #fff;
+		border:0;
+		border-radius:0;
+	}
+	.shop-button-add:hover {
+		background-color: #a02757;
+	}
+	.shop-counter {
+				min-width: 240px !important;
+			}
+			.shop-img {
+				width:100%;
+				min-height:200px;
+				background-color: #fff;
+			}
+			.shop-header {
+				width:100%;
+				font-size:16px;
+				font-weight: bold;
+				height:40px;
+				background-color: #fff;
+				margin:0;
+				overflow: hidden;
+			}
+			.shop-star {
+				width:100%;
+				font-size:16px;
+				height:20px;
+				background-color: #fff;
+				padding-top:10px 0;
+				margin:0;
+			}
+			.shop-price {
+				width:100%;
+				font-size:16px;
+				height:20px;
+				background-color: #fff;
+				padding-top:10px 0;
+				margin:0;
+			}
+			
+			.shop-button {
+				width:100%;
+				font-size:12px;
+				height:60px;
+				background-color: #fff;
+				overflow: hidden;
+				text-align: justify;
+			}
+			
+			.shop-item {
+				min-width:220px ! important;
+				width:100%
+				/*min-height:440px;*/
+				margin:10px;
+			}
+	
+	.dop-services {
+		height: 110px;
+		margin: 30px 0 0 0;
+		background-color: #fff;
+		
+	}
+	
+	.div-tbl-email-rss {
+	    margin: 15px;
+	}
+	.table-email-rss {
+		margin: 0;
+		width:100%;
+	}
+	.table-email-rss tr td {
+		margin:0;
+		padding:0;
+		border:0;
+		width: 50%;
+		background-color: #efefef;
+	}
+	.but-email-rss{
+		margin:0;
+		width:100%!important;
+		height: 40px!important;
+		background-color:#16162a;
+		color: #fff;
+		border:0;
+		border-radius:0;
+	}
+	.but-email-rss:hover{
+		background-color:#a02757;
+	}
+	.input-email-rss{
+		margin:0 !important;
+		width:100% !important;
+		max-height: 40px!important;
+		height: 40px !important;
+		background-color: #efefef!important;
+		color: #16162a;
+		border:0!important;
+		border-radius:0!important;   
+		background-color: #efefef;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -o-transition: none!important;
+    transition: none!important;
+	padding-top:0!important;
+	padding-bottom:0!important;
+	}
+	.text-sub-blog-news-send{
+		min-width:240px;
+		font-size:14px;
+		line-height: 18px;
+		text-align: justify;
+		background-color: #fff;
+		width:100%;
+		font-family: 'Open Sans';
+		overflow: hidden;
+	}
+	.text-sub-blog-news-send p {
+	    margin: 25px 15px 15px 15px;
+	}
+	.vk-blog-item {
+		background: url(img/blog/pechati-tw.jpg) no-repeat;
+		height: 100px;
+		padding-left: 73px;
+		overflow: hidden;
+		padding: 12px 5px 0 73px;;
+		border-bottom: 2px dotted #f0f2f3;
+	}
+	.vk-blog-item div {
+		height:60px;
+		overflow: hidden;
+		/*border: 2px dotted red;*/
+	}
+	.vk-blog-item div.date {
+		margin-left: 15px;
+		height: 30px;
+	}
+	
+	.vk-blog-item:hover{
+		color: #a02757;
+	}
+	
+	.vk-blog{
+		height: 570px;
+		min-width:240px;
+		width:100%;
+		background-color: #fff;
+		margin: 0 10px 0 0;;
+	}
+	
+	
+	.text-sub-blog-head-caption {
+		float: left;
+		display: inline-block;
+		background-color: #f0f2f3 ;
+		padding-right: 20px;
+	}
+	.text-sub-blog-head-line:after {
+		clear:both;
+	}
+	.text-sub-blog-head {
+		text-transform: uppercase;
+		font-size: 25px;
+		font-weight: bold;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		background-color: transparent;
+		/*float: left;*/
+		display: inline-block;
+		background: url(img/blog/background-title.png)repeat-x center 50%;
+	}
+	.text-sub-blog-head {
+		width:100%;
+		height: 30px;
+		
+	}
+	.text-sub-blog-img {
+		min-width:240px;
+		width:100%;
+	}
+	.text-sub-blog-description {
+		font-size:14px;
+		line-height: 18px;
+		text-align: justify;
+		background-color: #fff;
+		width:100%;
+		height:240px;
+		font-family: 'Open Sans';
+		overflow: hidden;
+	}
+	
+	.text-sub-blog-description p{
+		margin:25px 15px 15px 15px;
+	}
+	
+	.text-sub-blog-soc {
+		font-size:12px;
+		line-height: 14px;
+		text-align: justify;
+		background-color: #fff;
+		width:100%;
+		height:60px;
+		font-family: 'Open Sans';
+	}
+	.cocico{
+		margin:5px 0 5px 15px;;
+		width:40px;
+		height:40px;
+		background-color: #16162a;
+		border-radius: 100%;
+		text-align:center;
+		color: #fff;
+		line-height:40px;
+	}
+	.cocico:hover{
+		width:40px;
+		height:40px;
+		color: #fff;
+		background-color: #a02757;
+		border-radius: 100%;
+		text-align;center;
+	}
+	.grey {
+		background-color: #f0f2f3 ;
+	}
+	.separator {
+		height: 40px;
+	}
+	.href-contacts-filials{
+			padding:0;
+			text-decoration:none;
+			cursor:pointer;
+			color: #fff;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		.href-contacts-filials:hover {
+			color: #a02757;
+		}
+		.footer-element2{
+			margin: 15px 0;
+			color: #fff;
+		}
+		.footer-element2 span {
+		
+			font-size: 16px;
+			font-weight: bold;
+		}
+		.footer-element{
+			margin: 15px 0;
+		}
+		.footer-element:hover {
+			margin: 15px -10px 15px 10px;
+		}
+		.footer-head-caption {
+			color: #fff;
+			font-size: 25px;
+			font-weight: bold;
+			margin: 25px 0 70px 0;
+			padding:0;
+		}
+		ul.list-footer-elements {
+			list-style: none;
+			margin:15px 0 15px 0;
+			color: #fff;
+			
+		}
+		ul.list-footer-elements li {
+			margin: 15px 0;
+		}
+		ul.list-footer-elements li:hover {
+			margin: 15px -10px 15px 10px;
+			color: #a02757;
+		}
+		.copyright-line {
+			height:30px;
+			width: 100%;
+			background-color: #a02757;
+			color: #fff;
+			font-size: 14px;
+		
+		}
+		.header-menu-line-height {
+		height: 30px!important;
+	}
+	.clear:after {
+		clear:both;
+	}
+	.quick-request-table{
+		margin:0 auto;
+		width:240px;
+		height: 50px;
+		background-color: #ff9231;
+		position:relative;
+		clear:both;
+		z-index:10;
+		border-left: 2px solid #FFD700;
+		border-right: 2px solid #FFD700;
+		border-bottom: 2px solid #FFD700;
+	}
+	
+	.quick-request-center{
+		position:relative;
+		float: left;
+		display:inline;
+		margin: 0 ;
+		width:240px;
+		margin: 0 auto;
+	}
+	
+	.login-position{
+		width: 240px;
+		height: 30px;
+		overflow: hidden;
+		position: relative;
+		color: #fff;
+		font-size: 10px;
+		display: inline;
+		right:0;
+		background-color: #16162a;
+	}
+	.login-position:after {
+		clear:both!important;
+	}
+	.login-position-wrapper {
+		list-style-type: none;
+		padding-top:5px;
+		float:right;
+	}
+	.login-position-item{
+		display: inline; /* Отображать как строчный элемент */
+		padding-top:10px;
+		margin: 5px 0;
+	}
+	.login-position-item a {
+		text-decoration:none;
+		padding: 0 5px;
+		color: #fff;
+	}
+	.login-position-item a:hover {
+		color:#a02757;
+	}
+	.sl-viewport{
+		width: 240px;
+		height: 30px;
+		overflow: hidden;
+		position: relative;
+		color: #fff;
+		font-size: 10px;
+		float: left;
+		display: inline;
+	}
+	.sl-slidewrapper{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 30px;
+		margin: 0;
+		padding: 0;    
+	}
+	.sl-slide{
+		width: 300px;
+		height: 30px;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 5px 0;
+		list-style-type: none;
+		color: #fff;
+		font-size: 10px;
+	}
+	.sl-slide:before {
+		content:" \27A4 ";
+		color: #fff;
+	} 
+	.sl-slide h3 {
+		color:#fff;
+		height: 18px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.sl-slide span {
+		color:#fff;
+		height: 14px;
+		font-weight: bold;
+		text-align: center;
+	}
+	
+	.sl-viewport-phone{
+		width: 240px;;
+		height:50px;
+		overflow: hidden;
+		position: relative;
+		color: #fff;
+		font-size: 10px;
+		float: left;
+		display: inline;
+	}
+	.sl-slidewrapper-phone{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 50px;
+		margin: 0;
+		padding: 0;    
+	}
+	.sl-slide-phone{
+		width: 240px;
+		height: 48px;
+		float: left;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		color: #fff;
+		font-size: 10px;
+		text-align: center;
+	}
+	.sl-slide-phone h3 {
+		color:#fff;
+		height: 18px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 22px;
+		margin:0;
+		padding:2px;
+	}
+	.sl-slide-phone span {
+		color:#fff;
+		height: 20px;
+		line-height: 20px;
+		font-size: 16px;
+		font-weight: 200;
+		text-align: center;
+		padding-top: 2px;
+	}
+	
+	.my-hint {
+		width:244px;
+		height:244px ;
+		margin:0;
+		padding:2px;
+		background-color: #fff;
+		border-radius:0;
+		font-size:12px;
+		text-align: center;
+		
+	}
+	#map {
+		height:400px; 
+		width:100%;
+		margin:0;
+		padding:0;
+		background-color:#fff;
+	}
+		</style>
+	
+	
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/plugins-scroll.js"></script>
+	
+    <script src="slider/js/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="slider/js/amazingslider-1.css">
+    <script src="slider/js/initslider-1.js"></script>
+	
+	<script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+	
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="js/map-filials.js" type="text/javascript"></script>
+
+
+
+
+	<script>
+	
+	$(document).ready(function(){
+			try {
+			$.browserSelector();
+			if($("html").hasClass("chrome")) {
+				$.smoothScroll();
+			}
+		} catch(err) {
+
+		};
+	jQuery("a.scrollto").click(function () {
+    elementClick = jQuery(this).attr("href")
+    destination = jQuery(elementClick).offset().top;
+    jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
+    return false;
+  });
+  
+		var slideWidth=300;
+		var sliderTimer;
+		$(function(){
+		$('.sl-slidewrapper').width($('.sl-slidewrapper').children().size()*slideWidth);
+			sliderTimer=setInterval(nextSlide,3000);
+			$('.sl-viewport').hover(function(){
+				clearInterval(sliderTimer);
+			},function(){
+				sliderTimer=setInterval(nextSlide,1000);
+			});
+		});
+
+		function nextSlide(){
+			var currentSlide=parseInt($('.sl-slidewrapper').data('current'));
+			currentSlide++;
+			if((currentSlide)>=$('.sl-slidewrapper').children().size())
+			{
+				currentSlide=0;   
+			}
+			$('.sl-slidewrapper').animate({left: -currentSlide*slideWidth},300).data('current',currentSlide);
+		};
+		
+		
+		var slideWidthPhone=48;
+		var sliderTimerPhone;
+		$(function(){
+		$('.sl-slidewrapper-phone').height($('.sl-slidewrapper-phone').children().size()*slideWidthPhone);
+			sliderTimerPhone=setInterval(nextSlidePhone,2500);
+			$('.sl-viewport-phone').hover(function(){
+				clearInterval(sliderTimerPhone);
+			},function(){
+				sliderTimerPhone=setInterval(nextSlidePhone,1000);
+			});
+		});
+
+		function nextSlidePhone(){
+			var currentSlidePhone=parseInt($('.sl-slidewrapper-phone').data('current'));
+			currentSlidePhone++;
+			if((currentSlidePhone)>=$('.sl-slidewrapper-phone').children().size())
+			{
+				currentSlidePhone=0;   
+			}
+				$('.sl-slidewrapper-phone').animate({top: -currentSlidePhone*slideWidthPhone},300).data('current',currentSlidePhone);
+			
+			
+		};
+		
+	
+	
+	$('#logo-makers .multiple-items').slick({
+      infinite: true,
+      dots: true,
+      slidesToShow: 5,
+      slidesToScroll: 1,
+	  autoplay: true,
+	  arrows:true,
+	  dots: false
+    });
+	
+	
+	
+
+    });
+	
+	function slideBlog4() {
+		$('#blog-items .multiple-items').slick({
+		  infinite: true,
+		  dots: true,
+		  slidesToShow: 4,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  arrows:true,
+		  dots: false
+		});	
+	}
+		function slideBlog1() {
+		$('#blog-items .multiple-items').slick({
+		  infinite: true,
+		  dots: true,
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  arrows:true,
+		  dots: false
+		});	
+	}
+	function slideShop4() {
+		$('#shop-items .multiple-items').slick({
+		  infinite: true,
+		  dots: true,
+		  slidesToShow: 4,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  arrows:true,
+		  dots: false
+		});	
+	}
+	function slideShop1() {
+		$('#shop-items .multiple-items').slick({
+		  infinite: true,
+		  dots: true,
+		  slidesToShow: 4,
+		  slidesToScroll: 1,
+		  autoplay: true,
+		  arrows:true,
+		  dots: false
+		});	
+	}
+	
+	
+	function slideSize() {
+		sizeElement = $(".navbar-inner").width();
+		if(sizeElement> 720){
+			slideBlog4();
+			slideShop4();
+			jQuery("#amazingslider-1").show();
+			jQuery("#logo-makers").show();
+			//jQuery("#map").show();
+			jQuery("#amazingslider-1").width(sizeElement);
+			
+			jQuery("#amazingslider-1").height(sizeElement*0.3436);
+			//jQuery(".amazingslider-text-wrapper-1").bottom(0);
+			jQuery(".amazingslider-space-1").height(sizeElement*0.3436);
+			//alert(sizeElement);
+		}
+		else {
+			jQuery("#amazingslider-1").hide();
+			
+			jQuery("#logo-makers").hide();
+			slideBlog1();
+			slideShop1();
+			//jQuery("#map").hide();
+		}
+	}
+	//toggleNav();
+	$( window ).resize(function() {
+		slideSize();
+	});
+	$( window ).load(function() {
+		slideSize();
+	});
+	</script>
+	
+
+  </head>
+
+  <body>
+<div class="wrapper">
+	<div class="header-menu-line clear">
+		<div class="container">
+			<div class="row-fluid  header-menu-line-height">
+				<div class='span4'>
+					<div class='sl-viewport'>
+						<ul class='sl-slidewrapper' data-current=0 data-start=0>
+							<li class='sl-slide'>
+								Печати в Москве и МО быстро и качественно
+							</li>
+							<li class='sl-slide'>
+								25+ филиалов по всей Москве
+							</li>
+							<li class='sl-slide'>
+								Печать в шаговой доступности
+							</li>
+							<li class='sl-slide'>
+								Печать с доставкой в офис
+							</li>					
+							<li class='sl-slide'>
+								Мы сделаем печать за час
+							</li>				
+							<li class='sl-slide'>
+								Сертификат для гербовых печатей
+							</li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="span4 header-menu-line-height">
+					<div class="quick-request-table">
+						<div class='sl-viewport-phone'>
+							<ul class='sl-slidewrapper-phone' data-current=0>
+								<li class='sl-slide-phone'>
+								<h3>+7(495)111-11-11</h3>
+								<span>м. Беговая</span>
+								</li>
+								<li class='sl-slide-phone'>									
+									<h3>+7(495)222-22-22</h3>
+									<span>м. Динамо</span>
+								</li>
+								<li class='sl-slide-phone'>									
+									<h3>+7(495)333-33-33</h3>
+									<span>м. Выхино</span>
+								</li>
+								<li class='sl-slide-phone'>									
+									<h3>+7(495)444-44-44</h3>
+									<span>м. Чертаново</span>
+								</li>					
+								<li class='sl-slide-phone'>									
+									<h3>+7(495)555-55-55</h3>
+									<span>м. Чистые пруды</span>
+								</li>				
+								<li class='sl-slide-phone'>						
+									<h3>+7(495)666-66-66</h3>
+									<span>м. Таганская</span>
+								</li>
+								<li class='sl-slide-phone'>									
+									<h3>+7(495)777-77-77</h3>
+									<span>м. Комсомольская</span>
+								</li>					
+								<li class='sl-slide-phone'>									
+									<h3>+7(495)888-88-88</h3>
+									<span>м. Марьина роща</span>
+								</li>				
+								<li class='sl-slide-phone'>									
+									<h3>+7(495)999-99-99</h3>
+									<span>м. Кирило-Розумовская</span>
+								</li>
+								<li class='sl-slide-phone'>
+									<h3>+7(499)111-11-11</h3>
+									<span>м. Савёловская</span>
+								</li>
+								<li class='sl-slide-phone'>									
+									<h3>+7(499)222-22-22</h3>
+									<span>м. Южная</span>
+								</li>
+								<li class='sl-slide-phone'>									
+									<h3>+7(495)333-33-33</h3>
+									<span>м. Бутово</span>
+								</li>
+								<li class='sl-slide-phone'>									
+									<h3>+7(499)444-44-44</h3>
+									<span>м. Нахимовский бульвар</span>
+								</li>					
+								<li class='sl-slide-phone'>									
+									<h3>+7(499)555-55-55</h3>
+									<span>м. Парк Победы</span>
+								</li>				
+								<li class='sl-slide-phone'>						
+									<h3>+7(499)666-66-66</h3>
+									<span>м. Римская</span>
+								</li>
+								<li class='sl-slide-phone'>									
+									<h3>+7(499)777-77-77</h3>
+									<span>м. ВДНХ</span>
+								</li>					
+								<li class='sl-slide-phone'>									
+									<h3>+7(499)888-88-88</h3>
+									<span>м. Водный стадион</span>
+								</li>				
+								<li class='sl-slide-phone'>									
+									<h3>+7(499)999-99-99</h3>
+									<span>м. Авиамоторная</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="span4 login-position">
+					<ul class='login-position-wrapper'>
+							<li class='login-position-item'>
+								<a href="#">Вход</a>
+							</li>
+							<li class='login-position-item'>
+								<a href="#">Регистрация</a>
+							</li>
+							<li class='login-position-item'>
+								<a href="#">Корзина</a>
+							</li>
+							
+					</ul>
+				</div>
+				
+			</div>	
+		</div>	
+	</div>
+	
+	
+    <div class="container">
+	
+
+		<div class="row-fluid header-logo-layout">
+			<div class="span2"><a href="#"><img src="img/pechati-ru.png" alt="Печати.РУ" class="img-logo"/></a></div>
+			<div class="span10">
+			<div class="row-fluid">
+				<div class="span4">
+					<div class="but-header-line">
+						<div class="circle-but-header fa fa-truck fa-2x pull-left rotate"></div>
+						<div class="text-but-header ">
+							<h5>ДОСТАВКА</h5>От 3-х печатей бесплатно
+						</div>
+					</div>
+					<div class="but-header-line ">
+						<div class="circle-but-header fa fa-building fa-2x pull-left "></div>
+						<div class="text-but-header ">
+						<h5>ФИЛИАЛЫ</h5> 25+ филиалов по Москве и МО
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="but-header-line">
+						<div class="circle-but-header fa fa-phone fa-2x pull-left "></div>
+						<div class="text-but-header ">
+							<h5>КОНТАКТЫ</h5>+7(495) 111-11-11<br />+7(495) 222-22-22
+						</div>
+					</div>
+					<div class="but-header-line">
+						<div class="circle-but-header fa fa-users fa-2x pull-left "></div>
+						<div class="text-but-header ">
+						<h5>РЕЖИМ РАБОТЫ</h5>Приём заказов: 24/7<br />Офисы: индивидуально
+						</div>
+					</div>
+				</div>
+				<div class="span3 but-header-line">
+					<div class="circle-but-header fa fa-shopping-cart fa-2x pull-left"></div>
+					<div class="text-but-header">
+						<h5>КОРЗИНА</h5>Корзина пуста
+					</div>
+				</div>
+			</div>
+			</div>
+		
+		</div>
+      <!-- Static navbar -->
+      <div class="navbar" style="margin-top:0;margin-bottom:0;">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+            <!--<a class="brand" href="#">Project name</a>-->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active scrollto"><a href="#">ГЛАВНАЯ</a></li>
+                <li><a href="#our-services" class="scrollto">ПЕЧАТИ</a></li>
+                <li><a href="#our-manufacture" class="scrollto">ШТАМПЫ</a></li>
+                <li class="dropdown" class="scrollto">
+                  <a href="#" class="dropdown-toggle scrollto" data-toggle="dropdown">ДАТЕРЫ </b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#" class="scrollto">Action</a></li>
+                    <li><a href="#" class="scrollto">Another action</a></li>
+                    <li><a href="#" class="scrollto">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Nav header</li>
+                    <li><a href="#" class="scrollto">Separated link</a></li>
+                    <li><a href="#" class="scrollto">One more separated link</a></li>
+                  </ul>
+                <li><a href="#contact" class="scrollto">ПЛОМБИРЫ</a></li>
+				<li><a href="#contact" class="scrollto">АКСЕССУАРЫ</a></li>
+              </ul>
+			  
+				<div class="span3 pull-right">
+					<div class="search">
+					<input name="keyword" class="inputbox" type="text" placeholder="Искать..." >
+					<button type="submit" class="btn_search" onclick="this.form.keyword.focus();">
+					<i class="fa fa-search"></i></button></div>
+				</div>
+             <!-- <ul class="nav pull-right">
+                <li class="active"><a href="./navbar.html">Default</a></li>
+                <li><a href="./navbar-static-top.html">Static top</a></li>
+                <li><a href="./navbar-fixed-top.html">Fixed top</a></li>
+              </ul>
+            </div>--><!--/.nav-collapse -->
+          </div>
+        </div>
+      </div>
+	  
+		
+	  <!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1170px;margin:0px auto 0px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="slider/images/bg1.jpg" alt="Заказать печати и штампы в Москве" width="100%" title="Заказать печати и штампы в Москве" data-description="стало ещё проще. Более 25 филиалов возле ближайших станций метро к вашим услугам" />
+                </li>
+                <li><img src="slider/images/bg2.jpg" alt="Печать срочно" width="100%" title="Печать срочно" data-description="мы сделаем за час. Доставка по всей Москве и Московской области" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="slider/images/bg1-tn.jpg" alt="bg1" title="bg1" /></li>
+                <li><img src="slider/images/bg2-tn.jpg" alt="bg2" title="bg2" /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="#" title="jQuery Slider">jQuery Slider</a></div>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+	<div class="row-fluid" id="our-services">
+		  <div class="span12 head-block-h1">
+			<h1>Наши услуги</h1>
+			<div class="head-block-under-text">
+				 <div class="head-line-text"></div>
+				 <div class="head-circle-text"></div>
+				 <div class="head-line-text"></div>
+			</div>
+		  </div>
+	</div>
+	
+	<div class="row-fluid">
+		<div class="span6">
+			<img src="img/service-img.png" class="service-img"/>
+		</div>
+		
+		<div class="span6">
+				<div class="but-header-line but-header-line-tbl">
+					<div class="circle-but-header fa fa-circle-o fa-2x pull-left "></div>
+					<div class="content-but-head text-but-header ">
+					<h5>Одноцветные печати и штампы</h5>
+					Изготовление и восстановление печатей из фотополимера и резины. Изготовление печатей для ООО и ИП.
+					</div>
+				</div>
+				
+				<div class="but-header-line but-header-line-tbl">
+					<div class="circle-but-header fa fa-bullseye fa-2x pull-left "></div>
+					<div class="content-but-head text-but-header ">
+					<h5>Цветные и красконаполенные(флеш) печати</h5>
+					Изготовление красконаполненных печатей из микропористой резины на основе японской технологии (флеш). Изготовление многоцветных печатей.
+					</div>
+				</div>
+				
+				<div class="but-header-line but-header-line-tbl">
+					<div class="circle-but-header fa fa-expeditedssl fa-2x pull-left "></div>
+					<div class="content-but-head text-but-header ">
+					<h5>Гербовые печати</h5>
+					печати с воспроизведением государственного герба Российской Федерации. Форма и размеры соотвествуют техническим требованиям ГОСТ Р51511-2001
+					</div>
+				</div>
+				
+				<div class="but-header-line but-header-line-tbl">
+					<div class="circle-but-header fa fa-cubes fa-2x pull-left "></div>
+					<div class="content-but-head text-but-header ">
+					<h5>Пломбиры и пломбираторы</h5>
+					Изготовление пломбиров для пластилина и сургуча, пломбираторов для свинцовых и пластмассовых пломб, рельефных металлических печатей. Изготовление ударных клейм.
+					</div>
+				</div>
+				
+				<div class="but-header-line but-header-line-tbl">
+					<div class="circle-but-header fa fa-certificate fa-2x pull-left "></div>
+					<div class="content-but-head text-but-header ">
+					<h5>Печати с защитой</h5>
+					Изготовление специальных печатей с внесением дополнительных элементов защиты, исключающих возможность подделки Вашей печати
+					</div>
+				</div>
+				
+				<div class="but-header-line but-header-line-tbl">
+					<div class="circle-but-header fa fa-paw fa-2x pull-left "></div>
+					<div class="content-but-head text-but-header ">
+					<h5>Печати с дополнительными элементами защиты от подделки</h5>
+					Изготовление специальных печатей с внесением дополнительных элементов защиты, исключающих возможность подделки Вашей печати.
+					</div>
+				</div>
+				<div class="but-header-line but-header-line-tbl">
+					<div class="circle-but-header fa fa-cogs fa-2x pull-left "></div>
+					<div class="content-but-head text-but-header ">
+					<h5>Оборудование для изготовления печатей.</h5>
+					Экспонирующие камеры для изготовления печатей по фотополимерной технологии и флёш-системы для изготовления красконаполненных печатей, гравировальные машины, лазерные граверы, термопрессы.
+					</div>
+				</div>
+		
+		</div>
+	</div>
+	</div>
+	</div>
+	<div class="grey">
+		<div class="container ">
+		<div class="cta2" id="our-manufacture">
+			<div class="banner-text-under-img">
+				<h1 class="banner-text white"><span class="blue">Печати.РУ</span> - лидер рынка изготовления печатей</h1>
+				<p>У нас широкая сеть филиалов по всей Москве и Подмосковью</p>
+				<p>Каждая четвёртая печать, которой пользуются в Москве изговлена у нас</p>
+				<button class="btn-zakaz" type="button">Заказать печать САЙЧАС</button>
+			
+			</div>
+			<img src="img/cta2-img.png" />
+			
+		</div>
+		
+		
+		
+		
+			<div class="grey">
+			<div class="row-fluid">
+				  <div class="span12 head-block-h1">
+					<h1>Наше производство</h1>
+					<div class="head-block-under-text">
+						 <div class="head-line-text"></div>
+						 <div class="head-circle-text"></div>
+						 <div class="head-line-text"></div>
+					</div>
+				  </div>
+			</div>
+			
+			<div class="row-fluid">
+				<div class="span4">
+					<div class="video-block">
+					<iframe class="video-player" src="https://www.youtube.com/embed/d9RAhadG8r0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="description-block">
+					<h5>Экспонирующие камеры для производства печатей</h5>
+					<p>Что такое экспонирующая камера? Знатоки в области штемпельной продукции, конечно, могут пропустить этот абзац, а всем остальным советуем читать внимательно. Так называется особый аппарат, играющий главную роль в процессе производства штампов. Экспокамера оснащена таймером и ультрафиолетовыми лампами, которые позволяют воплощать в жизнь фотополимерную технологию. Она заключается в послойном отверждении полимера под действием UV-излучения.
+					</p>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="video-block">
+					<iframe class="video-player" src="https://www.youtube.com/embed/d9RAhadG8r0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="description-block">
+					<h5>Расходные материалы для производства печатей</h5>
+					<p>Техника от Печати.RU, благодаря своему оснащению и конструкции, идеально подойдет как начинающим, так и «продвинутым» пользователям. Кроме того, у нас вы можете приобрести такое оборудование для изготовления печатей, как автоматические мойки, лампы для экспокамер, а также расходные материалы
+					</p>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="video-block">
+					<iframe class="video-player" src="https://www.youtube.com/embed/d9RAhadG8r0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="description-block">
+					<h5>Оснастки для печатей</h5>
+					<p>Широкий ассортимент отснастки для печатей и штампов. Автоматическая оснастка GRM, Colop, Shiny, Reiner. Ручная металлическая и пластиковая оснастка. Оснастка для красконаполненных (флэш) печатей.
+					</p>
+					</div>
+				</div>
+			
+			</div>
+			<div class="separator"></div>
+			
+			<div>
+						<div id="shop-items">
+							<div  class="slider multiple-items prslick">	
+								
+								<div class="block-center shop-counter">
+									<div class="shop-item-inner">
+										<div class="shop-item">
+											<div class="shop-img">
+												<img src="img/blog/blog1.jpg">
+											</div>
+											<div class="shop-header">
+											<div>Печать с автоматической оснасткой Colop R40</div>
+											</div>
+											<div class="shop-star">
+											<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+											</div>
+											<div class="shop-price">
+												<span class="color-grey strike ">1111.00 р</span> / 
+												<span class="color-blue">1000.00 р</span>
+											</div>
+											<div class="shop-button">
+												<button class="shop-button-add" value="Заказать печать">Заказать печать</button>
+											</div>
+										</div>									
+									</div>
+								</div>
+								<div class="block-center shop-counter">
+									<div class="shop-item-inner">
+										<div class="shop-item">
+											<div class="shop-img">
+												<img src="img/blog/blog2.jpg">
+											</div>
+											<div class="shop-header">
+											<div>Печать с автоматической оснасткой Shiny R402</div>
+											</div>
+											<div class="shop-star">
+											<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+											</div>
+											<div class="shop-price">
+												<span class="color-grey strike ">1111.00 р</span> / 
+												<span class="color-blue">1000.00 р</span>
+											</div>
+											<div class="shop-button">
+												<button class="shop-button-add" value="Заказать печать">Заказать печать</button>					
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="block-center shop-counter">
+									<div class="shop-item-inner">
+										<div class="shop-item">
+											<div class="shop-img">
+												<img src="img/blog/blog3.jpg">
+											</div>
+											<div class="shop-header">
+											<div>Пломбир диаметр 40мм</div>
+											</div>
+											<div class="shop-star">
+											<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+											</div>
+											<div class="shop-price">
+												<span class="color-grey strike">1111.00 р</span> / 
+												<span class="color-blue">1000.00 р</span>
+											</div>
+											<div class="shop-button">
+												<button class="shop-button-add" value="Заказать печать">Заказать печать</button>							
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="block-center shop-counter">
+									<div class="shop-item-inner">
+										<div class="shop-item">
+											<div class="shop-img">
+												<img src="img/blog/blog4.jpg">
+											</div>
+											<div class="shop-header">
+											<div>Штамп малый 15х30мм</div>
+											</div>
+											<div class="shop-star">
+											<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+											</div>
+											<div class="shop-price">
+												<span class="color-grey strike">1111.00 р</span> / 
+												<span class="color-blue">1000.00 р</span>
+											</div>
+											<div class="shop-button">							
+												<button class="shop-button-add" value="Заказать печать">Заказать печать</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="block-center shop-counter">
+									<div class="shop-item-inner">
+										<div class="shop-item">
+											<div class="shop-img">
+												<img src="img/blog/blog5.jpg">
+											</div>
+											<div class="shop-header">
+												<div>Гербовая печать с эксклюзивной оснасткой Colop RGT45</div>
+											</div>
+											<div class="shop-star">
+												<span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+											</div>
+											<div class="shop-price">
+												<span class="color-grey strike">5551.00 р</span> / 
+												<span class="color-blue">5000.00 р</span>
+											</div>
+											<div class="shop-button">
+												<button class="shop-button-add" value="Заказать печать">Заказать печать</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+			
+			<div class="separator"></div>
+		</div>
+	</div>
+	
+	
+	<div class="container">
+	<div class="row-fluid">
+		  <div class="span12 head-block-h1">
+			<h1>Наши клиенты</h1>
+			<div class="head-block-under-text">
+				 <div class="head-line-text"></div>
+				 <div class="head-circle-text"></div>
+				 <div class="head-line-text"></div>
+			</div>
+		  </div>
+	</div>
+	
+	<div  class="row-fluid">	
+		<div class="span2 block-center"><img alt="Билайн" src="img/logo/logo_beeline.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="Мегафон" src="img/logo/logo_megafon.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="Стрим" src="img/logo/logo_stream.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="Вебальта" src="img/logo/logo_webalta.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="Эльдорадо" src="img/logo/logo_eldorado.gif"  class="img-logo"></div></tr>
+		<div class="span2 block-center"><img alt="ОАО ТВ Центр" src="img/logo/logo_tvcenter.gif"  class="img-logo"></div>
+	</div>
+	<div  class="row-fluid">
+		<div class="span2 block-center"><img alt="ОАО ТНТ-Телесеть" src="img/logo/logo_tnt.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="Муз-тв" src="img/logo/logo_muztv.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="Cosmopolitan" src="img/logo/logo_cosmo.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="ЗАО Коммерсантъ-Пресс" src="img/logo/logo_kommersant.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="ОАО Газпром-Медиа" src="img/logo/logo_gazprom.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="ОАО АКБ ГАЗСТРОЙБАНК" src="img/logo/logo_gasstroybank.gif"  class="img-logo"></div>
+	</div>
+	<div  class="row-fluid">
+		<div class="span2 block-center"><img alt="ЗАО Дон-Строй" src="img/logo/logo_domstroy.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="ОАО Волгограднефтемаш" src="img/logo/logo_bhm.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="ОАО Таганрогский металлургический завод" src="img/logo/logo_tmk.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="ООО Завод Биотеххиммаш" src="img/logo/logo_btxm.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="ОАО Российские железные дороги" src="img/logo/logo_rjd.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="ОАО ГНПО ''Гранит''" src="img/logo/logo_granit.gif"  class="img-logo"></div>
+	</div>
+	<div  class="row-fluid">
+		<div class="span2 block-center"><img alt="ОАО Мосэнерго" src="img/logo/logo_mosenergo.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img alt="Энергомаш" src="img/logo/logo_energomash.gif"  class="img-logo"></div>
+		<div class="span2 block-center"><img src="img/logo/yves_rocher.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/vnukovo.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/ups.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/ramstor.jpg"  class="img-logo" alt=""></div>
+	</div>
+	<div  class="row-fluid">
+		<div class="span2 block-center"><img src="img/logo/raiffeisen_bank.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/musamotors.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/lukoil.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/gazprom.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/domodedovo.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/dixis.jpg"  class="img-logo" alt=""></div>
+	</div>
+	<div  class="row-fluid">
+		<div class="span2 block-center"><img src="img/logo/divo_tv.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/dirol.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/dhl.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/avoska.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/atlant-m.jpg"  class="img-logo" alt=""></div>
+		<div class="span2 block-center"><img src="img/logo/atlant-m.jpg"  class="img-logo" alt=""></div>
+	</div>
+
+
+
+
+	<div  id="logo-makers">
+		<div class="row-fluid">
+		  <div class="span12 head-block-h1">
+			<h1>Производители</h1>
+			<div class="head-block-under-text">
+				 <div class="head-line-text"></div>
+				 <div class="head-circle-text"></div>
+				 <div class="head-line-text"></div>
+			</div>
+		  </div>
+		</div>	
+	
+	
+	
+	
+		<div  class="slider multiple-items prslick">	
+			
+			<div class="block-center"><img alt="Билайн" src="img/logo/logo_beeline.gif"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/musamotors.jpg"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/avoska.jpg"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/dixis.jpg"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/domodedovo.jpg"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/dirol.jpg"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/logo_btxm.gif"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/logo_stream.gif"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/logo_tvcenter.gif"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/logo_gasstroybank.gif"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/dhl.jpg"  class="img-logo-maker"></div>
+			<div class="block-center"><img alt="Билайн" src="img/logo/gazprom.jpg"  class="img-logo-maker"></div>
+			
+		
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<div  id="blog">
+		<div class="row-fluid">
+			  <div class="span12 head-block-h1">
+				<h1>Блог Печати.РУ</h1>
+				<div class="head-block-under-text">
+					 <div class="head-line-text"></div>
+					 <div class="head-circle-text"></div>
+					 <div class="head-line-text"></div>
+				</div>
+			  </div>
+		</div>
+			<div id="blog-items">
+				<div  class="slider multiple-items prslick">	
+					
+					<div class="block-center blog-counter">
+						<div class="blog-item">
+							<div class="blog-img">
+								<img src="img/blog/blog1.jpg">
+							</div>
+							<div class="blog-header">
+							Новость 1
+							</div>
+							<div class="blog-date">
+							12.01.2015
+							</div>
+							<div class="blog-text"><p>
+							Я искренне благодарю всех, принявших участие в обсуждении вчерашней философской темы.  В том числе и всех своих критиков. Куда важнее сам факт неравнодушия к подобной тематике, существенно отдаленной от сиюминутных забот и потребностей.
+							Когда я вчера писал «Мысли о Сущем», я предполагал, что обсуждение сложится примерно так, как оно и произошло. Это было ожидаемо. Причем, столь жесткую терминологию я применил совершенно осмысленно.
+							</p></div>
+						</div>
+					</div>
+					<div class="block-center blog-counter">
+						<div class="blog-item">
+							<div class="blog-img">
+								<img src="img/blog/blog2.jpg">
+							</div>
+							<div class="blog-header">
+							Новость 2
+							</div>
+							<div class="blog-date">
+							12.01.2015
+							</div>
+							<div class="blog-text"><p>
+							Я искренне благодарю всех, принявших участие в обсуждении вчерашней философской темы.  В том числе и всех своих критиков. Куда важнее сам факт неравнодушия к подобной тематике, существенно отдаленной от сиюминутных забот и потребностей.
+							Когда я вчера писал «Мысли о Сущем», я предполагал, что обсуждение сложится примерно так, как оно и произошло. Это было ожидаемо. Причем, столь жесткую терминологию я применил совершенно осмысленно.
+							</p></div>
+						</div>
+						
+					</div>
+					<div class="block-center blog-counter">
+						<div class="blog-item">
+							<div class="blog-img">
+								<img src="img/blog/blog3.jpg">
+							</div>
+							<div class="blog-header">
+							Новость 3
+							</div>
+							<div class="blog-date">
+							12.01.2015
+							</div>
+							<div class="blog-text"><p>
+							Я искренне благодарю всех, принявших участие в обсуждении вчерашней философской темы.  В том числе и всех своих критиков. Куда важнее сам факт неравнодушия к подобной тематике, существенно отдаленной от сиюминутных забот и потребностей.
+							Когда я вчера писал «Мысли о Сущем», я предполагал, что обсуждение сложится примерно так, как оно и произошло. Это было ожидаемо. Причем, столь жесткую терминологию я применил совершенно осмысленно.
+							</p></div>
+						</div>
+						
+					</div>
+					<div class="block-center blog-counter">
+						<div class="blog-item">
+							<div class="blog-img">
+								<img src="img/blog/blog4.jpg">
+							</div>
+							<div class="blog-header">
+							Новость 4
+							</div>
+							<div class="blog-date">
+							12.01.2015
+							</div>
+							<div class="blog-text"><p>
+							Я искренне благодарю всех, принявших участие в обсуждении вчерашней философской темы.  В том числе и всех своих критиков. Куда важнее сам факт неравнодушия к подобной тематике, существенно отдаленной от сиюминутных забот и потребностей.
+							Когда я вчера писал «Мысли о Сущем», я предполагал, что обсуждение сложится примерно так, как оно и произошло. Это было ожидаемо. Причем, столь жесткую терминологию я применил совершенно осмысленно.
+							</p></div>
+						</div>
+						
+					</div>
+					<div class="block-center blog-counter">
+						<div class="blog-item">
+							<div class="blog-img">
+								<img src="img/blog/blog5.jpg">
+							</div>
+							<div class="blog-header">
+							Новость 5
+							</div>
+							<div class="blog-date">
+							12.01.2015
+							</div>
+							<div class="blog-text"><p>
+							Я искренне благодарю всех, принявших участие в обсуждении вчерашней философской темы.  В том числе и всех своих критиков. Куда важнее сам факт неравнодушия к подобной тематике, существенно отдаленной от сиюминутных забот и потребностей.
+							Когда я вчера писал «Мысли о Сущем», я предполагал, что обсуждение сложится примерно так, как оно и произошло. Это было ожидаемо. Причем, столь жесткую терминологию я применил совершенно осмысленно.
+							</p></div>
+						</div>
+						
+					</div>
+					
+					
+				
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="grey">
+		<div class="container">
+			<div class="row-fluid grey">
+				<div class="span4">
+					<div class="text-sub-blog-head">
+						<span class="text-sub-blog-head-caption">
+						О нас 
+						</span>
+					</div>
+					<div class="text-sub-blog-img">
+						<img src="img/blog/office.jpg" class="text-sub-blog-img" />
+					</div>
+					<div class="text-sub-blog-description">
+						<p>
+						Мы давно планировали открыть филиал в районе метро Речной вокзал - Водный стадион, известном своей не очень хорошей транспортной доступностью. Кроме того этот пункт принимает заказы на изготовление печатей и штампов с 10-00 до 23-00. А открытие приёмного пункта в Люберцах - первый шаг за границы МКАД. Ну, а в декабре начинает работу приёмный пункт в Митино. В непосредственной близости от Митинского радиорынка.
+						
+						</p>
+					
+					</div>
+					<div class="text-sub-blog-soc">
+						<i class="cocico fa fa-facebook"> </i>
+						<i class="cocico fa fa-twitter"> </i>
+						<i class="cocico fa fa-skype"> </i>	
+						<i class="cocico fa fa-google-plus"> </i>
+						<i class="cocico fa fa-vk"> </i>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="text-sub-blog-head">
+						<span class="text-sub-blog-head-caption">
+						Мы в соцсетях 
+						</span>
+					</div>
+					<div class="vk-blog">
+						<div class="vk-blog-item">
+							<div>Какие требования к размерам печатей установлены в нашем законодательстве? Давайте разберемся.
+										Для гербовых печатей это от 40 до 50 мм. в диаметре по требованиям ГОСТ.</div>
+							<div class="date"> 24.10.2015</div>
+						</div>
+						<div class="vk-blog-item">
+							<div>Какие требования к размерам печатей установлены в нашем законодательстве? Давайте разберемся.
+										Для гербовых печатей это от 40 до 50 мм. в диаметре по требованиям ГОСТ.</div>
+							<div class="date"> 24.10.2015</div>
+						</div>
+						<div class="vk-blog-item">
+							<div>Какие требования к размерам печатей установлены в нашем законодательстве? Давайте разберемся.
+										Для гербовых печатей это от 40 до 50 мм. в диаметре по требованиям ГОСТ.</div>
+							<div class="date"> 24.10.2015</div>
+						</div>
+						<div class="vk-blog-item">
+							<div>Какие требования к размерам печатей установлены в нашем законодательстве? Давайте разберемся.
+										Для гербовых печатей это от 40 до 50 мм. в диаметре по требованиям ГОСТ.</div>
+							<div class="date"> 24.10.2015</div>
+						</div>
+						<div class="vk-blog-item">
+							<div>Какие требования к размерам печатей установлены в нашем законодательстве? Давайте разберемся.
+										Для гербовых печатей это от 40 до 50 мм. в диаметре по требованиям ГОСТ.</div>
+							<div class="date"> 24.10.2015</div>
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="text-sub-blog-head">
+						<span class="text-sub-blog-head-caption">
+						Лента новостей
+						</span>
+					</div>
+					<div class="text-sub-blog-news-send">
+						<p>
+						Хотите получать информацию о новинках, акциях и скидках на изготовление печатей, штампов?
+						
+						</p>
+						<div class="div-tbl-email-rss">
+							<table class="table-email-rss">
+								<tr>
+									<td>
+										<input type="text" class="input-email-rss" />
+									</td>	
+									<td>				
+										<input type="button" class="but-email-rss" value="Подписаться">
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					<div class="dop-services">
+					
+					</div>
+					<div class="dop-services">
+					
+					</div>
+					<div class="dop-services">
+					
+					</div>
+				</div>
+			</div>
+			
+			
+			
+					
+			
+			
+			
+			
+		</div>
+		
+
+		
+	</div>
+	
+
+<div id="map"></div>
+	
+	
+     
+
+    </div> <!-- /container -->
+
+	
+
+
+
+
+	
+	
+	</div>
+	
+<div class="footer-menu-line">
+	<div class="container ">
+	
+		<div class="row-fluid">
+			<div class="span3 white">
+				<a href="#"><img src="img/pechati-ru-footer.png" alt="Печати.РУ" class="img-logo"/></a>
+				<div class="footer-element">
+				Более 25 филиалов по Москве и Московской области. Офисы в шаговой доступности от метро и транспортных развязок.
+				</div>
+				<div class="footer-element">
+				<a href="#" class="href-contacts-filials">Список филиалов</a>
+				</div>
+				<div class="footer-element">
+				<b>Стол заказов: </b> +7(945) 111-11-11
+				</div>
+				<div class="footer-element">
+				<b>Онлайн заказ: </b> zakaz@pechati.ru	
+				</div>
+			</div>
+			<div class="span3">
+				<div class="footer-head-caption">ПРОФИЛЬ</div>
+				<ul class="list-footer-elements">
+					<li>Профиль</li>
+					<li>История заказов</li>
+					<li>Корзина</li>
+					<li>Сменить пароль</li>
+					<li>Карта сайта</li>				
+				</ul>
+			
+			</div>
+			<div class="span3">
+				<div class="footer-head-caption">УСЛУГИ</div>
+				<ul class="list-footer-elements">
+					<li>Печати</li>
+					<li>Штампы</li>
+					<li>Пломбиры</li>
+					<li>Оборудование для изготовления печатей</li>
+					<li>Доставка</li>				
+				</ul>
+			</div>
+			<div class="span3">
+				<div class="footer-head-caption">РЕЖИМ РАБОТЫ</div>
+				<ul class="list-footer-elements">
+					<li>Онлайн заказ: круглосуточно</li>
+					<li>Офисы: индивидуально</li>			
+				</ul>
+				<div class="footer-element2">
+					<span>Варианты оплаты: </span>
+					<ul class="list-footer-elements">
+						<li>наличными в офисе</li>
+						<li>наличными курьеру</li>	
+						<li>банковский перевод</li>	
+						<li>банковской картой</li>	
+						
+					</ul>
+				</div>
+			</div>
+		
+		</div>
+	
+	</div>
+	<div class="copyright-line">
+		<div class="container ">Асгат Консалтинг, 2015</div>
+	<div>
+</div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Slider</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+			<!--<link rel="stylesheet" href="css/font-awesome.css" type="text/css" />-->
+			<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<!--<link href="css/style-ico.css" rel="stylesheet">-->
+
+		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- Le fav and touch icons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="ico/favicon.png">
+		
+		<style type="text/css">
+			.container {
+				border: red 1px solid;
+				display:inline-block;
+			}
+			
+			.container2 {
+				border: blue 1px solid;
+				display:inline-block;
+			}
+			
+			.carousel {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			
+			.carousel li {
+				float: left;
+				width: 88px;
+				height: 128px;
+				padding: 0;
+				background: lightblue;
+				border: blue 1px solid;
+				margin: 10px;
+			}
+			.btnNext, .btnPrev {
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				border: 1px solid #dfdfdf;
+				background: rgba(239,239,239,0.7);
+				border-radius: 100%;
+				color: #000;
+				font-size: 24px;
+				font-weight: bold;
+				top: 45%;
+				text-align: center;
+				z-index:10;
+			}
+			.btnNext {
+				left:0;
+			}
+			.btnPrev{
+				right:0;
+			}
+			.btnNext:hover, .btnPrev:hover {
+				border: 1px solid #efefef;
+				background-color: #afafaf;	
+				color:#fff;	
+				cursor:pointer;				
+			}
+			.btnNext:before {		
+				content: "\2039";	
+			}
+			.btnPrev:before {			
+				content: "\203a";	
+			}
+			
+		</style>
+		<script type="text/javascript" src="js/my_carousel2.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.container').myCarousel({
+					//btnNext: '.next',
+					//btnPrev: '.prev',
+					visible: 5,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+				$('.container2').myCarousel({
+					//btnNext: '.next2',
+					//btnPrev: '.prev2',
+					visible: 3,
+					rotateBy: 1,
+					speed: 500, // скорость перемотки (в миллисекундах)
+				});
+			});
+		</script>
+		
+	</head>
+
+	<body>
+		<h1>Slider</h1>
+		<div class="container">
+			<!--
+				Вместо <ul> может быть любой блочный элемент,
+				в который могут быть вложены любые блочные элементы
+			-->
+			<ul class="carousel">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+			</ul>
+		</div>
+		
+		<!--
+			Кнопки навигации могут располагаться
+			где угодно на странице
+		-->
+		<button class="prev">Prev</button>
+		<button class="next">Next</button>
+		
+		
+		<div class="container2">
+			<!--
+				Вместо <ul> может быть любой блочный элемент,
+				в который могут быть вложены любые блочные элементы
+			-->
+			<ul class="carousel">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+			</ul>
+		</div>
+		
+		<button class="prev2">Prev</button>
+		<button class="next2">Next</button>
+	
+	</body>
+</html>

@@ -1,4 +1,4 @@
-<link rel="STYLESHEET" type="text/css" href="/css/pechati.css">
+	<link rel="STYLESHEET" type="text/css" href="/css/pechati.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	

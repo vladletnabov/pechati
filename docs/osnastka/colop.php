@@ -4,7 +4,7 @@ include("functions.php");
 $title = "Colop";
 $description = "";
 $keywords = "";
-$price_url = "/osnastka/data/home/COLOP_2011.xls";
+$price_url = "/osnastka/data/home/colop-2015.xls";
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
