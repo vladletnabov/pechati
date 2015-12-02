@@ -148,7 +148,7 @@ function page_specials() {
 			</div>
 			<div class="right_name">
 				<a href="/osnastka/hand.php">ѕри покупке автоматической оснастки</a><br />
-				<strong>от 8</strong> руб.
+				<strong>от 15</strong> руб.
 			</div>
 		</div>
 		<div class="right_item_bot">
@@ -162,7 +162,7 @@ function page_specials() {
 			</div>
 			<div class="right_name">
 				<a href="/osnastka/grm.php">GRM Hummer R40</a><br />
-				<strong>от 95</strong> руб.
+				<strong>от 160</strong> руб.
 			</div>
 		</div>
 		<div class="right_item_bot">
@@ -176,7 +176,7 @@ function page_specials() {
 			</div>
 			<div class="right_name">
 				<a href="/osnastka/shiny.php">SHINY Printer R-542</a><br />
-				<strong>от 100</strong> руб.
+				<strong>от 165</strong> руб.
 			</div>
 		</div>
 		<div class="right_item_bot">
