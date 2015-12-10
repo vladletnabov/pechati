@@ -104,20 +104,62 @@
 		}
 	}
 	</script>
-
+<script language="JavaScript">
+	function countotrisovka() {
+		if(priceotrisovka==0){
+			priceotrisovka=otrisovka;
+		} else{
+			priceotrisovka=0;
+		}
+	}
+	function countzaschita() {
+		if(pricezaschit==0){
+			pricezaschit=zaschita;
+		}
+		else {
+			pricezaschit=0;
+		}
+		count_price();
+	}
+	function countdostavka() {
+		if(pricedostav==0){
+			pricedostav=dostavka;
+		} 
+		else{
+			pricedostav=0;
+		}
+	}
+	function count_price()
+	{
+		if (!self.priceotrisovka) 
+		{ 
+			 priceotrisovka=0;
+		} 
+		if (!self.pricezaschit) 
+		{ 
+			 pricezaschit=0;
+		} 
+		if (!self.pricedostav) 
+		{ 
+			 pricedostav=0;
+		} 
+		document.getElementById('price').innerHTML = price1 + price2 + price3 + pricedostav + priceotrisovka + pricezaschit;
+		return;
+	}
+</script>
 <style>
 @media (min-width: 1200px) {
-	input[type="radio"] + label {
+	input[type="radio"] + .labeldef {
 	  width: 160px;
 	}
-	input[type="checkbox"] + label {
+	input[type="checkbox"] + .labeldef {
 	  width: 160px;
 	}
-	input[type="radio"] + label::before {
+	input[type="radio"] + .labeldef::before {
 		width: 160px;
 	}
 
-	input[type="checkbox"] + label::before {
+	input[type="checkbox"] + .labeldef::before {
 		width: 160px;
 	}
 	input[type="radio"] + .navy-price2::before {
@@ -136,19 +178,34 @@
 	.table-price {
 		width:100%;
 	}
+	input[type="radio"] + .lab-osnast {
+		width:100%!important;
+	}
+	.price {
+		width:100%!important;
+	}
+	input[type="radio"] + .lab-osnast  div {
+		color: navy;
+		text-align: center; 
+	}
+	input[type="radio"]:checked + .lab-osnast  div {
+		color: #fff! important;
+		text-align: center; 
+	}
+	
 }
 @media (min-width: 980px)and (max-width: 1199px) {
-	input[type="radio"] + label {
+	input[type="radio"] + .labeldef {
 	  width: 160px;
 	}
-	input[type="checkbox"] + label {
+	input[type="checkbox"] + .labeldef {
 	  width: 160px;
 	}
-	input[type="radio"] + label::before {
+	input[type="radio"] + .labeldef::before {
 		width: 160px;
 	}
 
-	input[type="checkbox"] + label::before {
+	input[type="checkbox"] + .labeldef::before {
 		width: 160px;
 	}
 	input[type="radio"] + .navy-price2::before {
@@ -167,21 +224,36 @@
 	.table-price {
 		width:100%;
 	}
-
+	input[type="radio"] + .lab-osnast {
+		width:100%!important;
+	}
+	
+	.price {
+		width:100%!important;
+	}
+	input[type="radio"] + .lab-osnast  div {
+		color: navy;
+		text-align: center; 
+	}
+	input[type="radio"]:checked + .lab-osnast div {
+		color: #fff! important;
+		text-align: center; 
+	}
+	
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-	input[type="radio"] + label {
+	input[type="radio"] + .labeldef {
 	  width: 80px;
 	}
-	input[type="checkbox"] + label {
+	input[type="checkbox"] + .labeldef {
 	  width: 80px;
 	}
-	input[type="radio"] + label::before {
+	input[type="radio"] + .labeldef::before {
 		width: 80px;
 	}
 
-	input[type="checkbox"] + label::before {
+	input[type="checkbox"] + .labeldef::before {
 		width: 80px;
 	}
 	input[type="radio"] + .navy-price2::before {
@@ -205,20 +277,35 @@
 		top:50px!important;
 		right:20px!important;
 	}
-
+	input[type="radio"] + .lab-osnast {
+		width:100%!important;
+	}
+	
+	.price {
+		width:100%!important;
+	}
+	input[type="radio"] + .lab-osnast  div {
+		color: navy;
+		text-align: center; 
+	}
+	input[type="radio"]:checked + .lab-osnast div {
+		color: #fff! important;
+		text-align: center; 
+	}
+	
 }
 @media (max-width: 767px) {
-	input[type="radio"] + label {
+	input[type="radio"] + .labeldef {
 	  width: 60px;
 	}
-	input[type="checkbox"] + label {
+	input[type="checkbox"] + .labeldef {
 	  width: 60px;
 	}
-	input[type="radio"] + label::before {
+	input[type="radio"] + .labeldef::before {
 		width: 60px;
 	}
 
-	input[type="checkbox"] + label::before {
+	input[type="checkbox"] + .labeldef::before {
 		width: 60px;
 	}
 	input[type="radio"] + .navy-price2::before {
@@ -240,9 +327,43 @@
 	.header-phone{
 		visibility: hidden;
 	}
+	input[type="radio"] + .lab-osnast {
+		width:100%!important;
+	}
+	
+	.price {
+		width:100%!important;
+	}
+	input[type="radio"] + .lab-osnast  div {
+		color: navy;
+		text-align: center; 
+	}
+	input[type="radio"]:checked + .lab-osnast div {
+		color: #fff! important;
+		text-align: center; 
+	}
+	
 
 }
 
+@media (max-width: 500px) {
+	#pechati-is, #our-clients, #howmuch {
+		visibility: hidden!important;
+		display:none ! important;
+	}
+	input[type="radio"] + .lab-osnast {
+		width:100%;
+	}
+	input[type="radio"] + .lab-osnast  + div {
+		color: navy;
+		text-align: center; 
+	}
+	input[type="radio"]:checked + .lab-osnast + div {
+		color: #fff! important;
+		text-align: center; 
+	}
+		
+}
 
 
 
@@ -267,7 +388,6 @@
 	padding: 10px;
 }
 
-
 input[type="radio"] {
     display:none;            
 }
@@ -276,11 +396,9 @@ input[type="checkbox"] {
 }
 input[type="radio"] + label {
   font-size: 12px;
-  color: red;
+  /*color: navy;*/
   cursor: pointer;
-  /*width: 60px;*/
   min-height: 30px;
-	/*height:100%;*/
   margin: 0;
   padding: 0;
 }
@@ -288,9 +406,7 @@ input[type="checkbox"] + label {
   font-size: 12px;
   color: red;
   cursor: pointer;
-  /*width: 60px;*/
   min-height: 30px;
-	/*height:100%;*/
 }
 input[type="radio"]:checked  label {
   font-size: 14px;
@@ -305,33 +421,24 @@ label a{
 input[type="radio"] + label::before {
     content: "";
     display: inline-block;
-	/*border-radius:5px;*/
     min-height: 30px;
 	height:100%;
-    /*width: 60px;*/
     margin: 0;
-    /*background-color: white;*/
     background-repeat: no-repeat;
-	/*border:1px solid #fff;*/
 }
 
 input[type="checkbox"] + label::before {
     content: "";
     display: inline-block;
-	/*border-radius:5px;*/
     min-height: 30px;
 	height:100%;
-    /*width: 60px;*/
     margin: 0;
-    /*background-color: white;*/
     background-repeat: no-repeat;
-	/*border:1px solid #fff;*/
 }
 
 /* RED BLOCK*/
 
 input[type="radio"] + .navy-price::before {
-    /*background-color: white;*//*red;*/
 }
 input[type="radio"]:checked + .navy-price::before {
     background-color:navy;
@@ -346,25 +453,20 @@ input[type="radio"]:checked + .navy-price div{
 	font-size: 14px;
 }
 input[type="radio"] + .navy-price2::before {
-    /*background-color: white;*//*red;*/
-	/*width:120px ! important;*/
 }
 input[type="radio"]:checked + .navy-price2::before {
     background-color:navy;
 	border: 1px solid white;
-	/*width:120px ! important;*/
 }
 
 input[type="radio"] + .navy-price2 div{
 	color: navy;
-	/*width:120px ! important;*/
 }
 input[type="radio"]:checked + .navy-price2 div{
 	color: white;
 	font-size: 14px;
 }
 input[type="checkbox"] + .navy-price::before {
-    /*background-color: white;*//*red;*/
 }
 input[type="checkbox"]:checked + .navy-price::before {
     background-color:navy;
@@ -378,7 +480,6 @@ input[type="checkbox"]:checked + .navy-price div{
 	color: white;
 	font-size: 14px;
 }
-
 
 
 .price-position{
@@ -489,11 +590,11 @@ body{
 						<TD><strong>НОВЫЕ</strong> печати или штампы</TD>
 						<TD class="td-price">
 							<input id="srok1" type="radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" hidden checked onClick="price1 = 550; count_price();">
-							<label for="srok1" class="navy-price"><div class="price-position">550</div></label>
+							<label for="srok1" class="labeldef navy-price"><div class="price-position">550</div></label>
 						</TD>
 						<TD class="td-price">
 							<input id="srok1a" type="radio" name="srok" value="Новые печати, штампы по шаблону срочно" hidden onClick="price1 = 850; count_price();">
-							<label for="srok1a" class="navy-price"><div class="price-position">850</div></label>
+							<label for="srok1a" class="labeldef navy-price"><div class="price-position">850</div></label>
 
 						</TD></TR>
 						<TR  class="tr-price">
@@ -501,11 +602,11 @@ body{
 						
 						<TD class="td-price">
 							<input id="srok2" type="radio" name="srok" value="Печать, штамп по оттиску за 1 день" hidden onClick="price1 = 850; count_price();">
-							<label for="srok2" class="navy-price"><div class="price-position">850</div></label>
+							<label for="srok2" class="labeldef navy-price"><div class="price-position">850</div></label>
 						</TD>
 						<TD class="td-price">
 							<input id="srok2a" type="radio" name="srok" value="Печать, штамп по оттиску срочно" hidden onClick="price1 = 1400; count_price();">
-							<label for="srok2a" class="navy-price"><div class="price-position">1400</div></label>
+							<label for="srok2a" class="labeldef navy-price"><div class="price-position">1400</div></label>
 
 						</TD></TR>
 						
@@ -513,11 +614,11 @@ body{
 						<TD>Факсимиле</TD>
 						<TD class="td-price">
 							<input id="srok3" type="radio" name="srok" value="Факсимиле за 1 день" hidden onClick="price1 = 650; count_price();">
-							<label for="srok3" class="navy-price"><div class="price-position">650</div></label>
+							<label for="srok3" class="labeldef navy-price"><div class="price-position">650</div></label>
 						</TD>
 						<TD class="td-price">
 							<input id="srok3a" type="radio" name="srok" value="Факсимиле срочно" hidden onClick="price1 = 950; count_price();">
-							<label for="srok3a" class="navy-price"><div class="price-position">950</div></label>
+							<label for="srok3a" class="labeldef navy-price"><div class="price-position">950</div></label>
 
 						</TD></TR>
 						
@@ -525,11 +626,11 @@ body{
 						<TD>Изготовление <a href="/uslugi/ekslibris.html">экслибриса</a>, <a href="/uslugi/ekslibris.html">личной печати</a></TD>
 						<TD class="td-price">
 							<input id="srok4" type="radio" name="srok" value="Изготовление экслибриса, личной печати  за 1 день" hidden onClick="price1 = 2000; count_price();">
-							<label for="srok4" class="navy-price"><div class="price-position">2000</div></label>
+							<label for="srok4" class="labeldef navy-price"><div class="price-position">2000</div></label>
 						</TD>
 						<TD class="td-price">
 							<input id="srok4a" type="radio" name="srok" value="Изготовление экслибриса, личной печати  срочно" hidden onClick="price1 = 5000; count_price();">
-							<label for="srok4a" class="navy-price"><div class="price-position">5000</div></label>
+							<label for="srok4a" class="labeldef navy-price"><div class="price-position">5000</div></label>
 
 						</TD></TR>
 						
@@ -538,7 +639,7 @@ body{
 						<TD>Изготовление печатей <b>БЕСПЛАТНО</b></TD>
 						<TD colspan="2"  class="td-price">
 							<input id="srok5a" type="radio" name="srok" value="Новые печати, штампы бесплатно срочно" hidden onClick="price1 = 0; count_price();">
-							<label for="srok5a" class="navy-price2"><div class="price-position">Бесплатно</div></label>
+							<label for="srok5a" class="labeldef navy-price2"><div class="price-position">Бесплатно</div></label>
 
 						</TD></TR>
 						
@@ -546,11 +647,11 @@ body{
 						<TD>Печать, отрисованная в Corel Draw заказчиком или дубликат до 20 кв. см</TD>
 						<TD class="td-price">
 							<input id="srok6" type="radio" name="srok" value="Печать, отрисованная в Corel Draw заказчиком или дубликат за 1 день" hidden onClick="price1 = 350; count_price();">
-							<label for="srok6" class="navy-price"><div class="price-position">350</div></label>
+							<label for="srok6" class="labeldef navy-price"><div class="price-position">350</div></label>
 						</TD>
 						<TD class="td-price">
 							<input id="srok6a" type="radio" name="srok" value="Печать, отрисованная в Corel Draw заказчиком или дубликат срочно" hidden onClick="price1 = 500; count_price();">
-							<label for="srok6a" class="navy-price"><div class="price-position">500</div></label>
+							<label for="srok6a" class="labeldef navy-price"><div class="price-position">500</div></label>
 
 						</TD></TR>
 						
@@ -560,11 +661,11 @@ body{
 						
 						<TD class="td-price">
 							<input id="srok7" type="radio" name="srok" value="Маленькие штампы 1-2 слова типа 'копия верна', 'оплачено' за 1 день" hidden onClick="price1 = 200; count_price();">
-							<label for="srok7" class="navy-price"><div class="price-position">200</div></label>
+							<label for="srok7" class="labeldef navy-price"><div class="price-position">200</div></label>
 						</TD class="td-price">
 						<TD class="td-price">
 							<input id="srok7a" type="radio" name="srok" value="Маленькие штампы 1-2 слова типа 'копия верна', 'оплачено' срочно" hidden onClick="price1 = 400; count_price();">
-							<label for="srok7a" class="navy-price"><div class="price-position">400</div></label>
+							<label for="srok7a" class="labeldef navy-price"><div class="price-position">400</div></label>
 
 						</TD></TR>
 						
@@ -580,11 +681,11 @@ body{
 								
 								<TD class="td-price">
 									<input id="clisherez1" type="checkbox" name="clisherez" value="Изготовление клише из резины, дополнительно к общей стоимости клише за 1 день" hidden onClick="uncheckCheckbox('clisherez2'); countclisherez(); count_price();">
-									<label for="clisherez1" class="navy-price"><div class="price-position">650</div></label>
+									<label for="clisherez1" class="labeldef navy-price"><div class="price-position">650</div></label>
 								</TD>
 								<TD class="td-price">
 									<input id="clisherez2" type="checkbox" name="clisherezsrochno" value="Изготовление клише из резины, дополнительно к общей стоимости клише срочно" hidden onClick="uncheckCheckbox('clisherez1'); countclisherez(); count_price();">
-									<label for="clisherez2" class="navy-price"><div class="price-position">950</div></label>
+									<label for="clisherez2" class="labeldef navy-price"><div class="price-position">950</div></label>
 
 								</TD>
 								
@@ -595,11 +696,11 @@ body{
 								
 								<TD class="td-price">
 									<input id="otrisovka1" type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения в Corel Draw за 1 день" hidden onClick="uncheckCheckbox('otrisovka2'); countotrisovka();  count_price();">
-									<label for="otrisovka1" class="navy-price"><div class="price-position">от 350</div></label>
+									<label for="otrisovka1" class="labeldef navy-price"><div class="price-position">от 350</div></label>
 								</TD>
 								<TD class="td-price">
 									<input id="otrisovka2" type="checkbox" name="otrisov" value="Отрисовка логотипа, графического изображения в Corel Draw срочно" hidden onClick="uncheckCheckbox('otrisovka1'); countotrisovka(); count_price();">
-									<label for="otrisovka2" class="navy-price"><div class="price-position">от 700</div></label>
+									<label for="otrisovka2" class="labeldef navy-price"><div class="price-position">от 700</div></label>
 
 								</TD>
 								
@@ -640,7 +741,7 @@ body{
 				</div>
 			</div>	
 			
-			<div class="row-fluid">
+			<div id="pechati-is" class="row-fluid">
 				<div class="span12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/baseparts/pechati-is-bootstrap.php" ?>
@@ -648,7 +749,7 @@ body{
 				</div>
 			</div>	
 			
-			<div class="row-fluid">
+			<div id="howmuch" class="row-fluid">
 				<div class="span12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/baseparts/howmuch-bootstrap.php" ?>
@@ -656,13 +757,8 @@ body{
 				</div>
 			</div>	
 			
-			
-			
-			
-			
-			
-			
-			<div class="row-fluid">
+						
+			<div id="our-clients" class="row-fluid">
 				<div class="span12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/baseparts/our-clients-bootstrap.php" ?>
