@@ -4,7 +4,7 @@
 	}
 	.accord-header {
 		width:100%;
-		height: 20px;
+		/*height: 20px;*/
 		color: #fff;
 		font-size: 16px;
 		font-weight:bold;
@@ -113,6 +113,7 @@
 
 <script>
 $(document).ready(function(){
+	var cut;
 	$(".accord-header").click(function(){
 		var parentId = $(this).parent().attr('id');
 		var parentObj= $(this).parent();
@@ -120,6 +121,13 @@ $(document).ready(function(){
 		//var thisBodyId= $("#$parentId .accord-body").attr('id');
 		//alert($(parentObj).attr('id'));
 		//$(parentObj).children('.accord-body').height(0);
+		var parentPath = "#" + parentId + ' .accord-body' ;
+		//alert(parentPath);
+		cut = $('#filial-email-form').detach();
+		//$('#filial-email-form').detach();
+		$(parentPath).append(cut);
+
+		
 		getIdAccordBody(parentObj);	
 		//alert('hi');
 	});
@@ -151,13 +159,13 @@ function getIdAccordBody(parent){
 	return false;
 }
 </script>
-<p align="center" style="font-size: 18pt;"><strong>Выберите филиал</strong></p>
+<p><a style="font-size: 20px; color: navy;">Шаг 3: Выберите удобный Вам филиал</a><br>(Нажмите на изображение для просмотра расширенного ассортимента)</p>
 <div class="row-fluid center-align">
-		<div class="span6">
+		<div class="col-md-6">
 			<div id="filial-1" class="accord-filial-item">
 				<div class="accord-header accord-header-red">м.Станция1</div>
 				<div class="accord-body">
-					<div class="sub-body">
+					<div id="filial-email-form" class="sub-body">
 						<div class="accord-body-elem accord-body-price">
 							<span>Стоимость Вашего заказа: </span> <span class="zakaz-price">1000</span> <span>руб.</span>
 						</div>
@@ -183,132 +191,35 @@ function getIdAccordBody(parent){
 			<div id="filial-2" class="accord-filial-item">
 				<div class="accord-header accord-header-red">м.Станция2</div>
 				<div class="accord-body">
-					<div class="sub-body">
-						<div class="accord-body-elem accord-body-price">
-							<span>Стоимость Вашего заказа: </span> <span class="zakaz-price">1000</span> <span>руб.</span>
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<input type="text" name="name" value=" Введите имя и телефон" onfocus="if (this.value == ' Введите имя и телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите имя и телефон';}" />
-						</div>
-						<div class="accord-body-elem accord-body-email">
-							<input type="text" name="email" value=" Введите e-mail" onfocus="if (this.value == ' Введите e-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите e-mail';}" />
-						</div>
-						<div class="accord-body-elem accord-body-file">
-							<input type="file" />
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<textarea name="content" onblur="if(this.value=='') this.value='Ваше сообщение...';" onfocus="if(this.value=='Ваше сообщение...') this.value='';">Ваше сообщение...</textarea>
-						</div>
-						<div class="accord-body-elem accord-body-send">
-							<div class="send-button">Отправить</div>
-						</div>
-					</div>
 				</div>
 			</div>
 			<div id="filial-3" class="accord-filial-item">
 				<div class="accord-header accord-header-green">м.Станция3</div>
 				<div class="accord-body">
-					<div class="sub-body">
-						<div class="accord-body-elem accord-body-price">
-							<span>Стоимость Вашего заказа: </span> <span class="zakaz-price">1000</span> <span>руб.</span>
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<input type="text" name="name" value=" Введите имя и телефон" onfocus="if (this.value == ' Введите имя и телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите имя и телефон';}" />
-						</div>
-						<div class="accord-body-elem accord-body-email">
-							<input type="text" name="email" value=" Введите e-mail" onfocus="if (this.value == ' Введите e-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите e-mail';}" />
-						</div>
-						<div class="accord-body-elem accord-body-file">
-							<input type="file" />
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<textarea name="content" onblur="if(this.value=='') this.value='Ваше сообщение...';" onfocus="if(this.value=='Ваше сообщение...') this.value='';">Ваше сообщение...</textarea>
-						</div>
-						<div class="accord-body-elem accord-body-send">
-							<div class="send-button">Отправить</div>
-						</div>
-					</div>
 				</div>
 			</div>
 			
 		</div>
 		
-		<div class="span6">
+		<div class="col-md-6">
 		
 			<div id="filial-4" class="accord-filial-item">
 				<div class="accord-header accord-header-blue">м.Станция4</div>
 				<div class="accord-body">
-					<div class="sub-body">
-						<div class="accord-body-elem accord-body-price">
-							<span>Стоимость Вашего заказа: </span> <span class="zakaz-price">1000</span> <span>руб.</span>
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<input type="text" name="name" value=" Введите имя и телефон" onfocus="if (this.value == ' Введите имя и телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите имя и телефон';}" />
-						</div>
-						<div class="accord-body-elem accord-body-email">
-							<input type="text" name="email" value=" Введите e-mail" onfocus="if (this.value == ' Введите e-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите e-mail';}" />
-						</div>
-						<div class="accord-body-elem accord-body-file">
-							<input type="file" />
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<textarea name="content" onblur="if(this.value=='') this.value='Ваше сообщение...';" onfocus="if(this.value=='Ваше сообщение...') this.value='';">Ваше сообщение...</textarea>
-						</div>
-						<div class="accord-body-elem accord-body-send">
-							<div class="send-button">Отправить</div>
-						</div>
-					</div>
+				
 				</div>
 			</div>
 			
 			<div id="filial-5" class="accord-filial-item">
 				<div class="accord-header accord-header-grey">м.Станция5</div>
 				<div class="accord-body">
-					<div class="sub-body">
-						<div class="accord-body-elem accord-body-price">
-							<span>Стоимость Вашего заказа: </span> <span class="zakaz-price">1000</span> <span>руб.</span>
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<input type="text" name="name" value=" Введите имя и телефон" onfocus="if (this.value == ' Введите имя и телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите имя и телефон';}" />
-						</div>
-						<div class="accord-body-elem accord-body-email">
-							<input type="text" name="email" value=" Введите e-mail" onfocus="if (this.value == ' Введите e-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите e-mail';}" />
-						</div>
-						<div class="accord-body-elem accord-body-file">
-							<input type="file" />
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<textarea name="content" onblur="if(this.value=='') this.value='Ваше сообщение...';" onfocus="if(this.value=='Ваше сообщение...') this.value='';">Ваше сообщение...</textarea>
-						</div>
-						<div class="accord-body-elem accord-body-send">
-							<div class="send-button">Отправить</div>
-						</div>
-					</div>
+				
 				</div>
 			</div>
 			<div id="filial-6" class="accord-filial-item">
 				<div class="accord-header accord-header-grey">м.Станция6</div>
 				<div class="accord-body">
-					<div class="sub-body">
-						<div class="accord-body-elem accord-body-price">
-							<span>Стоимость Вашего заказа: </span> <span class="zakaz-price">1000</span> <span>руб.</span>
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<input type="text" name="name" value=" Введите имя и телефон" onfocus="if (this.value == ' Введите имя и телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите имя и телефон';}" />
-						</div>
-						<div class="accord-body-elem accord-body-email">
-							<input type="text" name="email" value=" Введите e-mail" onfocus="if (this.value == ' Введите e-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = ' Введите e-mail';}" />
-						</div>
-						<div class="accord-body-elem accord-body-file">
-							<input type="file" />
-						</div>
-						<div class="accord-body-elem accord-body-name">
-							<textarea name="content" onblur="if(this.value=='') this.value='Ваше сообщение...';" onfocus="if(this.value=='Ваше сообщение...') this.value='';">Ваше сообщение...</textarea>
-						</div>
-						<div class="accord-body-elem accord-body-send">
-							<div class="send-button">Отправить</div>
-						</div>
-					</div>
+				
 				</div>
 			</div>
 		

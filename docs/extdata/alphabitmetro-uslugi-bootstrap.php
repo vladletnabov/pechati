@@ -1,5 +1,5 @@
 <div class="row-fluid">
-	<div class="span4">
+	<div class="col-md-4">
 			<!--<p><img src="/pics/line8.gif" width="19" height="9" alt="Авиамоторная" align="absmiddle"> <a href="/contacts/49.html" title="Изготовление печатей на Авиамоторной" >м. Авиамоторная</a></p> -->			
 			<p><img src="/pics/line8.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/43.html" title="Сделать печать на м. Деловой центр" >м. Деловой центр</a></p>
 			<p><img src="/pics/line8.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/37.html" title="Сделать печать в Новогиреево" >м. Новогиреево</a></p>
@@ -21,7 +21,7 @@
 			<!--<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/9.html" title="Многоцветные печати на Цветном бульваре" >м. Цветной бульвар</a></p>-->
 			<p><img src="/pics/line9.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/24.html" title="Изготовление печатей по оттиску на Южной" >м. Южная</a></p>
 	</div>
-	<div class="span4">		
+	<div class="col-md-4">		
 			
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/1.html" title="Экспонирующие камеры на Арбате"  >м. Арбатская</a></p>
 			<p><img src="/pics/line3.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/5.html" title="Штампы и печати за час на Кунцевской" >м. Кунцевская</a></p>
@@ -42,7 +42,7 @@
 			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/2.html" title="Печати на заказ м. Речной вокзал">м. Водный стадион</a></p>
 
 	</div>
-	<div class="span4">		
+	<div class="col-md-4">		
 			
 			
 			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/41.html" title="Изготовление печатей по оттиску на Динамо"  >м. Динамо</a></p>	  

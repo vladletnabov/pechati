@@ -36,32 +36,32 @@ function init () {
 	
     
 	
-    var myPlacemark = new ymaps.Placemark([55.848357, 37.351195], {
+    /*var myPlacemark = new ymaps.Placemark([55.848357, 37.351195], {
         address: "Москва, 3-й Митинский переулок, д.1 ",
         object: "Филиал №1 в Митино"
     }, {
         hintLayout: HintLayout
-    });
-    var myPlacemark2 = new ymaps.Placemark([55.844433, 37.384007], {
-        address: "Москва, Пятницкое шоссе, д.18 ",
-        object: "Филиал №2 на Митинском Радиорынке"
+    });*/
+    var myPlacemark2 = new ymaps.Placemark([55.848468, 37.354528], {
+        address: "Москва, Митинская улица, д.37 ",
+        object: "Филиал №1 "
     }, {
         hintLayout: HintLayout
     });
-    var myPlacemark3 = new ymaps.Placemark([55.825962, 37.353180], {
-        address: "Москва, ул. Генерала Белобородова, д.40 ",
-        object: "Филиал №3 в Митино, Коммунальная зона владение 2"
+    var myPlacemark3 = new ymaps.Placemark([55.844324, 37.353180], {
+        address: "Москва, Пятницкое шоссе, д.18 ",
+        object: "Филиал №2 МИТИНСКИЙ РАДИО РЫНОК"
     }, {
         hintLayout: HintLayout
     });
     var myPlacemark4 = new ymaps.Placemark([55.863773, 37.390775], {
         address: "Москва, Путилковское шоссе, д.4 ",
-        object: "Филиал №4 в Митино"
+        object: "Филиал №3 в Митино"
     }, {
         hintLayout: HintLayout
     });
 
-    myMap.geoObjects.add(myPlacemark);
+    /*myMap.geoObjects.add(myPlacemark);*/
     myMap.geoObjects.add(myPlacemark2);
     myMap.geoObjects.add(myPlacemark3);
     myMap.geoObjects.add(myPlacemark4);

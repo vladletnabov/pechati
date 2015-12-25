@@ -1,0 +1,195 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	background-color: #f2f2f2;
+}
+body, table, ul, ol, li, td, tr, a, p, div, form, select, input {
+	font-size: 10.5pt;
+}
+form, select, input {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	margin: 0;
+	padding: 10px 0;
+	font-size: 12pt;
+}
+
+/*a {
+	color: #06c;
+}
+a:hover {
+	text-decoration: none;
+}*/
+
+
+.mm1 {
+	background: url('/i/bg3.jpg') top left no-repeat;
+	padding: 0 25px;
+}
+.menu a {
+	font-size: 9pt;
+	color: #60c;
+	text-decoration: none;
+}
+.menu div {
+	padding: 0 0 5px 0;
+}
+.ttxt {
+	padding: 0 35px 0 15px;
+}
+/*.ttxt p, .ttxt a {
+	font-size: 10px;
+}*/
+.txt1 {
+	padding: 35px 30px 0 20px;
+}
+.txt2 {
+	padding-right: 25px;
+}
+.txt3 {
+	padding: 0 25px 0 64px;
+}
+.btm1 {
+	background: url('/i/btm2.jpg') top left no-repeat;
+	padding-left: 80px;
+}
+.btm1-c {
+	background: url('/i/btm2-c.jpg') top left no-repeat;
+	padding-left: 80px;
+}
+.btm1 a, .btm1-c a, .top1 a {
+	text-decoration: none;
+}
+.btm2 {
+	padding: 20px 0 5px 0;
+	color: #666;
+}
+.btm2 a, .btm2 p {
+	font-size: 7pt;
+	color: #666;
+}
+
+.top1 td {
+	padding-top: 5px;
+}
+
+.tt1 {
+	height: 177px;
+	overflow: auto;
+}
+.tt1, .tt1 a, .tt1 p, .tt1 div {
+	font-size: 8pt;
+}
+.itit, .itit a {
+	font-size: 11pt;
+	text-decoration: none;
+}
+.itit {
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+}
+
+.w1 {
+	padding: 20px 0;
+}
+.w1, .w1 a {
+	font-size: 7pt;
+}
+.new1 {
+	color: #666;
+}
+.new2 {
+	padding: 0 0 10px 10px;
+	text-align: justify;
+}
+
+/*contacts*/
+
+.cont1, .cont2 {
+	background-color: #f5f5fc;
+	border: 1px solid #ccc;
+	margin: 0 10px 10px 0;
+	float: left;
+	cursor: pointer;
+}
+.cont2 div {
+	padding: 5px;
+}
+.cont1 div {
+	padding: 3px 5px 0 5px;
+}
+.cont2 {
+	width: 270px;
+}
+.cont1 {
+	width: 230px;
+	height: 65px;
+}
+.cont1 div, .cont1 a, .cont2 div, .cont2 a {
+	font-size: 9pt;
+}
+.cont_map {
+	background: url('/i/bg5-cd.jpg') left top no-repeat;
+	padding-top: 82px;
+	//padding-top: 72px;
+}
+.cont_txt {
+	padding: 25px 0 0 64px;
+}
+.poi1 {
+	background: url('/pics/contacts/point.gif');
+}
+.poi2 {
+	background: url('/pics/contacts/point_a.gif');
+}
+.poi3 {
+	position: relative;
+	margin-top: -13px;
+	width: 13px;
+	height: 13px;
+}
+.poi3 img {
+	background: url('/pics/contacts/point_b.png') left top no-repeat;
+	-background-image: none;
+	-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/pics/contacts/point_b.png,sizingMethod=crop);
+}
+.text_forms {
+	border: 1px solid #000;
+}
+.inz1 {
+	display: block;
+	height: 20px;
+	width: 54;
+	float: left;
+	text-align: center;
+/*	background-image: url('/i/radio.gif');
+	background-repeat: no-repeat;
+	background-position: top center;*/
+	background: url('/i/radio.png') left top no-repeat;
+	-background-image: none;
+	-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/i/radio.png,sizingMethod=crop);
+	margin-right: 5px;
+}
+/*.inz1 input {
+	padding: 0;
+	margin: 5px 0 0 0;
+}*/
+.inz3 p, .inz3 a, .inz3 label, .inz3 td {
+	font-size: 10pt;
+}
+.inz2 {
+/*	width: 54px;*/
+	height: 20px;
+	padding: 0;
+	margin: 0;
+}
+label {
+	cursor: pointer;
+}
+.info1 li {
+	padding: 0 0 15px 0;
+	list-style-image: url('/pics/str.gif');
+}

@@ -231,10 +231,11 @@ var price2 = 450;
 .osnatka-icon{
 	/*width:24%; 
 	margin:0;
-	padding:0;
+	padding:3px;
 	display:inline;
 	float:left;*/
 	/*cursor: pointer;*/
+	padding:3px;
 }
 .osnatka-icon:hover{
 	box-shadow: 0 0 5px 2px #e0ccff;
@@ -271,26 +272,26 @@ input[type="radio"]:checked + .lab-osnast + div {
 
 </style>
 
-<div  class="row-fluid center-align">	
-	<div class="span3 osnatka-icon">
+<div  class="row-fluid center-align" style="display:table; margin-bottom:10px; width:100%;">	
+	<div class="col-md-3 osnatka-icon">
 		<img border=0 src="../pics/uslugi/colop_printer_r40_100x133.jpg" width=100 height=133 onclick="runEffect(1);">
 		<p>Автоматическая оснастка<BR>Диам. 40 мм.</p>
 		<input type="Radio" name="osnast" checked value="Автоматическая оснастка Диам. 40 мм." onClick="price2 = 450; count_price();" id="osnast1" /> 
 		<label for="osnast1" class="lab-osnast"><div class="price">450 руб.</div></label>
 	</div>
-	<div class="span3 osnatka-icon">
+	<div class="col-md-3 osnatka-icon">
 		<img border=0 src="../pics/uslugi/shiny-s-843.jpg" width=100 height=133 onclick="runEffect(2);">
 		<p>Автоматическая оснастка<BR>для мал. штампов</p>
 		<input type="Radio" name="osnast" value="Автоматическая оснастка для мал. штампов" onClick="price2 = 300; count_price();" id="osnast2" /> 
 		<label for="osnast2" class="lab-osnast"><div class="price">300 руб.</div></label>
 	</div>
-	<div class="span3 osnatka-icon">
+	<div class="col-md-3 osnatka-icon">
 		<img border=0 src="../pics/uslugi/grm-4927.jpg" width=100 height=133 onclick="runEffect(3);">
 		<p>Автоматическая оснастка<BR>для больших штампов</p>
 		<input type="Radio" name="osnast" value="Автоматическая оснастка для больших штампов" onClick="price2 = 500; count_price();" id="osnast3" /> 
 		<label for="osnast3" class="lab-osnast"><div class="price">500 руб.</div></label>
 	</div>
-	<div class="span3 osnatka-icon">
+	<div class="col-md-3 osnatka-icon">
 		<img border=0 src="../pics/uslugi/colop-r3040.jpg" width=100 height=133  onclick="runEffect(4);">
 		<p>Colop R 3040<BR>Диам. 45 мм.</p>
 		<input type="Radio" name="osnast" value="Professional Line 5215 Диам. 45 мм." onClick="price2 = 1500; count_price();" id="osnast4"> 
@@ -330,27 +331,27 @@ input[type="radio"]:checked + .lab-osnast + div {
 		</div>
 	</div>
 </div>
-<div style="height:10px;"></div>
-<div  class="row-fluid center-align">	
-	<div class="span3 osnatka-icon">
+<!--<div  class="row-fluid center-align" style="height:10px; width:100%;"><div class="col-md-12"></div></div>-->
+<div  class="row-fluid center-align" style="display:table; margin-top:10px; width:100%;">	
+	<div class="col-md-3 osnatka-icon">
 		<img border=0 src="../pics/uslugi/met_classic_100x133.jpg" width=100 height=133 onclick="runEffect(5);">
 		<p>Металлические оснастки<br />для печатей и штампов</p>
 		<input type="Radio" name="osnast" value="Металлические оснастки для печатей и штампов" onClick="price2 = 800; count_price();" id="osnast5"> 
 		<label for="osnast5" class="lab-osnast"><div class="price">от 800 р.</div></label>
 	</div>
-	<div class="span3 osnatka-icon">
+	<div class="col-md-3 osnatka-icon">
 		<img border=0 src="../pics/uslugi/met_techno_100x133.jpg" width=100 height=133 onclick="runEffect(6);">
 		<p>Эксклюзивные <br />оснастки</p>
 		<input type="Radio" name="osnast" value="Оригинальные оснастки" onClick="price2 = 1500; count_price();" id="osnast6"> 
 		<label for="osnast6" class="lab-osnast"><div class="price">1500 р.</div></label>
 	</div>
-	<div class="span3 osnatka-icon">
+	<div class="col-md-3 osnatka-icon">
 		<img border=0 src="../pics/uslugi/plasm_gerb40_100x133.jpg" width=100 height=133 onclick="runEffect(7);">
 		<p>Оснастка с гербом<br />Диам. 40 мм.</p>
 		<input type="Radio" name="osnast" value="Оснастка с гербом Диам. 40 мм." onClick="price2 = 0; count_price();" id="osnast7"> 
 		<label for="osnast7" class="lab-osnast"><div class="price">Бесплатно.</div></label>
 	</div>
-	<div class="span3 osnatka-icon">
+	<div class="col-md-3 osnatka-icon">
 		<img border=0 src="../pics/uslugi/elit_osn.jpg" width=100 height=133  onclick="runEffect(8);">
 		<p>Элитные <BR>оснастки</p>
 		<input type="Radio" name="osnast" value="Элитные оснастки" onClick="price2 = 5500; count_price();" id="osnast8"> 

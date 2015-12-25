@@ -6,7 +6,7 @@
     <?php require_once "../extdata/baseparts/header.php" ?>
 
     <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--<link href="css/bootstrap.css" rel="stylesheet">
     <style>
       body {
         padding-top: 0;
@@ -16,11 +16,14 @@
         margin-top: 20px;
       }
     </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">-->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<!--<link rel="stylesheet" href="css/font-awesome.css" type="text/css" />-->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <!--<link href="css/style-ico.css" rel="stylesheet">-->
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -39,7 +42,7 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
+    <!--<script src="js/jquery.js"></script>
     <script src="js/bootstrap-transition.js"></script>
     <script src="js/bootstrap-alert.js"></script>
     <script src="js/bootstrap-modal.js"></script>
@@ -52,7 +55,7 @@
     <script src="js/bootstrap-collapse.js"></script>
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
-    <script src="js/plugins-scroll.js"></script>
+    <script src="js/plugins-scroll.js"></script>-->
 	
     <script src="slider/js/amazingslider.js"></script>
     <link rel="stylesheet" type="text/css" href="slider/js/amazingslider-1.css">
@@ -378,7 +381,7 @@
 }
 .header-page{
 	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
 	line-height:20px;
 	color:#333;
@@ -386,6 +389,8 @@
 .inner-block{
 	margin: 10px;
 	padding: 10px;
+	display: table;
+    width: 100%;
 }
 
 input[type="radio"] {
@@ -513,29 +518,32 @@ input[type="checkbox"]:checked + .navy-price div{
 	line-height:150pt;
 }
 .bodylist{
-	margin-top: -59px;
+	/*margin-top: -59px;*/
+	margin-top:0;
 	
 }
 .header-page-div{
 	position:relative;
-	background-image: url(/i/header-pr.png);
-	background-position: left top; /* Положение фона */
+	background-image: url(/i/bgpr.png);
+	background-position: left bottom; /* Положение фона */
     background-repeat: no-repeat; 
-	height: 138px;
+	height: 150px;
+	margin:0 -15px;
 	z-index:10;
 }
 .top-header-pos{
-	margin-top:40px;
+	margin-top:10px;
 }
 .logo-img{
-	margin:0 0 0 -8px;
+	margin:0;
 	max-height: 138px;
+	cursor:pointer;
 }
 .header-phone{
 	position:absolute;
-		right:0;
+		right:10px;
 		top: 30px;
-	color: #cc000a; 
+	color: #fff; 
 	font-size:28px; 
 	font-weight:bold; 
 	height: 40px;
@@ -553,16 +561,17 @@ body{
 
   <body>
 <div class="wrapper">
-	<div class="container">
-		<div class="header-page-div">
-			<img src="/i/logo-pr.png" class="logo-img" />
-			<div class="header-phone">8 (495) 741-10-58</div>
-		</div>
-	</div>
 	<div class="bodylist">
+		<div class="container">
+			<div class="header-page-div">
+				<!--<img src="/i/logo-pr.png" class="logo-img" />-->
+				<div class="header-phone">8 (495) 741-10-58</div>
+			</div>
+		</div>
+	
 		<div class="container listshadow">
 			<div class="row-fluid">
-				<div class="span12 ">
+				<div class="col-md-12 ">
 					<div class="inner-block border-grey">
 						<h1 class="header-page top-header-pos">
 							Изготовление печатей, штампов, факсимиле.<br />
@@ -726,7 +735,7 @@ body{
 				</div>
 			</div>	
 			<div class="row-fluid">
-				<div class="span12 ">
+				<div class="col-md-12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/baseparts/osnastka-price-bootstrap.php" ?>
 					</div>
@@ -734,7 +743,7 @@ body{
 			</div>	
 			
 			<div class="row-fluid">
-				<div class="span12 ">
+				<div class="col-md-12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/baseparts/listfilials-bootstrap.php" ?>
 					</div>
@@ -742,7 +751,7 @@ body{
 			</div>	
 			
 			<div id="pechati-is" class="row-fluid">
-				<div class="span12 ">
+				<div class="col-md-12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/baseparts/pechati-is-bootstrap.php" ?>
 					</div>
@@ -750,7 +759,7 @@ body{
 			</div>	
 			
 			<div id="howmuch" class="row-fluid">
-				<div class="span12 ">
+				<div class="col-md-12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/baseparts/howmuch-bootstrap.php" ?>
 					</div>
@@ -759,15 +768,15 @@ body{
 			
 						
 			<div id="our-clients" class="row-fluid">
-				<div class="span12 ">
+				<div class="col-md-12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/baseparts/our-clients-bootstrap.php" ?>
 					</div>
 				</div>
 			</div>	
 			
-			<div class="row-fluid">
-				<div class="span12 ">
+			<div id="alphabitmetro" class="row-fluid">
+				<div class="col-md-12 ">
 					<div class="inner-block border-grey">
 					<?php require_once "../extdata/alphabitmetro-uslugi-bootstrap.php" ?>
 					</div>
@@ -782,7 +791,7 @@ body{
 	
 	<div class="container">
 		<div class="row-fluid">
-			  <div class="span12 head-block-h1">
+			  <div class="col-md-12 head-block-h1">
 				
 				
 			  </div>

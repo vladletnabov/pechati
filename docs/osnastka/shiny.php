@@ -44,7 +44,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</div>
 					</td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td colspan="2">
 						<table class="product_price">
 							<tr>
@@ -99,6 +99,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</table>
 					</td>
 				</tr>
+				-->
 			</table>
 			<table class="product">
 				<tr>
@@ -119,7 +120,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</div>
 					</td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td colspan="2">
 						<table class="product_price">
 							<tr>
@@ -160,6 +161,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</table>
 					</td>
 				</tr>
+			-->
 			</table>
 			<table class="product">
 				<tr>
@@ -180,7 +182,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</div>
 					</td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td colspan="2">
 						<table class="product_price">
 							<tr>
@@ -221,6 +223,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</table>
 					</td>
 				</tr>
+			-->
 			</table>
 			<table class="product">
 				<tr>
@@ -243,7 +246,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</div>
 					</td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td colspan="2">
 						<table class="product_price">
 							<tr>
@@ -291,6 +294,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</table>
 					</td>
 				</tr>
+			-->
 			</table>
 			<table class="product">
 				<tr>
@@ -305,7 +309,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</div>
 					</td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td colspan="2">
 						<table class="product_price">
 							<tr>
@@ -353,6 +357,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</table>
 					</td>
 				</tr>
+			-->
 			</table>
 			<table class="product">
 				<tr>
@@ -373,7 +378,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</div>
 					</td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td colspan="2">
 						<table class="product_price">
 							<tr>
@@ -484,6 +489,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</table>
 					</td>
 				</tr>
+			-->
 			</table>
 			<table class="product">
 				<tr>
@@ -502,7 +508,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						<div class="product_title">Штемпельные подушки</div>
 					</td>
 				</tr>
-				<tr>
+				<!--<tr>
 					<td colspan="2">
 						<table class="product_price">
 							<tr>
@@ -536,6 +542,7 @@ $price_url = "/osnastka/data/home/shiny-2015.xls";
 						</table>
 					</td>
 				</tr>
+				-->
 			</table>
 			<table class="product">
 				<tr>
