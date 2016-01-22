@@ -1,6 +1,6 @@
 <div id="contacts1">
 	<div style="float: right;"><a href="javascript: window.print();">Распечатать</a></div>
-	<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> м. Дмитровская, Савёловская, Динамо.<br>Тел.: <b>(916)</b> 993-19-19<br>ул. Писцовая, д.16, к. 2</p>
+	<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> м. Дмитровская<br>Тел.: <b>(916)</b> 993-19-19<br>ул. Руставели, д.3, к.2, офис 6.</p>
 	<p>Почта: <a href="mailto:pr@pechati.ru">pr@pechati.ru</a></p>
 	<p>Офис располагается на первом этаже 3-х этажного жилого дома. Вход со стороны ул Руставели, рядом с вывеской "Склад №1". После входа в здание в тамбуре заходите в правую дверь и идете по коридору до конца.</p>
 

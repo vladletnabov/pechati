@@ -2,7 +2,7 @@
 	<!--<div style="float: right;"><a href="javascript: window.print();">Распечатать</a></div>
 	<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">-->
 	<p>	м. Преображенская площадь<br>ул. 1-я Бухвостова, дом 12/11, 1 этаж, 115 офис<br>Тел.: <small>(495)</small> 763-77-89</p>
-	<p>Часы работы: пн-пт: с 10-00 до 20-00; сб: с 11.00 до 17.00; вс - выходной..</p>
+	<p>Часы работы: пн-пт: с 09-00 до 20-00; сб: с 11.00 до 17.00; вс - выходной..</p>
 	<p>Почта: <a href="mailto:preo@pechati.ru">preo@pechati.ru</a></p>
     <!--<p><strong>Пешком :</strong> станция метро Преображенская площадь расположена на одной ветке со станциями метро  Красносельская, Сокольники, Черкизовская и Бульвар Рокоссовского. Наш офис находится в 20 метрах от метро Преображенская площадь, в здании НИИДАР ( вам нужна Центральная Проходная), по адресу :  ул. 1-я Бухвостова  д.12/11 (на пересечении улиц  Краснобогатырская, Преображенская, Б.Черкизовская и Преображенский вал).  Нужно выйти из последнего вагона метро(из центра!), из стеклянных дверей метро  повернуть направо,  а потом налево, по лестнице вверх. Пройти прямо 20 метров и вы уже у входа в НИИДАР( вам нужна Центральная Проходная). Заходите в здание, <strong style="text-decoration:underline">перед  постом охраны !!!</strong> ( у нас нет пропускной системы!)  повернуть направо, пройти  по коридору  и подняться по лестнице на 2й этаж. Офис № 18!</p>
 	<p><img src="../pics/contacts/preobrazhenskaja4.jpg" width="466" height="341" alt="" border="1"></p>
@@ -24,9 +24,36 @@
 постом охраны !!! ( у нас нет пропускной системы!) повернуть направо, 
 пройти по коридору до ОФИСА № 115 (1 ЭТАЖ)</p>
 
-	<p><img src="../pics/contacts/preobrazhenskaja4.jpg" width="466" height="341" alt="" border="1"></p>
+    <script src="/extdata/slider/js/jquery.js"></script>
+    <script src="/extdata/slider/js/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="/extdata/slider/js/amazingslider-63.css">
+    <script src="/extdata/slider/js/initslider-63.js"></script>
+
+	<!--<p><img src="../pics/contacts/preobrazhenskaja4.jpg" width="466" height="341" alt="" border="1"></p>
 	<p><img src="../pics/contacts/preobrazhenskaja5.jpg" width="495" height="322" alt="" border="1"></p>
-	<p><img src="../pics/contacts/preobrazhenskaja6.jpg" width="467" height="324" alt="" border="1"></p>
+	<p><img src="../pics/contacts/preobrazhenskaja6.jpg" width="467" height="324" alt="" border="1"></p>-->
+	<div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:600px;padding-left:0px; padding-right:244px;margin:0px auto 0px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="/pics/contacts/preobrajenskaya/1.jpg" alt="3. Печати.РУ на Преображенской площади"  title="1. Печати.РУ на Преображенской площади" data-description="Путь от метро" />
+                <li><img src="/pics/contacts/preobrajenskaya/2.jpg" alt="3. Печати.РУ на Преображенской площади"  title="2. Печати.РУ на Преображенской площади" data-description="Вход со стороны улицы." />
+                <li><img src="/pics/contacts/preobrajenskaya/3.jpg" alt="3. Печати.РУ на Преображенской площади"  title="3. Печати.РУ на Преображенской площади" data-description="Фойе здания" />
+                </li>
+                <li><img src="/pics/contacts/preobrajenskaya/4.jpg" alt="4. Печати.РУ на Преображенской площади"  title="4. Печати.РУ на Преображенской площади" data-description="Двигайтесь по коридору" />
+                </li>
+                <li><img src="/pics/contacts/preobrajenskaya/5.jpg" alt="5. Печати.РУ на Преображенской площади"  title="5. Печати.РУ на Преображенской площади" data-description="Двери нашего офиса" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="/pics/contacts/preobrajenskaya/1-tn.jpg" alt="1. Печати.РУ на Преображенской площади" title="1. Печати.РУ на Преображенской площади" /></li>
+                <li><img src="/pics/contacts/preobrajenskaya/2-tn.jpg" alt="2. Печати.РУ на Преображенской площади" title="2. Печати.РУ на Преображенской площади" /></li>
+                <li><img src="/pics/contacts/preobrajenskaya/3-tn.jpg" alt="3. Печати.РУ на Преображенской площади" title="3. Печати.РУ на Преображенской площади" /></li>
+                <li><img src="/pics/contacts/preobrajenskaya/4-tn.jpg" alt="4. Печати.РУ на Преображенской площади" title="4. Печати.РУ на Преображенской площади" /></li>
+                <li><img src="/pics/contacts/preobrajenskaya/5-tn.jpg" alt="5. Печати.РУ на Преображенской площади" title="5. Печати.РУ на Преображенской площади" /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
+        </div>
+    </div>
 
 <p><b>На машине из центра</b>: от станции метро Сокольники двигаемся в сторону 
 области по улице Стромынка, проезжаем Матросский Мост, доезжаем до 
