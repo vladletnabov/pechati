@@ -111,7 +111,7 @@
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/22.html" class="area" title="Изготовление печатей и штампов м. Пражская"><strong>м. Пражская</strong></a><br>Тел.: <strong>(499)</strong> 391-97-27<br>ул. Варшавское шоссе, 129 к.2, эт.2, оф. 207</div>
 	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/30.html'" title="Изготовление печатей и штампов м. Преображенская площадь">
-		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/30.html" class="area" title="Изготовление печатей и штампов м. Преображенская площадь"><strong>м. Преображенская площадь</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 763-77-89<br>ул. 1-я Бухвостова, дом 12/11, 2 этаж, 18 офис</div>
+		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/30.html" class="area" title="Изготовление печатей и штампов м. Преображенская площадь"><strong>м. Преображенская площадь</strong></a><br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 763-77-89<br>ул. 1-я Бухвостова, дом 12/11, 1 этаж, 115 офис</div>
 	</div>
 	<!--<div class="cont1 date1 date2" onclick="document.location.href='/contacts/45.html'" title="Изготовление печатей и штампов м. Савеловская">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/45.html" class="area" title="Изготовление печатей и штампов м. Октябрьское поле"><strong>м. Савеловская</strong></a><br>Тел.: <strong style="font-size: 8pt;">(916)</strong> 993-19-19<br>ул. Писцовая, д.16, к. 2</div>
