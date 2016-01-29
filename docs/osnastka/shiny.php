@@ -4,7 +4,7 @@ include("functions.php");
 $title = "Shiny";
 $description = "";
 $keywords = "";
-$price_url = "/osnastka/data/home/shiny-2015.xls";
+$price_url = "/osnastka/data/home/shiny-2016.xls";
 
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"

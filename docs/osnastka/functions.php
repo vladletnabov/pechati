@@ -176,7 +176,7 @@ function page_specials() {
 			</div>
 			<div class="right_name">
 				<a href="/osnastka/shiny.php">SHINY Printer R-542</a><br />
-				<strong>от 165</strong> руб.
+				<strong>от 170</strong> руб.
 			</div>
 		</div>
 		<div class="right_item_bot">
