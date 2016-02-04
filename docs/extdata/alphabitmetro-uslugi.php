@@ -7,6 +7,7 @@
 			<!--<p><img src="/pics/line6.gif" width="19" height="9" alt="Акадеическая" align="absmiddle"> <a href="/contacts/53.html" title="Изготовление печатей на Академической" >м. Академической</a></p>  -->
 		 	<p><img src="/pics/line6.gif" width="19" height="9" alt="Проспект Мира" align="absmiddle"> <a href="/contacts/39.html" title="Изготовление печатей на Алексеевской" >м. Алексеевская</a></p>   
 			<!--<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/16.html" title="Сделать печать или штамп на Бабушкинской"  >м. Бабушкинская</a></p>-->
+			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/59.html" title="Изготовление печатей по оттиску в Люблино" >м. Люблино</a></p>
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/10.html" title="Изготовление печатей по оттиску в Новых Черемушках" >м. Новые черемушки</a></p>
 			<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/11.html" title="Печати с защитой на Октябрьской" >м. Октябрьская</a></p>
 			<!--<p><img src="/pics/line6.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/56.html" title="Сделать печать или штамп на Третьяковской"  >м. Третьяковская</a></p>-->
