@@ -35,8 +35,8 @@
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/12.html" title="Красконаполненные печати на Октябрьском поле" >м. Октябрьское поле</a></p>
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/13.html" title="Изготовление гербовых печатей на Таганке" >м. Таганская</a></p>
 			<p><img src="/pics/line7.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/42.html" title="Срочное Изготовление печатей на Щукинской" >м. Щукинская</a></p>
-			<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/6.html" title="Печати на заказ в Марьино" >м. Марьино</a></p>
-			<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/59.html" title="Печати на заказ в Марьино" >м. Люблино</a></p>
+			<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/6.html" title="Печати на заказ в Братислаская" >м. Братиславская</a></p>
+			<p><img src="/pics/line10.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/59.html" title="Печати на заказ в Люблино" >м. Люблино</a></p>
 			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/2.html" title="Печати на заказ м. Речной вокзал">м. Водный стадион</a></p>
 			<p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/41.html" title="Изготовление печатей по оттиску на Динамо"  >м. Динамо</a></p>
 		    <p><img src="/pics/line2.gif" width="19" height="9" alt="" align="absmiddle"> <a href="/contacts/55.html">м. Домодедовская</a></p>  
