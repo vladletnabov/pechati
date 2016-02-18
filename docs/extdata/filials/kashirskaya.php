@@ -5,7 +5,7 @@
 	<p><!--Каширское шоссе, д.26, кор.3, вход со двора<br>-->
 	Тел. <!--8 (495) 728-45-98, (985) 915-46-85, (903) 527-39-47.--> (499) 391-97-27</p>
 	<p>Часы работы: пн-чт 10:00-19:00, пт 10:00-18:00, в выходные по предварительной договорённости</p>
-	<p>Для изготовления печатей и штампов: <a href="mailto:bgv@pechati.ru">bgv@pechati.ru</a></p>
+	<p>Для изготовления печатей и штампов: <a href="mailto:chertanovo@pechati.ru">chertanovo@pechati.ru</a></p>
 	<!--<p><img src="../pics/contacts/kashirka6.jpg" width="495" height="371" alt=""></p>
 	<p><img src="../pics/contacts/kashirka5.jpg" width="495" height="371" alt=""></p>
 	<p><img src="../pics/contacts/kashirka4.jpg" width="495" height="371" alt=""></p>
