@@ -10,6 +10,8 @@
 	<p>Почта: <a href="mailto:zel@pechati.ru">zel@pechati.ru</a></p>
 	<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> г. Химки<br>ул. Московская д.11 (Фотосалон) - (ориентир магазин ЧАСЫ)   <br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 664-37-18</p>
 	<p>Почта: <a href="mailto:zel@pechati.ru">zel@pechati.ru</a></p>
+	<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> г. Сходня<br>ул. Кирова д.3 (Фотосалон), привокзальная площадь<br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 664-37-18</p>
+	<p>Почта: <a href="mailto:zel@pechati.ru">zel@pechati.ru</a></p>
 	
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script src="/extdata/js/yamap-himki.js" type="text/javascript"></script>

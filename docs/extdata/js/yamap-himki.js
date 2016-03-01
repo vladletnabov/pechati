@@ -2,8 +2,8 @@ ymaps.ready(init);
 
 function init () {
     var myMap = new ymaps.Map("map", {
-            center: [55.9, 37.45],
-            zoom: 13
+            center: [55.924, 37.40],
+            zoom: 12
         }),
     // Создание макета содержимого хинта.
     // Макет создается через фабрику макетов с помощью текстового шаблона.
@@ -63,6 +63,14 @@ function init () {
     }, {
         hintLayout: HintLayout
     });
+	
+    var myPlacemark5 = new ymaps.Placemark([55.950055, 37.300027], {
+        address: "Сходня, ул. Кирова д.3 (фотосалон) ",
+        object: "Филиал №5 в Химках(Сходня)",
+		img:"/pics/contacts/himki/himki5.png"
+    }, {
+        hintLayout: HintLayout
+    });
 
 	myMap.controls.remove('trafficControl');
 	myMap.controls.remove('typeSelector');
@@ -75,4 +83,5 @@ function init () {
     myMap.geoObjects.add(myPlacemark2);
     myMap.geoObjects.add(myPlacemark3);
     myMap.geoObjects.add(myPlacemark4);
+    myMap.geoObjects.add(myPlacemark5);
 }
