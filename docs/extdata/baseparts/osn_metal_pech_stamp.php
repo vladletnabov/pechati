@@ -1,5 +1,5 @@
 <div style="margin: 0 auto;">
-	<h1 class="text-header-slider">Металические оснастки для <br />для печатей и штампов</h1>
+	<span class="text-header-slider">Металические оснастки для <br />для печатей и штампов</span>
 	
 	<div class="container osn4">
 		<ul class="skifcarousel">

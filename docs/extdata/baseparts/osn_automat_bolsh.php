@@ -1,6 +1,6 @@
 
 <div style="margin: 0 auto; height:100%;display:table;">
-	<h1 class="text-header-slider">Автоматические оснастки для <br />больших штампов</h1>
+	<span class="text-header-slider">Автоматические оснастки для <br />больших штампов</span>
 	<div class="container osn5">
 		<ul class="skifcarousel">
 	

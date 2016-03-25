@@ -1,5 +1,5 @@
 <div style="margin: 0 auto;">
-	<h1 class="text-header-slider">Ёлитные оснастки</h1>
+	<span class="text-header-slider">Ёлитные оснастки</span>
 	
 	<div class="container osn6">
 		<ul class="skifcarousel">

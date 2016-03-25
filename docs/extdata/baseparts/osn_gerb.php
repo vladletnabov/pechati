@@ -1,5 +1,5 @@
 <div style="margin: 0 auto;">
-	<h1 class="text-header-slider">Оснастки с гербом</h1>
+	<span class="text-header-slider">Оснастки с гербом</span>
 	
 	<div class="container osn7">
 		<ul class="skifcarousel">

@@ -24,15 +24,18 @@
 	
     <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:600px;padding-left:0px; padding-right:244px;margin:0px auto 0px;">
         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
-            <ul class="amazingslider-slides" style="display:none;">
-                <li><img src="/pics/contacts/chistye-prudy/1.jpg" alt="1. Печати.РУ на Чистых прудах"  title="1. Печати.РУ на Чистых прудах" data-description="Наш офис" />
+            <ul class="amazingslider-slides" style="display:none;">			
+                <li><img src="/pics/contacts/chistye-prudy/2.jpg" alt="1. Печати.РУ на Чистых прудах"  title="1. Печати.РУ на Чистых прудах" data-description="Схема проезда" />
                 </li>
-                <li><img src="/pics/contacts/chistye-prudy/2.jpg" alt="2. Печати.РУ на Чистых прудах"  title="2. Печати.РУ на Чистых прудах" data-description="Схема проезда" />
+                <li><img src="/pics/contacts/chistye-prudy/1.jpg" alt="2. Печати.РУ на Чистых прудах"  title="2. Печати.РУ на Чистых прудах" data-description="Наш офис" />
+                </li>
+                <li><img src="/pics/contacts/chistye-prudy/3.jpg" width="600" alt="3. Печати.РУ на Чистых прудах"  title="3. Печати.РУ на Чистых прудах" data-description="Витрина нашего офиса" />
                 </li>
             </ul>
             <ul class="amazingslider-thumbnails" style="display:none;">
-                <li><img src="/pics/contacts/chistye-prudy/1-tn.jpg" alt="1. Печати.РУ на Чистых прудах" title="1. Печати.РУ на Чистых прудах" /></li>
-                <li><img src="/pics/contacts/chistye-prudy/2-tn.jpg" alt="2. Печати.РУ на Чистых прудах" title="2. Печати.РУ на Чистых прудах" /></li>
+                <li><img src="/pics/contacts/chistye-prudy/2-tn.jpg" alt="1. Печати.РУ на Чистых прудах" title="1. Печати.РУ на Чистых прудах" /></li>
+                <li><img src="/pics/contacts/chistye-prudy/1-tn.jpg" alt="2. Печати.РУ на Чистых прудах" title="2. Печати.РУ на Чистых прудах" /></li>
+                <li><img src="/pics/contacts/chistye-prudy/3-tn.jpg" alt="3. Печати.РУ на Чистых прудах" title="3. Печати.РУ на Чистых прудах" /></li>
             </ul>
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
         </div>

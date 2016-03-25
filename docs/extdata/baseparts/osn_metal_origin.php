@@ -1,6 +1,6 @@
 
 <div style="margin: 0 auto;display:table;">
-	<h1 class="text-header-slider">Оснастки эксклюзивные</h1>
+	<span class="text-header-slider">Оснастки эксклюзивные</span>
 	
 	<div class="osn8">
 		<ul class="skifcarousel">

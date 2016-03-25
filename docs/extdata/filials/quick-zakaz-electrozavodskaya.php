@@ -10,7 +10,7 @@
 
 
 <div style="display:table; width:245px; height: 290px;  padding-left: 15px;padding-bottom:10px;  margin-left: 50px; box-shadow: 0 0 5px 2px #7f7f7f; background-color: #fff;  position:absolute; left: 750px; top:-10px; z-index:98;">
-	<div style="background:url(/extdata/images/header-quick-zakaz.png) no-repeat; height:150px; margin:0; padding-top:10px;"><h1 id="quick-zakaz-text" style="text-align:center;color: #fff; margin-top:10px;">Быстрый заказ</h1></div>
+	<div style="background:url(/extdata/images/header-quick-zakaz.png) no-repeat; height:150px; margin:0; padding-top:10px;text-align:center;"><span id="quick-zakaz-text" style="font-size:3em;font-weight:bold; text-align:center;color: #fff; margin-top:10px;">Быстрый заказ</span></div>
 	<form action="" method="get" name="quick-zakaz-electrozavodskaya" style="margin-bottom:0;" >
 		<div class="input-prepend" style="margin-left:0px; ">
 							<span class="add-on"><i class="icon-user"></i></span>
