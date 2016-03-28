@@ -114,7 +114,7 @@ var price2 = 450;
 						<img src="/extdata/images/close-icon.png" style="float:right; cursor:pointer;" onClick="closeOsnastka();" alt="Закрыть"/>
 					</div>
 					<div style="clear:both; ">
-					<?php require_once "../extdata/baseparts/osn_automat.php" ?>
+					<?php require_once "extdata/baseparts/osn_automat.php" ?>
 					</div>
 				
 				</div>
@@ -123,7 +123,7 @@ var price2 = 450;
 						<img src="/extdata/images/close-icon.png" style="float:right; cursor:pointer;" onClick="closeOsnastka();" alt="Закрыть"/>
 					</div>
 					<div style="clear:both; ">
-					<?php require_once "../extdata/baseparts/osn_automat_mal.php" ?>
+					<?php require_once "extdata/baseparts/osn_automat_mal.php" ?>
 					</div>
 				</div>
 				<div id="osnastka3" class="oshastka-akkord">
@@ -131,7 +131,7 @@ var price2 = 450;
 						<img src="/extdata/images/close-icon.png" style="float:right; cursor:pointer;" onClick="closeOsnastka();" alt="Закрыть"/>
 					</div>
 					<div style="clear:both; ">
-					<?php require_once "../extdata/baseparts/osn_automat_bolsh.php" ?>
+					<?php require_once "extdata/baseparts/osn_automat_bolsh.php" ?>
 					</div>
 				</div>
 				<div id="osnastka4" class="oshastka-akkord">
@@ -139,7 +139,7 @@ var price2 = 450;
 						<img src="/extdata/images/close-icon.png" style="float:right; cursor:pointer;" onClick="closeOsnastka();" alt="Закрыть"/>
 					</div>
 					<div style="clear:both; ">
-					<?php require_once "../extdata/baseparts/osn_automat_profline.php" ?>
+					<?php require_once "extdata/baseparts/osn_automat_profline.php" ?>
 					</div>
 				</div>
 			</div>
@@ -169,7 +169,7 @@ var price2 = 450;
 						<img src="/extdata/images/close-icon.png" style="float:right; cursor:pointer;" onClick="closeOsnastka();" alt="Закрыть"/>
 					</div>
 					<div style="clear:both; ">
-					<?php require_once "../extdata/baseparts/osn_metal_pech_stamp.php" ?>
+					<?php require_once "extdata/baseparts/osn_metal_pech_stamp.php" ?>
 					</div>
 				</div>
 				<div id="osnastka6" class="oshastka-akkord">
@@ -177,7 +177,7 @@ var price2 = 450;
 						<img src="/extdata/images/close-icon.png" style="float:right; cursor:pointer;" onClick="closeOsnastka();" alt="Закрыть"/>
 					</div>
 					<div style="clear:both; ">
-					<?php require_once "../extdata/baseparts/osn_metal_origin.php" ?>
+					<?php require_once "extdata/baseparts/osn_metal_origin.php" ?>
 					</div>
 				</div>
 				<div id="osnastka7" class="oshastka-akkord">
@@ -185,7 +185,7 @@ var price2 = 450;
 						<img src="/extdata/images/close-icon.png" style="float:right; cursor:pointer;" onClick="closeOsnastka();" alt="Закрыть"/>
 					</div>
 					<div style="clear:both; ">
-					<?php require_once "../extdata/baseparts/osn_gerb.php" ?>
+					<?php require_once "extdata/baseparts/osn_gerb.php" ?>
 					</div>
 				</div>
 				<div id="osnastka8" class="oshastka-akkord">
@@ -193,7 +193,7 @@ var price2 = 450;
 						<img src="/extdata/images/close-icon.png" style="float:right; cursor:pointer;" onClick="closeOsnastka();" alt="Закрыть"/>
 					</div>
 					<div style="clear:both; ">
-					<?php require_once "../extdata/baseparts/osn_elit.php" ?>
+					<?php require_once "extdata/baseparts/osn_elit.php" ?>
 					</div>
 				</div>
 			</div>

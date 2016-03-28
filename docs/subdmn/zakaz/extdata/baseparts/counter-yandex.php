@@ -1,84 +1,6 @@
 <script src="/extdata/js/skif-carousel.js"></script>
 
 
-<script>
-$(document).ready(function(){
-  $('.osn1').skifCarousel({
-					//btnNext: '.next',
-					//btnPrev: '.prev',
-					auto: 5000,
-					visible: 3,
-					rotateBy: 1,
-					speed: 500, // скорость перемотки (в миллисекундах)
-				});
-  	
-  $('.osn2').skifCarousel({
-					//btnNext: '.next',
-					//btnPrev: '.prev',
-					auto: 5000,
-					visible: 3,
-					rotateBy: 1,
-					speed: 500, // скорость перемотки (в миллисекундах)
-				});
-  	
-  $('.osn3').skifCarousel({
-					//btnNext: '.next',
-					//btnPrev: '.prev',
-					auto: 5000,
-					visible: 3,
-					rotateBy: 1,
-					speed: 500, // скорость перемотки (в миллисекундах)
-				});
-  	
-  $('.osn4').skifCarousel({
-					//btnNext: '.next',
-					//btnPrev: '.prev',
-					auto: 5000,
-					visible: 3,
-					rotateBy: 1,
-					speed: 500, // скорость перемотки (в миллисекундах)
-				});
-  
-  $('.osn5').skifCarousel({
-					//btnNext: '.next',
-					//btnPrev: '.prev',
-					auto: 5000,
-					visible: 3,
-					rotateBy: 1,
-					speed: 500, // скорость перемотки (в миллисекундах)
-				});
-  	
-  $('.osn6').skifCarousel({
-					//btnNext: '.next',
-					//btnPrev: '.prev',
-					auto: 5000,
-					visible: 3,
-					rotateBy: 1,
-					speed: 500, // скорость перемотки (в миллисекундах)
-				});
-  
-  $('.osn7').skifCarousel({
-					//btnNext: '.next',
-					//btnPrev: '.prev',
-					auto: 5000,
-					visible: 3,
-					rotateBy: 1,
-					speed: 500, // скорость перемотки (в миллисекундах)
-				});
-  
-  $('.osn8').skifCarousel({
-					//btnNext: '.next',
-					//btnPrev: '.prev',
-					auto: 5000,
-					visible: 3,
-					rotateBy: 1,
-					speed: 500, // скорость перемотки (в миллисекундах)
-				});
-  
-});		
-</script>
-			
-
 
 			
 			
@@ -128,57 +50,12 @@ var filial = 'other';
 var counter = 'zakaz-';
 var quick = 'quick-'
 var filialVal = new Object();
-filialVal['м. Ѕегова€'] = 'begovaya';
-filialVal['м. Ёлектрозаводска€'] = 'electrozavodskaya';
-filialVal['м. ћолодЄжна€'] = 'molodejnaya';
-filialVal['м. “аганска€'] = 'taganskaya';
-filialVal['м. ¬одный стадион'] = 'vodniystadion';
-filialVal['м. ќдинцово'] = 'odintsovo';
-filialVal['м. „ерЄмушки'] = 'cheremushki';
-filialVal['м.  аширска€'] = 'kashirskaya';
 
 
 
 function checkFilial(){
 	
-	filial = 'other';
-	counter = 'zakaz-';
-	quick = 'quick-';
-	
-	
-						var url = document.location.href;
-						url = url.toLowerCase();
-						
-						url=removeHTTP(url);
-						
-	
-	for (var i=0;i<100;i++){
-		var idElement= "adr" + i;
-		if (document.getElementById(idElement) != null){
-					//alert(idElement);
-					if(document.getElementById(idElement).checked) {
-						filial = document.getElementById(idElement).value;
-						//alert(filial);
-						if (filial in filialVal){
-							counter = counter + url + filialVal[filial];
-						}
-						else {
-							counter = counter + url + 'other';
-						}
-						break;
-					}
-		}
-		/*
-		}*/
-		
-	}
-	
-	if (counter==='zakaz-'){
-		counter='zakaz-uslugi-'+filialVal['м. Ёлектрозаводска€'];
-	}
-	
-	//alert(counter);
-	yaCounter114010.reachGoal(counter);
+
 	return true;
 }
 

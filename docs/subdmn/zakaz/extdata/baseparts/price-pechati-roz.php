@@ -40,26 +40,11 @@ var price1 = 550;
 <P align=center><input type="Radio" name="srok" value="Изготовление экслибриса, личной печати за 1 день" onClick="price1 = 2000; count_price();" id="srok13"> <label for="srok13">2000</label></P></TD>
 <TD>
 <P align=center><input type="Radio" name="srok" value="Изготовление экслибриса, личной печати срочно" onClick="price1 = 5000; count_price();" id="srok14"> <label for="srok14">5000</label></P></TD></TR>
-<TR bgcolor="#ebeaef">
+<!--<TR bgcolor="#ebeaef">
 <TD>Изготовление печатей <b>БЕСПЛАТНО</b></TD>
 <TD colspan="2">
 <P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" onClick="price1 = 0; count_price();" id="srok23"> <label for="srok23">Бесплатно</label></P></TD>
-<!--<TD>
-<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно" onClick="price1 = 0; count_price();" id="srok24"> <label for="srok4">Бесплатно</label></P></TD>--></TR>
-<!-- Добавление резины-->
-
-<!--<TR bgcolor="#ebeaef">
-<TD>Изготовление клише из резины</TD>
-<TD>
-<P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 250; count_price();" id="srok11"> <label for="srok7">250</label></P></TD>
-<TD>
-<P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 450; count_price();" id="srok12"> <label for="srok8">450</label></P></TD></TR>-->
-<!--<TD>Изготовление клише из резины</TD>
-<TD>
-<P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 250; count_price();" id="srok11"> <label for="srok7">250</label></P></TD>
-<TD>
-<P align=center><input type="Radio" name="srok" value="Изготовление клише из резины" onClick="price1 = 450; count_price();" id="srok12"> <label for="srok8">450</label></P></TD></TR>-->
-<!-- конец блока --> 
+</TR>-->
 <TR bgcolor="#ebeaef">
 <TD>Печать, отрисованная в Corel Draw заказчиком или дубликат до 20 кв. см</TD>
 <TD>
@@ -151,7 +136,7 @@ var price1 = 550;
 		</td>
 	</tr>-->
 </TABLE></P>
-<UL>
+<!--<UL>
 <LI>
 <P align=justify>БЕСПЛАТНОЕ изготовление печати при условии открытия счёта в Банке "Открытие". Подробности узнавайте у наших менеджеров.</P></li>
-</UL>
+</UL>-->
