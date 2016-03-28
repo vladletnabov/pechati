@@ -1,0 +1,91 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+</head>
+<body>
+<style>
+
+input[type="radio"] {
+    display:none;            
+}
+input[type="radio"] + label {
+  font-size: 12px;
+  color: red;
+  cursor: pointer;
+  width: 50px;
+  /*min-height: 30px;*/
+	height:100%;
+}
+input[type="radio"]:checked  label {
+  font-size: 14px;
+}
+
+label a{
+	/*background: white;*/
+}
+input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+	/*border-radius:5px;*/
+    min-height: 30px;
+	height:100%;
+    width: 50px;
+    margin: 0;
+    /*background-color: white;*/
+    background-repeat: no-repeat;
+	/*border:1px solid navy;*/
+}
+
+/* RED BLOCK*/
+
+input[type="radio"] + .navy::before {
+    /*background-color: white;*//*red;*/
+}
+input[type="radio"]:checked + .navy::before {
+    background-color:navy;
+	/*border: 2px dotted white;*/
+}
+
+input[type="radio"] + .navy div{
+	color: navy;
+}
+input[type="radio"]:checked + .navy div{
+	color: white;
+	font-size: 14px;
+}
+
+
+
+.price-position{
+    position: relative;
+    text-align: center;
+    margin-top: -22px;
+    margin-left: 0px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+</style>
+
+
+<table style="background-color: grey; max-width: 220px;">
+<tr>
+	<td>Вышел месяц из тумана вынял ножик из кармана</td>
+	<td>
+		<input id="id1" type="radio" name="filialy" value="м. Преображенская" hidden>
+		<label for="id1" class="navy"><div class="price-position">2000</div></label>
+	</td>
+</tr>
+<tr>
+	<td>asdasdasdasdasdasd</td>
+	<td>
+		<input id="id2" type="radio" name="filialy" value="м. Преображенская площадь" hidden>
+		<label for="id2" class="navy"><div class="price-position">2200</div></label>
+	</td>
+</tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<link rel="STYLESHEET" type="text/css" href="/extdata/css/externalforms.css">
+	<script src="//raw.githubusercontent.com/digitalBush/jquery.maskedinput/1.4.0/dist/jquery.maskedinput.min.js"></script>
+				<script>
+					// <![CDATA[
+						jQuery(function($){    $("#companyphone").mask("+7 (999) 999-99-99"); });
+					// ]]&gt;
+				</script>
+	<script type="text/javascript">
+		//<![CDATA[ 
+		$(window).load(function(){
+		$("#companyphone").mask("+7 (999) 999-9999");
+
+
+		$("#companyphone").on("blur", function() {
+		    var last = $(this).val().substr( $(this).val().indexOf("-") + 1 );
+		    
+		    if( last.length == 3 ) {
+			var move = $(this).val().substr( $(this).val().indexOf("-") - 1, 1 );
+			var lastfour = move + last;
+		
+			var first = $(this).val().substr( 0, 9 );
+		
+			$(this).val( first + '-' + lastfour );
+		    }
+		});
+		});//]]>  
+
+	</script>		
+	
+
+<div id="externalform">
+	<h3>Расширенная форма</h3>
+					
+	<form action>
+		<div class="grey">
+			<div style="float:left; width: 50%;">Юридическая форма:</div>
+			<div style="display:inline;" >
+				<select name="companytype">
+				    <option disabled selected>выберите</option>
+				    <option value="ip">ИП</option>
+				    <option value="ooo">ООО</option>
+				    <option value="ao">Акционерное общество</option>					
+				</select>
+			</div>
+		</div>
+		<div class="white">
+			<div style="float:left; width: 50%;">Наименование:</div>
+			<div style="display:inline; width:40%" >
+				<input type="text" id="companyname" name="companyname" />
+			</div>
+		</div>
+		<div class="grey">
+			<div style="float:left; width: 50%;">ОГРН:</div>
+			<div style="display:inline; width:40%" >
+				<input type="text" id="contactname" name="ogrn" />
+			</div>
+		</div>
+		<div class="white">
+			<div style="float:left; width: 50%;">ИНН:</div>
+			<div style="display:inline; width:40%">
+				
+				<input type="text" id="companyphone" name="inn" />
+
+
+			</div>
+		</div>
+		<div class="grey" style="float:left; display:inline;" >
+			<div style="float:left; width: 50%;">E-mail:</div>
+			<div style="display:inline; width:40%">
+				<input type="text" id="companyemail"  name="companyemail" />
+			</div>
+		</div>
+		<div class="white">
+			<div style="float:left; width: 50%;">Город:</div>
+			<div style="display:inline; width:40%">
+				<input type="text" id="cityname"  name="cityname" />
+			</div>
+		</div>
+		<div class="grey">
+			<div style="float:left; width: 50%;">Получать новости:</div>
+			<div style="display:inline; width:40%" >
+				<input type="checkbox" checked value="emailfire" name="emailfire" />
+			</div>
+		</div>
+		<div style="padding-left:50%;">
+			<button id="opener"name="extformsubmit" >Отправить</button>
+		</div>
+		
+
+	</form>
+</div>
