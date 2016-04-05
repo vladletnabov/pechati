@@ -35,7 +35,7 @@
 			<li><div>
 				<img src="/extdata/osnastka-slider2/images/mk-nlo.gif" alt="НЛО"  title="500 р." />
 				<div class="text-slider2">
-					<div class="title-slider">500 р.</div>
+					<div class="title-slider">1300 р.</div>
 					<div class="description-slider">Карманная металическая оснастка &quot;НЛО&quot;<BR />&empty;40мм</div>
 				</div>
 			</div></li>
