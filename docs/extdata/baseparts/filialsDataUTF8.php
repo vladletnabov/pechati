@@ -1,3 +1,4 @@
+<?php 
 $filialDataList = array(
 	"м. Арбатская"=> array(
 		'mainList'=>1, 
@@ -336,7 +337,7 @@ $filialDataList = array(
 		'phone'=>'8(901)57-57-074',
 		'url'=>'/contacts/50.html', 
 		'email'=>'mitino@pechati.ru',
-		'img'=>'/pics/contacts/mitino/skif.jpg'
+		'img'=>'/pics/contacts/mitino/skif.jpg',
 		'subFilials'=>array (
 			1 => array (
 				'rejim'=>'Пн-Пт:09:00-19:00, Сб-Вс: выходной', 'addrCity'=>'Москва',
@@ -933,6 +934,7 @@ $filialDataList = array(
 		'mapAddr'=>'', 
 		'phone'=>'8 (495) 410-18-85',
 		'url'=>'/contacts/40.html', 
-		'email'=>'sol@pechati.ru'
-		'img'=>'/pics/contacts/solncevo/s3.jpeg'),
+		'email'=>'sol@pechati.ru',
+		'img'=>'/pics/contacts/solncevo/s3.jpeg')
 );
+?>

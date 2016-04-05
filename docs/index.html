@@ -12,6 +12,11 @@
 	<link rel="STYLESHEET" type="text/css" href="/css/pechati.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+
 	<!--script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -330,6 +335,15 @@
 }
 </style>
 <?php require_once "extdata/alphabitmetro.php" ?>
+<!-- карта филиалов -->
+<style>
+#mapFilials{
+	margin-left: -81px;
+    margin-right: -100px;
+    width: 965px;
+}
+</style>
+				<?php require_once "extdata/baseparts/map-filials.php" ?>
 <!-- /Text2 -->
 
 </div>
