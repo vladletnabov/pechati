@@ -8,28 +8,28 @@
 			<li><div>
 				<img src="/extdata/osnastka-slider2/images/am-colop-p-60.jpg" alt="Colop Printer 60"  title="200 р." />
 				<div class="text-slider2">
-					<div class="title-slider">200 р.</div>
+					<div class="title-slider">300 р.</div>
 					<div class="description-slider">Для малых штампов<br />Colop Printer 60</div>
 				</div>
 			</div></li>
 			<li><div>
 				<img src="/extdata/osnastka-slider2/images/am-grm-4913.jpg" alt="GRM 4913 2Pads"  title="200 р." />
 				<div class="text-slider2">
-					<div class="title-slider">200 р.</div>
+					<div class="title-slider">300 р.</div>
 					<div class="description-slider">Для малых штампов<br />GRM 4913 2Pads</div>
 				</div>
 			</div></li>
 			<li><div>
 				<img src="/extdata/osnastka-slider2/images/am-shiny-p-s844.jpg" alt="Shiny Printer S-844"  title="200 р." />
 				<div class="text-slider2">
-					<div class="title-slider">200 р.</div>
+					<div class="title-slider">300 р.</div>
 					<div class="description-slider">Для малых штампов<br />Shiny Printer S-844</div>
 				</div>
 			</div></li>
 			<li><div>
 				<img src="/extdata/osnastka-slider2/images/am-shiny-s843.jpg" alt="Shiny Printer S-842"  title="200 р." />
 				<div class="text-slider2">
-					<div class="title-slider">200 р.</div>
+					<div class="title-slider">300 р.</div>
 					<div class="description-slider">Для малых штампов<br />Shiny Printer S-842</div>
 				</div>
 			</div></li>

@@ -1,7 +1,7 @@
 <div><div style="display:none;"><!--550080641835--></div><noindex>
 <div>
 <?
-$url=$_SERVER['PHP_SELF'];
+$url=$_SERVER['REQUEST_URI'];
 $li = "<div style=\"float:left; display:inline;\"><!--LiveInternet counter--><script type=\"text/javascript\"><!--
 document.write(\"<a href='http://www.liveinternet.ru/click' \"+
 \"target=_blank><img src='http://counter.yadro.ru/hit?t45.1;r\"+
