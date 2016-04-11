@@ -8,22 +8,36 @@ function init() {
 	var $index = 'index.html';
 	myUrl = myUrl.replace($index,"");
 	
+	myPattern = /(\?)|(\#)/i;
+	console.log('URL: ' + myUrl);
+	if(myUrl.search(myPattern)){
+		myUrl=myUrl.split(myPattern)[0];
+	}
 	
+	console.log('URL: ' + myUrl);
 	
-	//alert(myPattern + "\n"+ myUrl);
 	var $urlCheck ='/main';
-	var $contacts = 'contacts';
-	myPattern = /(\d+)/;
-	var uslugiPattern = /\/uslugi\//;
+	var contactsPattern = /contacts/i;
+	
+	var uslugiPattern = /uslugi/i;
 	console.log('uslugiPattern: ' + uslugiPattern);
+	console.log('contactsPattern: ' + contactsPattern);
 	console.log('myUrl: ' + myUrl);
-	if (myUrl.search($contacts)){
+	console.log('urlCheck: ' + $urlCheck);
+	if (myUrl.search(uslugiPattern) != -1){
+		console.log('uslugiPattern check: ' + uslugiPattern);
+		var subStrPat = /\/(\w+)\/(\w+)/i;
+		if(myUrl.search(subStrPat)!= -1){
+			$urlCheck = '/main';	
+		}
+		else {
+			$urlCheck = '/uslugi';
+		}		
+	} 
+	if (myUrl.search(contactsPattern) != -1){
+		console.log('contactsPattern check: ' + contactsPattern);
 		$urlCheck = '/contacts';		
 	}
-	if (myUrl=='/uslugi/'){
-		$urlCheck = '/uslugi';		
-	}
-	
 	console.log('urlCheck: ' + $urlCheck);
 
     //console.log('init map');
