@@ -32,8 +32,12 @@ if(navigator.cookieEnabled) cook = \"Y\"; else cook = \"N\";
  document.write('<a href=\"http://www.smartlog.ru/\" target=\"_top\"><img width=1 height=1 src=\"http://www.smartlog.ru/counter/?i='+i+'&cid=999&r='+escape(document.referrer)+'&sid=1193&cook='+cook+'&s='+w+'x'+h+'&pg='+escape(window.location.href)+'\" alt=\"SmartLog.ru - интернет статистика\" border=0></a>')
 </script><!--- SmartLog --->";
 
-if (preg_match('/\/uslugi\/index.html/',$url)) {
-	echo $openstat;
+if (preg_match('/\/uslugi\//',$url)) {
+	if (preg_match('/\/uslugi\/index.html/',$url)) { echo $openstat;}
+	else {
+		if (preg_match('/html/',$url)) {	echo $li;}
+		else { echo $openstat; }
+	}
 }
 else {echo $li;}
 echo $smartlog;
