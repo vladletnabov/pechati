@@ -39,7 +39,10 @@ if (preg_match('/\/uslugi\//',$url)) {
 		else { echo $openstat; }
 	}
 }
-else {echo $li;}
+else {
+	if (preg_match('/zakaz.pechati\.ru/', $_SERVER['HTTP_HOST'] )){ echo $openstat;   }
+	else { echo $li; }
+}
 echo $smartlog;
 if (preg_match('/\/forms_send.html/',$url)) {
 	

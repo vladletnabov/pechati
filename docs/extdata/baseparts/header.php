@@ -82,7 +82,8 @@
 	<script src="/feedback/js/feedback.js"></script>
 	<script src="/feedback/js/jquery.arcticmodal.js"></script>
 	<script src="/feedback/js/jquery.jgrowl.js"></script>
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>	
+	<script src="/extdata/js/yamap-filial.js" type="text/javascript"></script>
 	<script src="/extdata/js/skif-carousel.js"></script>
 
 		  

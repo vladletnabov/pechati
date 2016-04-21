@@ -102,6 +102,23 @@ $filialDataList = array(
 		'url'=>'/contacts/19.html', 
 		'email'=>'bgv@pechati.ru',
 		'img'=>'/pics/contacts/begovaya/images/9.jpg'),
+	"м. Деловой центр"=> array(
+		'mainList'=>1, 
+		'contacts'=>1, 
+		'uslugi'=>1, 
+		'predlog'=>'в', 
+		'padej'=>'Деловвом центре', 
+		'rejim'=>'Пн-Пт:09:00-19:00, Сб-Вс: выходной', 
+		'addrCity'=>'Москва',
+		'addrRegion'=>'Москва',
+		'addrStreet'=>'Пресненская набережная ', 
+		'addrHouse'=>'д. 12',
+		'addrOffice'=>'',
+		'mapAddr'=>'[55.749395, 37.536967]', 
+		'phone'=>'8 (495) 741-10-58',
+		'url'=>'/contacts/43.html', 
+		'email'=>'mcity@pechati.ru',
+		'img'=>''),
 	"м. ВДНХ"=> array(
 		'mainList'=>0, 
 		'contacts'=>0,  
@@ -137,6 +154,9 @@ $filialDataList = array(
 		'email'=>'vh@pechati.ru',
 		'img'=>'/pics/contacts/vyhino/11.jpg'),
 	"м. Водный стадион"=> array(
+		'posContact' => 'vip',
+		'commentContact' => 'опт&nbsp;/&nbsp;розница<br>отправка по России<br>оборудования, расходников, оснасток',
+		'plashkaContact' => '../pics/contacts/vodnyj_fl.gif',
 		'mainList'=>1, 
 		'contacts'=>1,  
 		'uslugi'=>1, 
@@ -255,6 +275,23 @@ $filialDataList = array(
 		'url'=>'/contacts/7.html', 
 		'email'=>'5176723@mail.ru',
 		'img'=>'/pics/contacts/komsomolskaja1.jpg'),
+	"м. Кузьминки"=> array(
+		'mainList'=>0, 
+		'contacts'=>1, 
+		'uslugi'=>0, 
+		'predlog'=>'в',
+		'padej'=>'Кузьминках',
+		'rejim'=>'Пн-Сб:10:00-20:00, Сб-Вс: по согласованию', 
+		'addrCity'=>'Москва',
+		'addrRegion'=>'Москва',
+		'addrStreet'=>'Волгоградский проспект', 
+		'addrHouse'=>'д. 88',
+		'addrOffice'=>'',
+		'mapAddr'=>'[55.775864, 37.660413]', 
+		'phone'=>'8 (495) 988-14-14',
+		'url'=>'/contacts/26.html', 
+		'email'=>'kuzminki@pechati.ru',
+		'img'=>''),
 	"м. Ленинский пр-т"=> array(
 		'mainList'=>0, 
 		'contacts'=>0,  
@@ -293,6 +330,22 @@ $filialDataList = array(
 		'mainList'=>1, 
 		'contacts'=>0,  
 		'uslugi'=>1, 
+		'predlog'=>'на', 
+		'padej'=>'Братиславской',
+		'rejim'=>'Пн-Вс 09:00-21:00', 
+		'addrCity'=>'Москва',
+		'addrRegion'=>'Москва',
+		'addrStreet'=>' ул. Перерва', 
+		'addrHouse'=>'д. 43',
+		'addrOffice'=>'2-й этаж, оф. А18',
+		'mapAddr'=>'[55.659622, 37.747738]', 
+		'phone'=>'8 (925) 498-20-48',
+		'url'=>'/contacts/6.html', 'email'=>'marino@pechati.ru',
+		'img'=>'/pics/contacts/bratislavskaya/1.jpg'),
+	"м. Марьино"=> array(
+		'mainList'=>0, 
+		'contacts'=>1,  
+		'uslugi'=>0, 
 		'predlog'=>'на', 
 		'padej'=>'Братиславской',
 		'rejim'=>'Пн-Вс 09:00-21:00', 
@@ -451,6 +504,7 @@ $filialDataList = array(
 		'email'=>'perovo@pechati.ru',
 		'img'=>''),
 	"р-н Ново-Переделкино"=> array(
+		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1,  
 		'uslugi'=>1, 
@@ -502,7 +556,7 @@ $filialDataList = array(
 	"м. Октябрьское поле"=> array(
 		'mainList'=>1, 
 		'contacts'=>1,  
-		'uslugi'=>0, 
+		'uslugi'=>1, 
 		'predlog'=>'на',
 		'padej'=>'Октябрьском поле',
 		'rejim'=>'Пн-Пт 09:30-20:00', 
@@ -602,6 +656,7 @@ $filialDataList = array(
 		'email'=>'preo@pechati.ru',
 		'img'=>'/pics/contacts/preobrajenskaya/2.jpg'),
 	"м. Румянцево"=> array(
+		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1,  
 		'uslugi'=>1, 
@@ -619,6 +674,9 @@ $filialDataList = array(
 		'email'=>'9251254555@mail.ru',
 		'img'=>''),
 	"м. Таганская, м. Марксисткая"=> array(
+		'posContact' => 'vip',
+		'commentContact' => 'опт&nbsp;/&nbsp;розница<br>отправка по России<br>оборудования, расходников, оснасток',
+		'plashkaContact' => '../pics/contacts/taganka_fl.gif',
 		'mainList'=>1, 
 		'contacts'=>1,  
 		'uslugi'=>1, 
@@ -702,6 +760,24 @@ $filialDataList = array(
 		'url'=>'/contacts/64.html', 
 		'email'=>'5176723@mail.ru',
 		'img'=>'/pics/contacts/chistye-prudy/3.jpg'),
+	"м. Тургеневская"=> array(
+		'mainList'=>1, 
+		'contacts'=>1,  
+		'uslugi'=>0, 
+		'predlog'=>'на',
+		'padej'=>'Тургеневской',
+		'rejim'=>'Пн-Пт 10:00-19:00, Сб:12:00-19:00', 
+		'addrCity'=>'Москва',
+		'addrRegion'=>'Москва',
+		'addrStreet'=>' Ащеулов переулок ', 
+		'addrHouse'=>'д.9',
+		'addrOffice'=>'1 подъезд, 4 этаж.',
+		'mapAddr'=>'[55.767701, 37.634613]', 
+		'phone'=>'8 (495) 517-67-23',
+		'url'=>'/contacts/turgenevskaya.html', 
+		'reqFilialData'=>'/extdata/filials/turgenevskaya.php', 
+		'email'=>'5176723@mail.ru',
+		'img'=>'/pics/contacts/turgenevskaya/1-tn.jpg'),
 	"м. Щелковская"=> array(
 		'mainList'=>0, 
 		'contacts'=>0,  
@@ -737,6 +813,9 @@ $filialDataList = array(
 		'email'=>'bgv@pechati.ru',
 		'img'=>''),
 	"м. Электрозаводская"=> array(
+		'posContact' => 'vip',
+		'commentContact' => 'отправка по России<br>оборудования, расходников, оснасток<br>гарантийное и постгарантийное обслуживание',
+		'plashkaContact' => '../pics/contacts/elektrozavod_fl.gif',
 		'mainList'=>1, 
 		'contacts'=>1,  
 		'uslugi'=>1, 
@@ -786,6 +865,7 @@ $filialDataList = array(
 		'email'=>'chertanovo@pechati.ru',
 		'img'=>''),
 	"М.О., г. Красногорск"=> array(
+		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1,  
 		'uslugi'=>0, 
@@ -801,8 +881,27 @@ $filialDataList = array(
 		'phone'=>'8 (901) 57-57-074',
 		'url'=>'/contacts/17.html',
 		'email'=>'krasnogorsk@pechati.ru',
-		'img'=>'/pics/contacts/krasnogorsk.jpg'),
+		'img'=>'/pics/contacts/krasnogorsk.jpg'),	
+	"г. Одинцово"=> array(
+		'posContact' => 'mo',
+		'mainList'=>1, 
+		'contacts'=>1,  
+		'uslugi'=>1, 
+		'predlog'=>'в', 
+		'padej'=>'Одинцово',
+		'rejim'=>'Пн-Пт:09:00-19:00, Сб-Вс: выходной', 
+		'addrCity'=>'Одинцово',
+		'addrRegion'=>'Московская область',
+		'addrStreet'=>' ул. Союзная ', 
+		'addrHouse'=>'1В',
+		'addrOffice'=>'3 эт., 8 подъезд, оф. 310',
+		'mapAddr'=>'[55.671676, 37.284324]', 
+		'phone'=>'8 (495) 973-5008',
+		'url'=>'/contacts/18.html',
+		'email'=>'5008@pechati.ru',
+		'img'=>'/pics/contacts/odincovo1.jpg'),
 	"Химки"=> array(
+		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1,  
 		'uslugi'=>0, 
@@ -875,6 +974,7 @@ $filialDataList = array(
 		)
 	),
 	"Зеленоград"=> array(
+		'posContact' => 'mo',
 		'mainList'=>0, 
 		'contacts'=>0,  
 		'uslugi'=>0, 
@@ -921,6 +1021,7 @@ $filialDataList = array(
 		)
 	),
 	"р-н Солцево"=> array(
+		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1,  
 		'uslugi'=>1, 
@@ -938,4 +1039,49 @@ $filialDataList = array(
 		'email'=>'sol@pechati.ru',
 		'img'=>'/pics/contacts/solncevo/s3.jpeg')
 );
+$filialDataListCP1251 = $filialDataList;
+
+function iconvKeys(array &$rgData, $sIn, $sOut)
+{
+   $rgData = array_combine(array_map(function($sKey) use ($sIn, $sOut)
+   {
+      return iconv($sIn, $sOut, $sKey);
+   }, array_keys($rgData)), array_values($rgData));
+   foreach($rgData as &$mValue)
+   {
+      if(is_array($mValue))
+      {
+         $mValue = iconvKeys($mValue, $sIn, $sOut);
+      }
+   }
+   return $rgData;
+}
+
+$filialDataListCP1251 = iconvKeys($filialDataListCP1251, 'UTF-8','CP1251');//sample
+
+IconvArray($filialDataListCP1251);
+//$filialDataListCP1251 = $filialDataList;
+
+/*$resultJsonArr= json_encode($filialDataListCP1251, JSON_UNESCAPED_UNICODE);
+$resultJsonArr = iconv('UTF-8','CP1251',$resultJsonArr);
+$filialDataListCP1251 = json_decode($resultJsonArr, true);
+*/
+/*foreach(array_keys($filialDataListCP1251) as $key){
+    $filialDataListCP1251[$key] = iconv('UTF-8','CP1251', $filialDataListCP1251[$key]);
+}  
+*/
+function IconvArray(&$array){
+  foreach ($array as $key => $value){
+    if(is_array($value)){
+       IconvArray($array[$key]);
+    }
+	else{
+       $array[$key] = iconv('UTF-8','CP1251',$value);
+	   //$key = iconv('UTF-8','CP1251', $key);
+    }
+  }
+  return $array;
+}
+
+
 ?>
