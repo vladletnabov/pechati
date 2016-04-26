@@ -1,12 +1,4 @@
-<div id="contacts1">
-<p>	<?php echo $curFilial ?><br />
- <?php echo $filialDataListCP1251[$curFilial]['addrCity'], ", ", $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], ", ", $filialDataListCP1251[$curFilial]['addrOffice']; ?></p>
-	<p>Тел.: <b><?php echo $filialDataListCP1251[$curFilial]['phone'] ?></b></p>
-	<p>Почта: <a href="<?php echo $filialDataListCP1251[$curFilial]['email'] ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>
-	<p>Часы работы: <br/>
-	<? echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim'])?>
-	
-	</p>
+
 	<p>
 	Срочность исполнения заказов (в вечернее время и выходные) просьба согласовывать по телефону.
 	</p>
@@ -38,20 +30,3 @@
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
         </div>
     </div>
-<br><br>
-
-<!--<style>
-	.my-hint {
-		width:244px;
-		height:244px ;
-		margin:0;
-		padding:2px;
-		background-color: #fff;
-		border-radius:0;
-		
-	}
-</style>-->
-
-
-<div id="map" style="height:500px; width:945px;margin-left:-35px;"></div>
-</div>
