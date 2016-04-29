@@ -69,7 +69,16 @@ function checkRequired() {
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
 		<!-- базовая стоимость клише и доставки остальные делать на основе этого файла и подключать отдельно-->
-		<?php require_once "../extdata/filials/base-clishe-price.php" ?>
+		<?php 
+		//require_once "../extdata/filials/base-clishe-price.php" 
+		if( isset($filialDataListCP1251[$curFilial]['clishePrice']) || (strcasecmp($filialDataListCP1251[$curFilial]['clishePrice'], '')!=0)) {
+			$reqClishePrice = ".." . $filialDataListCP1251[$curFilial]['clishePrice'];
+			require_once $reqClishePrice ;
+		} 
+		else{
+			require_once "../extdata/filials/base-clishe-price.php";
+		}
+		?>
 		</td>
 	</tr>
 	<tr>
@@ -79,7 +88,16 @@ function checkRequired() {
 		<td style="border: 1px solid #eeeafb;">
 		
 		<!-- базовая стоимость оснасток остальные делать на основе этого файла и подключать отдельно-->
-		<?php require_once "../extdata/filials/base-osnastka-price.php" ?>
+		<?php 
+		//require_once "../extdata/filials/base-osnastka-price.php";
+		if( isset($filialDataListCP1251[$curFilial]['osnastkaPrice']) || (strcasecmp($filialDataListCP1251[$curFilial]['osnastkaPrice'], '')!=0)) {
+			$reqOsnastkaPrice = ".." . $filialDataListCP1251[$curFilial]['osnastkaPrice'];
+			require_once $reqOsnastkaPrice;
+		} 
+		else{
+			require_once "../extdata/filials/base-osnastka-price.php";
+		}
+		?>
 		</td>
 	</tr>
 	<tr>

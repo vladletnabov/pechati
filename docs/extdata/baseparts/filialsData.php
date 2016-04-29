@@ -17,6 +17,8 @@ $filialDataList = array(
 		'reqFilialData'=>'/extdata/filials/arbatskaya.php', 
 		'url'=>'/contacts/1.html', 
 		'email'=>'arbat@pechati.ru',
+		'clishePrice'=>'/extdata/filials/arbat-base-clishe-price.php',
+		'osnastkaPrice'=>'/extdata/filials/arbat-osnastka-price.php',
 		'img'=>''),
 	"м. Алексеевская"=> array(
 		'mainList'=>0, 
@@ -806,7 +808,7 @@ $filialDataList = array(
 		'url'=>'/contacts/64.html', 
 		'reqFilialData'=>'/extdata/filials/chistye-prudy.php', 
 		'email'=>'5176723@mail.ru',
-		'img'=>'/pics/contacts/chistye-prudy/3.jpg'),
+		'img'=>'/pics/contacts/chistye-prudy/3.jpg',
 		'subFilials'=>array (
 			1 => array (
 				'rejim'=>'Пн-Пт 10:00-19:00, Сб:12:00-19:00', 
@@ -821,7 +823,7 @@ $filialDataList = array(
 				'reqFilialData'=>'/extdata/filials/turgenevskaya.php', 
 				'email'=>'5176723@mail.ru',
 				'img'=>'/pics/contacts/turgenevskaya/1-tn.jpg'
-			)
+			),
 		),
 	),
 	"м. Тургеневская"=> array(

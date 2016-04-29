@@ -1,4 +1,7 @@
-<a name="pechati"></a><P align="center" style="font-size: 16pt;"><B>Изготовление печатей, штампов, факсимиле.<br>Восстановление печатей по оттиску.</B><br></P>
+<a name="pechati"></a>
+<P align="center" style="font-size: 16pt;">
+	<br><B>Срочное изготовление печатей, штампов, факсимиле <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>.<br>Восстановление печатей по оттиску.</B><br>
+</P>
 <script>
 var price1 = 550;
 </script>
