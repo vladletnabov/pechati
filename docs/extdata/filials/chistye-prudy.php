@@ -1,14 +1,4 @@
-<div id="contacts1">
-<p>	м. Чистые пруды<br />
- г. Москва, ул. Покровка д.17</p>
-	<p>Тел.: <b>8 (495) 517-67-23</b></p>
-	<p>Почта: <a href="mailto:5176723@mail.ru">5176723@mail.ru</a></p>
-	<p>Часы работы: <br/>
-	Пн-Пт: 09:00 - 20:00 <br/>
-	Сб: 10:00 - 18:00 <br/>
-	Вс: 10:00 - 16:00
-	
-	</p>
+
 	<p>	м. Тургеневская<br />
  г. Москва, Ащеулов переулок д.9 1 подъезд, 4 этаж.</p>
 	<p>Тел.: <b>8 (495) 517-67-23</b></p>
@@ -50,20 +40,3 @@
         </div>
     </div>
 <br><br>
-
-<style>
-	.my-hint {
-		width:244px;
-		height:244px ;
-		margin:0;
-		padding:2px;
-		background-color: #fff;
-		border-radius:0;
-		
-	}
-</style>
-
-<script src="/extdata/js/yamap-chistye-prudy.js" type="text/javascript"></script>
-
-<div id="map" style="height:500px; width:945px;margin-left:-35px;"></div>
-</div>

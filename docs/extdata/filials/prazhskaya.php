@@ -1,19 +1,4 @@
-<div id="contacts1">
-	<div style="float: right;"><a href="javascript: window.print();">Распечатать</a></div>
-<!--	<p><strong>Схема проезда до офиса компании "Печати.ру" на Пражской</strong></p>-->
-<!-- м. Пражская Варшавское шоссе, 129 к.2 , ТЦ МЕБЕЛЬ РОССИИ , 2эт., 207 офис , тел. 8 499 391 97 27   -->
-	<!--<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> м. Пражская<br>Тел.: <strong>(903)</strong> 527-39-47<br>ул. Кировоградская д. 24-а</p>
-	<p>Универмаг<br>2-й этаж "Фотомастерская"</p>
-	<p>Часы работы:<br>без выходных<br>с 10.00 до 20.00<br></p>
-	<p>Почта: <a href="mailto:pechati16@yandex.ru">pechati16@yandex.ru</a></p>
-	<p><img src="../pics/contacts/prazhskaya1.jpg" width="397" height="275" alt="" border="1"></p>
-	<p><img src="../pics/contacts/prazhskaya2.jpg" width="491" height="369" alt="" border="1"></p>
-	
-	<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">-->
-	<p>	м. Пражская<br>Тел.: <strong>(499)</strong> 391-97-27<br>ул. Варшавское шоссе, 129 к.2</p>
-	<p>ТЦ МЕБЕЛЬ РОССИИ<br /> 2эт., офис 207 </p>
-	<p>Часы работы:<br>без выходных<br>с 10.00 до 20.00<br></p>
-	<p>Почта: <a href="mailto:chertanovo@pechati.ru">chertanovo@pechati.ru</a></p>
+
 	
 	<br />
 	<p>
@@ -34,4 +19,4 @@
 	<p><img src="../pics/contacts/prazhskaya/6.jpg" width="491" height="369" alt="" border="1"></p>
 	<p><img src="../pics/contacts/prazhskaya/7.jpg" width="491" height="369" alt="" border="1"></p>
 	<p><img src="../pics/contacts/prazhskaya/8.jpg" width="491" height="369" alt="" border="1"></p>
-</div>
+

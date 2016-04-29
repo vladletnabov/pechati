@@ -1,5 +1,4 @@
 
-<div >
 <p style="margin-bottom:60px;"><a name="scheme" title="Схема проезда"> </a></p><p><a style="font-size: 26px;">Как проехать в офис ­ПЕЧАТИ.RU­ на Молодежной:</a><br /></p>
 <div>
 <?php require_once "../extdata/pic-scheme-molodejnaya.php" ?>
@@ -10,5 +9,3 @@
 <p>С торца д.22 стр.1 по ул. Ярцевская, на ­втором этаже (дверь налево) и располагае­тся наш офис ПЕЧАТИ.RU­ на Молодежной.</p>
 <p><b>Ждем Вас!</b></p>
 </div>
-</div>
-<div id="map" style="height:500px; width:945px;margin-left:-35px;"></div>

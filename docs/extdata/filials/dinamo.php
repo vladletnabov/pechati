@@ -1,12 +1,4 @@
-<div id="contacts1">
-	<!--<div style="float: right;"><a href="javascript: window.print();">Распечатать</a></div>-->
-<p><!--<img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> м. Динамо<br>ул. 1-й Боткинский проезд, д. 4 (вход со двора, левое крыло)
--->
-<img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> м. Динамо<br /></p> 
-<p>Хорошёвское шоссе, д.13А, к.2<br>Телефон для связи по любым возникающим вопросам:<br>+7(495)585-81-62, <br>+7(496)664-38-81<br>Почта: <a href="mailto:bgv@pechati.ru">bgv@pechati.ru</a><br><a href="http://www.vip-zapravka.ru/" target="_blank">http://www.vip-zapravka.ru/</a></p>
-<p>Будем рады видеть Вас в нашем офисе.</p>
 
-<p>Часы работы: <br>Пн.-Пятн.: 9.00 - 20:30.<br>Суббота: по предварительной договоренности. </p>
 
 <h1>Офис «Печати.RU на Беговой» переехал</h1>
 
@@ -43,5 +35,3 @@
 
 <p><strong><u>Дополнительные услуги:<br></u></strong>- заправка лазерных картриджей (всех моделей);<br>- продажа новых и восстановленных лазерных картриджей;<br>- ремонт оргтехники.</p>
 
-<!--<p><img src="/pics/contacts/dinamo2.jpg" width="495" height="373"></p>-->
-</div>

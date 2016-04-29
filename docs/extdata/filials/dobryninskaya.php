@@ -1,38 +1,4 @@
-<div id="contacts1">
-	<!--<div style="float: right;"><a href="javasrcipt: window.print();">Распечатать</a></div>
-	<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> м. Тульская<br>ул. Большая Тульская, д. 13 (ТРЦ Ереван Плаза)<br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 532-92-20</p>
-	<p>Часы работы: пн-пт с 10 до 19; сб-вс с 10 до 19.</p>
-	<p>Почта: <a href="mailto:t@pechati.ru">t@pechati.ru</a></p>
-	<p><img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">-->
-<p>	м. Добрынинская<br />
-<!--ул. Большая Тульская, д. 13 (ТРЦ Ереван Плаза)<br>Тел.: <strong style="font-size: 8pt;">(495)</strong> 532-92-20</p>
-	<p>Часы работы: пн-пт с 10 до 19; сб-вс с 10 до 19.</p>
-	<p>Почта: <a href="mailto:t@pechati.ru">t@pechati.ru</a></p> -->
- г. Москва, ул. Пятницкая, дом 82/34 стр. 1 (вход со двора, синяя дверь)</p>
-	<p>Тел.: <b>8 (495) 532-92-20</b></p>
-	<p>Почта: <a href="mailto:dbr@pechati.ru">dbr@pechati.ru</a></p>
-	<p>Часы работы: <br/>
-	Понедельник 09:00 - 21:00 <br/>
-	Вторник 09:00 - 21:00 <br/>
-	Среда 09:00 - 21:00 <br/>
-	Четверг 09:00 - 21:00 <br/>
-	Пятница 09:00 - 21:00 <br/>
-	Суббота 10:00 - 15:00 <br/>
-	Воскресенье выходной
-	
-	</p>
-	<!--<p>Почта: <a href="mailto:dbr@pechati.ru">dbr@pechati.ru</a></p>
-	<p><img src="/pics/contacts/dobryninskaya/1.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>
-	<p><img src="/pics/contacts/dobryninskaya/2.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>
-	<p><img src="/pics/contacts/dobryninskaya/3.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>
-	<p><img src="/pics/contacts/dobryninskaya/4.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>
-	<p><img src="/pics/contacts/dobryninskaya/5.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>
-	<p><img src="/pics/contacts/dobryninskaya/6.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>
-	<p><img src="/pics/contacts/dobryninskaya/7.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>
-	<p><img src="/pics/contacts/dobryninskaya/8.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>
-	<p><img src="/pics/contacts/dobryninskaya/9.jpeg" width="600px" alt="Офис Печати.РУ на Добрынинской" /></p>-->
-	
-	<!-- Insert to your webpage where you want to display the slider -->
+
 	
     <script src="/extdata/slider/js/jquery.js"></script>
     <script src="/extdata/slider/js/amazingslider.js"></script>
@@ -102,6 +68,3 @@
 	9. Слева во дворах будет вход в наш офис (синяя дверь).
 	</p>
 <br><br>
-<script type="text/javascript" charset="utf-8" 
-src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=bWT7_588bFijQmggMNi8t_hC-5OoEBcy&width=850&height=400&lang=ru_RU&sourceType=constructor"></script>
-</div>

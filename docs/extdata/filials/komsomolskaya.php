@@ -1,9 +1,4 @@
-<div id="contacts1">
-	<!--<div style="float: right;"><a href="javascript: window.print();">Распечатать</a></div>
-	<p><img src="../i/0.gif" class="date1 date2 poi2" width="13" height="13" alt="" align="absmiddle"> м. Комсомольская<br>-->
-	Комсомольская площадь, д. 6, Универмаг "Московский", 3 этаж,  (из лифта налево).<br>
-	Тел.:  <strong style="font-size: 8pt;">(495)</strong> 517-67-23</p>
-	<p><a href="mailto:5176723@mail.ru">5176723@mail.ru</a></p>
+
 	<p>Возможна доставка в следующие города Московсой области: Мытищи, Юбилейный, Королев, Пушкино, Сергиев Посад, Ивантеевка, Фрязино, Софрино, Красноармейск</p>
 	<p align="center"><a href="http://maps.yandex.ru/?um=DcR4mtrb9TplIfCPGN2Zd3pCdAs9Hp6P&l=map" target="_blank">Динамическая карта</a></p>
 	<p>Проехать к нам на автомобиле от ближайших станций метро можно следующим образом:</p>
@@ -14,4 +9,3 @@
 	<p><img src="../pics/contacts/komsomolskaja1.jpg" width="495" height="278" alt="" border="1"></p>
 	<p><img src="../pics/contacts/komsomolskaja2.jpg" width="495" height="278" alt="" border="1"></p>
 	<p>Мы находимся в 2-х минутах пешком от метро Комсомольская, 5 минут от метро Красносельская. Рядом с нами находится Ленинградский, Ярославский и Казанский вокзал.</p>
-</div>
