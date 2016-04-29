@@ -20,6 +20,17 @@
 	 <div style="border:1px solid #eeeafb; margin: 20px 12px 0 0;padding: 10px 3px 5px 5px; background-color:#fff;">
 	<b>Работаем:</b> <?php echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim']) ?><br />
 	<b>Адрес:</b> <?php echo $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], " ", $filialDataListCP1251[$curFilial]['addrOffice']; ?><br />
+	<?php
+	if( isset($filialDataListCP1251[$curFilial]['subFilials']) && (is_array($filialDataListCP1251[$curFilial]['subFilials']))) {
+			foreach ($filialDataListCP1251[$curFilial]['subFilials'] as $key=>$value) {
+				$addrSubFilial = $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrStreet'] . ' ' . $addrFilial = $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrHouse'] . ', ';
+				if ((isset($filialDataListCP1251[$curFilial]['subFilials'][$key]['addrOffice']))&&(strcasecmp($filialDataListCP1251[$curFilial]['subFilials'][$key]['addrOffice'], '')!=0)){
+					$addrSubFilial = $addrSubFilial . $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrOffice'];
+				}
+				echo $addrSubFilial, "<br />";
+			}
+		} 
+	?>
 	<!--<input type="button" value="Быстрый заказ" id="quickzakaz">-->
 	 </div>
 </div>
@@ -115,7 +126,7 @@ function checkRequired() {
 		<!-- О филиале -->
 		<div id="contacts1">
 			<p>	<?php echo $curFilial ?><br />
-			 <?php echo $filialDataListCP1251[$curFilial]['addrCity'], ", ", $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], ", ", $filialDataListCP1251[$curFilial]['addrOffice']; ?></p>
+			 <?php echo '<img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">', " ", $filialDataListCP1251[$curFilial]['addrCity'], ", ", $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], ", ", $filialDataListCP1251[$curFilial]['addrOffice']; ?></p>
 				<p>Тел.: <b><?php echo $filialDataListCP1251[$curFilial]['phone'] ?></b></p>
 				<p>Почта: <a href="<?php echo $filialDataListCP1251[$curFilial]['email'] ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>
 				<p>Часы работы: <br/>

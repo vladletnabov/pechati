@@ -135,6 +135,7 @@ function setMarkerToMapForSubfilialFilial(myMap, HintLayout, $filialName,  data)
 	//console.log(data['img']);
     //console.log(('add to map...' + data['mapAddr']));
     myMap.geoObjects.add(myPlacemark);
+	myMap.setZoom(10);
 }
 
 function is_array(mix) {
