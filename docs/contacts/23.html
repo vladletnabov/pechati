@@ -1,13 +1,19 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<?php require_once "../extdata/baseparts/filialsData.php" ?>
+<?php $curFilial = "м. Алтуфьево" ?>
 
 <html>
 <head>
-	<title>Печати и штампы в Алтуфьево. Срочное изготовление печатей и штампов, печати по оттиску, цена печати в Алтуфьево.</title>
+	<title>Печати и штампы <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>. Срочное изготовление печатей и штампов, печати по оттиску, цена печати <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>.</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
 	<meta name="keywords" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
 	<meta HTTP-EQUIV="Keywords" NAME="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
 	<meta name="Description" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
 	<meta HTTP-EQUIV="description" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
+	
+	<script>
+	var $curFilialJS = "<?php echo $curFilial?>";
+	</script>
 	
 	<?php require_once "../extdata/baseparts/header.php" ?>
 		  
@@ -15,178 +21,5 @@
 	
 </head>
 
-<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
-
-<?php require_once "../extdata/baseparts/counters-google-all.php" ?>
-
-
-<table cellpadding="0" cellspacing="0" border="0" width="990" height="100%" align="center">
-	<tr>
-		<td><a href="/"><img src="../i/top-uslugi2.jpg" width="990" height="85" border="0" alt=""></a></td>
-	</tr>
-	<tr valign="top">
-		<td height="100%" bgcolor="#ffffff" background="/i/bg1-c.jpg" style="background-repeat: repeat-y;">
-			<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" background="/i/bg2-c.jpg" style="background-position: top right; background-repeat: repeat-y;">
-				<tr valign="top">
-					<td width="990" background="/i/bg6-c-u.jpg" style="background-repeat: no-repeat; background-position: left top;">
-
-<!-- Content -->
-
-<div style="position: absolute; top: -60px; left: 770px; height: 36px; width: 220px;z-index:99;"><span style="font-size: 25px;">8 (495) 665-22-56</span><br />
-	<span style="color:#92000a; font-size: 16px;"><input type="hidden"  name="adress" value="м. Алтуфьево" form="form1" />м. Алтуфьево</span>
-	 <div style="border:1px solid #eeeafb; margin: 20px 12px 0 0;padding: 10px 3px 5px 5px; background-color:#fff;">
-	<b>Работаем:</b> Пн-Пт 09:00-18:00<br/><br/>
-	<b>Адрес:</b> ул. Бибиревская, 17б, офис № 3<br />
-	<!--<input type="button" value="Быстрый заказ" id="quickzakaz">-->
-	 </div>
-</div>
-<table cellpadding="0" cellspacing="0" border="0" width="100%">
-	<tr>
-		<td valign="top" height="52" class="txt2">
-
-<!-- Top text -->
-
-<table cellpadding="0" cellspacing="0" border="0">
-	<tr valign="top" class="top1">
-		<td width="360">&nbsp;</td>
-		<td height="52" width="105"><a href="#"></a></td>
-		<td><a href="#"></a></td>
-	</tr>
-</table>
-
-<!-- /Top text -->
-
-		</td>
-	</tr>
-	<tr>
-		<td class="txt3">
-
-<!-- Text -->
-
-<script language="javascript">
-function checkRequired() {
-	s = "Пожалуйста, заполните следующие обязательные поля:\n\n";
-	flgSub = true;
-	if (document.forms['form1'].eml.value == "") {
-		s = s + "E-mail\n";
-		flgSub = false;
-	}
-	if (flgSub == false) {
-		alert(unescape(s));	
-	} else {	
-		document.forms["form1"].action="/send_forms_4.php";
-		document.forms["form1"].target="";
-		document.forms["form1"].submit();
-	}
-}
-</script>
-<table cellpadding="10" cellspacing="0" border="0" width="100%">
-<form name="form1" id="form1" method="post" action="/send_forms_4.php" enctype="multipart/form-data">
-
-	<tr>
-		<td style="border: 1px solid #eeeafb;">
-		<!-- базовая стоимость клише и доставки остальные делать на основе этого файла и подключать отдельно-->
-		<?php require_once "../extdata/filials/base-clishe-price.php" ?>
-		</td>
-	</tr>
-	<tr>
-		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
-	</tr>
-	<tr>
-		<td style="border: 1px solid #eeeafb;">
-		
-		<!-- базовая стоимость оснасток остальные делать на основе этого файла и подключать отдельно-->
-		<?php require_once "../extdata/filials/base-osnastka-price.php" ?>
-		</td>
-	</tr>
-	<tr>
-		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
-	</tr>
-	<tr>
-		<td style="border: 1px solid #eeeafb;">
-		<!-- базовая форма отправки контактов и калькуляции стоимости-->
-		<?php require_once "../extdata/baseparts/sendform-price.php" ?>
-		</td>
-	</tr>
-</form>
-	<tr>
-		<td><img src="../i/0.gif" width="1" height="1" alt="">
-		<!-- О филиале -->
-		<?php require_once "../extdata/filials/altufevo.php" ?>
-		
-		</td>
-	</tr>
-	<tr>
-		<td style="border: 1px solid #eeeafb;">
-		
-		
-			<!-- печати ру это -->
-			<?php require_once "../extdata/baseparts/pechatiru-is.php" ?>
-
-		</td>
-	</tr>
-	<tr>
-		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
-	</tr>
-	<tr>
-		<td style="border: 1px solid #eeeafb;">
-			<!-- Сколько стоит печать в сравнении -->
-			<?php require_once "../extdata/baseparts/howmuch.php" ?>
-		</td>
-	</tr>
-	<tr>
-		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
-	</tr>
-    <tr>
-    	<td style="border: 1px solid #eeeafb;">
-		
-			<!-- список клиентов -->
-			<?php require_once "../extdata/baseparts/our-clients.php" ?>
-		</td>
-    </tr>
-
-	<tr>
-		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
-	</tr>
-</table>
-				<!-- карта филиалов -->
-				<?php require_once "../extdata/baseparts/map-filials.php" ?>
-<br /><br />
-
-<!-- Text -->
-
-		</td>
-	</tr>
-</table>
-
-<!-- Content -->
-
-					</td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-	<tr>
-		<td><img src="/i/btm1-c.jpg" width="990" height="30" alt=""></td>
-	</tr>
-	<tr>
-		<td class="btm1-c">
-			<table cellpadding="0" cellspacing="0" border="0" width="100%">
-				<tr valign="top">
-					<td width="100%" class="btm2">
-						<p>Срочное изготовление печатей и штампов в Москве "Печати.ru" R Москва 2002г.<br><a href="http://www.pechati.ru/">Срочное изготовление печатей и штампов</a></p>
-					</td>
-					<td width="80" nowrap><a href="http://www.pechati.ru/"><strong>главная</strong></a></td>
-					<td width="110" nowrap><a href="http://www.pechati.ru/contacts/"><strong>контакты</strong></a></td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-</table>
-
-
-<?php require_once "../extdata/baseparts/counters-all.php" ?>
-
-
-</body>
+<?php require_once "../extdata/baseparts/tmplContacts.php"?>
 </html>
