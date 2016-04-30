@@ -130,9 +130,22 @@ function checkRequired() {
 				<p>Тел.: <b><?php echo $filialDataListCP1251[$curFilial]['phone'] ?></b></p>
 				<p>Почта: <a href="<?php echo $filialDataListCP1251[$curFilial]['email'] ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>
 				<p>Часы работы: <br/>
-				<? echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim'])?>
-				
+				<? echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim'])?>				
 				</p>
+			<?php
+				if( isset($filialDataListCP1251[$curFilial]['subFilials']) && (is_array($filialDataListCP1251[$curFilial]['subFilials']))) {
+					foreach ($filialDataListCP1251[$curFilial]['subFilials'] as $key=>$value) {
+						//
+						echo '<img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">', " ", "<b>Филиал №", ($key+1), "</b><br />";
+						echo $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrCity'], ", ", $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrStreet'], $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrHouse'], ", ", $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrOffice'], "<br />";
+						echo "<p>Часы работы: <br/>";
+						echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['subFilials'][$key]['rejim']);
+						echo "<br /><br />";
+					}
+				}
+			
+			?>
+			
 		
 		<?php 
 		$reqFilialData =".." . $filialDataListCP1251[$curFilial]['reqFilialData'];

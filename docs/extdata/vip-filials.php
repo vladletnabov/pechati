@@ -14,6 +14,9 @@ foreach ($filialDataListCP1251 as $key => $value){
 	<?php }
 	elseif (strcmp($filialDataListCP1251[$key]['posContact'],'mo')==0){
 		//
+		if ($filialDataListCP1251[$key]['contacts']==1){
+			$filialMO[$key] = $filialDataListCP1251[$key];			
+		}
 	}
 	else{
 		if ($filialDataListCP1251[$key]['contacts']==1){

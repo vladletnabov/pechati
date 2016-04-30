@@ -1,7 +1,30 @@
 <div class="cont1 date2" style="width: 390px;">
 		<div style="margin: 15px auto;"><center><strong style="font-size: 16px;">Московская область</strong></center></div>
 	</div>
-	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/17.html'" style="width: 189px;" title="Изготовление печатей и штампов Красногорск">
+	
+	<?php 
+	foreach($filialMO as $key=>$value){ ?>
+		<div class="cont1 date1 date2" onclick="document.location.href='/contacts/17.html'" style="width: 189px;" title="Изготовление печатей и штампов Красногорск">
+			<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="<?php echo $filialMO[$key]['url']?>" class="area" title="Изготовление печатей и штампов <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>"><strong><?php echo $key ?></strong></a><br>Тел.: 
+		<?php 
+			$phone = $filialMO[$key]['phone'];
+			$arrPhone = split('[\(\)]',$phone);
+			echo $arrPhone[0],'<strong style="font-size: 8pt;">',$arrPhone[1] ,'</strong> ', $arrPhone[2], "<br />";
+		?>
+			<?php echo $filialMO[$key]['addrStreet']?>, <?php 
+				echo $filialMO[$key]['addrHouse']; 
+				if(strcmp($filialMO[$key]['addrOffice'],'')>0){
+					echo ", ", $filialMO[$key]['addrOffice'];
+				}
+			?>
+			</div>
+		</div>
+		
+	<?php }
+		
+	?>
+	
+	<!--<div class="cont1 date1 date2" onclick="document.location.href='/contacts/17.html'" style="width: 189px;" title="Изготовление печатей и штампов Красногорск">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/17.html" class="area" title="Изготовление печатей и штампов Красногорск"><strong>г. Красногорск</strong></a><br>Тел.: <strong>(901)</strong> 57-57-074<br>Железнодорожный пер., 1а.</div>
 	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/18.html'" style="width: 189px;" title="Изготовление печатей и штампов Одинцово">
@@ -21,4 +44,4 @@
 	</div>
 	<div class="cont1 date1 date2" onclick="document.location.href='/contacts/47.html'" style="width: 189px;"  title="Изготовление печатей и штампов м. Румянцево">
 		<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="/contacts/47.html" class="area" title="Изготовление печатей и штампов м. Румянцево"><strong>Румянцево</strong></a><br>Тел.: <strong>(925)</strong> 125-45-55<br>Киевское ш., Б/П "Румянцево", Корп. В, Под. 2, 2 эт., оф. 104в</div>
-	</div>
+	</div>-->
