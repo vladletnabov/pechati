@@ -70,8 +70,37 @@
 		width:100%;
 		font-size:1.2em;
 	}
+	#headmenusticy {  /* селектор блока, который будет оставаться на месте */
+	  position: fixed;
+	  z-index: 101;
+	  width:100%;
+	  height: 40px;
+	  background-color: #333;
+	  color: #fff;
+	  font-size: 26px;
+	}
+	.elementmenu {
+		margin-left: 20px; 
+		margin-right: 20px; 
+		float:left;
+		font-size: 18px;
+	}
+	.elementmenu a:link {
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+		background-color: #333;
+	}
+	.elementmenu a:visited {
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+		background-color: #333;
+	}
 
 	</style>
+	
+	
 	
 	<link rel="STYLESHEET" type="text/css" href="/css/pechati-asgat.css">
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>

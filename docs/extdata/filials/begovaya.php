@@ -1,3 +1,30 @@
+<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="/extdata/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="/extdata/source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="/extdata/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="/extdata/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="/extdata/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="/extdata/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="/extdata/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="/extdata/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	<script src="/extdata/js/skif-carousel.js"></script>
+	
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 0 #222;
+		}
+	</style>		  
+		  
+	<script type="text/javascript">
+		$(document).ready(function(){
+				$('.fancybox').fancybox();
+		});
+	</script>
+
 <p style="margin-bottom:60px;"><a name="scheme" title="Схема проезда"> </a></p>
 <span>Офис «Печати.RU на Беговой» переехал</span>
 
@@ -11,18 +38,7 @@
 Заезд к офису сейчас возможен сейчас с 5-й Магистральной улицы (ориентрир «Шиномонтаж»). Свернув с 5-й Магистральной улицы во дворы, нужно продолжать свое движение прямо, таким образом, чтобы гаражи оставались по правую сторону от автомобиля по ходу его движения. Доехать нужно до дальней белой кирпичной 5-этажкой (яркий ориентир красная высокая кирпичная квадратная труба).<br />
 Вход к нам в офис прямо за трубой.</p>
 
-<style type="text/css">
-		.fancybox-custom .fancybox-skin {
-			box-shadow: 0 0 0 #222;
-		}
-	</style>
-		  
-		  
-	<script type="text/javascript">
-		$(document).ready(function(){
-				$('.fancybox').fancybox();
-		});
-	</script>
+
 
 <p>
   <a class="fancybox" href="/pics/contacts/begovaya/scheme1.jpg" data-fancybox-group="gallery" title="Схема проезда в офис Печати.РУ на Беговой">
@@ -147,7 +163,3 @@
 <p style="margin-bottom:60px;"><a name="something2" title="Дополнительные услуги"> </a></p><br /><br /><br />
 <p ><strong style="font-size: 20px;"><u>Дополнительные услуги:<br></u></strong>- заправка лазерных картриджей (всех моделей);<br>- продажа новых и восстановленных лазерных картриджей;<br>- ремонт оргтехники.</p>
 
-
-<script src="/extdata/js/yamap-begovaya.js" type="text/javascript"></script>
-
-<div id="map" style="height:500px; width:945px;margin-left:-35px;"></div>

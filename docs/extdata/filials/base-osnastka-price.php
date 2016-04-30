@@ -5,7 +5,7 @@ var price2 = 450;
 
 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
-  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <!--<script src="//code.jquery.com/jquery-1.10.2.js"></script>-->
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <!--<link rel="stylesheet" href="/resources/demos/style.css">-->
   <style>
@@ -55,18 +55,10 @@ var price2 = 450;
 		   $( el ).hide();
 		}
 	}
- 
-    // set effect from select menu value
-    //$( "#button" ).click(function() {
-    //  runEffect();
-    //});
- 
-    //$( "#effect" ).hide();
- // });
   </script>
 
 
-<P><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Наиболее популярные модели оснастки</B><BR>(Нажмите на изображение для просмотра расширенного ассортимента)</P>
+
 <style>
 .oshastka-akkord{
 	clear:both; width 100%; 

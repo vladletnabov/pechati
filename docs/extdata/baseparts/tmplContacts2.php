@@ -1,49 +1,76 @@
-<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
-<?php //var_dump($filialDataListCP1251)?>
-<?php require_once "../extdata/baseparts/counters-google-all.php" ?>
 
+<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
+<!-- Верхнее закреплённое меню-->
+<?php require_once "../extdata/headmenu.php" ?>
+<div style="height:40px;"><a name="contacts"></a></div>
+
+<?php require_once "../extdata/baseparts/counters-google-all.php" ?>
 
 <table cellpadding="0" cellspacing="0" border="0" width="990" height="100%" align="center">
 	<tr>
-		<td><a href="/"><img src="../i/top-uslugi2.jpg" width="990" height="85" border="0" alt=""></a></td>
+		<td bgcolor="#ffffff"  background="/i/bg1-c.jpg" style="background-repeat: repeat-y; height:155px">
+			<div style="height:150px; width:945px; margin-top:-5px; margin-left: 39px; margin-right: -100px; background-color:#0f0f47; box-shadow: 5px 2px 5px 2px #7f7f7f;">
+				
+				<div style="background-image:url(/extdata/images/paper2.png); width:250px; max-height:194px; height:194px; align:center;float: left;position: relative; margin-left:-60px; ">
+					<a href="/" style="text-decoration:none;">
+						<img src="/extdata/images/pechati-ru.png" style="margin: 10px 0 0 60px;" /><br />
+						<div style="font-size: 20px; margin:0; text-align: center; text-decoration: none;margin-left:15px; -webkit-transform: rotate(-12deg);
+	-moz-transform: rotate(-12deg);
+	-o-transform: rotate(-12deg);
+	transform: rotate(-12deg);"> <i style="display:none">Печати.РУ </i><?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo  str_replace(" ","<br />",$filialDataListCP1251[$curFilial]['padej'])?></div>
+						
+						
+					</a>
+				</div>
+				<div id="head-center" style="position:relative; color:#fff;">
+					<div id="contacts" style="width:600px; float: left;">
+						<div style="margin:5px;text-align:center;">
+							<a style="text-align:center; font-size: 2em; color:#fff;font-weight:bold;  text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['phone']?></a>
+						</div>
+						<div style="padding:5px 0 0 35px;">
+							<div style="margin:5px; width:250px;float:left;display: inline;">
+								<i class="icon2-home" style="float:left;margin-right: 10px;"></i> <div> <a style="color: #efefef; font-size: 1em; text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['addrCity']?>, <?php echo $curFilial ?> <br /><?php  echo $filialDataListCP1251[$curFilial]['addrStreet'] ?> <?php  echo $filialDataListCP1251[$curFilial]['addrHouse'] ?></a></div>
+								<input type="hidden" name="adress" value="<?php $curFilial ?>" form="form1">
+							</div>
+							<div style="margin:5px; width:250px; float:left;">
+								<i class="icon2-phone" style="float:left;margin-right: 10px;"></i> <div> <a style="color: #efefef; font-size: 1em; text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['phone']?></a></div>
+							</div>
+							
+							<div style="margin:5px;width:250px;clear:both;float: left; display:inline;">
+								<i class="icon2-time" style="float:left;margin-right: 10px;"></i> <div> <a style="color: #efefef; font-size: 1em; text-decoration: none;"><?php echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim']) ?></a></div>
+							</div>
+							<div style="margin:5px; width:250px;float:left;">
+								<i class="icon2-email" style="float:left;margin-right: 10px;"></i> <div> <a href="<?php echo $filialDataListCP1251[$curFilial]['phone']?>" style="color: #efefef; line-height:2.5em; font-size: 1em; text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['email']?></a></div>
+							</div>
+						</div>
+					</div>
+					<div id="form-quick-zakaz; position:relative;">					
+							<?php require_once "../extdata/baseparts/quick-zakaz-form.php" ?>
+					</div>
+				</div>
+			</div>
+		
+		</td>
 	</tr>
 	<tr valign="top">
 		<td height="100%" bgcolor="#ffffff" background="/i/bg1-c.jpg" style="background-repeat: repeat-y;">
 			<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" background="/i/bg2-c.jpg" style="background-position: top right; background-repeat: repeat-y;">
 				<tr valign="top">
-					<td width="990" background="/i/bg6-c-u.jpg" style="background-repeat: no-repeat; background-position: left top;">
+					<td width="990">
 
 <!-- Content -->
 
-<div style="position: absolute; top: -60px; left: 770px; height: 36px; width: 220px;z-index:99;"><span style="font-size: 25px;"><?php echo $filialDataListCP1251[$curFilial]["phone"]?> </span><br />
-	<span style="color:#92000a; font-size: 16px;"><input type="hidden"  name="adress" value="<?php echo $curFilial ?>" form="form1" /><?php echo $curFilial ?></span>
-	 <div style="border:1px solid #eeeafb; margin: 20px 12px 0 0;padding: 10px 3px 5px 5px; background-color:#fff;">
-	<b>Работаем:</b> <?php echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim']) ?><br />
-	<b>Адрес:</b> <?php echo $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], " ", $filialDataListCP1251[$curFilial]['addrOffice']; ?><br />
-	<?php
-	if( isset($filialDataListCP1251[$curFilial]['subFilials']) && (is_array($filialDataListCP1251[$curFilial]['subFilials']))) {
-			foreach ($filialDataListCP1251[$curFilial]['subFilials'] as $key=>$value) {
-				$addrSubFilial = $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrStreet'] . ' ' . $addrFilial = $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrHouse'] . ', ';
-				if ((isset($filialDataListCP1251[$curFilial]['subFilials'][$key]['addrOffice']))&&(strcasecmp($filialDataListCP1251[$curFilial]['subFilials'][$key]['addrOffice'], '')!=0)){
-					$addrSubFilial = $addrSubFilial . $filialDataListCP1251[$curFilial]['subFilials'][$key]['addrOffice'];
-				}
-				echo $addrSubFilial, "<br />";
-			}
-		} 
-	?>
-	<!--<input type="button" value="Быстрый заказ" id="quickzakaz">-->
-	 </div>
-</div>
+
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 	<tr>
-		<td valign="top" height="52" class="txt2">
+		<td valign="top" height="22" >
 
 <!-- Top text -->
 
 <table cellpadding="0" cellspacing="0" border="0">
 	<tr valign="top" class="top1">
 		<td width="360">&nbsp;</td>
-		<td height="52" width="105"><a href="#"></a></td>
+		<td height="22" width="105"><a href="#"></a></td>
 		<td><a href="#"></a></td>
 	</tr>
 </table>
@@ -80,15 +107,15 @@ function checkRequired() {
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
 		<!-- базовая стоимость клише и доставки остальные делать на основе этого файла и подключать отдельно-->
-		<?php 
-		//require_once "../extdata/filials/base-clishe-price.php" 
-		if( isset($filialDataListCP1251[$curFilial]['clishePrice']) || (strcasecmp($filialDataListCP1251[$curFilial]['clishePrice'], '')!=0)) {
-			$reqClishePrice = ".." . $filialDataListCP1251[$curFilial]['clishePrice'];
-			require_once $reqClishePrice ;
-		} 
-		else{
-			require_once "../extdata/filials/base-clishe-price.php";
+		<?php //require_once "../extdata/filials/base-clishe-price.php"; ?>
+		<?php //require_once "../extdata/filials/begovaya-clishe-price2.php"; 
+		
+		$reqClishePrice = "../extdata/filials/base-clishe-price.php";
+		if (isset($filialDataListCP1251[$curFilial]['reqClishePrice'])
+			&&(strcasecmp($filialDataListCP1251[$curFilial]['reqClishePrice'],'')!=0)) {
+			$reqClishePrice = ".." . $filialDataListCP1251[$curFilial]['reqClishePrice'];
 		}
+		require_once $reqClishePrice;
 		?>
 		</td>
 	</tr>
@@ -97,17 +124,15 @@ function checkRequired() {
 	</tr>
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-		<P><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Наиболее популярные модели оснастки</B><BR>(Нажмите на изображение для просмотра расширенного ассортимента)</P>
+		
 		<!-- базовая стоимость оснасток остальные делать на основе этого файла и подключать отдельно-->
-		<?php 
-		//require_once "../extdata/filials/base-osnastka-price.php";
-		if( isset($filialDataListCP1251[$curFilial]['osnastkaPrice']) || (strcasecmp($filialDataListCP1251[$curFilial]['osnastkaPrice'], '')!=0)) {
-			$reqOsnastkaPrice = ".." . $filialDataListCP1251[$curFilial]['osnastkaPrice'];
-			require_once $reqOsnastkaPrice;
-		} 
-		else{
-			require_once "../extdata/filials/base-osnastka-price.php";
+		<?php //require_once "../extdata/filials/begovaya-osnastka-price.php" 
+		$reqOsnastkaPrice = "../extdata/filials/base-osnastka-price.php";
+		if (isset($filialDataListCP1251[$curFilial]['reqOsnastkaPrice'])
+			&&(strcasecmp($filialDataListCP1251[$curFilial]['reqOsnastkaPrice'],'')!=0)) {
+			$reqOsnastkaPrice = ".." . $filialDataListCP1251[$curFilial]['reqOsnastkaPrice'];
 		}
+		require_once $reqOsnastkaPrice;
 		?>
 		</td>
 	</tr>
@@ -117,12 +142,14 @@ function checkRequired() {
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
 		<!-- базовая форма отправки контактов и калькуляции стоимости-->
-		<?php require_once "../extdata/baseparts/sendform-price.php" ?>
+		<?php //require_once "../extdata/baseparts/begovaya-sendform-price.php" ?>
+		<?php require_once "../extdata/filials/begovaya-sendform-price.php" ?>
 		</td>
 	</tr>
 </form>
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt="">
+		
 		<!-- О филиале -->
 		<div id="contacts1">
 			<p>	<?php echo $curFilial ?><br />
@@ -172,12 +199,14 @@ function checkRequired() {
 			<?php require_once "../extdata/baseparts/our-clients.php" ?>
 		</td>
     </tr>
-
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
 </table>
+				<!-- дополнительные товары -->
+				<?php require_once "../extdata/dop-tovary.php" ?>
 				<!-- карта филиалов -->
+				
 				<?php require_once "../extdata/baseparts/map-filials.php" ?>
 <br /><br />
 
@@ -211,9 +240,5 @@ function checkRequired() {
 		</td>
 	</tr>
 </table>
-
-
 <?php require_once "../extdata/baseparts/counters-all.php" ?>
-
-
 </body>
