@@ -1,11 +1,14 @@
 <?
-/*session_start();
-	if (!empty($_POST['validator']) && $_POST['validator'] == $_SESSION['rand_code']) {
-		//return false;*/
-/////////////////////////////////////////
 $tmarker = time();
-$mailfilial = array(
-		//"м. Алексеевская"=>'zakaz@kwikkopy.ru',
+
+require_once "extdata/baseparts/filialsData.php";
+$mailfilial = array("default"=>'zakaz@pechati.ru');
+foreach ($filialDataListCP1251 as $key => $value) {
+	$mailfilial[$key] = $filialDataListCP1251[$key]['email'];
+	
+}
+
+/*$mailfilial = array(
 	"default"=>'zakaz@pechati.ru',
 	//"м. Арбатская"=>'5454842@mail.ru', change graficprint@inbox.ru
 	"м. Арбатская"=>'arbat@pechati.ru',
@@ -81,7 +84,7 @@ $mailfilial = array(
 	//"МКАД 54 км"=>'adv@kwikkopy.ru',
 	"Зеленоград"=>'zel@pechati.ru', //6643718@mail.ru
 	"р-н Солцево"=>'sol@pechati.ru'
-	);
+	);*/
 	//error_log($mailfilial,0);
 	$mailcfg =  array();
 	error_log('mailcfg created;');
