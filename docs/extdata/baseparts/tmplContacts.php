@@ -15,7 +15,7 @@
 
 <!-- Content -->
 
-<div style="position: absolute; top: -60px; left: 770px; height: 36px; width: 220px;z-index:99;"><span style="font-size: 25px;"><?php echo $filialDataListCP1251[$curFilial]["phone"]?> </span><br />
+<div style="position: absolute; top: -60px; left: 770px; height: 36px; width: 220px;z-index:99;"><span style="font-size: 25px;" class="<?php  echo $filialDataListCP1251[$curFilial]["ya-phone"]?>"><?php echo $filialDataListCP1251[$curFilial]["phone"]?> </span><br />
 	<span style="color:#92000a; font-size: 16px;"><input type="hidden"  name="adress" value="<?php echo $curFilial ?>" form="form1" /><?php echo $curFilial ?></span>
 	 <div style="border:1px solid #eeeafb; margin: 20px 12px 0 0;padding: 10px 3px 5px 5px; background-color:#fff;">
 	<b>Работаем:</b> <?php echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim']) ?><br />
@@ -127,7 +127,7 @@ function checkRequired() {
 		<div id="contacts1">
 			<p>	<?php echo $curFilial ?><br />
 			 <?php echo '<img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">', " ", $filialDataListCP1251[$curFilial]['addrCity'], ", ", $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], ", ", $filialDataListCP1251[$curFilial]['addrOffice']; ?></p>
-				<p>Тел.: <b><?php echo $filialDataListCP1251[$curFilial]['phone'] ?></b></p>
+				<p>Тел.: <b><span class="<?php  echo $filialDataListCP1251[$curFilial]["ya-phone"]?>"><?php echo $filialDataListCP1251[$curFilial]['phone'] ?></span></b></p>
 				<p>Почта: <a href="<?php echo $filialDataListCP1251[$curFilial]['email'] ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>
 				<p>Часы работы: <br/>
 				<? echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim'])?>				

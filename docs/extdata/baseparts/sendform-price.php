@@ -31,7 +31,12 @@ echo $url
 ?>" />
 
 <p style="font-size: 14pt;"><strong>Стоимость Вашего заказа: <span style="color: #f00;" id="price"></span>&nbsp;руб</strong></p>
-<p align="center"><input type="Hidden" name="form" value="1"><!--<input type="reset" value="очистить форму" style="width:30%" class="button">-->&nbsp;<input type="button" onclick="checkRequired();" value="Заказать печать" style="width: 278px; height: 80px; background: #f90 url('/i/button.jpg') left top no-repeat; border: 0; color: #fff; font-size: 14pt;"></p>
+<p align="center"><input type="Hidden" name="form" value="1"><!--<input type="reset" value="очистить форму" style="width:30%" class="button">-->&nbsp;<input id="<?php if (isset($curFilial)){
+		echo $filialDataListCP1251[$curFilial]["ya-target"];
+	}
+	else{ 
+		echo "form-send-target";
+	}?>" type="button" onclick="checkRequired();" value="Заказать печать" style="width: 278px; height: 80px; background: #f90 url('/i/button.jpg') left top no-repeat; border: 0; color: #fff; font-size: 14pt;" class="sendForm"></p>
 <script language="JavaScript">
 	function countotrisovka() {
 		if(priceotrisovka==0){

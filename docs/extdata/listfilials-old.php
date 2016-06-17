@@ -75,8 +75,8 @@ else {
 								//echo $arrPhone[0],'<strong style="font-size: 8pt;">',$arrPhone[1] ,'</strong> ', $arrPhone[2], "<br />";
 								echo $startLine, $value[$i], '" id="adr', $chkMainListFilial, '"></span> <label for="adr',
 									$chkMainListFilial,'"><a href="javascript:;" onclick="window.open(', "'", 
-									$filialDataListCP1251[$value[$i]]['url'], "')", '"><strong>', $value[$i], '</strong></a><br>', 
-									$arrPhone[0], ' <strong style="font-size: 11pt;">', $arrPhone[1] , ' </strong> ', $arrPhone[2], $endLine;
+									$filialDataListCP1251[$value[$i]]['url'], "')", '"><strong>', $value[$i],  '</strong></a><br><span class="',$filialDataListCP1251[$value[$i]]['ya-phone'],'">', 
+									$arrPhone[0], ' <strong style="font-size: 11pt;">', $arrPhone[1] , ' </strong> ', $arrPhone[2] , ' </span>', $endLine;
 									
 								$chkMainListFilial++;
 								if (($chkMainListFilial==$columnSize)||($chkMainListFilial==(2*$columnSize))){

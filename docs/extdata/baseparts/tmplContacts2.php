@@ -25,7 +25,7 @@
 				<div id="head-center" style="position:relative; color:#fff;">
 					<div id="contacts" style="width:600px; float: left;">
 						<div style="margin:5px;text-align:center;">
-							<a style="text-align:center; font-size: 2em; color:#fff;font-weight:bold;  text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['phone']?></a>
+							<a style="text-align:center; font-size: 2em; color:#fff;font-weight:bold;  text-decoration: none;" class="<?php  echo $filialDataListCP1251[$curFilial]["ya-phone"]?>"><?php echo $filialDataListCP1251[$curFilial]['phone']?></a>
 						</div>
 						<div style="padding:5px 0 0 35px;">
 							<div style="margin:5px; width:250px;float:left;display: inline;">
@@ -33,7 +33,7 @@
 								<input type="hidden" name="adress" value="<?php echo $curFilial ?>" form="form1">
 							</div>
 							<div style="margin:5px; width:250px; float:left;">
-								<i class="icon2-phone" style="float:left;margin-right: 10px;"></i> <div> <a style="color: #efefef; font-size: 1em; text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['phone']?></a></div>
+								<i class="icon2-phone" style="float:left;margin-right: 10px;"></i> <div> <a style="color: #efefef; font-size: 1em; text-decoration: none;" class="<?php  echo $filialDataListCP1251[$curFilial]["ya-phone"]?>"><?php echo $filialDataListCP1251[$curFilial]['phone']?></a></div>
 							</div>
 							
 							<div style="margin:5px;width:250px;clear:both;float: left; display:inline;">
