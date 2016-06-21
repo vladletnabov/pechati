@@ -8,6 +8,14 @@ foreach ($filialDataListCP1251 as $key => $value) {
 	
 }
 
+$targetfilial= array("default"=>'ya-target-default');
+foreach ($filialDataListCP1251 as $key => $value) {
+	$targetfilial[$key] = $filialDataListCP1251[$key]['ya-target'];
+	
+}
+
+$newURL = "Location: forms_send.html";
+
 /*$mailfilial = array(
 	"default"=>'zakaz@pechati.ru',
 	//"м. Арбатская"=>'5454842@mail.ru', change graficprint@inbox.ru
@@ -314,7 +322,10 @@ if($_POST[form])
 	error_log('session start',0);
 	complete_mail();
 	error_log('completed complete_mail()',0);
-	
+	$filial = $_POST[adress];
+	if (!isset($filial)||(strcasecmp($filial,'')==0)){
+		unset($filial);
+	}
 	
 	//sendmessagetoclient($mailcfg);
 	
@@ -328,7 +339,13 @@ if($_POST[form])
 	error_log($str,0);
 	error_log('set sessions',0);
 	
-	Header("Location: forms_send.html");
+	if (isset($filial)){
+		$newURL = $newURL . "?send-form-target=" . $targetfilial[$filial];
+	}
+	else {
+		$newURL = $newURL . "?send-form-target=" . $targetfilial['default'];
+	}
+	Header($newURL);
 exit;
 } else {
 	Header("Location: forms_send.html");

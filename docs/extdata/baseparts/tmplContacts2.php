@@ -86,6 +86,7 @@
 
 <script language="javascript">
 function checkRequired() {
+	sendFormCounterYandexMetrika();
 	s = "Пожалуйста, заполните следующие обязательные поля:\n\n";
 	flgSub = true;
 	if (document.forms['form1'].eml.value == "") {
@@ -99,6 +100,11 @@ function checkRequired() {
 		document.forms["form1"].target="";
 		document.forms["form1"].submit();
 	}
+}
+function sendFormCounterYandexMetrika(){
+	var targetID = $('#sendForm').attr('id');
+	yaCounter114010.reachGoal(targetID);
+	return true;
 }
 </script>
 <table cellpadding="10" cellspacing="0" border="0" width="100%">
@@ -155,7 +161,7 @@ function checkRequired() {
 			<p>	<?php echo $curFilial ?><br />
 			 <?php echo '<img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">', " ", $filialDataListCP1251[$curFilial]['addrCity'], ", ", $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], ", ", $filialDataListCP1251[$curFilial]['addrOffice']; ?></p>
 				<p>Тел.: <b><?php echo $filialDataListCP1251[$curFilial]['phone'] ?></b></p>
-				<p>Почта: <a href="<?php echo $filialDataListCP1251[$curFilial]['email'] ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>
+				<p>Почта: <a href="<?php #echo $filialDataListCP1251[$curFilial]['email'] ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>
 				<p>Часы работы: <br/>
 				<? echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim'])?>
 				

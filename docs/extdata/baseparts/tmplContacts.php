@@ -59,6 +59,7 @@
 
 <script language="javascript">
 function checkRequired() {
+	sendFormCounterYandexMetrika();
 	s = "Пожалуйста, заполните следующие обязательные поля:\n\n";
 	flgSub = true;
 	if (document.forms['form1'].eml.value == "") {
@@ -72,6 +73,11 @@ function checkRequired() {
 		document.forms["form1"].target="";
 		document.forms["form1"].submit();
 	}
+}
+function sendFormCounterYandexMetrika(){
+	var targetID = $('#sendForm').attr('id');
+	yaCounter114010.reachGoal(targetID);
+	return true;
 }
 </script>
 <table cellpadding="10" cellspacing="0" border="0" width="100%">
