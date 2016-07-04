@@ -51,16 +51,18 @@ if (preg_match('/\/forms_send.html/',$url)) {
 
 ?>
 	<div id="ramCounterBlock" style="float:left; display:inline;">
-	<!--begin of Rambler's Top100 code -->
-		<!--<a href="http://top100.rambler.ru/top100/">
-		<img src="http://counter.rambler.ru/top100.cnt?146655" alt="" width=1 height=1 border=0></a>-->
-	<!--end of Top100 code--><!--begin of Top100 logo-->
-	<!--<a href="http://top100.rambler.ru/top100/">
-	<img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width=88 height=31 border=0></a>-->
-	<script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn?146655"></script>
-	<a href="http://top100.rambler.ru/navi/146655/">
-	<img src="http://counter.rambler.ru/top100.cnt?146655" alt="Rambler's Top100" width=88 height=31  border=0></a>
-	<!--end of Top100 logo -->
+	<!-- begin of Top100 code -->
+
+		<img src="http://counter.rambler.ru/top100.cnt?146655" alt="" width="1" height="1" border="0" />
+
+		<!-- end of Top100 code -->
+		<!-- begin of Top100 logo -->
+
+		<a href="http://top100.rambler.ru/navi/146655/">
+		<img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100"
+		width="88" height="31" border="0" /></a>
+
+		<!-- end of Top100 logo -->
 	</div>
 
 	<div style="float:left; display:inline;padding: 10px;">
