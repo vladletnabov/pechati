@@ -89,8 +89,13 @@ require_once "extdata/baseparts/menu.php";
 function checkRequired() {
 	s = "Пожалуйста, заполните следующие обязательные поля:\n\n";
 	flgSub = true;
-	if (document.forms['form1'].text.value == "") {
-		s = s + "Информация о заказе\n";
+	if (document.forms['form1'].eml.value == "") {
+		s = s + "E-mail\n";
+		flgSub = false;
+	}
+	if (filialChecked()==false) {
+		s = s + "Укажите ближайший филиал\n";
+	
 		flgSub = false;
 	}
 	if (flgSub == false) {
@@ -100,6 +105,16 @@ function checkRequired() {
 		document.forms["form1"].target="";
 		document.forms["form1"].submit();
 	}
+}
+function filialChecked() {
+	var result = false;
+	var nameRadio = document.getElementsByName('adress');
+	for (var i = 0; i < nameRadio.length; i++) {
+		if (nameRadio[i].type === 'radio' && nameRadio[i].checked) {
+			result= true;
+		}
+	}
+	return result;
 }
 </script>
 <h1>Печати с защитой от подделки</h1>

@@ -1,13 +1,8 @@
-<?php
-session_start(); 
-$_SESSION['test'] = 'qwerty';
-?>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 
 <html>
 <head>
-	<title>Изготовление печатей - розница Изготовление печатей, штампов, факсимиле.</title>
+	<title>Производство штемпельной продукции для корпоративных клиентов. Изготовление печатей, штампов, факсимиле.</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
 	<meta name="keywords" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
 	<meta HTTP-EQUIV="Keywords" NAME="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
@@ -16,8 +11,8 @@ $_SESSION['test'] = 'qwerty';
 	<link rel="STYLESHEET" type="text/css" href="../css/pechati.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script type="text/javascript">
-	
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-22832049-24']);
@@ -30,39 +25,16 @@ $_SESSION['test'] = 'qwerty';
   })();
 
 </script>
-
 	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 
-<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333"><script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-49244128-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-<!--LiveInternet counter--><!--<script type="text/javascript"><!--
-document.write("<a href='//www.liveinternet.ru/click' "+
-"target=_blank><img src='//counter.yadro.ru/hit?t44.1;r"+
-escape(document.referrer)+((typeof(screen)=="undefined")?"":
-";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
-screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
-";"+Math.random()+
-"' alt='' title='LiveInternet' "+
-"border='0' width='31' height='31'><\/a>")
-</script>--><!--/LiveInternet-->
+<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
+<?php require_once "../extdata/baseparts/counters-google-all.php" ?>
 
 <table cellpadding="0" cellspacing="0" border="0" width="990" height="100%" align="center">
 	<tr>
-		<td><a href="#"><img src="../i/top-uslugi2.jpg" width="990" height="85" border="0" alt=""></a>
-				<div style="position:relative; color: #cc000a; font-size:26px; margin-left:750px; margin-top: -60px; margin-bottom: 20px; font-weight:bold; height: 40px;" class="ya-phone">
-				8 (495) 741-10-58
-				</div>
-		</td>
+		<td><a href="http://pechati.ru/"><img src="../i/top-uslugi2.jpg" width="990" height="85" border="0" alt=""></a></td>
 	</tr>
 	<tr valign="top">
 		<td height="100%" bgcolor="#ffffff" background="../i/bg1-c.jpg" style="background-repeat: repeat-y;">
@@ -71,7 +43,6 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 					<td width="990" background="../i/bg6-c-u.jpg" style="background-repeat: no-repeat; background-position: left top;">
 
 <!-- Content -->
-
 
 <table cellpadding="0" cellspacing="0" border="0" width="100%">
 	<tr>
@@ -95,7 +66,6 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 		<td class="txt3">
 
 <!-- Text -->
-
 <script language="javascript">
 function checkRequired() {
 	s = "Пожалуйста, заполните следующие обязательные поля:\n\n";
@@ -128,26 +98,185 @@ function filialChecked() {
 	return result;
 }
 </script>
+
+<h1>Производство штемпельной продукции для корпоративных клиентов<div style="border-bottom: 1px dotted #000;"></div></h1>
 <table cellpadding="10" cellspacing="0" border="0" width="100%">
-<form name="form1" id="form1" method="POST" action="/send_forms_4.php" enctype="multipart/form-data">
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-<a name="pechati"></a><P align="center" style="font-size: 16pt;"><B>Изготовление печатей, штампов, факсимиле.<br>Восстановление печатей по оттиску.</B><br></P>
-	<?php require_once "../extdata/baseparts/price-pechati-roz.php" ?>
-<a name="ceny"></a><P align=justify>Все цены указаны в рублях РФ без стоимости оснастки. </P>
+<P align=justify><img src="../pics/str.gif" width="5" height="9" alt=""> Компания "<A href="http://pechati.ru" target=_parent>Печати</A>.ru" прилагает все усилия, что бы максимально эффективно и комплексно отвечать запросам корпоративных клиентов.</P>
+<p>Наши принципы:</p>
 <UL>
-<LI>
-<P align=justify>Доставка по Москве ОДНОЙ-ДВУХ печатей - 300р, от трёх единиц - <B>бесплатно!</B> </P>
-<LI>
-<P align=justify>По желанию заказчика мы можем разместить на печати ПРОСТЫЕ элементы защиты: оригинальные шрифты, отсутствующие элементы в буквах, изображениях или звёздочках, имитация заплыва краски, кляксы, имитация дефекта клише.</P></LI></UL>
+<LI>Ориентация на долгосрочные отношения; 
+<LI>Индивидуальный подход к каждому клиенту; 
+<LI>Богатый ассортимент штемпельной продукции; 
+<LI>Технические возможности позволяют изготавливать <BR>крупные заказы в сжатые сроки; 
+<LI>Бесплатная и своевременная доставка; 
+<LI><B>Фиксированные цены</B>. Отсутствие лукавых цен с приставкой "<B>от ...</B>" и всевозможных доплат за: логотип, графику, "иностранные" шрифты, количество текстовых кругов и пр. </LI></UL>
 		</td>
 	</tr>
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
 	<tr>
-		<td style="border: 1px solid #eeeafb;">			
-			<?php require_once "../extdata/baseparts/osnastka-price.php" ?>
+		<td style="border: 1px solid #eeeafb;">
+		<p><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Простая и понятная система скидок</B></p>
+<P align=center><B>Каждая 5-я печать бесплатно! </B></P>
+<TABLE border=0 cellSpacing=1 cellPadding=5 width="100%" align=center>
+<TR bgcolor="#ebeaef">
+<TD>
+<DIV align=center>При заказе...</DIV></TD>
+<TD width=100>&nbsp;</TD>
+<TD width="15%">
+<DIV align=center>Скидка</DIV></TD></TR>
+<TR bgcolor="#ebeaef">
+<TD>
+<DIV align=left>свыше 20 изделий - каждая 4-я печать бесплатно*</DIV></TD>
+<TD width=100>
+<DIV align=left><IMG src="../pics/uslugi/every_4_pechat.jpg" width=100 height=30></DIV></TD>
+<TD width="15%">
+<DIV align=center>25%</DIV></TD></TR>
+<TR bgcolor="#ebeaef">
+<TD>
+<DIV align=left>свыше 50 изделий - каждая 3-я печать бесплатно*</DIV></TD>
+<TD width=100>
+<DIV align=left><IMG src="../pics/uslugi/every_3_pechat.jpg" width=100 height=30></DIV></TD>
+<TD width="15%">
+<DIV align=center>33%</DIV></TD></TR>
+<TR bgcolor="#ebeaef">
+<TD>
+<DIV align=left>свыше 100 изделий - каждая 2-я печать бесплатно*</DIV></TD>
+<TD width=100>
+<DIV align=left><IMG src="../pics/uslugi/every_2_pechat.jpg" width=100 height=30></DIV></TD>
+<TD width="15%">
+<DIV align=center>50%</DIV></TD></TR></TABLE><BR clear=all>
+<P align=justify><I>* Обратите внимание: не клише, а вся печать бесплатно!</I></P>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+<form name="form1" method="POST" action="/send_forms_4.php" ENCTYPE="multipart/form-data">
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+<P><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Изготовление печатей из фотополимера и резины. <BR>Восстановление печатей и штампов по оттиску</B>.</P>
+<TABLE border=0 cellSpacing=1 cellPadding=5 width="100%">
+<TR bgcolor="#ebeaef">
+<TD>
+<P align=center><B>Клише из фотополимера</B></P></TD>
+<TD>
+<P align=center><B>Цена</B></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Печать по эскизу (круглая, треугольная)</TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Печать, штамп по эскизу (круглая, треугольная)" checked id="srok3"> <label for="srok3">500</label></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Печать, штамп, факсимиле по оттиску (круглая, треугольная)</TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Печать, штамп, факсимиле по оттиску (круглая, треугольная)" id="srok1"> <label for="srok1">800</label></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Факсимиле</TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Факсимиле" id="srok5"> <label for="srok5">600</label></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Печать, отрисованная заказчиком или дубликат</TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Печать, отрисованная заказчиком или дубликат" id="srok7"> <label for="srok7">350</label></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Маленькие штампы вроде "копия верна", "оплачено"</TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Маленькие штампы вроде 'копия верна', 'оплачено'" id="srok9"> <label for="srok9">100</label></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Изготовление клише из резины</TD>
+<TD>
+<P align=center>+ 200</P></TD>
+</TR>
+</TABLE>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+<!--<P><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Наиболее популярные модели оснастки</B><BR>(Нажмите на изображение для просмотра расширенного ассортимента)</P>
+<TABLE border="0" cellpadding="10" cellspacing="0" align="center">
+<TR vAlign=top align=middle>
+<TD width="25%"><A href="javascript:void(window.open('osn_automat.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=750,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/colop_printer_r40_100x133.jpg" width=100 height=133></A> <BR clear=all>
+<DIV>Автоматическая оснастка<BR>Диам. 40 мм.<BR><input type="Radio" name="osnast" checked value="Автоматическая оснастка Диам. 40 мм." id="osnast1"> <label for="osnast1">от 400 руб.</label></DIV></TD>
+<TD width="25%"><A href="javascript:void(window.open('osn_profline.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=750,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/colop-r3040.jpg" width=100 height=133></A> <BR clear=all>
+<DIV>Colop R 3040<BR>Диам. 45 мм.<BR><input type="Radio" name="osnast" value="Colop R 3040. Диам. 45 мм." id="osnast2"> <label for="osnast2">от 1620 руб.</label></DIV></TD>
+<TD width="25%"><A href="javascript:void(window.open('plastm_osn_gerb.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=1000,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/plasm_gerb40_100x133.jpg" width=100 height=133></A> <BR clear=all>
+<DIV>Оснастка с гербом<BR>Диам. 40 мм.<BR><input type="Radio" name="osnast" value="Оснастка с гербом. Диам. 40 мм." id="osnast3"> <label for="osnast3">Бесплатно.</label></DIV></TD>
+<TD width="25%"><A href="javascript:void(window.open('metal_osn_original2.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=600,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/met_techno_100x133.jpg" width=100 height=133></A> <BR clear=all>
+<DIV>Оригинальные оснастки<BR><input type="Radio" name="osnast" value="Оригинальные оснастки" id="osnast4"> <label for="osnast4">1200 руб.</label></DIV></TD></TR></TABLE>
+<BR clear=all>
+<TABLE border=0 cellSpacing=0 cellPadding=5 width="50%" align="center">
+<TR vAlign=top align=middle>
+<TD><A href="javascript:void(window.open('metal_osn_pech_stamp.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=600,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/met_classic_100x133.jpg" width=100 height=133></A> <BR clear=all>
+<DIV>Металлические оснастки<BR>для печатей и штампов<BR><input type="Radio" name="osnast" value="Металлические оснастки для печатей и штампов" id="osnast5"> <label for="osnast5">от 600 руб.</label></DIV></TD>
+		<td>
+<A href="javascript:void(window.open('elit_osn.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=1000,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/elit_osn.jpg" width=100 height=133></A>
+<p>Элитные оснастки<BR><input type="Radio" name="osnast" value="Элитные оснастки" id="osnast6"> <label for="osnast6">от 1500 р.</label></p>
+</TR></TABLE>-->
+
+			<?php require_once "../extdata/filials/base-osnastka-price.php" ?>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+<P><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Изготовление штампов. </B></P>
+<TABLE border=0 cellSpacing=1 cellPadding=5 width="100%">
+<TR bgcolor="#ebeaef">
+<TD>
+<P align=center><B>Клише из фотополимера</B></P></TD>
+<TD>
+<P align=center><B>Цена</B></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Штамп малый по эскизу </TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Штамп малый по эскизу" id="srok11"> <label for="srok11">450</label></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Штамп большой по эскизу</TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Штамп большой по эскизу" id="srok13"> <label for="srok13">600</label></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Маленькие штампы вроде "копия верна", "оплачено"</TD>
+<TD>
+<P align=center><input type="Radio" name="srok" value="Маленькие штампы вроде 'копия верна', 'оплачено'" id="srok15"> <label for="srok15">100</label></P></TD>
+</TR>
+<TR bgcolor="#ebeaef">
+<TD>Изготовление клише из резины</TD>
+<TD>
+<P align=center>+ 200</P></TD>
+</TR>
+</TABLE>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+<P><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Наиболее популярные модели оснастки для штампов</B><BR>(Нажмите на изображение для просмотра расширенного ассортимента)</P>
+<TABLE border="0" cellpadding="10" cellspacing="0" align="center">
+<TR vAlign=top align=middle>
+<TD width="50%"><A href="javascript:void(window.open('osn_automat_mal.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=800,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/colop-printer-60_br_100.jpg" width=100 height=133></A> <BR clear=all>
+<DIV>Автоматическая оснастка<BR>для мал. штампов<BR><input type="Radio" name="osnast" value="Автоматическая оснастка для мал. штампов" id="osnast7"> <label for="osnast7">300 руб.</label></DIV></TD>
+<TD width="50%"><A href="javascript:void(window.open('osn_automat_bolsh.html','','resizable=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,fullscreen=no,dependent=no,width=690,height=750,left=1,top=1'))"><IMG border=0 src="../pics/uslugi/grm-4927.jpg" width=100 height=133></A> <BR clear=all>
+<DIV>Автоматическая оснастка<BR>для больших штампов<BR><input type="Radio" name="osnast" value="Автоматическая оснастка для больших штампов" id="osnast8"> <label for="osnast8">500 руб.</label></DIV></TD>
+</TR></TABLE>
 		</td>
 	</tr>
 	<tr>
@@ -156,11 +285,10 @@ function filialChecked() {
 	<tr  id="thirdContent">
 		<td style="border: 1px solid #eeeafb;">
 			<p align="center"><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Выберете ближайший к Вам филиал</strong></p>
-			
-				<!-- Список филиалов -->
-				<!--<input type="hidden" name="adress" value="м. Беговая" form="form1">-->
-				<?php require_once "../extdata/listfilials-old-uslugi-3tbl.php" ?>
-				<!-- Конец списка-->
+			<!-- Список филиалов -->
+			<?php require_once "../extdata/listfilials-old.php" ?>
+			<!-- Конец списка-->
+		
 		</td>
 	</tr>
 	<tr>
@@ -168,9 +296,9 @@ function filialChecked() {
 	</tr>
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-			<?php //require_once "../extdata/filials/roznica-sendform-price.php" ?>
-			<?php require_once "../extdata/baseparts/sendform-price-uslugi.php" ?>
-			<!--<h1 style="color:#cc000a; font-size:34px;"><center>Остались вопросы? Звоните: (495) 532-70-49</center></h1>-->
+		
+			<?php require_once "../extdata/baseparts/sendform-price.php" ?>
+		
 		</td>
 	</tr>
 </form>
@@ -214,9 +342,9 @@ function filialChecked() {
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
-    <tr>
-    	<td style="border: 1px solid #eeeafb;">
-<P><img src="../pics/str.gif" width="5" height="9" alt=""> <a  name="clients" style="decoration:none;"><B>Нам доверяют:</B></a></P>
+	<tr>
+		<td style="border: 1px solid #eeeafb;">
+<P><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Клиентами нашей компании</B> являются крупные государственные учреждения и коммерческие предприятия:</P>
 <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" align=center>
 <TR vAlign=top align=middle>
 <TD><IMG alt=Билайн src="../pics/uslugi/logo_beeline.gif" width=100 height=56></TD>
@@ -264,30 +392,8 @@ function filialChecked() {
 <TD><img src="../pics/uslugi/avoska.jpg" width="100" height="56" alt=""></TD>
 <TD><img src="../pics/uslugi/atlant-m.jpg" width="100" height="56" alt=""></TD></TR>
 </TABLE>
-        </td>
-    </tr>
-<!--	<tr>
-		<td style="border: 1px solid #eeeafb;">
-Вы можете  воспользоваться электронным бланком заказа или оформить заказ по электронной почте.
-<OL>
-<LI>
-<P align=justify>Письмо в произвольной форме с описанием того, что должно быть изображено на печати или штампе - если Вы заказываете печать по эскизу. В письме необходимо указать:<BR></P>
-<OL>
-<P align=justify>1.1. Сроки выполнения заказа; <BR>1.2. На какой оснастке Вы хотите получить Вашу печать;<BR>1.3. Что ещё из штемпельной продукции Вам необходимо: штемпельная подушка, штемпельная краска...<BR>1.4. Контактную информацию: телефон, имя ответственного за заказ, место и время доставки, если доставка осуществляется нашим курьером.</P></OL>
-<LI>
-<P align=justify>Позитив эскиза будущей печати, прорисованный в Corel Draw (не выше 9 версии) или Adobe Illustrator в НАТУРАЛЬНУЮ величину, если печать заранее отрисована Вами.</P>
-<LI>
-<P align=justify>Если необходимо изготовить печать по оттиску - файл формата jpg, gif c отсканированным оттиском печати с разрешением 300dpi в НАТУРАЛЬНУЮ величину. </P></LI></OL>
-<P align=justify>НЕ НАДО: </P>
-<OL>
-<LI>
-<P align=justify>Сканировать с разрешением выше 300dpi (это не улучшит качество будущей печати т.к. печать всё равно будет прорисована нами целиком заново) </P>
-<LI>
-<P align=justify>Изменять геометрические размеры изображения.</P>
-<LI>
-<P align=justify>Присылать не упакованное растровое изображение (формат bmp).</P></LI></OL>
 		</td>
-	</tr>-->
+	</tr>
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
@@ -296,7 +402,6 @@ function filialChecked() {
 <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=gxYIEhytmRYL9gfErzGzeCtsnO_2NiZm&width=900&height=500">
 </script>-->
 
-	
 <?php require_once "../extdata/baseparts/map-filials.php" ?>
 <table cellpadding="10" cellspacing="0" border="0" width="100%">
 	<tr>
@@ -316,10 +421,9 @@ function filialChecked() {
 	margin: 0 4px;
 }
 </style>
-				<!-- Список филиалов -->
-				<?php require_once "../extdata/alphabitmetro-uslugi.php" ?>
-				<!-- Конец списка-->		
-		
+
+<?php require_once "../extdata/alphabitmetro.php" ?>
+
 		</td>
 	</tr>
 </table>
@@ -348,8 +452,8 @@ function filialChecked() {
 					<td width="100%" class="btm2">
 						<p>2002г. Печати.RU — <a href="/">Изготовление печатей, штампов, факсимиле в Москве</a></p>
 					</td>
-					<!--<td width="80" nowrap><a href="http://pechati.ru/"><strong>главная</strong></a></td>
-					<td width="110" nowrap><a href="http://pechati.ru/contacts/"><strong>контакты</strong></a></td>-->
+					<td width="80" nowrap><a href="http://pechati.ru/"><strong>главная</strong></a></td>
+					<td width="110" nowrap><a href="http://pechati.ru/contacts/"><strong>контакты</strong></a></td>
 				</tr>
 			</table>
 		</td>
@@ -357,6 +461,7 @@ function filialChecked() {
 </table>
 
 <?php require_once "../extdata/baseparts/counters-all.php" ?>
+
 
 </body>
 </html>
