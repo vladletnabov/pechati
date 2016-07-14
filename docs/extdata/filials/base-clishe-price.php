@@ -26,7 +26,7 @@ var price1 = 550;
 <TD>
 <P align=center><input type="Radio" name="srok" value="Печать, штамп по оттиску срочно" onClick="price1 = 1400; count_price();" id="srok2"> <label for="srok2">1400</label></P></TD></TR>
 <TR bgcolor="#ebeaef">
-<TD>Изготовление печатей <b>БЕСПЛАТНО</b></TD>
+<TD>Изготовление печатей <b>БЕСПЛАТНО</b>  и побольше</TD>
 <TD colspan="2">
 <P align=center><input type="Radio" name="srok" value="Новые печати, штампы Бесплатно" onClick="price1 = 0; count_price();" id="srok23"> <label for="srok23">Бесплатно</label></P></TD>
 </TR>
