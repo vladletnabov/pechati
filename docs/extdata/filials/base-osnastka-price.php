@@ -78,7 +78,7 @@ var price2 = 450;
 	box-shadow: 0 0 5px 2px #e0ccff;
 }
 </style>
-
+<p><a style="font-size: 20px; color: navy;">Шаг 2: Выберите оснастку для вашей новой печати<br></p>
 <table cellpadding="10" cellspacing="0" border="0" align="center">
 	<tr valign="top" align="center">
 		<td width="100%">

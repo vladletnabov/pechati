@@ -1,10 +1,13 @@
 <a name="pechati"></a>
 <P align="center" style="font-size: 16pt; padding-left: 100px;padding-right: 100px;">
 	<br/><br/><B>Срочное изготовление печатей, штампов, факсимиле <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>.<br>Восстановление печатей по оттиску.</B><br>
+	<span style="color:#db073e; font-weight: bold;">Закажите печать в три шага</span><br />
 </P>
 <script>
 var price1 = 550;
 </script>
+
+<p><a style="font-size: 20px; color: navy;" name="zakaz">Шаг 1: Выберите какая печать или её клише Вам необходимы</a><br></p>
 <TABLE border=0 cellSpacing=1 cellPadding=5 width="100%">
 <TR bgcolor="#ebeaef">
 <TD>
