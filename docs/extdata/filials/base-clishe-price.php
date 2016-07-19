@@ -1,6 +1,6 @@
 <a name="pechati"></a>
 <P align="center" style="font-size: 16pt; padding-left: 100px;padding-right: 100px;">
-	<br/><br/><B>Срочное изготовление печатей, штампов, факсимиле <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>.<br>Восстановление печатей по оттиску.</B><br>
+	<br/><B>Срочное изготовление печатей, штампов, факсимиле <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>.<br>Восстановление печатей по оттиску.</B><br>
 	<span style="color:#db073e; font-weight: bold;">Закажите печать в три шага</span><br />
 </P>
 <script>

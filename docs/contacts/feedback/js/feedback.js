@@ -32,10 +32,11 @@ window.isset = function (v) {
 }
 
 function myconf() {
+	console.debug('get myconf()');
     var cf = $.Deferred();
         $.ajax({
             type: 'POST',
-            url: 'feedback/',
+            url: '/feedback/',
             dataType: 'json',
             data: 'act=cfg',
             success: function(answer) {
@@ -49,6 +50,7 @@ var mcf = myconf();
 
 mcf.done(function(conf) {
 
+	console.debug('mcf.done started...');
 $(document).ready(function() {
 (function() {
            var fb = $('.feedback');
@@ -75,6 +77,9 @@ function feedback(vars) {
     var btc = bt.clone();
     var bvc = bt.val();
     var cfg = conf[vars.act].cfg;
+	
+	
+	console.debug('get feedback(vars)');
 
     $.ajax({
         type: 'POST',
@@ -168,6 +173,9 @@ function feedback(vars) {
  */
 
 $(document).on('click', '.feedback', function(){
+	console.debug('form:');
+	console.debug($(this).closest('form'));
+	console.debug('-------------------');
    var form = $(this).closest('form'), name = form.attr('name'), obj = {};
        obj.form = form;
        obj.act = name;

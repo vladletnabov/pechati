@@ -32,6 +32,7 @@ window.isset = function (v) {
 }
 
 function myconf() {
+	console.debug('send request...');
     var cf = $.Deferred();
         $.ajax({
             type: 'POST',
@@ -42,12 +43,17 @@ function myconf() {
                 cf.resolve(answer.configs);
             }
         });
+	console.debug('reciwved request...');
+	console.debug(cf);
     return cf;
 }
-
+console.debug('running...');
 var mcf = myconf();
 
+console.debug('processing......');
+
 mcf.done(function(conf) {
+console.debug('process is running...');
 
 $(document).ready(function() {
 (function() {
@@ -77,7 +83,7 @@ function feedback(vars) {
     var btc = bt.clone();
     var bvc = bt.val();
     var cfg = conf[vars.act].cfg;
-
+	console.debug('feedback/' + 'act=' + vars.act + '&' + vars.data);
     $.ajax({
         type: 'POST',
         url: 'feedback/',
@@ -170,14 +176,13 @@ function feedback(vars) {
  */
 
 $(document).on('click', '.feedback', function(){
-	alert('clicked!');
-   /*var form = $(this).closest('form'), name = form.attr('name'), obj = {};
+   var form = $(this).closest('form'), name = form.attr('name'), obj = {};
        obj.form = form;
        obj.act = name;
        obj.data = $(form).serialize();
 
       feedback(obj);
-*/
+
     return false;
 });
 

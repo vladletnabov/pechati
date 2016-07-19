@@ -1,7 +1,7 @@
-    <script src="feedback/js/feedback.js"></script>
+    <!--<script src="feedback/js/feedback.js"></script>
     <script src="feedback/js/jquery.arcticmodal.js"></script>
     <script src="feedback/js/jquery.jgrowl.js"></script>
-	<script type="text/javascript"></script>
+	<script type="text/javascript"></script>-->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="feedback/css/jquery.arcticmodal.css">
     <link rel="stylesheet" type="text/css" href="feedback/css/jquery.jgrowl.css">

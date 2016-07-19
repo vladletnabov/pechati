@@ -95,13 +95,13 @@ $newURL = "Location: forms_send.html";
 	);*/
 	//error_log($mailfilial,0);
 	$mailcfg =  array();
-	error_log('mailcfg created;');
+	error_log('mailcfg created');
 
 function complete_mail() {
 	global $mailcfg, $mailfilial, $tmarker;
 
 
-$from    = "$_POST[fio] ";	
+$from    = $_POST['fio'];	
 if ($_POST[form]!=7 or $_POST[form]!=8) {
 	$subject = "Заказ на изготовление печатей $_POST[fio] ($tmarker)";
 } else {
@@ -194,17 +194,18 @@ if($_POST[text]){$msg=$msg."Дополнительная информация - $_POST[text]\n\n";}
 require "mailer.php";
 $mail = new PHPMailer();
 $mail->From = $_POST[eml];      // от кого
+error_log('From: ' . $mail->From);
 $mailcfg['client']=$_POST[eml];
-error_log('client',0);
+error_log('client: ' . $mailcfg['client']);
 error_log($mailcfg['client']);
 $mailcfg['fio']=$from;
-error_log('fio',0);
-error_log($mailcfg['fio'],0);
+error_log('fio: ' . $mailcfg['fio']);
 $mail->FromName = $from;   // от кого
+error_log('FromName: ' . $mail->FromName);
+
 //$mail->AddAddress('$to_adress', ''); // кому - адрес, Имя
 /*po filialam*/
-error_log('check address',0);
-error_log($_POST[adress]);
+error_log('check address: ' . $_POST[adress]);
 if($_POST[adress]){
 	$arr  = getfilialaddress($_POST[adress]);
 	$str = $arr[0]." - ".$arr[1];
@@ -219,6 +220,7 @@ if($_POST[adress]){
 /*\po filialam*/
 //$mail->AddBCC('pechati@russia.ru', ''); // кому - адрес, Имя
 $mail->AddBCC('center-zakaz@pechati.ru', ''); // кому - адрес, Имя
+error_log('AddBCC: ' . $mail->AddBCC);
 $mail->IsHTML(false);        // выставляем формат письма HTML
 $mail->Subject = $subject;
 if ($_FILES[pict]['error']==0) {
@@ -266,18 +268,19 @@ if($_POST[adress]){
 	$arr  = getfilialaddress($_POST[adress]);
 	$str = $arr[0]." - ".$arr[1];
 	$mail->AddAddress($arr[0],$arr[1]);
-	error_log($str,0);
+	error_log('mail->AddAddress: ' . $str);
 } else {
 	$arr = getfilialaddress("default");; 
 	$str = $arr[0]." - ".$arr[1];
 	$mail->AddAddress($arr[0],$arr[1]);
-	error_log($str,0);
+	error_log('mail->AddAddress: ' . $str);
 }
 /*\po filialam*/
 $mail->IsHTML(false);        // выставляем формат письма HTML
 $mail->Subject = $subject;
 $mail->Body = $msg;
 $mail->Send();
+error_log('mail sended!', 0);
 
 }
 #######
