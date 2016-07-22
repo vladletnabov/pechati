@@ -135,7 +135,7 @@ $(document).ready(function(){
     <link rel="stylesheet" type="text/css" href="/extdata/osnastka-slider2/js/amazingslider-1.css">
     <script src="/extdata/osnastka-slider2/js/initslider-1.js"></script>-->
 <div style="margin: 0 auto;">
-	<span class="text-header-slider">Круглые оснастки для печатей</span>
+	<div class="text-header-slider" style="text-align:center;">Круглые оснастки для печатей</div>
 	
 	<div class="autoplay" style="width:600px; margin: 0 auto;">
 		<div>
@@ -196,7 +196,7 @@ $(document).ready(function(){
 	</div>
 </div>
 <div style="margin: 0 auto;">
-	<span class="text-header-slider">Прямоугольные оснастки для штампов</span>
+	<div class="text-header-slider" style="text-align:center;">Прямоугольные оснастки для штампов</div>
 	
 	<div class="autoplay" style="width:600px; margin: 0 auto;">
 		<div>

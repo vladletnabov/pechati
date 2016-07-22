@@ -10,6 +10,57 @@ $form = array();
 $host = $_SERVER['HTTP_HOST'];
 $ref = $_SERVER['HTTP_REFERER'];
 
+$form['quick-zakaz-glavnaya'] = array(
+	'fields' => array(
+		'name' => array(
+			'title' => 'Имя',
+			'validate' => array(
+				'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+				'minlength' => '3',
+				'maxlength' => '35',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+				'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
+			)
+		),
+		'e-mail' => array(
+			'title' => 'E-mails',
+			'validate' => array(
+				'preg' => '%@%is',
+				'minlength' => '5',
+			),
+			'messages' => array(
+				'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+			)
+		),
+	),
+	'cfg' => array(
+		'charset' => 'utf-8',
+		'subject' => 'Быстрый заказ печати на главной странице',
+		'title' => 'Быстрый заказ печати на главной странице',
+		'ajax' => true,
+		'validate' => true,
+		'from_email' => 'zakaz@pechati.ru',
+		'from_name' => 'zakaz',
+		'to_email' => 'zakaz@pechati.ru',
+		'to_name' => 'Беговая',
+		'geoip' => true,
+		'referer' => true,
+		'type' => 'html',
+		'tpl' => true,
+		'antispam' => 'email77',
+		'antispamjs' => 'address77',
+		'okay' => 'Заказ зарегистрирован - УСПЕШНО',
+		'fuck' => 'Заказ зарегистрирован - ОШИБКА',
+		'spam' => 'Cпам робот',
+		'notify' => 'color-modal-textbox',
+		'usepresuf' => false
+	)
+);
+
 
 $form['form-2'] = array(
 	'fields' => array(
@@ -110,7 +161,7 @@ $form['form-2'] = array(
 	'cfg' => array(
 		'charset' => 'utf8',
 		'subject' => 'Вторая расширенная форма заказа pechati.ru',
-		'title' => 'Вторая расширенная форма заказа pechati.ru <br / >'http://pechati.ru/forms_send2-2.html,
+		'title' => 'Вторая расширенная форма заказа pechati.ru <br / >',
 		'ajax' => true,
 		'validate' => true,
 		'from_email' => 'zakaz@pechati.ru',
