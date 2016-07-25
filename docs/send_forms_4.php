@@ -193,7 +193,9 @@ if($_POST[adres]){$msg=$msg."Подробный адрес доставки - $_POST[adres]\n\n";}
 if($_POST[text]){$msg=$msg."Дополнительная информация - $_POST[text]\n\n";}
 require "mailer.php";
 $mail = new PHPMailer();
-$mail->From = $_POST[eml];      // от кого
+#$mail->From = $_POST[eml];      // от кого
+$mail->AddReplyTo = $_POST[eml]; 
+$mail->From = $_POST['postmaster@pechatiru.nichost.ru']; 
 error_log('From: ' . $mail->From);
 $mailcfg['client']=$_POST[eml];
 error_log('client: ' . $mailcfg['client']);
@@ -259,7 +261,8 @@ $mail->Send();
 	$msg=$msg."Информация о заказе:\n $_POST[text]";
 require "mailer.php";
 $mail = new PHPMailer();
-$mail->From = $_POST[eml];      // от кого
+#$mail->AddReplyTo = $_POST[eml]; 
+$mail->From = $_POST['postmaster@pechatiru.nichost.ru'];      // от кого
 //$mail->AddAddress('zakaz@pechati.ru', ''); // кому - адрес, Имя
 /*po filialam*/
 error_log('check address',0);
