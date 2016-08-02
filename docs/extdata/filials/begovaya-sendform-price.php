@@ -9,6 +9,27 @@ var price3 = 0;
 <tr bgcolor="#e0e0e0"><td width="300"><b>Файл-Вложение</b><br><font size=-2>файл во вложении должен быть не более 2Мб</font></td><td width="650"><input type="file" class="text_forms" style="width: 300px;" name="pict"></td></tr>
 <tr bgcolor="#efefef"><td valign="top"><b>Дополнительная информация</b></td><td><textarea type="text" class="text_forms" style="width:300px; height:70px" name="text"></textarea></td></tr>
 </table>
+
+<input type="hidden" name="myurl" value="<?php 
+
+$url = checkurl();
+function checkurl(){
+	setlocale(LC_ALL, 'ru_RU.CP1251');
+	$result ='';
+	$url=$_SERVER['PHP_SELF'];
+	//echo $url;
+	$url=preg_replace("/([-a-zA-Z-0-9.]+):\/\/([-a-zA-Z-0-9.]+)\//i",'',$url);
+	$url=preg_replace("/(\/+)|(_+)/i",'-',$url);
+	$url=preg_replace("/\.\w+/i",'',$url);
+	$url=preg_replace("/^-/i",'',$url);
+	$result=$url;
+	
+	return $result;
+}
+
+echo $url
+?>" />
+
 <p style="font-size: 14pt;"><strong>Стоимость Вашего заказа: <span style="color: #f00;" id="price"></span>&nbsp;руб</strong></p>
 <p align="center"><input type="Hidden" name="form" value="1"><input type="reset" value="очистить форму" style="width:30%" class="button" hidden>&nbsp;<input type="button" onclick="checkRequired()" value="Заказать печать" style="width: 278px; height: 80px; background: #f90 url('/i/button.jpg') left top no-repeat; border: 0; color: #fff; font-size: 14pt;"></p>
 <script language="JavaScript">

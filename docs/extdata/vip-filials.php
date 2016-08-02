@@ -7,8 +7,27 @@ $filialMSK= array();
 foreach ($filialDataListCP1251 as $key => $value){
 	if (strcmp($filialDataListCP1251[$key]['posContact'],'vip')==0){
 		?>
-		<div class="cont1 date2" onclick="document.location.href='<?php echo $filialDataListCP1251[$key]['url']?>'" style="width: 390px; background: #f5f5fc url('<?php echo $filialDataListCP1251[$key]['plashkaContact']?>') top left no-repeat;" title="Изготовление печатей и штампов <?php echo $key ?>">
-				<div align="right"> <small><br><br> <?php echo $filialDataListCP1251[$key]['commentContact']?></small></div>
+		<div class="cont1 date2" onclick="document.location.href='<?php echo $filialDataListCP1251[$key]['url']?>'" style="width: 390px; background: #f5f5fc;" title="Изготовление печатей и штампов <?php echo $key ?>">
+		
+		
+			<div><img src="../i/0.gif" class="poi1" width="9" height="9" alt="" align="absmiddle"> <a href="<?php echo $filialDataListCP1251[$key]['url']?>" class="area" title="Изготовление печатей и штампов <?php echo $key?>"><strong><?php echo $key?></strong></a><br>Тел.: 
+				<?php 
+				$phone = $filialDataListCP1251[$key]['phone'];
+				$arrPhone = split('[\(\)]',$phone);
+				echo $arrPhone[0],'<strong style="font-size: 8pt;">',$arrPhone[1] ,'</strong> ', $arrPhone[2], "<br />";
+				?>
+				<!--<strong style="font-size: 8pt;">(915)</strong> 377-0609<br>-->
+				
+				<?php echo $filialDataListCP1251[$key]['addrStreet']?>, <?php 
+					echo $filialDataListCP1251[$key]['addrHouse']; 
+					if(strcmp($filialDataListCP1251[$key]['addrOffice'],'')>0){
+						echo ", ", $filialDataListCP1251[$key]['addrOffice'];
+					}
+				?>
+			</div>
+		
+		
+				<div align="right" style="position:relative; z-index:115; margin-top: -50px;"> <small><br><br> <?php echo $filialDataListCP1251[$key]['commentContact']?></small></div>
 		</div>
 		
 	<?php }

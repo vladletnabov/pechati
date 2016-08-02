@@ -36,6 +36,9 @@ $form['quick-zakaz-glavnaya'] = array(
 				'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
 			)
 		),
+		'text' => array(
+			'title' => 'Сообщение',
+		),
 	),
 	'cfg' => array(
 		'charset' => 'utf-8',

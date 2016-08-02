@@ -264,8 +264,11 @@ if(isset($form[$act])) {
 
 		//отправка письма
 		error_log('Mail To: ' . $To . ' From: ' .$fromName . ' Subject: ' . $sb['subject']);
+		mail("center-zakaz@pechati.ru", "the subject", $message,
+		 "From: webmaster@$SERVER_NAME\r\n"
+		."Reply-To: webmaster@$SERVER_NAME\r\n"
+		."X-Mailer: PHP/" . phpversion());
 		$mail = mail($To, $sb['subject'], $sb['body'], $headers);
-
 		if($mail) {
 			$jsonBox['ok'] = 1;
 			$info[] = $form['cfg']['okay'];

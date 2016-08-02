@@ -29,7 +29,7 @@ $smartlog = "<!--- SmartLog ---><script language=\"javascript\">
 i=Math.random();w=screen.width;h=screen.height;
 bps=screen.colorDepth;ln=navigator.systemLanguage;
 if(navigator.cookieEnabled) cook = \"Y\"; else cook = \"N\";
- document.write('<a href=\"http://www.smartlog.ru/\" target=\"_top\"><img width=1 height=1 src=\"http://www.smartlog.ru/counter/?i='+i+'&cid=999&r='+escape(document.referrer)+'&sid=1193&cook='+cook+'&s='+w+'x'+h+'&pg='+escape(window.location.href)+'\" alt=\"SmartLog.ru - РёРЅС‚РµСЂРЅРµС‚ СЃС‚Р°С‚РёСЃС‚РёРєР°\" border=0></a>')
+ document.write('<a href=\"http://www.smartlog.ru/\" target=\"_top\"><img width=1 height=1 src=\"http://www.smartlog.ru/counter/?i='+i+'&cid=999&r='+escape(document.referrer)+'&sid=1193&cook='+cook+'&s='+w+'x'+h+'&pg='+escape(window.location.href)+'\" alt=\"SmartLog.ru - интернет статистика\" border=0></a>')
 </script><!--- SmartLog --->";
 
 if (preg_match('/\/uslugi\//',$url)) {
@@ -66,7 +66,7 @@ if (preg_match('/\/forms_send.html/',$url)) {
 	</div>
 
 	<div style="float:left; display:inline;padding: 10px;">
-	<a href="/contacts/webstudia.html" style="font-size: 7pt; "> Сайт разработан WEB Студией Печати.РУ</a>
+	<a href="http://stampmaker.pechati.ru/" style="font-size: 7pt; "> Сотрудничество для штемпелеизготовителей</a>
 	</div>
 </div>
 <!-- Yandex.Metrika counter -->
