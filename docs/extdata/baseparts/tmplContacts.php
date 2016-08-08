@@ -235,4 +235,4 @@ function sendFormCounterYandexMetrika(){
 <?php require_once "../extdata/baseparts/counters-all.php" ?>
 
 
-</body>
+
