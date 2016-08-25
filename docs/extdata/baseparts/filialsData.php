@@ -733,6 +733,7 @@ $filialDataList = array(
 		'ya-target'=>'ya-target-novoslobodskaya',
 		'url'=>'/contacts/novoslobodskaya.html', 
 		'reqFilialData'=>'/extdata/filials/novoslobodskaya.php',
+		'reqClishePrice'=>'/extdata/filials/novoslobodskaya-clishe-price.php',
 		'email'=>'nsl@pechati.ru',
 		'quickZakaz'=>'quick-zakaz-novoslobodskaya',
 		'img'=>'/pics/contacts/novoslobodskaya/scheme.jpg'),
