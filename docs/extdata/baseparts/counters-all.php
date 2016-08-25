@@ -65,8 +65,8 @@ if (preg_match('/\/forms_send.html/',$url)) {
 		<!-- end of Top100 logo -->
 	</div>
 
-	<div style="float:left; display:inline;padding: 10px;">
-	<a href="http://stampmaker.pechati.ru/" style="font-size: 7pt; "> Сотрудничество для штемпелеизготовителей</a>
+	<div style="float:right; display:inline;padding: 10px;">
+	<a href="http://stampmaker.pechati.ru/" style="font-size: 10pt; "> Сотрудничество для штемпелеизготовителей</a>
 	</div>
 </div>
 <!-- Yandex.Metrika counter -->
@@ -90,11 +90,11 @@ mysql_select_db('pechatiru_pechati', $db);
 $ip = $_SERVER['REMOTE_ADDR'];
 //echo "$ip $url";
 $result = mysql_query ("INSERT INTO ipcounter (ip, url) VALUES ('$ip', '$url')");
-if ($result == 'true'){
+/*if ($result == 'true'){
 	echo "+";
 }
 else{
 	echo "-";
-}
+}*/
 
 ?>
