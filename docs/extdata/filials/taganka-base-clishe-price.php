@@ -2,6 +2,7 @@
 <P align="center" style="font-size: 16pt;"><br>
 	<B>Изготовление печатей, штампов, факсимиле <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>.<br>Восстановление печатей по оттиску.</B>
 	<br>
+	<span style="color:#db073e; font-weight: bold;">Закажите печать в три шага</span>
 </P>
 <script>
 var price1 = 650;
@@ -84,6 +85,7 @@ $dopServices = array(
 ?>
 
 <!--<p><a style="font-size: 20px; color: navy;">Шаг 1: Выберите клише</a></p>-->
+<p><a style="font-size: 20px; color: navy;" name="zakaz">Шаг 1: Выберите какая печать или её клише Вам необходимы</a><br></p>
 <TABLE border=0 cellSpacing=1 cellPadding=5 width="100%">
 <TR bgcolor="#ebeaef">
 	<TD>

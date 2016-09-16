@@ -118,7 +118,7 @@ function sendFormCounterYandexMetrika(){
 		$reqClishePrice = "../../extdata/filials/base-clishe-price.php";
 		if (isset($filialDataListCP1251[$curFilial]['reqClishePrice'])
 			&&(strcasecmp($filialDataListCP1251[$curFilial]['reqClishePrice'],'')!=0)) {
-			$reqClishePrice = ".." . $filialDataListCP1251[$curFilial]['reqClishePrice'];
+			$reqClishePrice = "../.." . $filialDataListCP1251[$curFilial]['reqClishePrice'];
 		}
 		require_once $reqClishePrice;
 		?>
@@ -157,7 +157,7 @@ function sendFormCounterYandexMetrika(){
 		
 		<!-- О филиале -->
 		<div id="contacts1">
-			<p>	<?php echo $curFilial ?><br />
+			<p>	<?php #echo $curFilial ?><br />
 			 <?php echo '<img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">', " ", $filialDataListCP1251[$curFilial]['addrCity'], ", ", $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], ", ", $filialDataListCP1251[$curFilial]['addrOffice']; ?></p>
 				<p>Тел.: <b><?php echo $filialDataListCP1251[$curFilial]['phone'] ?></b></p>
 				<p>Почта: <a href="<?php #echo $filialDataListCP1251[$curFilial]['email'] ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>

@@ -195,7 +195,8 @@ require "mailer.php";
 $mail = new PHPMailer();
 #$mail->From = $_POST[eml];      // от кого
 $mail->AddReplyTo = $_POST[eml]; 
-$mail->From = $_POST['postmaster@pechatiru.nichost.ru']; 
+//$mail->From = $_POST['postmaster@pechatiru.nichost.ru']; 
+$mail->From = 'postmaster@pechatiru.nichost.ru'; 
 error_log('From: ' . $mail->From);
 $mailcfg['client']=$_POST[eml];
 error_log('client: ' . $mailcfg['client']);
@@ -384,7 +385,8 @@ function sendmessagetoclient($cfg){
 	
 	
 	$mail2 = new PHPMailer();
-	$mail2->From = $cfg['filial'];      // от кого
+	//$mail2->From = $cfg['filial'];      // от кого
+	$mail2->From = 'postmaster@pechatiru.nichost.ru';
 	
 	error_log("($cfg[filial])",0);
 	//$mail->AddAddress('zakaz@pechati.ru', ''); // кому - адрес, Имя

@@ -34,7 +34,7 @@ var price1 = 550;
 <P align=center><input type="Radio" name="srok" value="Факсимиле за 1 день" onClick="price1 = 650; count_price();" id="srok5"> <label for="srok5">650</label></P></TD>
 <TD>
 <P align=center><input type="Radio" name="srok" value="Факсимиле срочно" onClick="price1 = 950; count_price();" id="srok6"> <label for="srok6">950</label></P></TD></TR>-->
-<TR bgcolor="#ebeaef">
+<!--<TR bgcolor="#ebeaef">
 <TD>Изготовление <a href="/uslugi/ekslibris.html">экслибриса</a>, <a href="/uslugi/ekslibris.html">личной печати</a></TD>
 <TD>
 <P align=center><input type="Radio" name="srok" value="Изготовление экслибриса, личной печати за 1 день" onClick="price1 = 2000; count_price();" id="srok13"> <label for="srok13">2000</label></P></TD>
@@ -44,8 +44,7 @@ var price1 = 550;
 <TD>Изготовление печатей <b>БЕСПЛАТНО</b></TD>
 <TD colspan="2">
 <P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" onClick="price1 = 0; count_price();" id="srok23"> <label for="srok23">Бесплатно</label></P></TD>
-<!--<TD>
-<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно" onClick="price1 = 0; count_price();" id="srok24"> <label for="srok4">Бесплатно</label></P></TD>--></TR>
+</TR>-->
 <!-- Добавление резины-->
 
 <!--<TR bgcolor="#ebeaef">
