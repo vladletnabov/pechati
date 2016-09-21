@@ -1,0 +1,65 @@
+<?php 
+$galleryStampData = array(
+	1=>array(
+		'price'=>0,
+		'image'=>'/extdata/images/gallery/stamp1.jpg'
+	),
+	2=>array(
+		'price'=>100,
+		'image'=>'/extdata/images/gallery/stamp2.jpg'
+	),
+	3=>array(
+		'price'=>200,
+		'image'=>'/extdata/images/gallery/stamp3.jpg'
+	),
+	4=>array(
+		'price'=>300,
+		'image'=>'/extdata/images/gallery/stamp4.jpg'
+	),
+	5=>array(
+		'price'=>400,
+		'image'=>'/extdata/images/gallery/stamp5.jpg'
+	),
+	6=>array(
+		'price'=>500,
+		'image'=>'/extdata/images/gallery/stamp6.jpg'
+	),
+	7=>array(
+		'price'=>600,
+		'image'=>'/extdata/images/gallery/stamp7.jpg'
+	),
+);
+
+$gallerySqStampData = array(
+	1=>array(
+		'price'=>0,
+		'image'=>'/extdata/images/gallery/sqstamp1.jpg'
+	),
+	2=>array(
+		'price'=>100,
+		'image'=>'/extdata/images/gallery/sqstamp2.jpg'
+	),
+	3=>array(
+		'price'=>200,
+		'image'=>'/extdata/images/gallery/sqstamp3.jpg'
+	),
+	4=>array(
+		'price'=>300,
+		'image'=>'/extdata/images/gallery/sqstamp4.jpg'
+	),
+	5=>array(
+		'price'=>400,
+		'image'=>'/extdata/images/gallery/sqstamp5.jpg'
+	),
+	6=>array(
+		'price'=>500,
+		'image'=>'/extdata/images/gallery/sqstamp6.jpg'
+	),
+	7=>array(
+		'price'=>600,
+		'image'=>'/extdata/images/gallery/sqstamp7.jpg'
+	),
+);
+
+
+?>

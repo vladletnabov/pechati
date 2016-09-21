@@ -132,7 +132,25 @@ function filialChecked() {
 <form name="form1" id="form1" method="POST" action="/send_forms_4.php" enctype="multipart/form-data">
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-<a name="pechati"></a><P align="center" style="font-size: 16pt;"><B>Изготовление печатей, штампов, факсимиле.<br>Восстановление печатей по оттиску.</B><br></P>
+		<div style="text-align: left;display:inline;"> 
+			<div style="float:left;">
+				<h3>Из чего состоит печать</h3>
+				<img src="/pics/stamp-consist.jpg" width="300" alt="Из чего состоит печать">
+			</div>
+			<div style="float:right; text-align:center;">
+			
+<p style="margin-bottom:10px;"><a name="zakaz" title="Заказать печать"> </a></p>
+<a name="pechati"></a>
+<P align="center" style="font-size: 18pt;margin-top:40px;color:#0f0f47"><B>Изготовление печатей, штампов, факсимиле.</B></P>
+<p align="center" style="color:#92000a; margin-top:10px; margin-top:20px;font-size: 18pt;;text-align:center;">Восстановление печатей по оттиску.</p>
+<p align="center" style="margin-top:-10px;; margin-top:10px;font-size: 18pt;text-align:center;">Печать срочно - за 1 час!</p>
+
+			</div>
+			<div style="clear:both;"></div>
+		<div>
+		<!-- базовая стоимость клише и доставки остальные делать на основе этого файла и подключать отдельно-->
+		<?php //require_once "../extdata/filials/base-clishe-price.php"; ?>
+		
 		
 	<?php require_once "../extdata/baseparts/price-pechati-roz.php" ?>
 <a name="ceny"></a><P align=justify>Все цены указаны в рублях РФ без стоимости оснастки. </P>
@@ -141,8 +159,6 @@ function filialChecked() {
 <P align=justify>Доставка по Москве ОДНОЙ-ДВУХ печатей - 300р, от трёх единиц - <B>бесплатно!</B> </P>
 <LI>
 <P align=justify>По желанию заказчика мы можем разместить на печати ПРОСТЫЕ элементы защиты: оригинальные шрифты, отсутствующие элементы в буквах, изображениях или звёздочках, имитация заплыва краски, кляксы, имитация дефекта клише.</P></LI></UL>
-		<h3>Из чего состоит печать</h3>
-		<p style="text-align: center;"> <img src="/pics/stamp-consist.jpg" width="600" alt="Из чего состоит печать" /></p>
 		</td>
 	</tr>
 	<tr>

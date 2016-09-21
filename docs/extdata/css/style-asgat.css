@@ -1,0 +1,243 @@
+
+.preim {
+	height: 300px;
+	background-color:#b5d6ff;
+	margin:15px;
+	border: 1px solid #b5d6ff;
+}
+.reshen {
+	margin:0px;
+	min-height:145px;
+	border: 1px solid #b5d6ff;
+	background-color: #fff;
+	width: auto;
+	display:block;
+	overflow: hidden;
+	position: relative;
+}
+
+.nav-arrow-place{
+	position:relative;
+	width:100%;
+	height:42px;
+	margin:10px;
+	padding:0;
+}
+.rotate-arrows {
+	height: 32px;
+	width: 64px;
+	background-color: #b5d6ff;
+	position:absolute;
+	right: 10px;
+	top:15px;
+	margin-bottom: 20px;
+}
+.nav-arrows{
+	background-color:#fff;
+	color:#2c2c3c;
+	font-size:20px;
+	font-weight:bold;
+	text-align: center;
+	display:inline;
+	float:left;
+	width: 30px;
+	height:30px;
+	margin:1px;
+	cursor:pointer;
+}
+.nav-arrows:after{
+	clear:both;
+}
+.nav-arrows:hover{
+	background-color:rgba(255,255,255,0.5);
+	color:#2c2c3c;
+}
+.arrow-left, .arrow-right{
+	display:inline;
+	float:left;
+}
+.arrow-left:before {
+	content: "Л";
+}
+.arrow-right:before {
+	content: "Ы";
+}
+
+
+.top-carusel-text{
+	padding:0;
+	margin:0 auto;;
+}
+
+.skifgalleryslider{
+				list-style: none;
+				/*position:absolute;
+				left:0;
+				top:0;
+				padding:0;
+				margin:0;*/
+}
+.skifgalleryslider li {
+				float: left;
+				margin:0;
+}
+
+.skifgalleryslidersqstamp{
+				list-style: none;
+				/*position:absolute;
+				left:0;
+				top:0;
+				padding:0;
+				margin:0;*/
+}
+.skifgalleryslidersqstamp li {
+				float: left;
+				margin:0;
+}
+			.skifgalleryslidertext{
+				list-style: none;
+				/*position:absolute;				
+				left:0;
+				top:0;
+				padding:0;
+				margin:0 ;*/
+				/*text-align: center;*/
+			}
+			li.itemLi {
+				display: inline;
+				margin:0;
+				padding:0;	
+				height:200px;				
+			}
+			.skifgalleryslidertext > ul {
+				margin:0;
+			}
+			.skifgalleryslidertext >  li {
+				display: inline;
+				margin:0;
+				padding:0;	
+				height:auto;
+				float: left;
+				/*width:1100px;*/
+			}
+			
+			.osn {
+				margin-left:0;
+				/*padding: 15px;*/
+				min-height:200px;
+				/*border:1px solid red;*/
+			}
+			.carItem{
+				text-align:center;
+				margin-right: 20px;
+			}
+			.col-md-4 {
+				/*border:1px solid brawn;*/
+			}
+
+
+.logo-img-carusel{
+	margin:0px auto;
+	max-height: 160px;
+	text-align:center;
+}
+
+	.skifcarouseltext{
+		max-height: 490px;
+	}
+
+.radio-stamp{
+	display: none;
+}
+.radio-stamp+label{
+	background-color: #fff;
+	position: absolute;
+	top:0;
+	left:0;
+	opacity: 0;
+	width:100%;
+	height:100%;
+
+}
+.radio-stamp+label:hover{
+	opacity: 0.1;
+	color: #ff0000;
+
+}
+.radio-stamp:checked+label{
+	background-color: navy;
+	opacity: 0.5;
+	color: #fff;
+}
+.radio-stamp+label i{
+	margin-top: 35%;
+}
+.comment-stamp {
+	max-width: 860px;
+	padding: 20px;
+	display: inline;
+}
+.comment-stamp textarea{
+	width:520px;
+	height: 350px;
+	resize: none;
+	border: 1px solid #b5d6ff;
+}
+.comment-area {
+	float: left;
+	display: inline;
+	margin:0;
+}
+.comment-button{
+	float:right;
+	display: inline;
+	height:340px;
+	margin:0;
+}
+.comment-stamp:after{
+	clear:both;
+}
+.stamp-preview-img{
+	width:300px;
+	height:300px;
+	max-width:300px;
+	max-height:300px;
+	background-color: #fff;
+	border:0;
+}
+.container-stamp{
+	width:860px;
+}
+.price-line{
+	padding: 15px;
+	max-width:300px;
+
+}
+.bg-primary {
+  color: #fff;
+  background-color: #337ab7;
+}
+.tmpl-rstamp {
+	display:none;
+}
+
+.container{
+	max-width:860px;
+}
+.prokrutka {
+	width:860px; /* ширина нашего блока */
+	height:200px; /* высота нашего блока */
+	background: #fff; /* цвет фона, белый */
+	border: 1px solid #b5d6ff; /* размер и цвет границы блока */
+	overflow-x: auto; /* свойство дл€ прокрутки по горизонтали. јвтоматом, если больше блока */
+	overflow-y: hidden;
+
+}
+.inblock {
+	/*width: 99999px*/
+}
+.sqstamp-gallery{
+	display:none;
+}
+
+

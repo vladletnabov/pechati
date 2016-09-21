@@ -59,6 +59,13 @@ echo $url
 	}
 	function count_price()
 	{
+		var priceTmplStamp = 0;
+		if ($('input').is('#hid_price_stamp')){
+			priceTmplStamp = $('#hid_price_stamp').val();
+			if(priceTmplStamp.localeCompare('')==0){
+				priceTmplStamp = 0;
+			}
+		}
 		if (!self.priceotrisovka) 
 		{ 
 			 priceotrisovka=0;
@@ -71,7 +78,7 @@ echo $url
 		{ 
 			 pricedostav=0;
 		} 
-		document.getElementById('price').innerHTML = price1 + price2 + price3 + pricedostav + priceotrisovka + pricezaschit;
+		document.getElementById('price').innerHTML = price1 + price2 + price3 + pricedostav + priceotrisovka + pricezaschit + parseInt(priceTmplStamp, 10);
 		return;
 	}
 	count_price();

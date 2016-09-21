@@ -163,6 +163,7 @@ if($_POST[org_forms]){$msg=$msg."Организационная форма - $_POST[org_forms]\n\n";
 	if($_POST[inn]){$msg=$msg."ИНН - $_POST[inn]\n\n";}
 }*/
 
+if($_POST[price_img_stamp]){$msg=$msg."------------------------Шаблон -----------------\nШаблон печати - $_POST[price_img_stamp]\n" . "Наценка за шаблон - 	$_POST[price_tmpl_stamp]\n" . "Информация о штампе - $_POST[comment_stamp]\n\n ----------------------------------------\n\n";}
 
 if($_POST[city]=="on"){$msg=$msg."Город - Москва\n\n";}else{$msg=$msg."Город - $_POST[city_other]\n\n";}
 
