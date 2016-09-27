@@ -1,6 +1,13 @@
 <a name="pechati"></a>
 <P align="center" style="font-size: 16pt;"><br>
-	<B>Изготовление печатей, штампов, факсимиле <?php echo $filialDataListCP1251[$curFilial]['predlog']?> <?php echo $filialDataListCP1251[$curFilial]['padej']?>.<br>Восстановление печатей по оттиску.</B>
+	<B>Изготовление печатей, штампов, факсимиле <br /><?php 
+	if (isset($filialDataListCP1251[$curFilial]['dopMetro'])){
+				echo $filialDataListCP1251[$curFilial]['predlog'] . ' '. $filialDataListCP1251[$curFilial]['padej'] . ', ' . $filialDataListCP1251[$curFilial]['dopMetroPredlog'] . ' ' . $filialDataListCP1251[$curFilial]['dopMetroPadej'];
+			}
+			else {echo $filialDataListCP1251[$curFilial]['predlog'] . ' ' . $filialDataListCP1251[$curFilial]['padej'];}
+	
+	//echo $filialDataListCP1251[$curFilial]['padej'];
+	?>.<br>Восстановление печатей по оттиску.</B>
 	<br>
 </P>
 <script>

@@ -1,7 +1,14 @@
 <p style="margin-bottom:-10px;"><a name="zakaz" title="Заказать печать"> </a></p>
 <a name="pechati"></a><P align="center" style="font-size: 22pt;margin-bottom:-10px;color:#0f0f47"><B>Заказать печать в СЗАО стало ещё проще!!!</B><br></P>
 <p align="center" style="color:#92000a; margin-top:10px; margin-bottom:20px;font-size: 18pt;;text-align:center;">Сделайте 3 (три) простых шага и печати уже Ваши!!!</p>
-<p align="center" style="margin-top:-10px;; margin-bottom:10px;font-size: 18pt;text-align:center;">Изготовление печатей, штампов и факсимиле</p>
+<p align="center" style="margin-top:-10px;; margin-bottom:10px;font-size: 18pt;text-align:center;">Изготовление печатей, штампов и факсимиле <br /><?php 
+	if (isset($filialDataListCP1251[$curFilial]['dopMetro'])){
+				echo $filialDataListCP1251[$curFilial]['predlog'] . ' '. $filialDataListCP1251[$curFilial]['padej'] . ', ' . $filialDataListCP1251[$curFilial]['dopMetroPredlog'] . ' ' . $filialDataListCP1251[$curFilial]['dopMetroPadej'];
+			}
+			else {echo $filialDataListCP1251[$curFilial]['predlog'] . ' ' . $filialDataListCP1251[$curFilial]['padej'];}
+	
+	//echo $filialDataListCP1251[$curFilial]['padej'];
+	?></p>
 
 <!--<span align="center" style="color:#92000a;margin-top:-20px;; margin-bottom:0px;font-size: 18pt;">Изготовление печатей и штампов и факсимиле по оттиску</span>-->
 <script>
