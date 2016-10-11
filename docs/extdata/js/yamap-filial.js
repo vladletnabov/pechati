@@ -33,10 +33,10 @@ function init () {
 	myMapFilial.controls.remove('trafficControl');
 	myMapFilial.controls.remove('typeSelector');
 	myMapFilial.controls.remove('routeEditor');
-	myMapFilial.controls.remove('zoomControl');
 	myMapFilial.controls.remove('smallZoomControl');
 	myMapFilial.controls.remove('scaleLine');
 	myMapFilial.controls.remove('miniMap');
+	myMapFilial.behaviors.disable('scrollZoom');
 	
 	
     requestUrl = "/extdata/baseparts/filialsWS.php";
@@ -59,8 +59,8 @@ function init () {
 	
 	
    /* var myPlacemark = new ymaps.Placemark([55.759471, 37.645537], {
-        address: "109384 г. Москва,ул. Покровка, 17",
-        object: "Офис ПечатиРУ на Читых прудах"
+        address: "109384 пїЅ. пїЅпїЅпїЅпїЅпїЅпїЅ,пїЅпїЅ. пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, 17",
+        object: "пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
     }, {
         hintLayout: HintLayout
     });
@@ -77,7 +77,7 @@ function setMarkerToMapFilial(myMap, HintLayout, data){
 	$address  = $address  +  ", " + data['addrStreet'] +  ", " + data['addrHouse'];
 	
     //console.log($address);
-	var $filialName = "Филиал " + data['predlog'] +  " " + data['padej'];
+	var $filialName = "пїЅпїЅпїЅпїЅпїЅпїЅ " + data['predlog'] +  " " + data['padej'];
 	
     //console.log($filialName);
 	var mapAddr = data['mapAddr'];
@@ -101,7 +101,7 @@ function setMarkerToMapFilial(myMap, HintLayout, data){
 		$.each( data['subFilials'], function( key, val ) {
 			//var k = key;
 			var num = Number(key) + 1;
-			var $filialName = "Филиал " + "№ "+ num + " " + data['predlog'] +  " " + data['padej'];
+			var $filialName = "пїЅпїЅпїЅпїЅпїЅпїЅ " + "пїЅ "+ num + " " + data['predlog'] +  " " + data['padej'];
 			setMarkerToMapForSubfilialFilial(myMap, HintLayout, $filialName ,val);
 		});
 	}

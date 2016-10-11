@@ -72,10 +72,10 @@ function init() {
 	myMap.controls.remove('trafficControl');
 	myMap.controls.remove('typeSelector');
 	myMap.controls.remove('routeEditor');
-	myMap.controls.remove('zoomControl');
 	myMap.controls.remove('smallZoomControl');
 	myMap.controls.remove('scaleLine');
 	myMap.controls.remove('miniMap');
+	myMap.behaviors.disable('scrollZoom');
 	
         console.log('create map');
 	
@@ -119,7 +119,7 @@ function init() {
 		}
 		//alert (requestUrl + resultKey );
     });
-    // Поиск координат центра Нижнего Новгорода.
+    // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 }
 
 function setMarkerToMap(myMap, HintLayout, data){
@@ -130,7 +130,7 @@ function setMarkerToMap(myMap, HintLayout, data){
 	$address  = $address  +  ", " + data['addrStreet'] +  ", " + data['addrHouse'];
 	
     //console.log($address);
-	var $filialName = "Филиал " + data['predlog'] +  " " + data['padej'];
+	var $filialName = "пїЅпїЅпїЅпїЅпїЅпїЅ " + data['predlog'] +  " " + data['padej'];
 	
     //console.log($filialName);
 	var mapAddr = data['mapAddr'];
@@ -154,7 +154,7 @@ function setMarkerToMap(myMap, HintLayout, data){
 		$.each( data['subFilials'], function( key, val ) {
 			//var k = key;
 			var num = Number(key) + 1;
-			var $filialName = "Филиал " + "№ "+ num + " " + data['predlog'] +  " " + data['padej'];
+			var $filialName = "пїЅпїЅпїЅпїЅпїЅпїЅ " + "пїЅ "+ num + " " + data['predlog'] +  " " + data['padej'];
 			setMarkerToMapForSubfilial(myMap, HintLayout, $filialName ,val);
 		});
 	}
