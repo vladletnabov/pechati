@@ -27,3 +27,5 @@
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
         </div>
     </div>
+Колобок
+гоемаш
