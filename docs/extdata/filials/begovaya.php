@@ -27,7 +27,7 @@
 
 <p style="margin-bottom:60px;"><a name="scheme" title="Схема проезда"> </a></p>
 <span>Офис «Печати.RU на Беговой» переехал</span>
-35345345353535345345
+
 <script>
 console.debug('prev page: '  + ' -|');
 </script>
