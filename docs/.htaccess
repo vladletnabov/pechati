@@ -6,8 +6,12 @@ Options +FollowSymlinks
 RewriteCond %{HTTP_HOST} ^(.+)\.pechati\.ru$
 RewriteCond %{HTTP_HOST} !^www\.pechati\.ru$
 RewriteCond %{REQUEST_URI} !^/subdmn
+RewriteCond %{REQUEST_URI} !^/contacts(.*)
 RewriteRule ^(.*) %{HTTP_HOST}$1
 RewriteRule ^(www\.)?(.+)\.pechati\.ru(.*) /subdmn/$2%{REQUEST_URI} [L]
+
+RewriteRule    "^uslugi/izgotovlenie_pechatej_opt\.html$"  "uslugi/opt.html" [PT]
+RewriteRule    "^uslugi/izgotovlenie_pechatej_roznica\.html$"  "uslugi/pechati_po_ottisku.html" [PT]
 
 # www rewrite
 RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]

@@ -101,14 +101,14 @@ function checkRequired() {
 	if (flgSub == false) {
 		alert(unescape(s));	
 	} else {	
-		document.forms["form1"].action="/send_forms_8.php";
+		document.forms["form1"].action="/send_forms_4.php";
 		document.forms["form1"].target="";
 		document.forms["form1"].submit();
 	}
 }
 </script>
 <table cellpadding="10" cellspacing="0" border="0" width="100%">
-<form name="form1" id="form1" method="POST" action="/send_forms_8.php" enctype="multipart/form-data">
+<form name="form1" id="form1" method="POST" action="/send_forms_4.php" enctype="multipart/form-data">
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
 <a name="pechati"></a><P align="center" style="font-size: 16pt;"><B>Изготовление печатей, штампов, факсимиле.<br>Восстановление печатей по оттиску.</B><br></P>
@@ -126,7 +126,7 @@ function checkRequired() {
 	</tr>
 	<tr>
 		<td style="border: 1px solid #eeeafb;">			
-			<?php require_once "extdata/baseparts/osnastka-price.php" ?>
+			<?php require_once "../../extdata/filials/subdomain-osnastka-price.php" ?>
 		</td>
 	</tr>
 	<tr>
@@ -138,7 +138,8 @@ function checkRequired() {
 			
 				<!-- Список филиалов -->
 				<!--<input type="hidden" name="adress" value="м. Беговая" form="form1">-->
-				<?php require_once "extdata/listfilials-old-uslugi-3tbl.php" ?>
+				<?php //require_once "../../extdata/baseparts/listfilials-old-uslugi-map.php" ?>
+				<?php require_once "../../extdata/baseparts/listfilials-old-uslugi-3tbl-subdmn.php" ?>
 				<!-- Конец списка-->
 		</td>
 	</tr>
@@ -148,7 +149,10 @@ function checkRequired() {
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
 			<?php //require_once "extdata/filials/roznica-sendform-price.php" ?>
-			<?php require_once "extdata/baseparts/sendform-price-uslugi.php" ?>
+			<?php 
+				require_once "../../extdata/filials/subdomain-sendform-price.php" ;
+				//require_once "../../extdata/baseparts/sendform-price-uslugi.php";
+			?>
 			<!--<h1 style="color:#cc000a; font-size:34px;"><center>Остались вопросы? Звоните: (495) 532-70-49</center></h1>-->
 		</td>
 	</tr>

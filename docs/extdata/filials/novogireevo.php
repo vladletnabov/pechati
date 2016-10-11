@@ -1,4 +1,4 @@
-
+<p>Для отправки СМС.: <b><?php echo $filialDataListCP1251[$curFilial]['real-phone'] ?></b></p>
 	<div align="center" id="pics">
 	<img src="/pics/contacts/37_map_main.jpg">
 	<img alt="м. Новогиреево" src="/pics/contacts/37_01.JPG">

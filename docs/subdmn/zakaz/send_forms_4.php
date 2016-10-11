@@ -1,15 +1,35 @@
 <?
-session_start();
-	if (!empty($_POST['validator']) && $_POST['validator'] == $_SESSION['rand_code']) {
-		//return false;
-/////////////////////////////////////////
+$tmarker = time();
 
+require_once "../../extdata/baseparts/filialsData.php";
+$mailfilial = array("default"=>'zakaz@pechati.ru');
+foreach ($filialDataListCP1251 as $key => $value) {
+	$mailfilial[$key] = $filialDataListCP1251[$key]['email'];
+	
+}
+
+$targetfilial= array("default"=>'ya-target-default');
+foreach ($filialDataListCP1251 as $key => $value) {
+	$targetfilial[$key] = $filialDataListCP1251[$key]['ya-target'];
+	
+}
+
+$newURL = "Location: forms_send.html";
+
+
+	//error_log($mailfilial,0);
+	$mailcfg =  array();
+	error_log('mailcfg created');
+
+	
+error_log('====> zakaz address: ' . $_POST[adress]);
 function complete_mail() {
+	global $mailcfg, $mailfilial, $tmarker;
 
 
-$from    = "$_POST[fio] ";	
+$from    = $_POST['fio'];	
 if ($_POST[form]!=7 or $_POST[form]!=8) {
-	$subject = "Заказ на изготовление печатей $_POST[fio]";
+	$subject = "Заказ на изготовление печатей $_POST[adress] ($tmarker)";
 } else {
 	if ($_POST[form]==7) {
 		$subject = "Заказ на экспонирующие камеры Soligor";
@@ -17,6 +37,10 @@ if ($_POST[form]!=7 or $_POST[form]!=8) {
 	if ($_POST[form]==8) {
 		$subject = "Заказ на автоматические мойки";
 	}
+}
+
+if($_POST['myurl']){
+	$subject = $subject." Заказ со страницы(".$_POST['myurl'].")";
 }
 
 if ($_POST[form]==1) {
@@ -46,123 +70,95 @@ $msg="Бланк заказа автоматических моек\n\n";
 
 #######
 if ($_POST[form]!=5 AND $_POST[form]!=6 AND $_POST[form]!=7 AND $_POST[form]!=8) {
-	$msg=$msg."Тип печати и срок изготовления - $_POST[srok]\n\n";
+$msg=$msg."Тип печати и срок изготовления - $_POST[srok]\n\n";
+if($_POST[otrisov]){$msg=$msg."Отрисовка - $_POST[otrisov]\n\n";}
+if($_POST[zaschit]){$msg=$msg."Защита - $_POST[zaschit]\n\n";}
+if($_POST[dostav]){$msg=$msg."Доставка - $_POST[dostav]\n\n";}
 
-	if($_POST[osnast]){$msg=$msg."Оснастка - $_POST[osnast]\n\n";}
+if($_POST[osnast]){$msg=$msg."Оснастка - $_POST[osnast]\n\n";}
 
-	if($_POST[adress]){$msg.="Филиал доставки - $_POST[adress]\n\n";}
+if($_POST[adress]){$msg.="Филиал доставки - $_POST[adress]\n\n";}
 
-	if($_POST[org_forms]){$msg=$msg."Организационная форма - $_POST[org_forms]\n\n";}
+if($_POST[org_forms]){$msg=$msg."Организационная форма - $_POST[org_forms]\n\n";}
 
-	//if ($_POST[form]==1) {
-		if($_POST[org]){$msg=$msg."Название организации, № ОГРН или Г.Р., ИНН - $_POST[org]\n\n";}
-	/*} else {
-		if($_POST[org]){$msg=$msg."Название организации - $_POST[org]\n\n";}
-		if($_POST[ogrn]){$msg=$msg."№ ОГРН - $_POST[ogrn]\n\n";}
-		if($_POST[inn]){$msg=$msg."ИНН - $_POST[inn]\n\n";}
-	}*/
+//if ($_POST[form]==1) {
+	if($_POST[org]){$msg=$msg."Название организации, № ОГРН или Г.Р., ИНН - $_POST[org]\n\n";}
+/*} else {
+	if($_POST[org]){$msg=$msg."Название организации - $_POST[org]\n\n";}
+	if($_POST[ogrn]){$msg=$msg."№ ОГРН - $_POST[ogrn]\n\n";}
+	if($_POST[inn]){$msg=$msg."ИНН - $_POST[inn]\n\n";}
+}*/
 
 
-	if($_POST[city]=="on"){$msg=$msg."Город - Москва\n\n";}else{$msg=$msg."Город - $_POST[city_other]\n\n";}
+if($_POST[city]=="on"){$msg=$msg."Город - Москва\n\n";}else{$msg=$msg."Город - $_POST[city_other]\n\n";}
 
-	$msg=$msg."Количество - $_POST[cols]\n\n";
+$msg=$msg."Количество - $_POST[cols]\n\n";
 
-	if($_POST[diametr]){$msg=$msg."Диаметр - $_POST[diametr]\n\n";}
+if($_POST[diametr]){$msg=$msg."Диаметр - $_POST[diametr]\n\n";}
 
-	if($_POST[dm]){$msg=$msg."Диаметр - $_POST[dm]\n\n";}
+if($_POST[dm]){$msg=$msg."Диаметр - $_POST[dm]\n\n";}
 
-	$msg=$msg."\n\n\n\nИнформация о заказчике\n\n";
+$msg=$msg."\n\n\n\nИнформация о заказчике\n\n";
 
-	if($_POST[mat]){$msg=$msg."$_POST[mat]\n\n";}
+if($_POST[mat]){$msg=$msg."$_POST[mat]\n\n";}
 
-	if($_POST[fio]){$msg=$msg."Контактное лицо - $_POST[fio]\n\n";}
+if($_POST[fio]){$msg=$msg."Контактное лицо - $_POST[fio]\n\n"; }
 
+if ($_POST[form]==1) {
+	if($_POST[tel]){$msg=$msg."Телефон, Имя - $_POST[tel]\n\n";}
+} else {
 	if($_POST[tel]){$msg=$msg."Контактный телефон - $_POST[tel]\n\n";}
+}
 
-	if($_POST[eml]){$msg=$msg."E-mail - $_POST[eml]\n\n";}
+if($_POST[eml]){$msg=$msg."E-mail - $_POST[eml]\n\n";$mailcfg['emailclient']=$_POST[eml];}
 
-	if($_POST[adr_1]){$msg=$msg."Самовывоз\n\n";}
+if($_POST[adr_1]){$msg=$msg."Самовывоз\n\n";}
 
-	if($_POST[adres]){$msg=$msg."Подробный адрес доставки - $_POST[adres]\n\n";}
+if($_POST[adres]){$msg=$msg."Подробный адрес доставки - $_POST[adres]\n\n";}
 
-	if($_POST[text]){$msg=$msg."Дополнительная информация - $_POST[text]\n\n";}
-	require "mailer.php";
-	$mail = new PHPMailer();
-	$mail->From = $_POST[eml];      // от кого
-	$mail->FromName = $from;   // от кого
-	//$mail->AddAddress('$to_adress', ''); // кому - адрес, Имя
-	/*po filialam*/
-	if($_POST[adress]){
-		//if ($_POST[adress]=="м. Алексеевская"){$mail->AddAddress('zakaz@kwikkopy.ru', '');}
-		if ($_POST[adress]=="м. Арбатская"){$mail->AddAddress('arbat@pechati.ru', '');}
-		//if ($_POST[adress]=="м. Арбатская"){$mail->AddAddress('laura@ecohost.ru', '');}
-		//elseif ($_POST[adress]=="м. Водный стадион"){$mail->AddAddress('mail@ecohost.ru', '');}
-		elseif ($_POST[adress]=="м. Алтуфьево"){$mail->AddAddress('t6652256@yandex.ru', '');}
-		//elseif ($_POST[adress]=="м. Аэропорт"){$mail->AddAddress('9781814@mail.ru', '');}
-		//elseif ($_POST[adress]=="м. Бибирево"){$mail->AddAddress('zakaz@kwikkopy.ru', '');}
-		//elseif ($_POST[adress]=="м. Бульвар Дмитрия Донского"){$mail->AddAddress('9724453@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Водный стадион"){$mail->AddAddress('vs@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Каширская"){$mail->AddAddress('chertanovo@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Ясенево"){$mail->AddAddress('pechati17@yandex.ru', '');}
-		//elseif ($_POST[adress]=="м. Кузьминки"){$mail->AddAddress('info@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Кузьминки"){$mail->AddAddress('kuzminki@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Кунцевская"){$mail->AddAddress('adv@kwikkopy.ru', '');}
-		elseif ($_POST[adress]=="м. Марьино"){$mail->AddAddress('pechati-v-marino@mail.ru', '');}
-		//elseif ($_POST[adress]=="м. Медведково"){$mail->AddAddress('5422661@mail.ru', '');}
-		//elseif ($_POST[adress]=="м. Новослободская"){$mail->AddAddress('5176723@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Новые черемушки"){$mail->AddAddress('5002@pechati.ru', '');}
-		//elseif ($_POST[adress]=="м. Новые черемушки"){$mail->AddAddress('l1@pechati.ru', '');}
-		//elseif ($_POST[adress]=="м. Октябрьская"){$mail->AddAddress('5060354@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Октябрьская"){$mail->AddAddress('l1@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Октябрьское поле"){$mail->AddAddress('9434040@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Пражская"){$mail->AddAddress('et12@bk.ru', '');}
-		//elseif ($_POST[adress]=="м. Строгино"){$mail->AddAddress('strogino@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Митино"){$mail->AddAddress('printmask@yandex.ru', '');}
-		elseif ($_POST[adress]=="м. Таганская, м. Марксисткая"){$mail->AddAddress('taganka@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Электрозаводская"){$mail->AddAddress('pechaty60@yandex.ru', '');}
-		elseif ($_POST[adress]=="м. Юго-Западная"){$mail->AddAddress('518-70-71@mail.ru', '');}
-		//elseif ($_POST[adress]=="м. Тушинская"){$mail->AddAddress('zakaz@pechati-optima.ru', '');}
-		elseif ($_POST[adress]=="м. Южная"){$mail->AddAddress('www.pechati.ru@mail.ru', '');}
-		elseif ($_POST[adress]=="М.О., г. Красногорск"){$mail->AddAddress('krasnogorsk@pechati.ru', '');}
-		elseif ($_POST[adress]=="М.О., г. Одинцово"){$mail->AddAddress('5008@pechati.ru', '');}
-		elseif ($_POST[adress]=="М.О., г. Зеленоград"){$mail->AddAddress('6643718@mail.ru', '');}
-		elseif ($_POST[adress]=="М.О., г. Жулебино"){$mail->AddAddress('taganka@pechati.ru', '');}
-		//elseif ($_POST[adress]=="М.О., п. Селятино"){$mail->AddAddress('9723371@mail.ru', '');}
-		//elseif ($_POST[adress]=="м. 1905 года"){$mail->AddAddress('9810462@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Беговая"){$mail->AddAddress('bgv@pechati.ru', '');}
-		elseif ($_POST[adress]=="М.О., Наро-Фоминский р-н"){$mail->AddAddress('9430393@mail.ru', '');}
-		//elseif ($_POST[adress]=="М.О., г. Наро-Фоминск"){$mail->AddAddress('9430393@mail.ru', '');}
-		//elseif ($_POST[adress]=="М.О., г. Голицыно"){$mail->AddAddress('9430393@mail.ru', '');}
-		//elseif ($_POST[adress]=="М.О., г. Апрелевка"){$mail->AddAddress('9724453@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Домодедовская"){$mail->AddAddress('et05@bk.ru', '');}
-		elseif ($_POST[adress]=="м. Царицино"){$mail->AddAddress('pechati555@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Комсомольская"){$mail->AddAddress('5176723@mail.ru', '');}
-		//elseif ($_POST[adress]=="м. Тульская"){$mail->AddAddress('pechati555@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Тульская"){$mail->AddAddress('l1@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Печатники"){$mail->AddAddress('t3641924@yandex.ru', '');}
-		elseif ($_POST[adress]=="м. Щукинская"){$mail->AddAddress('5465753@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Преображенская площадь"){$mail->AddAddress('a1617446@yandex.ru', '');}
-		elseif ($_POST[adress]=="М.О., г. Химки"){$mail->AddAddress('6643718@mail.ru', '');}
-		elseif ($_POST[adress]=="МКАД 54 км"){$mail->AddAddress('adv@kwikkopy.ru', '');}
-		elseif ($_POST[adress]=="м. Цветной бульвар"){$mail->AddAddress('5454842@mail.ru', '');}
-		elseif ($_POST[adress]=="м. Петровско-Разумовская"){$mail->AddAddress('pr@pechati.ru', '');}
-		elseif ($_POST[adress]=="м. Люблино"){$mail->AddAddress('pechati-v-lublino@mail.ru', '');}
-		//if ($_POST[adress]==""){$mail->AddAddress('', '');}
-	} else {
-		$mail->AddAddress('zakaz@pechati.ru', ''); // кому - адрес, Имя
-	}
-	/*\po filialam*/
-	$mail->AddBCC('pechati@russia.ru', ''); // кому - адрес, Имя
-	$mail->IsHTML(false);        // выставляем формат письма HTML
-	$mail->Subject = $subject;
-	if ($_FILES[pict]['error']==0) {
-		$mail->AddAttachment($_FILES['pict']['tmp_name'], $_FILES['pict']['name']);
-	}
-	$mail->Body = $msg;
-	$mail->Send();
-	#######
-} 
-else {
+if($_POST[text]){$msg=$msg."Дополнительная информация - $_POST[text]\n\n";}
+require "mailer.php";
+$mail = new PHPMailer();
+#$mail->From = $_POST[eml];      // от кого
+$mail->AddReplyTo = $_POST[eml]; 
+//$mail->From = $_POST['postmaster@pechatiru.nichost.ru']; 
+$mail->From = 'postmaster@pechatiru.nichost.ru'; 
+error_log('From: ' . $mail->From);
+$mailcfg['client']=$_POST[eml];
+error_log('client: ' . $mailcfg['client']);
+error_log($mailcfg['client']);
+$mailcfg['fio']=$from;
+error_log('fio: ' . $mailcfg['fio']);
+$mail->FromName = $from;   // от кого
+error_log('FromName: ' . $mail->FromName);
+
+//$mail->AddAddress('$to_adress', ''); // кому - адрес, Имя
+/*po filialam*/
+error_log('check address: ' . $_POST[adress]);
+if($_POST[adress]){
+	$arr  = getfilialaddress($_POST[adress]);
+	$str = $arr[0]." - ".$arr[1];
+	$mail->AddAddress($arr[0],$arr[1]);
+	error_log($str,0);
+} else {
+	$arr = getfilialaddress("default");; 
+	$str = $arr[0]." - ".$arr[1];
+	$mail->AddAddress($arr[0],$arr[1]);
+	error_log($str,0);
+}
+/*\po filialam*/
+//$mail->AddBCC('pechati@russia.ru', ''); // кому - адрес, Имя
+$mail->AddBCC('center-zakaz@pechati.ru', ''); // кому - адрес, Имя
+error_log('AddBCC: ' . $mail->AddBCC);
+$mail->IsHTML(false);        // выставляем формат письма HTML
+$mail->Subject = $subject;
+if ($_FILES[pict]['error']==0) {
+	$mail->AddAttachment($_FILES['pict']['tmp_name'], $_FILES['pict']['name']);
+}
+$mail->Body = $msg;
+$mail->Send();
+#######
+} else {
 	if($_POST[soligor]){$msg=$msg."Экспонирующая камера - $_POST[soligor]\n\n";}
 	if($_POST[mojki]){$msg=$msg."Автоматические мойки - $_POST[mojki]\n\n";}
 	if($_POST[tel]){$msg=$msg."Контактный телефон - $_POST[tel]\n\n";}
@@ -192,96 +188,144 @@ else {
 	$msg=$msg."Информация о заказе:\n $_POST[text]";
 require "mailer.php";
 $mail = new PHPMailer();
-$mail->From = $_POST[eml];      // от кого
+#$mail->AddReplyTo = $_POST[eml]; 
+$mail->From = $_POST['postmaster@pechatiru.nichost.ru'];      // от кого
 //$mail->AddAddress('zakaz@pechati.ru', ''); // кому - адрес, Имя
 /*po filialam*/
+error_log('check address',0);
+error_log($_POST[adress],0);
 if($_POST[adress]){
-	//if ($_POST[adress]=="м. Алексеевская"){$mail->AddAddress('zakaz@kwikkopy.ru', '');}
-	if ($_POST[adress]=="м. Арбатская"){$mail->AddAddress('arbat@pechati.ru', '');}
-	//if ($_POST[adress]=="м. Арбатская"){$mail->AddAddress('laura@ecohost.ru', '');}
-	//elseif ($_POST[adress]=="м. Водный стадион"){$mail->AddAddress('mail@ecohost.ru', '');}
-	elseif ($_POST[adress]=="м. Алтуфьево"){$mail->AddAddress('t6652256@yandex.ru', '');}
-	//elseif ($_POST[adress]=="м. Аэропорт"){$mail->AddAddress('9781814@mail.ru', '');}
-	//elseif ($_POST[adress]=="м. Бибирево"){$mail->AddAddress('zakaz@kwikkopy.ru', '');}
-	//elseif ($_POST[adress]=="м. Бульвар Дмитрия Донского"){$mail->AddAddress('9724453@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Водный стадион"){$mail->AddAddress('vs@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Каширская"){$mail->AddAddress('chertanovo@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Ясенево"){$mail->AddAddress('pechati17@yandex.ru', '');}
-	//elseif ($_POST[adress]=="м. Кузьминки"){$mail->AddAddress('info@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Кузьминки"){$mail->AddAddress('kuzminki@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Кунцевская"){$mail->AddAddress('adv@kwikkopy.ru', '');}
-	elseif ($_POST[adress]=="м. Марьино"){$mail->AddAddress('pechati-v-marino@mail.ru', '');}
-	//elseif ($_POST[adress]=="м. Медведково"){$mail->AddAddress('5422661@mail.ru', '');}
-	//elseif ($_POST[adress]=="м. Новослободская"){$mail->AddAddress('5176723@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Новые черемушки"){$mail->AddAddress('5002@pechati.ru', '');}
-	//elseif ($_POST[adress]=="м. Новые черемушки"){$mail->AddAddress('l1@pechati.ru', '');}
-	//elseif ($_POST[adress]=="м. Октябрьская"){$mail->AddAddress('5060354@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Октябрьская"){$mail->AddAddress('l1@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Октябрьское поле"){$mail->AddAddress('9434040@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Пражская"){$mail->AddAddress('et12@bk.ru', '');}
-	//elseif ($_POST[adress]=="м. Строгино"){$mail->AddAddress('strogino@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Митино"){$mail->AddAddress('printmask@yandex.ru', '');}
-	elseif ($_POST[adress]=="м. Таганская, м. Марксисткая"){$mail->AddAddress('taganka@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Электрозаводская"){$mail->AddAddress('pechaty60@yandex.ru', '');}
-	//elseif ($_POST[adress]=="м. Тушинская"){$mail->AddAddress('zakaz@pechati-optima.ru', '');}
-	elseif ($_POST[adress]=="м. Юго-Западная"){$mail->AddAddress('518-70-71@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Южная"){$mail->AddAddress('www.pechati.ru@mail.ru', '');}
-	elseif ($_POST[adress]=="М.О., г. Красногорск"){$mail->AddAddress('krasnogorsk@pechati.ru', '');}
-	elseif ($_POST[adress]=="М.О., г. Одинцово"){$mail->AddAddress('5008@pechati.ru', '');}
-	elseif ($_POST[adress]=="М.О., г. Зеленоград"){$mail->AddAddress('6643718@mail.ru', '');}
-	elseif ($_POST[adress]=="М.О., г. Жулебино"){$mail->AddAddress('taganka@pechati.ru', '');}
-	//elseif ($_POST[adress]=="М.О., п. Селятино"){$mail->AddAddress('9723371@mail.ru', '');}
-	//elseif ($_POST[adress]=="м. 1905 года"){$mail->AddAddress('9810462@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Беговая"){$mail->AddAddress('bgv@pechati.ru', '');}
-	elseif ($_POST[adress]=="М.О., Наро-Фоминский р-н"){$mail->AddAddress('9430393@mail.ru', '');}
-	//elseif ($_POST[adress]=="М.О., г. Наро-Фоминск"){$mail->AddAddress('9430393@mail.ru', '');}
-	//elseif ($_POST[adress]=="М.О., г. Голицыно"){$mail->AddAddress('9430393@mail.ru', '');}
-	//elseif ($_POST[adress]=="М.О., г. Апрелевка"){$mail->AddAddress('9724453@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Домодедовская"){$mail->AddAddress('et05@bk.ru', '');}
-	elseif ($_POST[adress]=="м. Царицино"){$mail->AddAddress('pechati555@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Комсомольская"){$mail->AddAddress('5176723@mail.ru', '');}
-	//elseif ($_POST[adress]=="м. Тульская"){$mail->AddAddress('pechati555@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Тульская"){$mail->AddAddress('l1@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Печатники"){$mail->AddAddress('t3641924@yandex.ru', '');}
-	elseif ($_POST[adress]=="м. Щукинская"){$mail->AddAddress('5465753@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Преображенская площадь"){$mail->AddAddress('a1617446@yandex.ru', '');}
-	elseif ($_POST[adress]=="М.О., г. Химки"){$mail->AddAddress('6643718@mail.ru', '');}
-	elseif ($_POST[adress]=="МКАД 54 км"){$mail->AddAddress('adv@kwikkopy.ru', '');}
-	//if ($_POST[adress]==""){$mail->AddAddress('', '');}
-	elseif ($_POST[adress]=="м. Цветной бульвар"){$mail->AddAddress('5454842@mail.ru', '');}
-	elseif ($_POST[adress]=="м. Петровско-Разумовская"){$mail->AddAddress('pr@pechati.ru', '');}
-	elseif ($_POST[adress]=="м. Люблино"){$mail->AddAddress('pechati-v-lublino@mail.ru', '');}
+	$arr  = getfilialaddress($_POST[adress]);
+	$str = $arr[0]." - ".$arr[1];
+	$mail->AddAddress($arr[0],$arr[1]);
+	error_log('mail->AddAddress: ' . $str);
 } else {
-	$mail->AddAddress('zakaz@pechati.ru', ''); // кому - адрес, Имя
+	$arr = getfilialaddress("default");; 
+	$str = $arr[0]." - ".$arr[1];
+	$mail->AddAddress($arr[0],$arr[1]);
+	error_log('mail->AddAddress: ' . $str);
 }
 /*\po filialam*/
 $mail->IsHTML(false);        // выставляем формат письма HTML
 $mail->Subject = $subject;
 $mail->Body = $msg;
 $mail->Send();
+error_log('mail sended!', 0);
+
 }
 #######
 }
 
 
-if($_POST[form]){
+function getfilialaddress($addr){
+	global $mailfilial, $mailcfg;
+	$str = "addr - ";
+	$str = $str.$addr." --|";
+	error_log($str,0);
+	$arr = array();
+	if (array_key_exists($addr,$mailfilial)){
+	//if(in_array())
+		error_log('email of filial is set',0);
+		//$mail->AddAddress($mailfilial[$addr],$addr);
+		$arr[0] = $mailfilial[$addr];
+		$arr[1] = $addr;
+		$str = "filial - ";
+		$str = $str.$arr[0].$arr[1];
+		error_log($str,0);
+		$mailcfg['filial']=$mailfilial[$addr];
+	}
+	else{
+		
+		error_log('email of filial is NOT set',0);
+		//$mail->AddAddress($mailfilial["default"],'По умолчанию');
+		$mailcfg['filial']=$mailfilial["default"];
+		$arr[0] = $mailfilial["default"];
+		$arr[1] = 'По умолчанию';
+		$str = "filial - ";
+		$str = $str.$arr[0].$arr[1];
+		error_log($str,0);
+	}
+	return $arr;
+}
+
+if($_POST[form])
+{
+	
+	session_start(); //otkrili sessiju
+	error_log('session start',0);
 	complete_mail();
-	Header("Location: forms_send.html");
+	error_log('completed complete_mail()',0);
+	$filial = $_POST[adress];
+	if (!isset($filial)||(strcasecmp($filial,'')==0)){
+		unset($filial);
+	}
+	
+	//sendmessagetoclient($mailcfg);
+	
+	$_SESSION['fio'] = $mailcfg['fio'];;
+	$_SESSION['emailclient'] = $mailcfg['client'];
+	$str="emailclient - ".$_SESSION['emailclient'];
+	error_log($str,0);
+	$_SESSION['emailfilial'] = $mailcfg['filial'];
+	$str="emailfilial - ".$_SESSION['emailfilial'];
+	$_SESSION['tmarker'] = $tmarker;
+	error_log($str,0);
+	error_log('set sessions',0);
+	
+	if (isset($filial)){
+		$newURL = $newURL . "?send-form-target=" . $targetfilial[$filial];
+	}
+	else {
+		$newURL = $newURL . "?send-form-target=" . $targetfilial['default'];
+	}
+	Header($newURL);
 exit;
-} 
-else {
+} else {
 	Header("Location: forms_send.html");
 exit;
 }
+function sendmessagetoclient($cfg){
+	
+	error_log("(return message to client)",0);
+	global $tmarker;
+	$subject2 = "Регистрация заказа $tmarker на Печати.РУ";
+	$msg2 = "
+	Ваш заказ успешно зарегистрирован!
+	
+	Для Вашей печати Вы можете выбрать один из имеющихся у нас шаблонов:
+	- для одноцветных печатей: http://pechati.ru/photogallery/
+	- для цветных печатей: http://pechati.ru/photogallery/
+	- для гербовых печатей:  http://pechati.ru/photogallery/
+	- для штампов:  http://pechati.ru/photogallery/
+	- для цветных штампов:  http://pechati.ru/photogallery/
+	Выберите наиболее подходящий для Вас шаблон и закажите его у нас.
+	Заказ сделанный в теченнии 1 часа после получения данного сообщения имеет скидку 10%.
+	Для того, чтобы сделать заказ позвоните нам по телефону: +8(495) 111-22-33 или ответьте на это письмо
+	
+	--
+	С уважением, Печати.РУ
+	http://pechati.ru
+	";
+	
+	
+	
+	
+	$mail2 = new PHPMailer();
+	$mail2->From = $cfg['filial'];      // от кого
+	
+	error_log("($cfg[filial])",0);
+	//$mail->AddAddress('zakaz@pechati.ru', ''); // кому - адрес, Имя
+	/*po filialam*/
+	$mail2->AddAddress($cfg['client'],$cfg['fio']);
+	error_log("($cfg[client])",0);
+	$mail2->IsHTML(false);        // выставляем формат письма HTML
+	$mail2->Subject = $subject2;
+	$mail2->Body = $msg2;
+	$mail2->Send();
+	
+	error_log("(sended)",0);
+}
 
-		unset($_SESSION['rand_code']);
 
-/////////////////////////////////////////
-	} elseif($_POST) {
-//		return true;
-		unset($_SESSION['rand_code']);
-		Header("Location: forms_send.html");
-		exit;
-	}
 
 ?>

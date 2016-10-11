@@ -1,0 +1,1 @@
+<p>Для отправки СМС.: <b><?php echo $filialDataListCP1251[$curFilial]['real-phone'] ?></b></p>
