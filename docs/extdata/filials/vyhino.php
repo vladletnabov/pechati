@@ -23,6 +23,7 @@
                 <li><img src="/pics/contacts/vyhino/2-tn.jpeg" alt="3. Печати.РУ в Выхино" title="3. Печати.РУ в Выхино" /></li>
                 <li><img src="/pics/contacts/vyhino/3-tn.jpeg" alt="4. Печати.РУ в Выхино" title="4. Печати.РУ в Выхино" /></li>
                 <li><img src="/pics/contacts/vyhino/11-tn.jpg" alt="5. Печати.РУ в Выхино" title="5. Печати.РУ в Выхино" /></li>
+				<li><img src="/pics/contacts/vyhino/11-tn.jpg" alt="5. Печати.РУ в Выхино" title="5. Печати.РУ в Выхино" /></li>
             </ul>
         <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
         </div>
