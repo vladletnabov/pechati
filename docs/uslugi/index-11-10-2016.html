@@ -17,6 +17,7 @@ $_SESSION['test'] = 'qwerty';
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<script type="text/javascript">
+	
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-22832049-24']);
@@ -29,6 +30,9 @@ $_SESSION['test'] = 'qwerty';
   })();
 
 </script>
+
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 </head>
 
 <body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333"><script>
@@ -55,7 +59,9 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 <table cellpadding="0" cellspacing="0" border="0" width="990" height="100%" align="center">
 	<tr>
 		<td><a href="#"><img src="../i/top-uslugi2.jpg" width="990" height="85" border="0" alt=""></a>
-				<div id="ya-phone-1" style="position:relative; color: #cc000a; font-size:2.2em; margin-left:750px; margin-top: -60px; margin-bottom: 20px; font-weight:bold; height: 40px;"><!--8(495)741-10-58--></div>
+				<div style="position:relative; color: #cc000a; font-size:26px; margin-left:750px; margin-top: -60px; margin-bottom: 20px; font-weight:bold; height: 40px;" class="ya-phone" hidden>
+				8 (495) 741-10-58
+				</div>
 		</td>
 	</tr>
 	<tr valign="top">
@@ -126,14 +132,33 @@ function filialChecked() {
 <form name="form1" id="form1" method="POST" action="/send_forms_4.php" enctype="multipart/form-data">
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-<a name="pechati"></a><P align="center" style="font-size: 16pt;"><B>Изготовление печатей, штампов, факсимиле.<br>Восстановление печатей по оттиску.</B><br></P>
+		<div style="text-align: left;display:inline;"> 
+			<div style="float:left;">
+				<h3>Из чего состоит печать</h3>
+				<img src="/pics/stamp-consist.jpg" width="300" alt="Из чего состоит печать">
+			</div>
+			<div style="float:right; text-align:center;">
+			
+<p style="margin-bottom:10px;"><a name="zakaz" title="Заказать печать"> </a></p>
+<a name="pechati"></a>
+<P align="center" style="font-size: 18pt;margin-top:40px;color:#0f0f47"><B>Изготовление печатей, штампов, факсимиле.</B></P>
+<p align="center" style="color:#92000a; margin-top:10px; margin-top:20px;font-size: 18pt;;text-align:center;">Восстановление печатей по оттиску.</p>
+<p align="center" style="margin-top:-10px;; margin-top:10px;font-size: 18pt;text-align:center;">Печать срочно - за 1 час!</p>
+
+			</div>
+			<div style="clear:both;"></div>
+		<div>
+		<!-- базовая стоимость клише и доставки остальные делать на основе этого файла и подключать отдельно-->
+		<?php //require_once "../extdata/filials/base-clishe-price.php"; ?>
+		
+		
 	<?php require_once "../extdata/baseparts/price-pechati-roz.php" ?>
 <a name="ceny"></a><P align=justify>Все цены указаны в рублях РФ без стоимости оснастки. </P>
 <UL>
 <LI>
-<P align=justify>Доставка по Москве ОДНОЙ-ДВУХ печатей - 300р, от трёх единиц - <B>бесплатно!</B> </P></li>
-<!--<LI>
-<P align=justify>По желанию заказчика мы можем разместить на печати ПРОСТЫЕ элементы защиты: оригинальные шрифты, отсутствующие элементы в буквах, изображениях или звёздочках, имитация заплыва краски, кляксы, имитация дефекта клише.</P></LI>--></UL>
+<P align=justify>Доставка по Москве ОДНОЙ-ДВУХ печатей - 300р, от трёх единиц - <B>бесплатно!</B> </P>
+<LI>
+<P align=justify>По желанию заказчика мы можем разместить на печати ПРОСТЫЕ элементы защиты: оригинальные шрифты, отсутствующие элементы в буквах, изображениях или звёздочках, имитация заплыва краски, кляксы, имитация дефекта клише.</P></LI></UL>
 		</td>
 	</tr>
 	<tr>
@@ -153,8 +178,7 @@ function filialChecked() {
 			
 				<!-- Список филиалов -->
 				<!--<input type="hidden" name="adress" value="м. Беговая" form="form1">-->
-				<?php //require_once "../extdata/baseparts/listfilials-old-uslugi-map.php" ?>
-				<?php require_once "../extdata/baseparts/listfilials-old-uslugi-metromap.php" ?>
+				<?php require_once "../extdata/listfilials-old-uslugi-3tbl.php" ?>
 				<!-- Конец списка-->
 		</td>
 	</tr>
@@ -163,13 +187,8 @@ function filialChecked() {
 	</tr>
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-			<link rel="stylesheet" href="../extdata/map/assets/style.css">
 			<?php //require_once "../extdata/filials/roznica-sendform-price.php" ?>
-			<?php 
-				//require_once "../extdata/filials/subdomain-sendform-price.php" ;
-				
-				require_once "../extdata/baseparts/sendform-price-uslugi.php";
-			?>
+			<?php require_once "../extdata/baseparts/sendform-price-uslugi.php" ?>
 			<!--<h1 style="color:#cc000a; font-size:34px;"><center>Остались вопросы? Звоните: (495) 532-70-49</center></h1>-->
 		</td>
 	</tr>
@@ -216,7 +235,7 @@ function filialChecked() {
 	</tr>
     <tr>
     	<td style="border: 1px solid #eeeafb;">
-<P><img src="../pics/str.gif" width="5" height="9" alt=""> <B>Нам доверяют:</B></P>
+<P><img src="../pics/str.gif" width="5" height="9" alt=""> <a  name="clients" style="decoration:none;"><B>Нам доверяют:</B></a></P>
 <TABLE border=0 cellSpacing=0 cellPadding=0 width="100%" align=center>
 <TR vAlign=top align=middle>
 <TD><IMG alt=Билайн src="../pics/uslugi/logo_beeline.gif" width=100 height=56></TD>
@@ -266,6 +285,28 @@ function filialChecked() {
 </TABLE>
         </td>
     </tr>
+<!--	<tr>
+		<td style="border: 1px solid #eeeafb;">
+Вы можете  воспользоваться электронным бланком заказа или оформить заказ по электронной почте.
+<OL>
+<LI>
+<P align=justify>Письмо в произвольной форме с описанием того, что должно быть изображено на печати или штампе - если Вы заказываете печать по эскизу. В письме необходимо указать:<BR></P>
+<OL>
+<P align=justify>1.1. Сроки выполнения заказа; <BR>1.2. На какой оснастке Вы хотите получить Вашу печать;<BR>1.3. Что ещё из штемпельной продукции Вам необходимо: штемпельная подушка, штемпельная краска...<BR>1.4. Контактную информацию: телефон, имя ответственного за заказ, место и время доставки, если доставка осуществляется нашим курьером.</P></OL>
+<LI>
+<P align=justify>Позитив эскиза будущей печати, прорисованный в Corel Draw (не выше 9 версии) или Adobe Illustrator в НАТУРАЛЬНУЮ величину, если печать заранее отрисована Вами.</P>
+<LI>
+<P align=justify>Если необходимо изготовить печать по оттиску - файл формата jpg, gif c отсканированным оттиском печати с разрешением 300dpi в НАТУРАЛЬНУЮ величину. </P></LI></OL>
+<P align=justify>НЕ НАДО: </P>
+<OL>
+<LI>
+<P align=justify>Сканировать с разрешением выше 300dpi (это не улучшит качество будущей печати т.к. печать всё равно будет прорисована нами целиком заново) </P>
+<LI>
+<P align=justify>Изменять геометрические размеры изображения.</P>
+<LI>
+<P align=justify>Присылать не упакованное растровое изображение (формат bmp).</P></LI></OL>
+		</td>
+	</tr>-->
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
@@ -274,19 +315,32 @@ function filialChecked() {
 <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=gxYIEhytmRYL9gfErzGzeCtsnO_2NiZm&width=900&height=500">
 </script>-->
 
-
-
+	
+<?php require_once "../extdata/baseparts/map-filials.php" ?>
 <table cellpadding="10" cellspacing="0" border="0" width="100%">
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
 	<tr>
 		<td style="border: 1px solid #eeeafb;">
-			<?php //require_once "../extdata/baseparts/listfilials-old-uslugi-metromap.php" ?>
-			
-			<?php require_once "../extdata/baseparts/listfilials-old-uslugi-3tbl.php" ?>
+<p><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Быстрый переход на страницу филиала</strong></p>
+<style>
+.inline a {
+	color: #000;
+	font-size: 10pt;
+	text-decoration: none;
+	border-bottom: 1px dashed #000;
+}
+.inline img {
+	margin: 0 4px;
+}
+</style>
+				<!-- Список филиалов -->
+				<?php require_once "../extdata/alphabitmetro-uslugi.php" ?>
+				<!-- Конец списка-->		
+		
 		</td>
-	</tr> 
+	</tr>
 </table>
 
 

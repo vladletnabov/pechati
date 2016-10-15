@@ -4,7 +4,7 @@
 <?php 
 $serverURL=$_SERVER['REQUEST_URI'];
 if (substr_count($serverURL,"/")>1){	
-	require_once "../../extdata/baseparts/filialsData.php";
+	require_once "../extdata/baseparts/filialsData.php";
 }
 else {
 	require_once "../../extdata/baseparts/filialsData.php";
