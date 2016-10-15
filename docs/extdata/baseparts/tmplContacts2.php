@@ -176,7 +176,7 @@ function sendFormCounterYandexMetrika(){
 		<?php 
 		$reqFilialData =".." . $filialDataListCP1251[$curFilial]['reqFilialData'];
 		//echo $reqFilialData;
-		require_once $reqFilialData ;
+		require_once $reqFilialData;
 		?>
 		<br><br>
 			<div id="map" style="height:500px; width:945px;margin-left:-35px;"></div>
