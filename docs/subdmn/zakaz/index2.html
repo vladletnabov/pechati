@@ -154,7 +154,7 @@ function filialChecked() {
 				<!-- Список филиалов -->
 				<!--<input type="hidden" name="adress" value="м. Беговая" form="form1">-->
 				<?php //require_once "../../extdata/baseparts/listfilials-old-uslugi-map.php" ?>
-				<?php require_once "../../extdata/baseparts/listfilials-old-uslugi-metromap.php" ?>
+				<?php require_once "../../extdata/baseparts/listfilials-old-uslugi-3tbl-subdmn.php" ?>
 				<!-- Конец списка-->
 		</td>
 	</tr>
@@ -272,19 +272,32 @@ function filialChecked() {
 <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=gxYIEhytmRYL9gfErzGzeCtsnO_2NiZm&width=900&height=500">
 </script>-->
 
-
+<?php require_once "../../extdata/baseparts/listfilials-old-uslugi-metromap.php" ?>
 
 <table cellpadding="10" cellspacing="0" border="0" width="100%">
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
-	<tr>
+	<!--<tr>
 		<td style="border: 1px solid #eeeafb;">
-			<?php //require_once "../../extdata/baseparts/listfilials-old-uslugi-metromap.php" ?>
-			
-			<?php require_once "../../extdata/baseparts/listfilials-old-uslugi-3tbl-subdmn.php" ?>
+<p><img src="../pics/str.gif" width="5" height="9" alt=""> <strong>Быстрый переход на страницу филиала</strong></p>
+<style>
+.inline a {
+	color: #000;
+	font-size: 10pt;
+	text-decoration: none;
+	border-bottom: 1px dashed #000;
+}
+.inline img {
+	margin: 0 4px;
+}
+</style>-->
+				<!-- Список филиалов -->
+				<?php //require_once "extdata/alphabitmetro-uslugi.php" ?>
+				<!-- Конец списка-->		
+		<!--
 		</td>
-	</tr> 
+	</tr> -->
 </table>
 
 

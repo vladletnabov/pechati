@@ -703,7 +703,7 @@ $filialDataList = array(
 			)
 		)
 	),
-	"м. Молодёжная"=> array(
+	"м. Молодежная"=> array(
 		'metro'=>array(3),
 		'mainList'=>1, 
 		'contacts'=>1,  
@@ -829,7 +829,7 @@ $filialDataList = array(
 		'email'=>'perovo@pechati.ru',
 		'quickZakaz'=>'quick-zakaz-novokosino',
 		'img'=>''),
-	"р-н Ново-Переделкино"=> array(
+	"Ново-Переделкино"=> array(
 		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1,  
@@ -1063,7 +1063,7 @@ $filialDataList = array(
 		'pos_left'=>'609px', 
 		'pos_top'=>'208px',
 		'img'=>'/pics/contacts/preobrajenskaya/2.jpg'),
-	"м. Румянцево"=> array(
+	"Румянцево"=> array(
 		'metro'=>array(1),
 		'posContact' => 'mo',
 		'mainList'=>1, 
@@ -1430,7 +1430,7 @@ $filialDataList = array(
 		'email'=>'chertanovo@pechati.ru',
 		'quickZakaz'=>'quick-zakaz-yujnaya',
 		'img'=>''),
-	"М.О., г. Красногорск"=> array(
+	"Красногорск"=> array(
 		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1, 
@@ -1541,7 +1541,7 @@ $filialDataList = array(
 		'quickZakaz'=>'quick-zakaz-krasnogorsk-double',
 		'img'=>''),
 		
-	"г. Одинцово"=> array(
+	"Одинцово"=> array(
 		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1, 
@@ -1727,7 +1727,7 @@ $filialDataList = array(
 			)
 		)
 	),
-	"р-н Солцево"=> array(
+	"Солцево"=> array(
 		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1, 
