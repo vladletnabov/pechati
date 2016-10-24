@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Печати.РУ</title>
+
+    <!-- Bootstrap -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="css/style-asgat.css" rel="stylesheet" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/filialsmap.js" type="text/javascript"></script>
+    <script src="js/yamap-filial.js" type="text/javascript"></script>
+    <script src="js/slider.js" type="text/javascript"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="http://pechati.ru/extdata/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="http://pechati.ru/extdata/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="http://pechati.ru/extdata/source/jquery.fancybox.css?v=2.1.5" media="screen">
+    <!-- Add Button helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="http://pechati.ru/extdata/source/helpers/jquery.fancybox-buttons.css?v=1.0.5">
+    <script type="text/javascript" src="http://pechati.ru/extdata/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <!-- Add Thumbnail helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="http://pechati.ru/extdata/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7">
+    <script type="text/javascript" src="http://pechati.ru/extdata/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="http://pechati.ru/extdata/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <script type="text/javascript" src="js/file-upload.js"></script>
+
+
+    <script src="js/slider/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/slider/amazingslider-63.css">
+    <script src="js/slider/initslider-63.js"></script>
+
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/pechati-ru.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Услуги <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Оборудование</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Филиалы <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Москва</li>
+                            <li><a href="#">Арбат</a></li>
+                            <li><a href="#">Беговая</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Московская область</li>
+                            <li><a href="#">Красногорск</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Сотрудничество</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+</nav>
+
+<div class="container listshadow">
+
+        <div class="row">
+
+            <div id="page-slider-wrap" class="hid-overflow">
+                <div id="page-slider" class="col-md-12">
+                    <div class="header-filial-page">
+                        <div class="header-filial-page-text"><h1>Изготовление печатей на м. Тестовая</h1></div>
+                        <div class="header-filial-page-phone">+7(929) 684 56 38</div>
+                    </div>
+                    <div class="form-quick-order">
+                        <h3>Быстрый заказ печати</h3>
+                        <div><input type="text" placeholder="Имя и телефон" /></div>
+                        <div><input type="text" placeholder="Email"/></div>
+                        <div><textarea placeholder="Пожелания по заказу"></textarea></div>
+                        <div><button>ЗАКАЗАТЬ</button></div>
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/slider/slide0.png" />
+
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/slide1.jpg" />
+
+                    </div>
+                    <div class="slide">
+                        <img src="images/slider/slide2.jpg" />
+
+                    </div>
+
+                </div>
+                <div class="slide-text col-md-6">
+                    <div class="slide-text-header">м.Тестовая</div>
+                    <div class="slide-text-body">
+                        <b>Адрес:</b> г. Москва,<br />ул. Строителей, д.12, кв.30.<br />
+                        <b>E-mail:</b> <a href="info@test.ru">info@test.ru</a><br />
+                        <b>Режим работы:</b><br />
+                         Пн-Пт: 09:00-19:00<br />
+                         Сб: 10:00-16:00<br />
+                         Вс: выходной<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div class="row">
+        <div class="border-col">
+            <div class="block-header-text">
+                <h3>Текст 1</h3>
+                <h4>Текст 2</h4>
+            </div>
+            <p><a class="step-name" name="zakaz">Шаг 1: Выберите какая печать или её клише Вам необходимы</a></p>
+            <div class="block-body">
+                <div class="table-block">
+                    <div class="table-full-row top-border">
+                        <div class="flex-price-table">
+                            <!-- table-cel50-proc  bottom-border  float-left -->
+                            <div class="flex-cell-name-price-table"></div>
+                            <div class="flex-cell-price-table cel-header">За час
+                            </div>
+                            <div class="flex-cell-price-table cel-header">К вечеру
+                            </div>
+                            <div class="flex-cell-price-table cel-header">На завтра
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-full-row">
+                        <!--<div class="table-cel50-proc table-cel-height bottom-border float-left">
+                            Название строки
+                        </div>
+                        <div class="table-cel50-proc  ">
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">
+                                <input type="radio" class="price-table" id="clishe-1" name="srok">
+                                <label for="clishe-1"><div><div><span class="glyphicon glyphicon-ok"></span></div><div>1</div></div>
+                                </label>
+                            </div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">2</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left-last">3</div>-->
+                            <div class="flex-price-table">
+                                <div class="flex-cell-name-price-table">Название строки</div>
+                                <div class="flex-cell-price-table">
+                                    <input type="radio" class="price-table" id="clishe-1" name="srok" checked="" >
+                                    <label for="clishe-1">100</label>
+                                </div>
+                                <div class="flex-cell-price-table">
+                                    <input type="radio" class="price-table" id="clishe-2" name="srok">
+                                    <label for="clishe-2">200</label>
+                                </div>
+                                <div class="flex-cell-price-table">
+                                    <input type="radio" class="price-table" id="clishe-3" name="srok">
+                                    <label for="clishe-3">300</label>
+                                </div>
+                            </div>
+
+                        <!--</div>-->
+                    </div>
+                    <div class="table-full-row">
+                        <div class="flex-price-table">
+                            <div class="flex-cell-name-price-table">Название строки второй по счёту</div>
+                            <div class="flex-cell-price-table">
+                                <input type="radio" class="price-table" id="clishe-4" name="srok">
+                                <label for="clishe-4">400</label>
+                            </div>
+                            <div class="flex-cell-price-table">
+                                <input type="radio" class="price-table" id="clishe-5" name="srok">
+                                <label for="clishe-5">500</label>
+                            </div>
+                            <div class="flex-cell-price-table">
+                                <input type="radio" class="price-table" id="clishe-6" name="srok">
+                                <label for="clishe-6">600</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-full-row">
+                        <div class="flex-price-table">
+                            <div class="flex-cell-name-price-table">Название строки которая будет последней</div>
+                            <div class="flex-cell-price-table">
+                                <input type="radio" class="price-table" id="clishe-7" name="srok">
+                                <label for="clishe-7">700</label>
+                            </div>
+                            <div class="flex-cell-price-table">
+                                <input type="radio" class="price-table" id="clishe-8" name="srok">
+                                <label for="clishe-8">800</label>
+                            </div>
+                            <div class="flex-cell-price-table">
+                                <input type="radio" class="price-table" id="clishe-9" name="srok">
+                                <label for="clishe-9">900</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table-comment">
+                    <ul>
+                        <li>БЕСПЛАТНОЕ изготовление печати при условии открытия счёта в Банке "Открытие". Подробности узнавайте у наших менеджеров.</li>
+                        <li>Все цены указаны в рублях РФ без стоимости оснастки.</li>
+                        <li>Доставка по Москве ОДНОЙ-ДВУХ печатей - 300р, от трёх единиц - бесплатно!</li>
+                        <li>По желанию заказчика мы можем разместить на печати ПРОСТЫЕ элементы защиты: оригинальные шрифты, отсутствующие элементы в буквах, изображениях или звёздочках, имитация заплыва краски, кляксы, имитация дефекта клише.</li>
+                    </ul>
+                </div>
+                <center><h3>Дополнительные услуги</h3></center>
+                <div class="table-block">
+                    <div class="table-full-row top-border">
+                        <div class="table-cel50-proc  bottom-border  float-left">
+                        </div>
+                        <div class="table-cel50-proc  ">
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">Колонка 1</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">Колонка 2</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left-last">Колонка 3</div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="table-full-row">
+                        <div class="table-cel50-proc table-cel-height bottom-border float-left">
+                            Название строки
+                        </div>
+                        <div class="table-cel50-proc  ">
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">1</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">2</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left-last">3</div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="table-full-row">
+                        <div class="table-cel50-proc table-cel-height bottom-border float-left">
+                            Название строки второй по счёту
+                        </div>
+                        <div class="table-cel50-proc ">
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">4</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">5</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left-last">6</div>
+                            <div class="clear-both"></div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="table-full-row">
+                        <div class="table-cel50-proc table-cel-height bottom-border float-left">
+                            Название строки которая будет последней
+                        </div>
+                        <div class="table-cel50-proc ">
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">7</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left">8</div>
+                            <div class="table-cel-4 table-cel-height table-cel-border-left-last">9</div>
+                            <div class="clear-both"></div>
+                        </div>
+
+                        <div class="clear-both"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block-separator"></div>
+
+    <div class="row">
+        <div class="border-col">
+            <p><a class="step-name" name="osnastka">Шаг 2: Выберите оснастку для вашей новой печати</a></p>
+            <div class="block-body">
+                <div class="flex-container">
+                    <div class="osnatka-icon">
+
+                            <input class="sel-osnastka" type="Radio" name="osnast" value="Автоматическая оснастка Диам. 40 мм." onclick="price2 = 450; count_price();" id="osnast1">
+                            <label for="osnast1"><img border="0" src="images/osnastka/colop_printer_r40_100x133.jpg" width="100" height="133">
+                                <p>Автоматическая оснастка<br>Диам. 40 мм.<br>450 руб.</label></p>
+                    </div>
+
+                    <div class="osnatka-icon">
+                            <input class="sel-osnastka" type="Radio" name="osnast" value="Автоматическая оснастка Диам. 40 мм." onclick="price2 = 450; count_price();" id="osnast2">
+                            <label for="osnast2"><img border="0" src="images/osnastka/colop_printer_r40_100x133.jpg" width="100" height="133">
+                        <p>Автоматическая оснастка<br>Диам. 40 мм.<br>450 руб.</label></p>
+                    </div>
+                    <div class="osnatka-icon">
+                            <input class="sel-osnastka" type="Radio" name="osnast" value="Автоматическая оснастка Диам. 40 мм." onclick="price2 = 450; count_price();" id="osnast3">
+                            <label for="osnast3"><img border="0" src="images/osnastka/colop_printer_r40_100x133.jpg" width="100" height="133">
+                        <p>Автоматическая оснастка<br>Диам. 40 мм.<br>450 руб.</label></p>
+                    </div>
+                    <div class="osnatka-icon">
+                            <input class="sel-osnastka" type="Radio" name="osnast" value="Автоматическая оснастка Диам. 40 мм." onclick="price2 = 450; count_price();" id="osnast4">
+                            <label for="osnast4"><img border="0" src="images/osnastka/colop_printer_r40_100x133.jpg" width="100" height="133">
+                        <p>Автоматическая оснастка<br>Диам. 40 мм.<br>450 руб.</label></p>
+                    </div>
+                    <div class="osnatka-icon">
+                            <input class="sel-osnastka" type="Radio" name="osnast" value="Автоматическая оснастка Диам. 40 мм." onclick="price2 = 450; count_price();" id="osnast5">
+                            <label for="osnast5"><img border="0" src="images/osnastka/colop_printer_r40_100x133.jpg" width="100" height="133">
+                        <p>Автоматическая оснастка<br>Диам. 40 мм.<br>450 руб.</label></p>
+                    </div>
+                    <div class="osnatka-icon">
+                            <input class="sel-osnastka" type="Radio" name="osnast" value="Автоматическая оснастка Диам. 40 мм." onclick="price2 = 450; count_price();" id="osnast6">
+                            <label for="osnast6"><img border="0" src="images/osnastka/colop_printer_r40_100x133.jpg" width="100" height="133">
+                        <p>Автоматическая оснастка<br>Диам. 40 мм.<br>450 руб.</label></p>
+                    </div>
+                    <div class="osnatka-icon">
+                            <input class="sel-osnastka" type="Radio" name="osnast" value="Автоматическая оснастка Диам. 40 мм." onclick="price2 = 450; count_price();" id="osnast7">
+                            <label for="osnast7"><img border="0" src="images/osnastka/colop_printer_r40_100x133.jpg" width="100" height="133">
+                        <p>Автоматическая оснастка<br>Диам. 40 мм.<br>450 руб.</label></p>
+                    </div>
+                    <div class="osnatka-icon">
+                            <input class="sel-osnastka" type="Radio" name="osnast" value="Автоматическая оснастка Диам. 40 мм." onclick="price2 = 450; count_price();" id="osnast8">
+                            <label for="osnast8"><img border="0" src="images/osnastka/colop_printer_r40_100x133.jpg" width="100" height="133">
+                        <p>Автоматическая оснастка<br>Диам. 40 мм.<br>450 руб.</label></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block-separator"></div>
+
+    <div class="row">
+        <div class="border-col">
+            <p><a class="step-name" name="send-form-field">Шаг 3: Заполните форму и отправьте нам</a></p>
+            <div class="block-body">
+                <div class="form-send-row">
+                    <div class="form-send-name">Имя</div>
+                    <div class="form-send-value"><input class="form-send-input form-control" placeholder="Введите ваше имя"/></div>
+                </div>
+                <div class="form-send-row">
+                    <div class="form-send-name">Телефон</div>
+                    <div class="form-send-value"><input class="form-send-input form-control" placeholder="Введите ваш телефон"/></div>
+                </div>
+                <div class="form-send-row">
+                    <div class="form-send-name">E-mail</div>
+                    <div class="form-send-value"><input class="form-send-input form-control" placeholder="Введите ваш e-mail"/></div>
+                </div>
+                <div class="form-send-row">
+                    <div class="form-send-name">Вложение</div>
+                    <div class="form-send-value-400">
+                        <!--<input class="form-send-input form-control" placeholder="Введите ваше имя"/>-->
+                        <label class="file_upload">
+                            <span class="button">Выбрать</span>
+                            <mark>Файл не выбран</mark>
+                            <input type="file">
+                        </label>
+                    </div>
+                </div>
+                <div class="form-send-row">
+                    <textarea  placeholder="Комментарии к заказу: ИНН, ОГРН, форма и цвет печати, и прочее..."></textarea>
+                </div>
+                <div class="form-send-row ">
+                    <button class=" btn btn-danger form-send-button">Заказать</button></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="block-separator"></div>
+
+    <div class="row">
+        <div class="border-col">
+            <p><a class="step-name" name="send-form-field">Информация о филиале</a></p>
+            <div class="block-body">
+
+                <div id="contacts1">
+                    <p>	м. Беговая, м. Полежаевская<br>
+                        <img src="images/contacts/point_a.gif" class="poi2" width="13" height="13" alt="" align="absmiddle"> Москва, Хорошевское шоссе  13А, к.2, </p>
+                    <p>Тел.: <b>+7 (495) 369-64-87</b></p>
+                    <p>Почта: <a href=">bgv@pechati.ru</a></p>
+                    <p>Часы работы: <br>
+                        Пн-Пт:09:00-21:00<br> Сб-Вс: выходной
+                    </p>
+
+
+
+
+
+                    <p style="margin-bottom:60px;"><a name="scheme" title="Схема проезда"> </a></p>
+                    <span>Офис «Печати.RU на Беговой» переехал</span>
+
+
+                    <p>Доводим до Вашего сведения, что с 06.07.2015 года офис «Печати.RU на Беговой» переехал и находится теперь по адресу: Хорошевское шоссе, д. 13А, корп. 2.<br>
+                        На схеме, расположенной ниже данного текста, показано как к нам легко добраться на личном транспорте, если ехать через:<br>
+                    </p><ul>
+                    <li>путь А – по улице Маргелова;</li>
+                    <li>путь Б – по улице Беговая ТТК) и Хорошёскому шоссе.</li>
+                </ul>
+                    <br>
+                    Заезд к офису сейчас возможен сейчас с 5-й Магистральной улицы (ориентрир «Шиномонтаж»). Свернув с 5-й Магистральной улицы во дворы, нужно продолжать свое движение прямо, таким образом, чтобы гаражи оставались по правую сторону от автомобиля по ходу его движения. Доехать нужно до дальней белой кирпичной 5-этажкой (яркий ориентир красная высокая кирпичная квадратная труба).<br>
+                    Вход к нам в офис прямо за трубой.<p></p>
+
+
+
+                    <p>
+                        <a class="fancybox" href="images/contacts/begovaya/scheme1.jpg" data-fancybox-group="gallery" title="Схема проезда в офис Печати.РУ на Беговой">
+                            <img src="images/contacts/begovaya/scheme1.jpg" class="img-filial-data">
+                        </a><br>
+                        Как проехать к офису Печати.РУ на Беговой(щёлкните по рисунку для увеличения)
+                    </p>
+
+
+
+                    <span>Как к нам пройти от станции метро «Полежаевская»?</span>
+
+                    <p>Для того, чтобы пройти в офис «Печати.RU на Беговой» от станции метро «Полежаевская», нужно приехать на метро в последнем вагоне из центра (или в первом вагоне в сторону центра). Поднимаемся вверх по эскалатору, проходим стеклянные двери, поворачиваем направо, проходим вперед и далее слева по ступенькам поднимаемся вверх в город (при выходе из метро ориентироваться также можно и по указателям «К Магистральным улицам»).<br>
+                        Выйдя на улицу необходимо продолжить свое движение прямо, вдоль Хорошевского шоссе по ходу движения автомобилей (Хорошёвское шоссе будет находиться при ходьбе от Вас по левую руку). Через 80 метров будет перекресток со светофором. Переходим улицу и далее двигаемся прямо до магазина «ДИКСИ» (здание оранжевого цвета). Перед магазином «ДИКСИ» поворачиваем направо и двигаемся вперед, между блочным 12-этажным домом (справа) и пятиэтажным домом из красного кирпича (слева).<br>
+                        Между этими домами видим торец 5-этажки из белого кирпича. Это и есть здание, в котором располагается офис филиала «Печати.RU на Беговой».<br>
+                        Мы находимся в дальнем торце этого здания (Хорошевское шоссе, д. 13А, корпус. 2). Подходим к ближнему к Вам торцу здания. Обходим его слева и идем вдоль подъездов, чтобы они оставались от Вас по правую руку. В конце дома поворачиваем направо и сразу видим вход в наш офис. <br>
+                        Вы добрались. Добро пожаловать!!!</p>
+
+                    <span>Как к нам пройти от станции метро «Беговая»?</span>
+
+                    <p>Чтобы пройти в офис «Печати.RU на Беговой» от станции метро «Беговая», нужно приехать в первом вагоне метро из центра (или в последнем вагоне в сторону центра). Далее поднимаемся вверх по эскалатору, выходим из стеклянных дверей и поворачиваем налево, потом выходим по ступенькам вверх в город.<br>
+                        Выйдя на улицу нужно продолжить свое прямо вдоль Хорошёвского шоссе (на встречу движению автотранспорта в сторону метро «Полежаевская»). Двигаемся прямо до магазина «ДИКСИ».<br>
+                        За магазином «ДИКСИ» поворачиваем налево и двигаемся вперед, между блочным 12-этажным домом (справа) и пятиэтажным домом из красного кирпича (слева).<br>
+                        Между этими домами видим торец 5-этажки из белого кирпича. Это и есть здание, в котором располагается офис филиала «Печати.RU на Беговой».<br>
+                        Мы находимся в дальнем торце этого здания (Хорошевское шоссе, д. 13А, корпус. 2). Подходим к ближнему к Вам торцу здания. Обходим его слева и идем вдоль подъездов, чтобы они оставались от Вас по правую руку. В конце дома поворачиваем направо и сразу видим вход в наш офис.<br>
+                        Вы добрались. Добро пожаловать!!!
+                    </p>
+                    <p>
+                        <a class="fancybox" href="images/contacts/begovaya/scheme2.jpg" data-fancybox-group="gallery" title="Схема как пройти в офис Печати.РУ от метро Беговая">
+                            <img src="images/contacts/begovaya/scheme2.jpg" class="img-filial-data">
+                        </a><br>
+                        Как пройти к офису Печати.РУ на Беговой(щёлкните по рисунку для увеличения)
+                    </p>
+
+
+
+                    <div id="amazingslider-wrapper-1">
+                        <div id="amazingslider-1">
+                            <ul class="amazingslider-slides" style="display:none;">
+                                <li><img src="images/contacts/begovaya/images/1.jpg" width="600" alt="1. Печати.РУ на Беговой" title="1. Печати.РУ на Беговой" data-description="Вид на магазин Дикси со стороны м. Беговая и ТТК">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/2.jpg" width="600" alt="2. Печати.РУ на Беговой" title="2. Печати.РУ на Беговой" data-description="Профти чуть вперёд, в сторону м. Полежаевская (в сторону области), вдоль магазина Дикси">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/3.jpg" width="600" alt="3. Печати.РУ на Беговой" title="3. Печати.РУ на Беговой" data-description="Свернуть налево во двор">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/4.jpg" width="600" alt="4. Печати.РУ на Беговой" title="4. Печати.РУ на Беговой" data-description="Следуйте до красного кирпичного здания">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/5.jpg" width="600" alt="5. Печати.РУ на Беговой" title="5. Печати.РУ на Беговой" data-description="Обойдите его справа">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/6.jpg" width="600" alt="6. Печати.РУ на Беговой" title="6. Печати.РУ на Беговой" data-description="Следуйте прямо вдоль детской площадки">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/7.jpg" width="600" alt="7. Печати.РУ на Беговой" title="7. Печати.РУ на Беговой" data-description="Илите в конец дома">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/8.jpg" width="600" alt="8. Печати.РУ на Беговой" title="8. Печати.РУ на Беговой" data-description="Сверните за угол">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/9.jpg" width="600" alt="9. Печати.РУ на Беговой" title="9. Печати.РУ на Беговой" data-description="решётчатый вход на цокольный этаж">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/11.jpg" width="600" alt="9. Печати.РУ на Беговой" title="10. Печати.РУ на Беговой" data-description=" Собственно наш офис">
+                                </li>
+                                <li><img src="images/contacts/begovaya/images/12.jpg" width="600" alt="9. Печати.РУ на Беговой" title="11. Печати.РУ на Беговой" data-description="Входить можно и без звонка. Мы работаем с 10:00 до 21:00">
+                                </li>
+                            </ul>
+                            <ul class="amazingslider-thumbnails" style="display:none;">
+                                <li><img src="images/contacts/begovaya/images/1-tn.jpg" alt="1. Печати.РУ на Беговой" title="1. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/2-tn.jpg" alt="2. Печати.РУ на Беговой" title="2. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/3-tn.jpg" alt="3. Печати.РУ на Беговой" title="3. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/4-tn.jpg" alt="4. Печати.РУ на Беговой" title="4. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/5-tn.jpg" alt="5. Печати.РУ на Беговой" title="5. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/6-tn.jpg" alt="6. Печати.РУ на Беговой" title="6. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/7-tn.jpg" alt="7. Печати.РУ на Беговой" title="7. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/8-tn.jpg" alt="8. Печати.РУ на Беговой" title="8. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/9-tn.jpg" alt="9. Печати.РУ на Беговой" title="9. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/11-tn.jpg" alt="9. Печати.РУ на Беговой" title="10. Печати.РУ на Беговой"></li>
+                                <li><img src="images/contacts/begovaya/images/12-tn.jpg" alt="9. Печати.РУ на Беговой" title="11. Печати.РУ на Беговой"></li>
+                            </ul>
+                            <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Image Slideshow">Responsive jQuery Image Slideshow</a></div>
+                        </div>
+                    </div>
+
+
+                    <span>Как к нам проехать на личном транспорте?</span>
+
+                    <p>Наш <b>офис ПЕРЕЕХАЛ</b>, и <b>территориально</b> мы сейчас <b>находимся между станциями метро "Беговая" и метро "Полежаевская"</b> по адресу: Хорошевское шоссе, д. 13А, корп. 2.<br>
+                        Вход в офис расположен в дальнем, от Хорошевского шоссе, торце здания или в левом торце здания, если смотреть на здание со стороны подъездов.</p>
+
+                    Заехать на автомобиле к непосредственно к нашему офису «Печати.RU Беговая» в настоящее время возможно только с 5-й Магистральной улицы.
+                    Как <b>альтернативные варианты парковки</b>, можно рассмотреть еще два варианта:
+                    1) Припарковать Ваш автомобиль <b>у магазина «ДИКСИ»</b> (Хорошевское шоссе, 15) и далее пройти к нам в офис пешком (2 минуты);
+                    2) Припарковать свой автомобиль <b>у магазина «СЕДЬМОЙ КОНТИНЕНТ»</b>, при движении со строноы центра (Хорошевское ш., 52, корп.1) и далее перейти дорогу на противоположную и также пройти к нам в офис пешком (3 минуты).
+
+                    <span style="font-size: 26px;">- Заезд с Хорошёвского шоссе:</span>
+                    <h3 style="font-size: 20px;">а) со стороны области:</h3>
+                    <p>При заезде с Хорошевского шоссе, <b>от станций метро «Полежаевская» и «Октябрьское Поле»</b>, Вам нужно <b>свернуть на 5-ю Магистральную улицу</b>. Далее нужно <b>проехать вперед (метров 300-350) и свернуть налево, в третий съезд, налево перед «Шиномонтажом»</b> (не доезжая главной дороги метров 50).<br>
+                        Дальше нужно <b>немного проехать вперед</b> таким образом, чтобы по ходу Вашего движения, <b>гаражи располагались справа от Вашего автомобиля</b>. Через 200-250 метров Вы увидите <b>5-ти этажный дом с высокой квадратной кирпичной трубой красного цвета</b> (как ориентир).
+                        Сразу за трубой отдельный вход в <b>офис «Печати.RU на Беговой»</b>.
+                    </p>
+
+                    <h3 style="font-size: 20px;">б) со стороны центра:</h3>
+                    <p>При заезде с Хорошевского шоссе <b>от станции метро «Беговая», а также со стороны ТТК и улицы Беговая</b> Вам нужно <b>двигаться по Хорошевскому шоссе в сторону области</b>. Дальше нужно <b>повернуть по стрелке светофора налево на 2-й Хорошевский проезд</b> и продолжить движение <b>до Т-образного перекрестка с 5-й Магистральной улицей</b>. Главная дорога уходит налево, а Вам <b>нужно свернуть направо</b> и метров через 50 <b>повернуть за «Шиномонтажом» еще раз направо</b>.<br>
+                        Дальше <b>нужно немного проехать вперед</b> таким образом, чтобы по ходу Вашего движения, <b>гаражи располагались справа от Вашего автомобиля</b>. Через 200-250 метров Вы увидите <b>5-ти этажный дом с высокой квадратной кирпичной трубой красного цвета</b> (как ориентир).
+                        Сразу за трубой отдельный вход в <b>офис «Печати.RU на Беговой»</b>.
+                    </p>
+
+                    <h3 style="font-size: 20px;">- Заезд с Хорошёвского шоссе:</h3>
+                    <p>Если Вы едете к нам <b>со стороны Звенигородского шоссе, проспекта Маршала Жукова, улицы Мнёвники, Магистральных улиц и Селикатных проездов</b>, то подъехать к нашему офису возможно только с 5-й Магистральной улицы. <b>Двигаемся по 5-й Магистральной улице</b>, со стороны Звенигородского шоссе, и В том месте, где главная дорога сворачивает на 2-й Хорошёвский проезд, <b>Вам нужно проехать прямо, не сворачивая по главной дороге направо</b>, и сразу <b>после «Шиномонтажа» повернуть направо</b>.<br>
+                        Дальше <b>нужно немного проехать вперед</b> таким образом, чтобы по ходу Вашего движения, <b>гаражи располагались справа от Вашего автомобиля</b>. Через 200-250 метров Вы увидите <b>5-ти этажный дом с высокой квадратной кирпичной трубой красного цвета</b> (как ориентир).
+                        Сразу за трубой отдельный вход в <b>офис «Печати.RU на Беговой»</b>.
+                    </p>
+
+                    <h3 style="font-size: 20px;">- Заезд через улицу Маргелова:</h3>
+                    <p>
+                        При заезде в офис через улицу Маргелова, со стороны Ленинградского проспекта, Ходынского бульвара, 1-го и 2-го Боткинских проездов, улиц Авиаконструктора Сухого и Авиаконструктора Микояна Вам <b>нужно пересечь Хорошевское шоссе, двигаясь на светофоре прямо</b>.<br>
+                        Дальше <b>двигаемся прямо до Т-образного перекрестка с 5-й Магистральной улицей</b>. В том месте, где главная дорога уходит налево, Вам <b>нужно свернуть направо</b> и метров через 50, <b>за «Шиномонтажом», еще раз направо</b>.<br>
+                        Дальше <b>нужно немного проехать вперед</b> таким образом, чтобы по ходу Вашего движения, <b>гаражи располагались справа от Вашего автомобиля</b>. Через 200-250 метров Вы увидите <b>5-ти этажный дом с высокой квадратной кирпичной трубой красного цвета</b> (как ориентир).
+                        Сразу за трубой отдельный вход в <b>офис «Печати.RU на Беговой»</b>.
+                    </p>
+
+
+
+                    <p style="margin-bottom:60px;"><a name="something2" title="Дополнительные услуги"> </a></p><br><br><br>
+                    <p><strong style="font-size: 20px;"><u>Дополнительные услуги:<br></u></strong>- заправка лазерных картриджей (всех моделей);<br>- продажа новых и восстановленных лазерных картриджей;<br>- ремонт оргтехники.</p>
+
+                    <br><br>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="map"></div>
+    </div>
+    <div class="page-header"></div>
+    <div class="row">
+        <div class="height100 border-col">
+            <div class="page-header"><h3>Печати.РУ - это:</h3></div>
+            <div class="col-md-4 text-center">
+                <div class="block-pechatiru-is">
+                    <div><img src="images/pechatiru-is/300stamp.jpg"></div>
+                    <div>Более 300 000 печатей и штампов</div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="block-pechatiru-is">
+                    <div><img src="images/pechatiru-is/15let.jpg"></div>
+                    <div>15 лет на штемпельном рынке</div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="block-pechatiru-is">
+                    <div><img src="images/pechatiru-is/filials.jpg"></div>
+                    <div>25+ реальных офисов<br />Мы не прячемся по квартирам</div>
+                </div>
+            </div>
+            <div class="block-separator clear-both"></div>
+            <div class="col-md-4 text-center">
+                <div class="block-pechatiru-is">
+                    <div><img src="images/pechatiru-is/sotrudnik.jpg"></div>
+                    <div>132 сотрудника<br /> Мы можем выполнить заказ любого объёма</div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="block-pechatiru-is">
+                    <div><img src="images/pechatiru-is/oborud_7.jpg"></div>
+                    <div>7 лазерных гравёров</div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="block-pechatiru-is">
+                    <div><img src="images/pechatiru-is/sertificat_min.jpg"></div>
+                    <div>Сертификат на изготовление гербовых печатей</div>
+                </div>
+            </div>
+            <div class="block-separator clear-both"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="height100 border-col">
+            <div class="page-header"><h3>Сколько действительно стоит хорошая печать?</h3></div>
+            <div class="col-md-3 text-center">
+                <div class="block-pechatiru-is">
+                    <div><img src="images/how-much/stamp_i.jpg"></div>
+                    <div>Изготовление печати отличного качества стоит порядка 2 000 рублей</div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <div class="col-md-3 padding-top-150 font38"> = </div>
+                <div class="col-md-6">
+                    <div class="block-pechatiru-is">
+                        <div><img src="images/how-much/benzin.jpg"></div>
+                        <div>Бак бензина, который вы спалите за 2-3 дня</div>
+                    </div>
+                </div>
+                <div class="col-md-3 padding-top-150 font38"> = </div>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="block-pechatiru-is">
+                    <div><img src="images/how-much/buket.jpg"></div>
+                    <div>Букет цветов, которые проживут 2-3 дня</div>
+                </div>
+            </div>
+            <div class="block-separator clear-both"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="height100 border-col">
+            <p><a class="step-name" name="clients">Нам доверяют</a></p>
+            <div class="col-md-12">
+                <div class="col-md-1 text-center"></div>
+
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_beeline.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_megafon.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_stream.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_webalta.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_eldorado.gif" />
+                    </div>
+                </div>
+
+                <div class="col-md-1 text-center"></div>
+            </div>
+            <div class="block-separator clear-both"></div>
+            <div class="col-md-12">
+                <div class="col-md-1 text-center"></div>
+
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_tvcenter.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/divo_tv.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_cosmo.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_tnt.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_kommersant.gif" />
+                    </div>
+                </div>
+
+                <div class="col-md-1 text-center"></div>
+            </div>
+            <div class="block-separator clear-both"></div>
+            <div class="col-md-12">
+                <div class="col-md-1 text-center"></div>
+
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_gazprom.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_gasstroybank.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_domstroy.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_bhm.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_tmk.gif" />
+                    </div>
+                </div>
+
+                <div class="col-md-1 text-center"></div>
+            </div>
+
+            <div class="block-separator clear-both"></div>
+            <div class="col-md-12">
+                <div class="col-md-1 text-center"></div>
+
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/yves_rocher.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/vnukovo.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/ups.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/ramstor.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/raiffeisen_bank.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-1 text-center"></div>
+            </div>
+            <div class="block-separator clear-both"></div>
+            <div class="col-md-12">
+                <div class="col-md-1 text-center"></div>
+
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/musamotors.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/lukoil.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/gazprom.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/domodedovo.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/dixis.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-1 text-center"></div>
+            </div>
+            <div class="block-separator clear-both"></div>
+            <div class="col-md-12">
+                <div class="col-md-1 text-center"></div>
+
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/logo_muztv.gif" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/dirol.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/dhl.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/avoska.jpg" />
+                    </div>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="block-pechatiru-is">
+                        <img src="images/clients/atlant-m.jpg" />
+                    </div>
+                </div>
+
+                <div class="col-md-1 text-center"></div>
+            </div>
+            <div class="block-separator clear-both"></div>
+
+
+        </div>
+    </div>
+
+
+    <div class="page-header"><h3>Наши филиалы</h3></div>
+    <div class="row">
+        <div class="col-md-4">
+            <ul>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="mapFilials"></div>
+
+        <div class="text-sub-blog-soc">
+            <i class="cocico fa fa-facebook"> </i>
+            <i class="cocico fa fa-twitter"> </i>
+            <i class="cocico fa fa-google-plus"> </i>
+            <i class="cocico fa fa-vk"> </i>
+        </div>
+        <div class="block-separator">
+            <div class="menu-bottom-small"><a href="#">Главная</a>&nbsp;&nbsp;&nbsp;<a href="#">Контакты</a></div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <p>2002г. Печати.RU — <a href="#">Изготовление печатей, штампов, факсимиле в Москве</a></p>
+    </div>
+</div>
+
+
+<div><div style="display:none;"><!--550080641835--></div><noindex>
+    <div>
+        <div style="float:left; display:inline;">
+            <!--LiveInternet counter-->
+
+            <a href="http://www.liveinternet.ru/click" target="_blank"><img src="http://counter.yadro.ru/hit?t45.1;r;s1366*768*24;uhttp%3A//pechati.ru/;0.7688580176521105" alt="" title="LiveInternet" border="0" width="31" height="31"></a><!--/LiveInternet--></div>
+        <!--- SmartLog --->
+
+        <a href="http://www.smartlog.ru/" target="_top"><img width="1" height="1" src="http://www.smartlog.ru/counter/?i=0.945979258229245&amp;cid=999&amp;r=&amp;sid=1193&amp;cook=Y&amp;s=1366x768&amp;pg=http%3A//pechati.ru/" alt="SmartLog.ru - интернет статистика" border="0"></a><!--- SmartLog --->	<div id="ramCounterBlock" style="float:left; display:inline;">
+        <!-- begin of Top100 code -->
+
+        <img src="http://counter.rambler.ru/top100.cnt?146655" alt="" width="1" height="1" border="0">
+
+        <!-- end of Top100 code -->
+        <!-- begin of Top100 logo -->
+
+        <a href="http://top100.rambler.ru/navi/146655/">
+            <img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a>
+
+        <!-- end of Top100 logo -->
+    </div>
+
+        <div style="float:right; display:inline;padding: 10px;">
+            <a href="http://stampmaker.pechati.ru/" style="font-size: 10pt; "> Сотрудничество для штемпелеизготовителей</a>
+        </div>
+    </div>
+
+    <!-- Yandex.Metrika counter -->
+ <!-- /Yandex.Metrika counter -->
+</noindex>
+</div>
+</body>
+</html>

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Печати.РУ</title>
+
+    <!-- Bootstrap -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="css/style-asgat.css" rel="stylesheet" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/filialsmap.js" type="text/javascript"></script>
+
+    <script src="js/slider.js" type="text/javascript"></script>
+
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/pechati-ru.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Услуги <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Оборудование</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Расходные материалы <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Фотополимер</a></li>
+                            <li><a href="#">Бордюрная лента</a></li>
+                            <li><a href="#">Краски</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Кварцевое стекло</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Двусторонний скотч</a></li>
+                        </ul>
+                    </li>
+                </ul>
+               <!-- <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Сотрудничество</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Филиалы <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Москва</li>
+                            <li><a href="#">Арбат</a></li>
+                            <li><a href="#">Беговая</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Московская область</li>
+                            <li><a href="#">Красногорск</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </div>
+</nav>
+
+<div class="container listshadow">
+
+
+    <div class="">
+
+        <div class="row">
+
+                    <div id="page-slider-wrap" class="hid-overflow">
+                        <div id="page-slider" class="col-md-12">
+                            <div class="header-filial-page">
+                                <div class="header-filial-page-text"><h1>Изготовление печатей, штампов, факсимиле</h1></div>
+                                <!--<div class="header-filial-page-phone">+7(929) 684 56 38</div>-->
+                            </div>
+                            <div class="form-quick-order">
+                                <h3>Быстрый заказ печати</h3>
+                                <div><input type="text" placeholder="Имя и телефон" /></div>
+                                <div><input type="text" placeholder="Email"/></div>
+                                <div><textarea placeholder="Пожелания по заказу"></textarea></div>
+                                <div><button>ЗАКАЗАТЬ</button></div>
+                            </div>
+
+                            <div class="slide">
+                                    <!--<img src="/vip_stamp_slider/static/images/slider1.jpg" class="slider-img" />-->
+                                    <!--<span itemprop="image" t-field="banner.image" t-field-options='{"widget": "image", "class": "product_detail_img slider-img", "alt-field": "name"}'/>-->
+                                <img src="images/slider/slide1.jpg" />
+                                <div class="slide-text">
+                                    <div class="slide-text-header">Печати и штампы на заказ</div>
+                                    <div class="slide-text-body">Заказать печать с доставкой можно у нас. Мы не только изготовим печать за 1 час, но и доставим в любую точку Москвы!</div>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <!--<img src="/vip_stamp_slider/static/images/slider1.jpg" class="slider-img" />-->
+                                <!--<span itemprop="image" t-field="banner.image" t-field-options='{"widget": "image", "class": "product_detail_img slider-img", "alt-field": "name"}'/>-->
+                                <img src="images/slider/slide2.jpg" />
+                                <div class="slide-text">
+                                    <div class="slide-text-header">Печати на заказ срочно</div>
+                                    <div class="slide-text-body">Мы сделаем вашу печать всего за час. И потом с лёгкостью доставим в любую точку Москвы.<br />
+                                        Вы так же можете забрать печати у нас в офисе или даже присуствовать при её изготовлении</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            <div class="col-md-12">
+                <div class="page-main-text">
+                    <h3><t t-esc="page_data.sub_header_text"/></h3>
+                    <h4><t t-esc="page_data.lvl3_header_text"/></h4>
+                </div>
+                <p><t t-raw="page_data.main_text"/></p>
+            </div>
+        </div>
+    </div>
+    <!--<div class="row">
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="img-product">
+                    <a href=""><img src="images/stamp1.png" /></a>
+                    <div class="name-product"><a href=""><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                </div>
+                <div class="price-product"><a href="#"><b>Изготовление печатей и штампов</b> розница</a></div>
+                <div class="short-text-letter short-text-letter-border">
+                    <span>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="img-product">
+                    <a href=""><img src="images/stamp1.png" /></a>
+                    <div class="name-product"><a href=""><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                </div>
+                <div class="price-product"><a href="#"><b>Изготовление печатей и штампов</b> розница</a></div>
+                <div class="short-text-letter short-text-letter-border">
+                    <span>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="img-product">
+                    <a href=""><img src="images/stamp1.png" /></a>
+                    <div class="name-product"><a href=""><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></a></div>
+                </div>
+                <div class="price-product"><a href="#"><b>Изготовление печатей и штампов</b> розница</a></div>
+                <div class="short-text-letter short-text-letter-border">
+                    <span>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <div class="block-separator"></div>-->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div><p align="center" class="header-href-old-style"><a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" title="Изготовление красконаполненных в т.ч. многоцветных печатей"><strong>Изготовление <font color="#ff0000">красконаполненных</font> в т.ч. многоцветных печатей.</strong></a></p></div>
+                <div class="short-text-letter grey-bg">
+                    <span><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" width="70" height="70" alt="Изготовление печатей оптом" align="left" style="margin-right: 15px;" border="0"> </a>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div><p align="center" class="header-href-old-style"><a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" title="Изготовление красконаполненных в т.ч. многоцветных печатей"><strong>Изготовление <font color="#ff0000">красконаполненных</font> в т.ч. многоцветных печатей.</strong></a></p></div>
+                <div class="short-text-letter grey-bg">
+                    <span><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" width="70" height="70" alt="Изготовление печатей оптом" align="left" style="margin-right: 15px;" border="0"> </a>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div><p align="center" class="header-href-old-style"><a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" title="Изготовление красконаполненных в т.ч. многоцветных печатей"><strong>Изготовление <font color="#ff0000">красконаполненных</font> в т.ч. многоцветных печатей.</strong></a></p></div>
+                <div class="short-text-letter grey-bg">
+                    <span><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" width="70" height="70" alt="Изготовление печатей оптом" align="left" style="margin-right: 15px;" border="0"> </a>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <div class="block-separator"></div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+                <div>
+                    <table>
+                        <tr class="header-text-tr">
+                            <td class="header-img-td"><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" /></a></td>
+                            <td class="header-text-td">
+                                <a href="#">Изготовление печатей оптом. Заказы стоимостью от 10 000 рублей.</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="short-text-letter grey-bg short-text-letter-border">
+                    <span>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+                <div>
+                    <table>
+                        <tr class="header-text-tr">
+                            <td class="header-img-td"><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" /></a></td>
+                            <td class="header-text-td"><a href="#">Изготовление печатей оптом. Заказы стоимостью от 10 000 рублей.</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="short-text-letter short-text-letter-border">
+                    <span>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+
+                <div>
+                    <table>
+                        <tr class="header-text-tr">
+                            <td class="header-img-td"><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" /></a></td>
+                            <td class="header-text-td"><a href="#">Изготовление печатей оптом. Заказы стоимостью от 10 000 рублей.</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="short-text-letter short-text-letter-border">
+                    <span>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <div class="block-separator"></div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div><p align="center" class="header-href-old-style"><a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" title="Изготовление красконаполненных в т.ч. многоцветных печатей"><strong>Изготовление <font color="#ff0000">красконаполненных</font> в т.ч. многоцветных печатей.</strong></a></p></div>
+                <div class="short-text-letter grey-bg">
+                    <span><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" width="70" height="70" alt="Изготовление печатей оптом" align="left" style="margin-right: 15px;" border="0"> </a>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div><p align="center" class="header-href-old-style"><a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" title="Изготовление красконаполненных в т.ч. многоцветных печатей"><strong>Изготовление <font color="#ff0000">красконаполненных</font> в т.ч. многоцветных печатей.</strong></a></p></div>
+                <div class="short-text-letter grey-bg">
+                    <span><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" width="70" height="70" alt="Изготовление печатей оптом" align="left" style="margin-right: 15px;" border="0"> </a>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div><p align="center" class="header-href-old-style"><a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" title="Изготовление красконаполненных в т.ч. многоцветных печатей"><strong>Изготовление <font color="#ff0000">красконаполненных</font> в т.ч. многоцветных печатей.</strong></a></p></div>
+                <div class="short-text-letter grey-bg">
+                    <span><a href="#"><img src="http://pechati.ru/pics/index/icon_pechati_rozn_70x70.gif" width="70" height="70" alt="Изготовление печатей оптом" align="left" style="margin-right: 15px;" border="0"> </a>1-2 печати или штампа, срочные заказы. Изготовление и восстановление печатей, штампов, факсимиле из фотополимера и резины. Печати ИП, печати ООО.</span>
+                </div>
+
+
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <div class="page-header"></div>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <a href="#" class="link-as-header-red">заказать печать по ЭСКИЗУ</a>
+        </div>
+        <div class="col-md-4 text-center">
+            <a href="#" class="link-as-header-red">заказ печати по ОТТИСКУ</a>
+        </div>
+        <div class="col-md-4 text-center">
+            <a href="#" class="link-as-header-red">заказ ШТАМПА по эскизу и оттиску</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="images/contacts/map_main.jpg" />
+            <p class="text-under-img-map">25+ приёмных пунктов в Москве и Московской области</p>
+        </div>
+        <div class="col-md-8">
+            <div class="page-header"><h3>Новости компании Печати.ру</h3></div>
+            <!--<div class="news-block news-block-header ">Новости компании Печати.ру:</div>-->
+            <div class="news-block">
+                <div class="news-header">26.11.11 - В ноябре - декабре мы открываем ещё 3 приёмных пункта.</div>
+                <div class="news-body">
+                    Мы давно планировали открыть филиал в районе метро Речной вокзал - Водный стадион, известном своей не очень хорошей транспортной доступностью. Кроме того этот пункт принимает заказы на изготовление печатей и штампов с 10-00 до 23-00. А открытие приёмного пункта в Люберцах - первый шаг за границы МКАД. Ну, а в декабре начинает работу приёмный пункт в Митино. В непосредственной близости от Митинского радиорынка.
+                </div>
+            </div>
+            <div class="news-block">
+                <div class="news-header">26.11.11 - В ноябре - декабре мы открываем ещё 3 приёмных пункта.</div>
+                <div class="news-body">
+                    Мы давно планировали открыть филиал в районе метро Речной вокзал - Водный стадион, известном своей не очень хорошей транспортной доступностью. Кроме того этот пункт принимает заказы на изготовление печатей и штампов с 10-00 до 23-00. А открытие приёмного пункта в Люберцах - первый шаг за границы МКАД. Ну, а в декабре начинает работу приёмный пункт в Митино. В непосредственной близости от Митинского радиорынка.
+                </div>
+            </div>
+            <div class="news-block">
+                <div class="news-header">26.11.11 - В ноябре - декабре мы открываем ещё 3 приёмных пункта.</div>
+                <div class="news-body">
+                    Мы давно планировали открыть филиал в районе метро Речной вокзал - Водный стадион, известном своей не очень хорошей транспортной доступностью. Кроме того этот пункт принимает заказы на изготовление печатей и штампов с 10-00 до 23-00. А открытие приёмного пункта в Люберцах - первый шаг за границы МКАД. Ну, а в декабре начинает работу приёмный пункт в Митино. В непосредственной близости от Митинского радиорынка.
+                </div>
+            </div>
+            <div class="news-block">
+                <div class="news-header">26.11.11 - В ноябре - декабре мы открываем ещё 3 приёмных пункта.</div>
+                <div class="news-body">
+                    Мы давно планировали открыть филиал в районе метро Речной вокзал - Водный стадион, известном своей не очень хорошей транспортной доступностью. Кроме того этот пункт принимает заказы на изготовление печатей и штампов с 10-00 до 23-00. А открытие приёмного пункта в Люберцах - первый шаг за границы МКАД. Ну, а в декабре начинает работу приёмный пункт в Митино. В непосредственной близости от Митинского радиорынка.
+                </div>
+            </div>
+            <div class="news-block">
+                <div class="news-header">26.11.11 - В ноябре - декабре мы открываем ещё 3 приёмных пункта.</div>
+                <div class="news-body">
+                    Мы давно планировали открыть филиал в районе метро Речной вокзал - Водный стадион, известном своей не очень хорошей транспортной доступностью. Кроме того этот пункт принимает заказы на изготовление печатей и штампов с 10-00 до 23-00. А открытие приёмного пункта в Люберцах - первый шаг за границы МКАД. Ну, а в декабре начинает работу приёмный пункт в Митино. В непосредственной близости от Митинского радиорынка.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-header"><h3>Наши филиалы</h3></div>
+    <div class="row">
+        <div class="col-md-4">
+            <ul>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <ul>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+                <li class="metro-line-filial metro-red-line" >
+                    <a href="#" title="Заказать печать на Преображенской площади">
+                        м. Преображенская площадь
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="mapFilials"></div>
+
+        <div class="text-sub-blog-soc">
+            <i class="cocico fa fa-facebook"> </i>
+            <i class="cocico fa fa-twitter"> </i>
+            <i class="cocico fa fa-google-plus"> </i>
+            <i class="cocico fa fa-vk"> </i>
+        </div>
+        <div class="block-separator">
+            <div class="menu-bottom-small"><a href="#">Главная</a>&nbsp;&nbsp;&nbsp;<a href="#">Контакты</a></div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <p>2002г. Печати.RU — <a href="#">Изготовление печатей, штампов, факсимиле в Москве</a></p>
+    </div>
+</div>
+
+
+<div><div style="display:none;"><!--550080641835--></div><noindex>
+    <div>
+        <div style="float:left; display:inline;">
+            <!--LiveInternet counter-->
+
+            <a href="http://www.liveinternet.ru/click" target="_blank"><img src="http://counter.yadro.ru/hit?t45.1;r;s1366*768*24;uhttp%3A//pechati.ru/;0.7688580176521105" alt="" title="LiveInternet" border="0" width="31" height="31"></a><!--/LiveInternet--></div>
+        <!--- SmartLog --->
+
+        <a href="http://www.smartlog.ru/" target="_top"><img width="1" height="1" src="http://www.smartlog.ru/counter/?i=0.945979258229245&amp;cid=999&amp;r=&amp;sid=1193&amp;cook=Y&amp;s=1366x768&amp;pg=http%3A//pechati.ru/" alt="SmartLog.ru - интернет статистика" border="0"></a><!--- SmartLog --->	<div id="ramCounterBlock" style="float:left; display:inline;">
+        <!-- begin of Top100 code -->
+
+        <img src="http://counter.rambler.ru/top100.cnt?146655" alt="" width="1" height="1" border="0">
+
+        <!-- end of Top100 code -->
+        <!-- begin of Top100 logo -->
+
+        <a href="http://top100.rambler.ru/navi/146655/">
+            <img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width="88" height="31" border="0"></a>
+
+        <!-- end of Top100 logo -->
+    </div>
+
+        <div style="float:right; display:inline;padding: 10px;">
+            <a href="http://stampmaker.pechati.ru/" style="font-size: 10pt; "> Сотрудничество для штемпелеизготовителей</a>
+        </div>
+    </div>
+
+    <!-- Yandex.Metrika counter -->
+ <!-- /Yandex.Metrika counter -->
+</noindex>
+</div>
+</body>
+</html>
