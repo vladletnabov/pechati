@@ -53,9 +53,9 @@ if (preg_match('/\/forms_send.html/',$url)) {
 	<!--end of Top100 logo -->
 	</div>
 
-	<div style="float:left; display:inline;padding: 10px;">
+	<!--<div style="float:left; display:inline;padding: 10px;">
 	<a href="/contacts/webstudia.html" style="font-size: 7pt; "> Сайт разработан WEB Студией Печати.РУ</a>
-	</div>
+	</div>-->
 </div>
 <!-- Yandex.Metrika counter -->
 <!--<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
