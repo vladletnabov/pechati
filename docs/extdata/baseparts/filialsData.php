@@ -804,8 +804,6 @@ $filialDataList = array(
 		'reqFilialData'=>'/extdata/filials/novogireevo.php',
 		'email'=>'perovo@pechati.ru',
 		'quickZakaz'=>'quick-zakaz-novogireevo',
-		'pos_left'=>'703px', 
-		'pos_top'=>'424px',
 		'img'=>'/pics/contacts/37_06.JPG'),
 	"м. Новокосино"=> array(
 		'metro'=>array(8),
@@ -1777,7 +1775,7 @@ $filialDataList = array(
 			)
 		)
 	),
-	"Солцево"=> array(
+	"Солнцево"=> array(
 		'posContact' => 'mo',
 		'mainList'=>1, 
 		'contacts'=>1, 
@@ -1947,6 +1945,8 @@ $filialDataList = array(
 		'reqFilialData'=>'/extdata/filials/reutov.php', 
 		'email'=>'taganka@pechati.ru', 
 		'quickZakaz'=>'quick-zakaz-reutov',
+		'pos_left'=>'703px', 
+		'pos_top'=>'424px',
 		'pos_left'=>'400px',
 		'pos_top'=>'190px',
 		'map_text_align'=>'left',
