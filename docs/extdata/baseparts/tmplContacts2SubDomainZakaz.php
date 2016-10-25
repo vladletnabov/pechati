@@ -132,7 +132,7 @@ function sendFormCounterYandexMetrika(){
 		
 		<!-- базовая стоимость оснасток остальные делать на основе этого файла и подключать отдельно-->
 		<?php //require_once "../../../extdata/filials/begovaya-osnastka-price.php" 
-		$reqOsnastkaPrice = "../../../extdata/filials/subdomain-osnastka-price.php";
+		$reqOsnastkaPrice = "../../../extdata/filials/subdomain-zakaz-osnastka-price.php";
 		if (isset($filialDataListCP1251[$curFilial]['reqOsnastkaPrice'])
 			&&(strcasecmp($filialDataListCP1251[$curFilial]['reqOsnastkaPrice'],'')!=0)) {
 			$reqOsnastkaPrice = "../../.." . $filialDataListCP1251[$curFilial]['reqOsnastkaPrice'];
@@ -245,4 +245,5 @@ function sendFormCounterYandexMetrika(){
 		</td>
 	</tr>
 </table>
-<?php require_once "../../../extdata/baseparts/counters-all-subdomain.php" ?>
+<?php //require_once "../../../extdata/baseparts/counters-all-subdomain.php" ?>
+<?php require_once "../extdata/baseparts/counters-all.php" ?>

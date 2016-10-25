@@ -95,10 +95,10 @@ $columnSizeMO = $columnSize;
 								if(strcasecmp($phone,'')==0){
 									$phone ='8 (495) 585-81-62';
 								}
-								
+								$url ='/contacts/filial.php?filial_name=' . $value[$i];
 								echo $startLine, $value[$i], '" id="adr', $chkMainListFilial, '"></span> <label for="adr',
 									$chkMainListFilial,'"><a href="javascript:;" onclick="window.open(', "'", 
-									$filialDataListCP1251[$value[$i]]['url'], "')", '"><strong>', $value[$i], '</strong></a><br><span class="',$filialDataListCP1251[$value[$i]]['ya-phone'],'">', 
+									$url, "')", '"><strong>', $value[$i], '</strong></a><br><span class="',$filialDataListCP1251[$value[$i]]['ya-phone'],'">', 
 									$arrPhone[0], ' <strong style="font-size: 11pt;">', $arrPhone[1] , ' </strong> ', $arrPhone[2], '</span>', $endLine;
 									
 								$chkMainListFilial++;
@@ -153,10 +153,10 @@ $columnSizeMO = $columnSize;
 								if(strcasecmp($phone,'')==0){
 									$phone ='8 (495) 585-81-62';
 								}
-								
+								$url ='/contacts/filial.php?filial_name=' . $value[$i];
 								echo $startLine, $value[$i], '" id="adr', $chkMainListFilial, '"></span> <label for="adr',
 									$chkMainListFilial,'"><a href="javascript:;" onclick="window.open(', "'", 
-									$filialDataListCP1251[$value[$i]]['url'], "')", '"><strong>', $value[$i], '</strong></a><br><span class="',$filialDataListCP1251[$value[$i]]['ya-phone'],'">', 
+									$url, "')", '"><strong>', $value[$i], '</strong></a><br><span class="',$filialDataListCP1251[$value[$i]]['ya-phone'],'">', 
 									$arrPhone[0], ' <strong style="font-size: 11pt;">', $arrPhone[1] , ' </strong> ', $arrPhone[2], '</span>', $endLine;
 									
 								$chkMainListFilial++;

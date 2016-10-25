@@ -2,8 +2,8 @@
 require_once "../../../extdata/baseparts/filialsData.php";
 $filialName = '';
 if (isset($_GET['filial_name'])) {
-    $filialName =$_GET['filial_name'];
-	$filialName = iconv('utf-8', 'windows-1251', $filialName);
+    $filialName =urldecode($_GET['filial_name']);
+	/*$filialName = iconv('utf-8', 'windows-1251', $filialName);*/
 	$filialName = str_replace('"', '', $filialName);
 } else {
 	redirect_to_main('not_setted');
@@ -24,6 +24,7 @@ function redirect_to_main($error){
 	header('Refresh: 10; URL=/');
 	echo 'Не верно указан филиал. Перенаправление на главную';
 	echo 'filialName: ' . $error ;
+	echo urldecode($_GET['filial_name']);
 	exit;
 }
 ?>
