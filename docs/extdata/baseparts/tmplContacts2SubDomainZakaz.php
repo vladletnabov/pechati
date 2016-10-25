@@ -118,7 +118,7 @@ function sendFormCounterYandexMetrika(){
 		$reqClishePrice = "../../../extdata/filials/base-clishe-price.php";
 		if (isset($filialDataListCP1251[$curFilial]['reqClishePrice'])
 			&&(strcasecmp($filialDataListCP1251[$curFilial]['reqClishePrice'],'')!=0)) {
-			$reqClishePrice = "../.." . $filialDataListCP1251[$curFilial]['reqClishePrice'];
+			$reqClishePrice = "../../.." . $filialDataListCP1251[$curFilial]['reqClishePrice'];
 		}
 		require_once $reqClishePrice;
 		?>
@@ -135,7 +135,7 @@ function sendFormCounterYandexMetrika(){
 		$reqOsnastkaPrice = "../../../extdata/filials/subdomain-osnastka-price.php";
 		if (isset($filialDataListCP1251[$curFilial]['reqOsnastkaPrice'])
 			&&(strcasecmp($filialDataListCP1251[$curFilial]['reqOsnastkaPrice'],'')!=0)) {
-			$reqOsnastkaPrice = "../.." . $filialDataListCP1251[$curFilial]['reqOsnastkaPrice'];
+			$reqOsnastkaPrice = "../../.." . $filialDataListCP1251[$curFilial]['reqOsnastkaPrice'];
 		}
 		require_once $reqOsnastkaPrice;
 		?>
@@ -167,7 +167,7 @@ function sendFormCounterYandexMetrika(){
 				</p>
 		
 		<?php 
-		$reqFilialData ="../.." . $filialDataListCP1251[$curFilial]['reqFilialData'];
+		$reqFilialData ="../../.." . $filialDataListCP1251[$curFilial]['reqFilialData'];
 		//echo $reqFilialData;
 		require_once $reqFilialData ;
 		?>

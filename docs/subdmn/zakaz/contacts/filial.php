@@ -1,26 +1,29 @@
 <?php
 require_once "../../../extdata/baseparts/filialsData.php";
-$filailName = '';
-if (isset($_GET['filail_name'])) {
-    $filialName =$_GET['key1'];
+$filialName = '';
+if (isset($_GET['filial_name'])) {
+    $filialName =$_GET['filial_name'];
+	$filialName = iconv('utf-8', 'windows-1251', $filialName);
+	$filialName = str_replace('"', '', $filialName);
 } else {
-	redirect_to_main();
+	redirect_to_main('not_setted');
 }
-if (isset($filialDataListCP1251[$filailName])){
-	if ($filialDataListCP1251[$filailName]['uslugi']==0){
-		redirect_to_main();
+if (isset($filialDataListCP1251[$filialName])){
+	if ($filialDataListCP1251[$filialName]['uslugi']==0){
+		redirect_to_main('_absent_uslugi_');
 	}
 }
 else{
-	redirect_to_main();
+	redirect_to_main('_absent_filial_' . $filialName . '_');
 }
 $curFilial = $filialName;
 
 
 
-function redirect_to_main(){
+function redirect_to_main($error){
 	header('Refresh: 10; URL=/');
 	echo 'Не верно указан филиал. Перенаправление на главную';
+	echo 'filialName: ' . $error ;
 	exit;
 }
 ?>
