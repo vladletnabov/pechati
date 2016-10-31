@@ -251,6 +251,15 @@ var price1 = 1050;
 			</P>
 		</TD>
 	</TR>
+	<TR bgcolor="#ebeaef">
+		<TD><strong>Ўтампы по оттиску</strong> *</TD>
+		<TD colspan="3">
+			<P align=center>
+				<input type="Radio" name="srok" value="Ўтампы большого размера срочно" onClick="price1 = 450; count_price();" id="clishe17a"> 
+				<label for="clishe17a">от 450 р</label>
+			</P>
+		</TD>
+	</TR>
 	<tr>
 			<td colspan="3">
 	<a name="uslugi"></a><p align="left">* - точную стоимость уточн€йте у сотрудника, принимающего заказ на изготовление штампа</p>
