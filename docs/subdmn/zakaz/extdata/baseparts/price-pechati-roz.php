@@ -19,44 +19,73 @@ var price1 = 550;
 <TR bgcolor="#ebeaef">
 <TD><strong>НОВЫЕ</strong> печати или штампы</TD>
 <TD>
-<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" checked onClick="price1 = 550; count_price();" id="srok3"> <label for="srok3">550</label></P></TD>
+<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" checked onClick="price1 = 400; count_price();" id="srok3"> <label for="srok3">400</label></P></TD>
 <TD>
-<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно" onClick="price1 = 850; count_price();" id="srok4"> <label for="srok4">850</label></P></TD></TR>
+<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно" onClick="price1 = 750; count_price();" id="srok4"> <label for="srok4">750</label></P></TD></TR>
 <TR bgcolor="#ebeaef">
 <TD>Печати, штампы, факсимиле <strong>по ОТТИСКУ</strong></TD>
 <TD>
-<P align=center><input type="Radio" name="srok" value="Печать, штамп по оттиску за 1 день" onClick="price1 = 850; count_price();" id="srok1"> <label for="srok1">850</label></P></TD>
+<P align=center><input type="Radio" name="srok" value="Печать, штамп по оттиску за 1 день" onClick="price1 = 700; count_price();" id="srok1"> <label for="srok1">700</label></P></TD>
 <TD>
-<P align=center><input type="Radio" name="srok" value="Печать, штамп по оттиску срочно" onClick="price1 = 1400; count_price();" id="srok2"> <label for="srok2">1400</label></P></TD></TR>
+<P align=center><input type="Radio" name="srok" value="Печать, штамп по оттиску срочно" onClick="price1 = 1150; count_price();" id="srok2"> <label for="srok2">1150</label></P></TD></TR>
 <!--<TR bgcolor="#ebeaef">
 <TD>Факсимиле</TD>
 <TD>
 <P align=center><input type="Radio" name="srok" value="Факсимиле за 1 день" onClick="price1 = 650; count_price();" id="srok5"> <label for="srok5">650</label></P></TD>
 <TD>
 <P align=center><input type="Radio" name="srok" value="Факсимиле срочно" onClick="price1 = 950; count_price();" id="srok6"> <label for="srok6">950</label></P></TD></TR>-->
-<TR bgcolor="#ebeaef">
-<TD>Изготовление <a href="/uslugi/ekslibris.html">экслибриса</a>, <a href="/uslugi/ekslibris.html">личной печати</a></TD>
-<TD>
-<P align=center><input type="Radio" name="srok" value="Изготовление экслибриса, личной печати за 1 день" onClick="price1 = 2000; count_price();" id="srok13"> <label for="srok13">2000</label></P></TD>
-<TD>
-<P align=center><input type="Radio" name="srok" value="Изготовление экслибриса, личной печати срочно" onClick="price1 = 5000; count_price();" id="srok14"> <label for="srok14">5000</label></P></TD></TR>
 <!--<TR bgcolor="#ebeaef">
 <TD>Изготовление печатей <b>БЕСПЛАТНО</b></TD>
 <TD colspan="2">
 <P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" onClick="price1 = 0; count_price();" id="srok23"> <label for="srok23">Бесплатно</label></P></TD>
 </TR>-->
 <TR bgcolor="#ebeaef">
-<TD>Печать, отрисованная в Corel Draw заказчиком или дубликат до 20 кв. см</TD>
+<TD>Печать, отрисованная в Corel Draw заказчиком или дубликат. До 20 кв. см</TD>
 <TD>
-<P align=center><input type="Radio" name="srok" value="Печать, отрисованная в Corel Draw заказчиком или дубликат за 1 день" onClick="price1 = 350; count_price();" id="srok7"> <label for="srok7">350</label></P></TD>
+<P align=center><input type="Radio" name="srok" value="Печать, отрисованная в Corel Draw заказчиком или дубликат за 1 день" onClick="price1 = 300; count_price();" id="srok7"> <label for="srok7">300</label></P></TD>
 <TD>
-<P align=center><input type="Radio" name="srok" value="Печать, отрисованная в Corel Draw заказчиком или дубликат срочно" onClick="price1 = 500; count_price();" id="srok8"> <label for="srok8">500</label></P></TD></TR>
+<P align=center><input type="Radio" name="srok" value="Печать, отрисованная в Corel Draw заказчиком или дубликат срочно" onClick="price1 = 400; count_price();" id="srok8"> <label for="srok8">400</label></P></TD></TR>
 <TR bgcolor="#ebeaef">
-<TD>Маленькие штампы 1-2 слова типа "копия верна", "оплачено"</TD>
-<TD>
-<P align=center><input type="Radio" name="srok" value="Маленькие штампы 1-2 слова типа 'копия верна', 'оплачено' за 1 день" onClick="price1 = 200; count_price();" id="srok9"> <label for="srok9">200</label></P></TD>
-<TD>
-<P align=center><input type="Radio" name="srok" value="Маленькие штампы 1-2 слова типа 'копия верна', 'оплачено' срочно" onClick="price1 = 400; count_price();" id="srok10"> <label for="srok10">400</label></P></TD></TR>
+		<TD>Штампы новые <strong>малого</strong> размера *</TD>
+		<TD colspan="3">
+			<P align=center>
+				<input type="Radio" name="srok" value="Штампы малого размера срочно" onClick="price1 = 200; count_price();" id="clishe15a"> 
+				<label for="clishe15a">от 200 р</label>
+			</P>
+		</TD>
+	</TR>
+	<TR bgcolor="#ebeaef">
+		<TD>Штампы новые <strong>среднего</strong> размера *</TD>
+		<TD colspan="3">
+			<P align=center>
+				<input type="Radio" name="srok" value="Штампы среднего размера срочно" onClick="price1 = 400; count_price();" id="clishe16a"> 
+				<label for="clishe16a">от 400 р</label>
+			</P>
+		</TD>
+	</TR>
+	<TR bgcolor="#ebeaef">
+		<TD>Штампы новые <strong>большого</strong> размера *</TD>
+		<TD colspan="3">
+			<P align=center>
+				<input type="Radio" name="srok" value="Штампы большого размера срочно" onClick="price1 = 650; count_price();" id="clishe17a"> 
+				<label for="clishe17a">от 650 р</label>
+			</P>
+		</TD>
+	</TR>
+	<TR bgcolor="#ebeaef">
+		<TD>Штампы <strong>по оттиску</strong> *</TD>
+		<TD colspan="3">
+			<P align=center>
+				<input type="Radio" name="srok" value="Штампы большого размера срочно" onClick="price1 = 450; count_price();" id="clishe17a"> 
+				<label for="clishe17a">от 450 р</label>
+			</P>
+		</TD>
+	</TR>
+	<tr>
+			<td colspan="3">
+	<a name="uslugi"></a><p align="left">* - точную стоимость уточняйте у сотрудника, принимающего заказ на изготовление штампа</p>
+			</td>
+	</tr>
 <tr>
 			<td colspan="3">
 	<a name="uslugi"></a><p align="center"><strong>Дополнительные услуги</strong></p>
