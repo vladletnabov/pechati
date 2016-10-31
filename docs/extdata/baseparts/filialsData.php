@@ -241,6 +241,7 @@ $filialDataList = array(
 		'reqFilialData'=>'/extdata/filials/delovoy-center.php', 
 		'email'=>'mcity@pechati.ru',
 		'quickZakaz'=>'quick-zakaz-delovoy-center',
+		'reqClishePrice'=>'/extdata/filials/delovoy-center-price.php
 		'pos_left'=>'159px',
 		'pos_top'=>'463px',
 		'img'=>''),
