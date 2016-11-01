@@ -175,26 +175,28 @@ function sendFormCounterYandexMetrika(){
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
 	</tr>
-	<tr>
-		<td style="border: 1px solid #eeeafb;">
+	
 			<!-- Сколько стоит печать в сравнении -->
-			<?php require_once "../extdata/baseparts/howmuch.php" ?>
+	<!--<tr>
+		<td style="border: 1px solid #eeeafb;">
+			<?php //require_once "../extdata/baseparts/howmuch.php" ?>
 		</td>
 	</tr>
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
-	</tr>
-    <tr>
+	</tr>-->
+	
+			<!-- список клиентов -->
+    <!--<tr>
     	<td style="border: 1px solid #eeeafb;">
 		
-			<!-- список клиентов -->
-			<?php require_once "../extdata/baseparts/our-clients.php" ?>
+			<?php //require_once "../extdata/baseparts/our-clients.php" ?>
 		</td>
     </tr>
 
 	<tr>
 		<td><img src="../i/0.gif" width="1" height="1" alt=""></td>
-	</tr>
+	</tr>-->
 </table>
 				<!-- карта филиалов -->
 				<?php require_once "../extdata/baseparts/map-filials.php" ?>
