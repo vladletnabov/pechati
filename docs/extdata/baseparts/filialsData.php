@@ -1924,10 +1924,9 @@ $filialDataList = array(
 	),
 	"г. Реутов"=> array(
 	#дубль 07-11-2016
-		'posContact' => 'mo',
 		'mainList'=>0, 
 		'contacts'=>0, 
-		'uslugi'=>0, 
+		'uslugi'=>1, 
 		'predlog'=>'в', 
 		'padej'=>'Реутово',
 		'rejim'=>'Пн-Пт 09:00-18:00,Сб-Вс выходной', 
