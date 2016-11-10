@@ -1754,7 +1754,6 @@ $filialDataList = array(
 		'ya-target'=>'ya-target-solncevo',
 		'url'=>'/contacts/40.html', 
 		'reqFilialData'=>'/extdata/filials/solncevo.php', 
-		'reqFilialData'=>'/extdata/filials/solncevo.php', 
 		'email'=>'sol@pechati.ru',
 		'quickZakaz'=>'quick-zakaz-solncevo',
 		'pos_left'=>'95px',
