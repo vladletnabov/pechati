@@ -465,7 +465,7 @@ $filialDataList = array(
 		'dopMetro'=>'м. Серпуховская',
 		'dopMetroPredlog'=>'на',
 		'dopMetroPadej'=>'Серпуховской',
-		'pos_left'=>'251px', 
+		'pos_left'=>'396px', 
 		'pos_top'=>'662px',
 		'img'=>''),
 	"м. Каширская"=> array(
@@ -1925,7 +1925,8 @@ $filialDataList = array(
 		)*/
 	),
 	"г. Реутов"=> array(
-	#дубль 07-11-2016
+	#дубль 07-11-2016	
+		'metro'=>array(8),
 		'mainList'=>0, 
 		'contacts'=>0, 
 		'uslugi'=>1, 
