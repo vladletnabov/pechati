@@ -29,7 +29,7 @@ var price1 = 1050;
 		<P align=center><B>Срочно<br />(до 2 часов)</B></P>
 		</TD>
 	</TR>
-	<TR bgcolor="#ebeaef">
+<!--	<TR bgcolor="#ebeaef">
 		<TD><strong>Новая печать </strong> (при открытии счета в банке «Открытие»)</TD>
 		<TD>
 			<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно за час" onClick="price1 = 0; count_price();" id="clishe1a"> <label for="clishe1a">Бесплатно</label></P>
@@ -40,7 +40,7 @@ var price1 = 1050;
 		<TD>
 			<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за день" checked onClick="price1 = 0; count_price();" id="clishe1c"> <label for="clishe1c">Бесплатно</label></P>
 		</TD>
-	</TR>
+	</TR>-->
 	<TR bgcolor="#ebeaef">
 		<TD><strong>Новая печать </strong> (фотополимер)</TD>
 		<TD>

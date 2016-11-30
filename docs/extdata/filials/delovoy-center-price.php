@@ -31,13 +31,11 @@ var price1 = 1050;
 			<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за день" onClick="price1 = 700; count_price();" id="srok5"> <label for="srok5">700</label></P>
 		</TD>
 	</TR>
-	<TR bgcolor="#ebeaef">
+<!--	<TR bgcolor="#ebeaef">
 		<TD>Изготовление печатей <b>БЕСПЛАТНО</b>*  и побольше</TD>
 		<TD colspan="3">
 		<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону за 1 день" onClick="price1 = 0; count_price();" id="srok23"> <label for="srok23">Бесплатно</label></P></TD>
-		<!--<TD>
-		<P align=center><input type="Radio" name="srok" value="Новые печати, штампы по шаблону срочно" onClick="price1 = 0; count_price();" id="srok24"> <label for="srok4">Бесплатно</label></P></TD>-->
-	</TR>
+		</TR>-->
 	<TR bgcolor="#ebeaef">
 		<TD>Печати <strong>по ОТТИСКУ</strong></TD>
 		<TD>
