@@ -1817,7 +1817,7 @@ $filialDataList = array(
 		'metro'=>array(6),
 		'mainList'=>0, 
 		'contacts'=>0,  
-		'uslugi'=>0, 
+		'uslugi'=>1, 
 		'predlog'=>'в', 
 		'padej'=>'Ясенево',
 		'rejim'=>'Пн-Пт 09:00-18:00', 
@@ -1838,6 +1838,8 @@ $filialDataList = array(
 		'dopMetro'=>'м. Тёплый стан',
 		'dopMetroPredlog'=>'в',
 		'dopMetroPadej'=>'Тёплом стане',
+		'pos_left'=>'280px',
+		'pos_top'=>'850px',
 		'img'=>''
 	),
 	"Люберцы"=> array(
