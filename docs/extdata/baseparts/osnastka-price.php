@@ -154,7 +154,7 @@ var price2 = 450;
 				</div>
 				<div class="osnatka-icon" style="width:24%; margin:0;padding:0;display:inline;float:left;">
 					<IMG border=0 src="../pics/uslugi/met_techno_100x133.jpg" width=100 height=133 onclick="runEffect(6);">
-					<p>Ёксклюзивные оснастки<BR><input type="Radio" name="osnast" value="ќригинальные оснастки" onClick="price2 = 1500; count_price();" id="osnast6"> <label for="osnast6">1500 р.</label></p>
+					<p>Ёксклюзивные оснастки<BR><input type="Radio" name="osnast" value="Ёксклюзивные оснастки" onClick="price2 = 1300; count_price();" id="osnast6"> <label for="osnast6">1300 р.</label></p>
 				</div>
 				<div class="osnatka-icon" style="width:24%; margin:0;padding:0;display:inline;float:left;">
 					<IMG border=0 src="../pics/uslugi/plasm_gerb40_100x133.jpg" width=100 height=133 onclick="runEffect(7);">
