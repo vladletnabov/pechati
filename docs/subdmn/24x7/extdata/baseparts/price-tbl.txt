@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+
+<table>
+<tr>
+	<td>qweqweqweqweqwe</td>
+	<td>
+		<input id="id1" type="radio" name="price" value="200" hidden>
+		<label for="id1"  class="red" ><div class="right">2 000 р.</div></label>
+	</td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+</tr>
+</table>
+
+</body>
+</html>

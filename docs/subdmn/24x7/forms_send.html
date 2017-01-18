@@ -1,0 +1,305 @@
+<?php
+session_start(); 
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<title>Заявка на изготовление печатей. Изготовление печатей - розница Изготовление печатей, штампов, факсимиле.</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+	<meta name="keywords" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
+	<meta HTTP-EQUIV="Keywords" NAME="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
+	<meta name="Description" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
+	<meta HTTP-EQUIV="description" content="Печати, Полиграфия, оборудование для производства штемпельной продукции. Канцелярские товары, штемпельная продукция, автоматическая оснастка для печатей  Trodat Colop. Юридические услуги, регистрация предприятий, изготовление печатей.">
+	<link rel="STYLESHEET" type="text/css" href="css/pechati.css">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <!--<script src="feedback/js/feedback.js"></script>-->
+    <script src="feedback/js/jquery.arcticmodal.js"></script>
+    <script src="feedback/js/jquery.jgrowl.js"></script>
+	
+
+	
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.jgrowl.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	
+	
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-22832049-24']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+
+<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
+<?php 
+@$emailclient= $_SESSION['emailclient']; 
+@$emailfilial= $_SESSION['emailfilial'];
+@$fio= $_SESSION['fio'];
+$email ='';
+if (($emailclient!='')&&($emailfilial!='')){ 
+	$email=$emailclient.') --> '.$emailfilial; 
+	error_log($email,0);
+}
+?>
+
+<?php require_once "extdata/baseparts/counters-google-all.php" ?>
+
+<table cellpadding="0" cellspacing="0" border="0" width="990" height="100%" align="center">
+	<tr>
+		<td><a href="http://pechati.ru/"><img src="../i/top-uslugi2.jpg" width="990" height="85" border="0" alt=""></a></td>
+	</tr>
+	<tr valign="top">
+		<td height="100%" bgcolor="#ffffff" background="../i/bg1-c.jpg" style="background-repeat: repeat-y;">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%" background="../i/bg2-c.jpg" style="background-position: top right; background-repeat: repeat-y;">
+				<tr valign="top">
+					<td width="990" background="../i/bg6-c-u.jpg" style="background-repeat: no-repeat; background-position: left top;">
+
+<!-- Content -->
+
+<!--Openstat-->
+<script type="text/javascript">
+var openstat = { counter: 1, image: 89, color: "828282", next: openstat, track_links: "all" };
+(function(d, t, p) {
+var j = d.createElement(t); j.async = true; j.type = "text/javascript";
+j.src = ("https:" == p ? "https:" : "http:") + "//openstat.net/cnt.js";
+var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(j, s);
+})(document, "script", document.location.protocol);
+</script>
+<!--/Openstat-->
+<table name="tbl2" cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td valign="top" height="52" class="txt2">
+
+<!-- Top text -->
+
+<table cellpadding="0" cellspacing="0" border="0">
+	<tr valign="top" class="top1">
+		<td width="360">&nbsp;</td>
+		<td height="52" width="105"><a href="#"></a></td>
+		<td><a href="#"></a></td>
+	</tr>
+</table>
+
+<!-- /Top text -->
+
+		</td>
+	</tr>
+	<tr>
+		<td class="txt3">
+
+<!-- Text -->
+
+	<h1 align="center">Заявка успешно отправлена!<div style="border-bottom: 1px dotted #000;"></div></h1>
+<center>Наши менеджеры свяжутся с вами!</center>
+
+			<div class="well">
+                <div class="legend">Вы можете оставить больше информации о Вашем заказе!</div>
+                <form action="" method="post" name="form-2">
+					<div class="input-prepend" style="margin-left:0;" >
+                        <span class="add-on"><i class="icon-th-list"></i></span>
+						<select class="input-large focused" id="companytype" name="companytype">
+							<option disabled selected>Юридическая форма:</option>
+							<option value="ИП">ИП</option>
+							<option value="ООО">ООО</option>
+							<option value="АО">Акционерное общество</option>					
+						</select>
+					</div>
+                    <div class="input-prepend" style="margin-left:0;" >
+                        <span class="add-on"><i class="icon-user"></i></span>
+                        <input class="input-large focused" id="name" name="name" type="text" placeholder="Название" style="width:470px;" value="<?php //echo $fio; ?>">
+                    </div>
+                    <div class="input-prepend" style="margin-left:0;" >
+                        <span class="add-on"><i class="icon-book"></i></span>
+                        <input class="input-large focused" id="tell" name="tell" type="text" placeholder="Ваш телефон" style="width:470px;">
+                    </div>
+                    <!--<div class="input-prepend" style="margin-left:0;" >
+                        <span class="add-on"><i class="icon-envelope"></i></span>
+                        <input id="e-mail" class="input-large focused" name="e-mail" type="text" placeholder="Ваш E-mail"  disabled value="<?php //echo $email; ?>"  style="width:470px;" >
+						
+                    </div>-->
+					<div class="input-prepend" style="margin-left:0;" >
+                        <span class="add-on"><i class="icon-star-empty"></i></span>
+                        <input class="input-large focused"  id="inn" name="inn" type="text" placeholder="ИНН:" style="width:470px;" >
+                    </div>
+					<div class="input-prepend" style="margin-left:0;" >
+                        <span class="add-on"><i class="icon-star"></i></span>
+                        <input class="input-large focused" id="ogrn" name="ogrn" type="text" placeholder="ОГРН:" style="width:470px;" >
+                    </div>					
+                    <div class="input-prepend" style="margin-left:0;" >
+                        <span class="add-on"><i class="icon-home"></i></span>
+                        <input class="input-large focused"  id="city"  name="city" type="text" placeholder="Город"  style="width:470px;">
+                    </div>
+                    <textarea class="input-large focused" style="width:500px; height: 120px;" name="text" placeholder="Ваше сообщение"></textarea>
+					<div style="margin: 10px 0 10px 20px;;" >
+						<label class="checkbox" >
+							<input type="checkbox" value="да" id="checkbox" name="checkbox" checked  style="margin-top: 3px;" > Получать новости
+						</label>
+					</div>
+                    <input id="sendextform" class="feedback btn btn-block btn-large btn-success" name="send" type="button" onclick="checkRequired();" value="Отправить" >
+					<script language="javascript">
+						function checkRequired() {
+							s = "Пожалуйста, заполните следующие обязательные поля:\n\n";
+							flgSub = true;
+							if (document.forms['form-2'].companytype.value == "Юридическая форма:") {
+								s = s + "Тип юрлица \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].name.value == "") {
+								s = s + "Название компании \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].tell.value == "") {
+								s = s + "Номер телефона \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].inn.value == "") {
+								s = s + "ИНН \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].ogrn.value == "") {
+								s = s + "ОГРН \n";
+								flgSub = false;
+							}
+							if (document.forms['form-2'].city.value == "") {
+								s = s + "Город \n";
+								flgSub = false;
+							}
+							if (flgSub == false) {
+								alert(unescape(s));	
+							} else {	
+								document.forms["form-2"].action="/send_forms_4a.php";
+								document.forms["form-2"].target="";
+								document.forms["form-2"].submit();
+							}
+						}
+						</script>
+					
+                </form>
+				<?php 
+				/*echo "SESSION - emailclient: ";
+				echo $_SESSION['emailclient'];
+				echo "\n";				
+				echo "SESSION - emailfilial: ";
+				echo $_SESSION['emailfilial'];*/
+				?>
+            </div>
+
+            <hr style="background-color:#efefef;" />
+<div style="display:table; margin: 10px 10px 15px 10px; padding:0px;">            
+            <div style="text-align:center; color: #333;">   <h1> А ЕЩЁ ВЫ МОЖЕТЕ У НАС ЗАКАЗАТЬ: </h1>    <div>
+    <div class="block block-image is-image" id="block-new39" style="; cursor:pointer;" onclick="javascript:document.location.href='/pechati_s_zaschitoj.html'">
+		  
+	<div style="margin: 0 auto;">
+	  <h1 style="color: #D7103F; text-align: center; font-size: 1.4em;">ПЕЧАТИ С ЗАЩИТОЙ</h1>
+	</div>
+	<div style="margin: 0px auto;width: 200px;">
+	<img src="/pics/uslugi/z02.jpg" alt="" height="200" width="200" >
+	</div>
+
+	<!--<div class="block block-popupv2 is-popupv2" id="block-new72">
+              <a href="/pechati_s_zaschitoj.html" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
+	</div>-->
+	
+	<div style="display: inline; float: right; margin-top: 25px; ; background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;height: 38px;width: 128px;z-index: 122;">
+              <p><span style="font-size:15px;"><span style="color:#010206;"><span style="font-family:lora,sans-serif;">от <span style="font-size:20px;">2 700</span> руб.</span></span></span></p>
+
+          </div>
+	  
+    </div>
+    <div class="block block-image is-image" id="block-new40" style="margin-left: 15px;; cursor:pointer;" onclick="javascript:document.location.href='/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html'">
+		  
+	<div style="margin: 0px auto;">
+	  <h1 style="color: #D7103F; text-align: center; font-size: 1.4em;;">МНОГОЦВЕТНЫЕ ПЕЧАТИ</h1>
+	</div>
+	<div style="margin: 0px auto;width: 200px;">
+	<img src="/pics/uslugi/pechat-cvet.png" alt="" height="200" width="200" >
+	</div>
+
+	
+
+	<!--<div class="block block-popupv2 is-popupv2" id="block-new73">
+              <a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
+	</div>-->
+	
+	<div style="display: inline; float: right; margin-top: 25px; ; background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;height: 38px;width: 128px;z-index: 123;">
+              <p><span style="font-size:15px;"><span style="color:#010206;"><span style="font-family:lora,sans-serif;">от <span style="font-size:20px;">2 000</span> руб.</span></span></span></p>
+
+          </div>
+
+    </div>
+    <div class="block block-image is-image" id="block-new41" style="margin-left: 15px; cursor:pointer;" onclick="javascript:document.location.href='/uslugi/plombiry_i_plombiratory.html'">
+		  
+	<div style="margin: 0px auto;">
+	  <h1 style="color: #D7103F; text-align: center; font-size: 1.4em;;">МЕТАЛИЧЕСКИЕ ПЕЧАТИ</h1>
+	</div>
+	<div style="margin: 0px auto; width: 200px; height:200px; overflow:hidden;">
+	<img src="/extdata/images/metal250.jpg" alt="" height="200" width="200" >
+	</div>
+
+	
+
+	<!--<div class="block block-popupv2 is-popupv2" id="block-new74">
+              <a href="/uslugi/plombiry_i_plombiratory.html" target="" data-label="ЗАКАЗАТЬ">ЗАКАЗАТЬ</a>
+	</div>-->
+	
+	<div style="display: inline; float: right; margin-top: 25px; ; background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;height: 38px;width: 128px;z-index: 125;">
+              <p><span style="font-size:15px;"><span style="color:#010206;"><span style="font-family:lora,sans-serif;">от <span style="font-size:20px;">600</span> руб.</span></span></span></p>
+
+          </div>
+
+    </div>
+
+</div>
+
+
+<!-- Text -->
+
+		</td>
+	</tr>
+</table>
+
+<!-- Content -->
+
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="../i/btm1-c.jpg" width="990" height="30" alt=""></td>
+	</tr>
+	<tr>
+		<td class="btm1-c">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr valign="top">
+					<td width="100%" class="btm2">
+						<p>2002г. Печати.RU — <a href="/">Изготовление печатей, штампов, факсимиле в Москве</a></p>
+					</td>
+					<td width="80" nowrap><a href="http://pechati.ru/"><strong>главная</strong></a></td>
+					<td width="110" nowrap><a href="http://pechati.ru/contacts/"><strong>контакты</strong></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+<?php require_once "extdata/baseparts/counters-all.php" ?>
+
+
+</body>
+</html>

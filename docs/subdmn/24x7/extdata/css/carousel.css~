@@ -1,0 +1,60 @@
+.carousel  {
+   max-width: 195px; /* ширина всего блока */
+   /*margin: 10px auto;*/
+	margin-top: 300px;
+	margin-left: -5px;
+   height:460px;
+   max-height:490px;
+}
+.carousel img {
+	width:190px;
+}
+.carousel-wrapper {
+   /*margin: 10px 30px;*/ /* отступы для стрелок */
+   overflow: hidden; /* скрываем содержимое, выходящее за рамки основной области */
+   position:relative;
+}
+.carousel-wrapper img {
+	width:190px;
+}
+.carousel-items {
+   height: 450px; /* устанавливаем большую ширину для набора элементов */
+   position: relative; /* позиционируем блок относительно основной области карусели */
+	/*margin-left:20px;*/
+}
+.carousel-items img {
+	width:190px;
+}
+.carousel-block {
+   /*float: left;*/ /* выстраиваем все элементы карусели в ряд */
+   width: 195px; /* задаём ширину каждого элемента */
+   padding: 2px 2px 2px 25px; /* делаем оступы, чтобы элементы не сливались */
+}
+.carousel-block img{
+	display:block;
+	height:150px;
+}
+
+/*********** BUTTONS ***********/
+carousel-button-left a, .carousel-button-right a{
+   width: 25px; 
+   height: 36px; 
+   position: relative;
+   top: 80px; 
+   cursor: pointer; 
+   text-decoration:none;
+}
+.carousel-button-left a{
+   float: left; 
+   background: url(../images/carousel-left.png); 
+}
+.carousel-button-right a{
+   float: right;
+   background: url(../images/carousel-right.png); 
+}
+
+/*********** SHADOW ***********/
+.shadow{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+
+}

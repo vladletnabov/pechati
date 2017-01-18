@@ -1,0 +1,77 @@
+﻿<style>
+#zakaz-ext {
+	width:100%;
+	margin:10px 10px 10px -20px;
+	padding:0;
+	border: 1px solid red;
+	display: table;
+}
+#zakaz1 {
+	width:28%;
+	margin-left:0;
+	margin-right:2%;
+	min-height:150px;
+	float: left;
+	display:inline;
+	margin-top:0;
+	padding-top:0;
+	border: 1px solid #91b3f2;
+	/*background-color: #aaa;*/
+}
+#zakaz2 {
+	width:28%;
+	margin-left:3%;
+	margin-right:2%;
+	min-height:150px;
+	float: left;
+	display:inline;
+	margin-top:0;
+	padding-top:0;
+	border: 1px solid #91b3f2;
+	/*background-color: #ddd;*/
+}
+#zakaz3 {
+	width:28%;
+	margin-left:3%;
+	margin-right:4%;
+	min-height:150px;
+	float: left;
+	display:inline;
+	margin-top:0;
+	padding: 0 2px 2px 2px;
+	border: 1px solid #91b3f2;
+	/*background-color: #aaa;*/
+}
+.extzakazheader {
+	height: 80px;
+	background-color: #91b3f2;
+	margin-top:0px;
+	padding-top: 0;
+}
+</style>
+
+<div id="zakaz-ext">
+	<div id="zakaz1">
+			<div class="extzakazheader">
+			<p align="center" ><a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" title="Изготовление красконаполненных в т.ч. многоцветных печатей"><strong>Изготовление <font color="#ff0000">красконаполненных</font> в т.ч. многоцветных печатей.</strong></a></p>
+			</div>
+				<p align="justify"><a href="/uslugi/izgotovlenie_kraskonapolnennyh_pechatej.html" title="Изготовление красконаполненных в т.ч. многоцветных печатей">
+				<img src="/pics/index/icon_pechati_flash_70x70.gif" width="70" height="70" alt="Изготовление красконаполненных в т.ч. многоцветных печатей" align="left" style="margin-right: 15px;" border="0"></a> Изготовление красконаполненных печатей из микропористой резины по Японской "флэш" технологии. Изготовление <b>многоцветных</b> печатей.</p>
+
+	</div>
+	<div id="zakaz2">
+			<div class="extzakazheader">
+			<p align="center" ><a href="/pechati_s_zaschitoj.html" title="Печати с дополнительными элементами защиты от подделки"><strong>Печати с дополнительными элементами <font color="#ff0000">защиты от подделки</font></strong></a></p>
+			</div>
+				<p align="justify"><a href="/pechati_s_zaschitoj.html" title="Печати с дополнительными элементами защиты от подделки"><img src="/pics/index/icon_pechati_protect_70x70.gif" width="70" height="70" alt="Печати с дополнительными элементами защиты от подделки" align="left" style="margin-right: 15px;" border="0"></a> Изготовление специальных печатей с внесением дополнительных элементов защиты, исключающих возможность подделки Вашей печати.</p>
+
+	</div>
+	<div id="zakaz3">
+			<div class="extzakazheader">
+			    <p align="center" ><a href="/izgotovlenie_gerbovyh_pechatej.html" title="Изготовление гербовых печатей для государственных и муниципальных учреждений"><strong>Изготовление <font color="#ff0000">гербовых</font> печатей <br> для государственных и муниципальных учреждений    </strong></a></p>
+			</div>
+			<div style="border:1px dotted black; display:block;">
+				<p><a href="/izgotovlenie_gerbovyh_pechatej.html" title="Изготовление гербовых печатей для государственных и муниципальных учреждений"><img src="/pics/index/icon_pechati_gerb_70x70.gif" width="70" height="70" alt="Изготовление гербовых печатей для государственных и муниципальных учреждений" align="left" style="margin-right: 15px;" border="0"></a> С 1 июля 2003 года вступил в силу ГОСТ Р51511–2001 "Печати с воспроизведением Государственного герба Российской Федерации. Форма, размеры и технические требования".</p>
+			</div>
+	</div>
+</div>

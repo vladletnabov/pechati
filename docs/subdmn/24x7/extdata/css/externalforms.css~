@@ -1,0 +1,19 @@
+#externalform {
+	/*background-color: red;*/
+	max-width:415px;
+	border: 2px dotted #eee;
+	margin:0 auto;
+}
+#externalform h3 {
+	text-align: center;
+}
+.grey{
+	background-color: #eee;
+	margin:5px;
+	padding: 2px;
+}
+.white {
+	background-color: #f6f6f6;
+	margin:5px;
+	padding: 2px;
+}
