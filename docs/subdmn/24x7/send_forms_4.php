@@ -29,7 +29,7 @@ function complete_mail() {
 
 $from    = $_POST['fio'];	
 if ($_POST[form]!=7 or $_POST[form]!=8) {
-	$subject = "Заказ на изготовление печатей $_POST[adress] ($tmarker)";
+	$subject = "Заказ на изготовление печатей 24x7.pechati.ru $_POST[adress] ($tmarker)";
 } else {
 	if ($_POST[form]==7) {
 		$subject = "Заказ на экспонирующие камеры Soligor";
@@ -185,7 +185,7 @@ $mail->Send();
 			$msg=$msg."\n";
 		}
 	}
-	$msg=$msg."Информация о заказе:\n $_POST[text]";
+	$msg=$msg."Информация о заказе:\n $_POST[text] \n\n\n-------------------------------------------------- \n\n\n ВСЕ ЦЕНЫ С НОЧНОЙ СКИДКОЙ!!!!";
 require "mailer.php";
 $mail = new PHPMailer();
 #$mail->AddReplyTo = $_POST[eml]; 
