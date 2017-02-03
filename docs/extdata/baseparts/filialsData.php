@@ -913,7 +913,7 @@ $filialDataList = array(
 		'uslugi'=>0, 
 		'predlog'=>'в', 
 		'padej'=>'Новых черёмушках',
-		'rejim'=>'Пн-Пт 10:00-18:00', 'addrCity'=>'Москва',
+		'rejim'=>'Пн-Пт 10:00-19:00', 'addrCity'=>'Москва',
 		'addrRegion'=>'Москва',
 		'addrStreet'=>'ул.Гарибальди ', 
 		'addrHouse'=>'д21, стр.6',
