@@ -332,7 +332,11 @@ $filialDataList = array(
 		'addrStreet'=>'Чонгарский бульвар', 
 		'addrHouse'=>'4к2',
 		'addrOffice'=>'офис 4',
+<<<<<<< HEAD
 		'mapAddr'=>'[55.651379, 37.612389]', 
+=======
+		'mapAddr'=>'[55.654091, 37.617047]', 
+>>>>>>> origin/master
 		'real-phone'=>'7 (495) 369-08-80',
 		'phone'=>'+7 (499) 350-04-28',
 		'ya-phone'=>'ya-phone-varshavskaya',
@@ -913,7 +917,7 @@ $filialDataList = array(
 		'uslugi'=>0, 
 		'predlog'=>'в', 
 		'padej'=>'Новых черёмушках',
-		'rejim'=>'Пн-Пт 10:00-18:00', 'addrCity'=>'Москва',
+		'rejim'=>'Пн-Пт 10:00-19:00', 'addrCity'=>'Москва',
 		'addrRegion'=>'Москва',
 		'addrStreet'=>'ул.Гарибальди ', 
 		'addrHouse'=>'д21, стр.6',

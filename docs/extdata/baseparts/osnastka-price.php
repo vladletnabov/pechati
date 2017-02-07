@@ -162,7 +162,7 @@ var price2 = 450;
 				</div>
 				<div class="osnatka-icon" style="width:24%; margin:0;padding:0;display:inline;float:left;">
 					<IMG border=0 src="../pics/uslugi/elit_osn.jpg" width=100 height=133  onclick="runEffect(8);">
-					<p>Ёлитные оснастки<BR>от 5500 р.</p>
+					<p>Ёлитные оснастки<BR>от 4000 р.</p>
 				</div>
 				<div id="osnastka5" class="oshastka-akkord">				
 					<div>
