@@ -54,12 +54,16 @@ else {
 					if ($key!= 100){
 						$startLine = $startLine . '<div style="max-height:9px; width: 19px; float: left; margin-top:5px; margin-right:3px; background-color:' . $metroStationNumColor[$key]['color'] . '">';						
 					}
+					else {
+						$startLine = $startLine . '<div style="max-height:9px; width: 19px; float: left; margin-top:5px; margin-right:3px; background-color: #fff">';
+					}
 					$startLine = $startLine . '<img src="/pics/line.gif" width="19" height="9" alt="" style="margin:0;"></div>';
 					for($i=0; $i<count($value); $i++){
-						echo $startLine, '<a href="',$filialDataListCP1251[$value[$i]]['url'],'" title="Заказать печать ', 
+						echo $startLine, '<a href="', $filialDataListCP1251[$value[$i]]['url'],'" title="Заказать печать ', 
 							$filialDataListCP1251[$value[$i]]['predlog'],  " " ,$filialDataListCP1251[$value[$i]]['padej'], '">', $value[$i],	$endline;
 						$chkMainListFilial++;
 						if (($chkMainListFilial==$columnSize)||($chkMainListFilial==(2*$columnSize))){
+							echo '<!-- separate -->';
 							echo $separatorTbl;
 						}
 					}
