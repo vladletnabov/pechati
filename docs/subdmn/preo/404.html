@@ -1,0 +1,293 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>404</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+	<meta name="keywords" content="">
+	<meta name="Description" content="">
+	<meta name="robots" content="noodp">
+	<meta name="robots" content="noyaca">
+	
+	<style>
+	.my-hint {
+            display: inline-block;
+            padding: 5px;
+            height: 35px;
+            position: relative;
+            left: -10px;
+            width: 195px;
+            font-size: 11px;
+            line-height: 17px;
+            color: #333333;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #faefb6;
+            border: 1px solid #CDB7B5;
+            border-radius: 20px;
+            font-family: Arial;
+        }
+		#map {
+		clear:both;
+		width: 945px;
+		height: 500px;
+		margin-left: -35px;
+		margin-right: -100px;
+		}
+		#map2 {
+		clear:both;
+		width: 945px;
+		height: 500px;
+		margin-left: -75px;
+		margin-right: -100px;
+		}
+		#map3 {
+		clear:both;
+		width: 945px;
+		height: 500px;
+		margin-left: -75px;
+		margin-right: -100px;
+		}
+		#map4 {
+		clear:both;
+		width: 945px;
+		height: 500px;
+		margin-left: -75px;
+		margin-right: -100px;
+		}
+	</style>
+	<style>
+	#quickzakaz {
+		margin-top:10px;
+		border: 1px solid #940000;
+		border-radius:4px;
+		background-color: #92000a;
+		color: #fff;
+		height:30px;
+		width:100%;
+		font-size:1.2em;
+	}
+	#quickzakaz:hover {
+		margin-top:10px;
+		border: 1px solid #92000a;
+		border-radius:4px;
+		background-color: #4e1609;
+		height:30px;
+		width:100%;
+		font-size:1.2em;
+	}
+
+	</style>
+	
+	<link rel="STYLESHEET" type="text/css" href="http://pechati.ru//css/pechati-asgat.css">
+	<!--	  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>		  -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+		<!--<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>-->
+	<script src="http://pechati.ru/feedback/js/feedback.js"></script>
+	<script src="http://pechati.ru/feedback/js/jquery.arcticmodal.js"></script>
+	<script src="http://pechati.ru/feedback/js/jquery.jgrowl.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="http://pechati.ru/extdata/js/yamap-begovaya.js" type="text/javascript"></script>
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="http://pechati.ru/extdata/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="http://pechati.ru/extdata/source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="http://pechati.ru/extdata/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="http://pechati.ru/extdata/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="http://pechati.ru/extdata/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="http://pechati.ru/extdata/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="http://pechati.ru/extdata/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="http://pechati.ru/extdata/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	
+	<style type="text/css">
+		.fancybox-custom .fancybox-skin {
+			box-shadow: 0 0 0 #222;
+		}
+	</style>
+		  
+		  
+	<script type="text/javascript">
+	$(document).ready(function(){
+		    $('.fancybox').fancybox();
+			
+		$("#quickzakaz").click(function(){
+			//alert('asdasdasd');
+			$('#zakaz-modal').arcticmodal();
+			//return false;
+		});
+	
+		$("#thumbnail li a").click(function(){
+			$("#large img").hide().attr({"src": $(this).attr("href"), "title": $("> img", this).attr("title")});
+			$("#large h2").html($("> img", this).attr("title"));
+			return false;
+		});
+		$("#large>img").load(function(){$("#large>img:hidden").fadeIn("slow")});
+		
+		
+		$("#thumbnail2 li a").click(function(){
+		
+			$("#large img").hide().attr({"src": $(this).attr("href"), "title": $("> img", this).attr("title")});
+			$("#large h2").html($("> img", this).attr("title"));
+			return false;
+		});
+	});
+	</script>	  
+		  <style>
+#headmenusticy {  /* селектор блока, который будет оставаться на месте */
+  position: fixed;
+  z-index: 101;
+  width:100%;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  font-size: 26px;
+}
+.elementmenu {
+	margin-left: 20px; 
+	margin-right: 20px; 
+	float:left;
+	font-size: 18px;
+}
+.elementmenu a:link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #333;
+}
+.elementmenu a:visited {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	background-color: #333;
+}
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="http://pechati.ru/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://pechati.ru/feedback/css/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="http://pechati.ru/feedback/css/jquery.jgrowl.css">
+    <link rel="stylesheet" type="text/css" href="http://pechati.ru/css/style.css">
+	<!-- КОнец обязательного блока -->
+
+	<?php require_once "../../extdata/baseparts/header.php" ?>
+</head>
+
+<body marginheight="0" marginwidth="0" alink="#ff0000" link="#6600cc" text="#333333" vlink="#333333">
+<table cellpadding="0" cellspacing="0" border="0" align="center" width="1050">
+	<tr>
+		<td height="212">
+			<table cellpadding="0" cellspacing="0" border="0" height="212">
+				<tr valign="top">
+					<td width="750"><img src="http://pechati.ru/i/top1.jpg" width="750" height="212" alt=""></td>
+					<td background="http://pechati.ru/i/top2.jpg" style="padding: 5px 20px 10px 0;">
+						<div class="tt1" align="justify" style="height: 190px;">
+Компания Печати.RU предлагает срочное изготовление печатей, штампов, факсимиле.  Восстановление печатей по оттиску. Изготовление факсимиле, пломбиров, пломбираторов, рельефных металлических печатей, ударных клейм. Печати с защитой от подделки. 
+Изготовление гербовых печатей. Полный спектр оборудования и расходных метриалов для изготовления печатей по всем современным технологиям. Широкий ассортимент оснастки для печатей и штампов.
+<div align="center"><a href="/" title="Заказать печать"><img src="http://pechati.ru/pics/but.png" width="191" height="43" alt="Заказать печать" border="0"></a></div>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td bgcolor="#ffffff" background="http://pechati.ru/i/bg1.jpg" style="background-repeat: repeat-y;">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" background="http://pechati.ru/i/bg2.jpg" style="background-position: top right; background-repeat: repeat-y;">
+				<tr valign="top">
+					<td background="http://pechati.ru/i/bg4.jpg" style="background-repeat: repeat-y;">
+<div class="txt2" style="background: url('/i/bg3.jpg') top left no-repeat; padding: 0 95px 0 95px; //padding: 0 95px;">
+
+<!-- Text1 -->
+
+<p style="font-weight:bolder; font-size:24px;">Страница не найдена (404 ошибка)</p>
+Перейти на <a href="http://pechati.ru/">главную</a>.
+<!-- /Text1 -->
+
+<div style="position:relative; margin-left:-50px;">
+<?php require_once "../../extdata/dop-tovary.php" ?>
+
+</div>
+					</td>
+				</tr>
+			</table>
+			<table cellpadding="0" cellspacing="0" border="0" width="100%" background="http://pechati.ru/i/bg2.jpg" style="background-position: top right; background-repeat: repeat-y;">
+				<tr valign="top">
+					<td background="http://pechati.ru/i/bg4.jpg" style="background-repeat: repeat-y; padding: 0 70px 0 95px; //padding: 0 95px;">
+<div class="txt2">
+
+<!-- Text2 -->
+
+<!-- /Text2 -->
+
+</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="http://pechati.ru/i/btm1i.jpg" width="990" height="30" alt=""></td>
+	</tr>
+	<tr>
+		<td class="btm1" style="background-image: url('/i/btm2i.jpg')">
+			<table cellpadding="0" cellspacing="0" border="0" width="910">
+				<tr valign="top">
+					<td width="100%" class="btm2">
+						<p>Срочное изготовление печатей и штампов в Москве "Печати.ru" R Москва 2002г.<br><a href="http://pechati.ru/">Срочное изготовление печатей и штампов</a></p>
+					</td>
+					<td width="80" nowrap><a href="http://pechati.ru/"><strong>главная</strong></a></td>
+					<td width="115" nowrap><a href="http://pechati.ru/contacts/"><strong>контакты</strong></a></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<div style="display:none;"><!--550080641835--></div><noindex>
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='http://counter.yadro.ru/hit?t45.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border=0 width=31 height=31><\/a>")//--></script><!--/LiveInternet-->
+
+<!--- SmartLog ---><script language="javascript">
+i=Math.random();w=screen.width;h=screen.height;
+bps=screen.colorDepth;ln=navigator.systemLanguage;
+if(navigator.cookieEnabled) cook = "Y"; else cook = "N";
+ document.write('<a href="http://www.smartlog.ru/" target="_top"><img width=1 height=1 src="http://www.smartlog.ru/counter/?i='+i+'&cid=999&r='+escape(document.referrer)+'&sid=1193&cook='+cook+'&s='+w+'x'+h+'&pg='+escape(window.location.href)+'" alt="SmartLog.ru - интернет статистика" border=0></a>')
+</script><!--- SmartLog --->
+
+<!--begin of Rambler's Top100 code -->
+<a href="http://top100.rambler.ru/top100/">
+<img src="http://counter.rambler.ru/top100.cnt?146655" alt="" width=1 height=1 border=0></a>
+
+<!--end of Top100 code--><!--begin of Top100 logo-->
+<a href="http://top100.rambler.ru/top100/">
+<img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width=88 height=31 border=0></a>
+<!--end of Top100 logo -->
+
+<meta name='yandex-verification' content='793f873693198c17' />
+
+<!-- Yandex.Metrika counter -->
+<script src="http://pechati.ru//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<script type="text/javascript">
+try { var yaCounter114010 = new Ya.Metrika({id:114010,
+          clickmap:true,
+          accurateTrackBounce:true, webvisor:true});}
+catch(e) { }
+</script>
+<noscript><div><img src="http://pechati.ru/mc.yandex.ru/watch/114010" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</noindex>
+</div>
+
+
+</body>
+</html>
