@@ -1299,7 +1299,6 @@ $filialDataList = array(
 	// Скрытая копия	
 	"Таганская"=> array(
 		'metro'=>array(7,5,8),
-		'posContact' => 'vip',
 		'commentContact' => 'опт&nbsp;/&nbsp;розница<br>отправка по России<br>оборудования, расходников, оснасток',
 		'plashkaContact' => '../pics/contacts/taganka_fl.gif',
 		'mainList'=>0, 
