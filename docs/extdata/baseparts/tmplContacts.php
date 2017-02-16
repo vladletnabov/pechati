@@ -199,7 +199,7 @@ function sendFormCounterYandexMetrika(){
 	</tr>-->
 </table>
 				<!-- карта филиалов -->
-				<?php require_once "../extdata/baseparts/map-filials.php" ?>
+				<?php //require_once "../extdata/baseparts/map-filials.php" ?>
 <br /><br />
 
 <!-- Text -->
