@@ -95,7 +95,13 @@ $columnSizeMO = $columnSize;
 								if(strcasecmp($phone,'')==0){
 									$phone ='8 (495) 585-81-62';
 								}
-								$url ='/contacts/filial.php?filial_name=' . $value[$i];
+								
+								$url_filial = $filialDataListCP1251[$value[$i]]['url'];
+								$url_filial = str_replace('/contacts/', '', $url_filial);
+								$url_filial = str_replace('.html', '', $url_filial);
+								
+								#$url ='/contacts/filial.php?filial_name=' . $value[$i];
+								$url ='/contacts/filial.php?filial_name=' . $url_filial;
 								echo $startLine, $value[$i], '" id="adr', $chkMainListFilial, '"></span> <label for="adr',
 									$chkMainListFilial,'"><a href="javascript:;" onclick="window.open(', "'", 
 									$url, "')", '"><strong>', $value[$i], '</strong></a><br><span class="',$filialDataListCP1251[$value[$i]]['ya-phone'],'">', 
