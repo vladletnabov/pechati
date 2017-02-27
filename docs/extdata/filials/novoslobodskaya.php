@@ -11,7 +11,7 @@
 
 <p>От метро Новослободская: из метро один выход, оказавшись на улице повернуть направо и идти прямо вдоль ул. Новослободской по направлению из центра, по ходу движения автотранспорта, пройти мимо станции Менделеевская.</p>
 
-<script src="/extdata/slider/js/jquery.js"></script>
+<!--<script src="/extdata/slider/js/jquery.js"></script>-->
     <script src="/extdata/slider/js/amazingslider.js"></script>
     <link rel="stylesheet" type="text/css" href="/extdata/slider/js/amazingslider-63.css">
     <script src="/extdata/slider/js/initslider-63.js"></script>

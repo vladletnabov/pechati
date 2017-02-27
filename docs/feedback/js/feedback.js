@@ -102,11 +102,14 @@ function feedback(vars) {
              if(/textbox/i.test(cfg.notify)) {
                     if(isset(answer.errors)) {
                         $.each(answer.errors, function(k,val) {
-                            $.jGrowl(val, {theme: 'error', header: 'Ошибка!', life: 3000 });
+                            $.jGrowl(val, {theme: 'error', header: 'Oшибка!', life: 3000 });
                         });
                     } if(isset(answer.infos)) {
                         $.each(answer.infos, function(k,val) {
-                            $.jGrowl(val, {theme: 'infos', header: 'Внимание!', life: 3000 });
+							console.log("k: " + k);
+							console.log("val: " + val);
+							console.log("_.jGrowl: " + jQuery.jGrowl);
+                            $.jGrowl(val, {theme: 'infos', header: 'Bнимание!', life: 3000 });
                         });
                     }
 

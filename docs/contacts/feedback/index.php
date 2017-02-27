@@ -16,7 +16,7 @@ foreach ($filialDataList as $key => $value){
 		#error_log($filialDataList[$key]['quickZakaz']);
 		$quickZakazHeader=$filialDataList[$key]['quickZakaz'];
 		$filSubject = 'Быстрый заказ печати ' . $filialDataList[$key]['predlog'] . ' ' . $filialDataList[$key]['padej'] ;
-		$filTitle = 'Быстрый заказ печати '. $filialDataList[$key]['predlog'] . ' ' . $filialDataList[$key]['padej'] ;
+		$filTitle = 'Быстрый заказ печати '. $filialDataList[$key]['predlog'] . ' ' . $filialDataList[$key]['padej'] . '<br /><hr /><br />' ;
 		$emailFrom = $filialDataList[$key]['email'];
 		$emailTo = $filialDataList[$key]['email'];
 		
@@ -46,6 +46,19 @@ foreach ($filialDataList as $key => $value){
 					'messages' => array(
 						'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
 						'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+					)
+				),
+				'text' => array(
+					'title' => 'Сообщение',
+					'validate' => array(
+						'preg' => '%[A-Z-a-zА-Яа-я\s]%',
+						'minlength' => '3',
+						'maxlength' => '35',
+					),
+					'messages' => array(
+						'preg' => 'Поле [ %1$s ] возможно содержит ошибку',
+						'minlength' => 'Минимальная длинна поля [ %1$s ] меньше допустимой - %2$s',
+						'maxlength' => 'Максимальная длинна поля [ %1$s ] превышает допустимую - %2$s',
 					)
 				),
 			),
@@ -192,6 +205,8 @@ if(isset($form[$act])) {
 		$get_fromEmail = $form['cfg']['from_email'];
 		$fromName = $form['cfg']['from_name'];
 		$sb['subject'] = (function_exists("mb_encode_mimeheader")) ? mb_encode_mimeheader($form['cfg']['subject'], $form['cfg']['charset'], "Q") : 	$form['cfg']['subject'];
+		#$sb['subject'] = $form['cfg']['subject'];
+		error_log('QO --> subject: '.$sb['subject']);
       
 		$toName = trim($form['cfg']['to_name'], " ,");
 		$toEmail = trim($form['cfg']['to_email'], " ,");
@@ -234,6 +249,7 @@ if(isset($form[$act])) {
 		$headers .= "X-Priority: 3\r\n";
 		$headers .= "Reply-To: ".$fromName." <".$get_fromEmail.">\r\n";
 		$headers .= "To: ".$To."\r\n";
+		$headers .= "Subject: ".$sb['subject']."\r\n";
 		$headers .= "MIME-Version: 1.0\r\n";
 		$headers .= "Content-Type: text/" . $form['cfg']['type'] . "; charset=\"" . $form['cfg']['charset'] . "\"\r\n";
 		$headers .= "Content-Transfer-Encoding: 8bit\r\n";
@@ -249,9 +265,9 @@ if(isset($form[$act])) {
 		// или отдаем голый текст
         if(mb_strlen(trim($sb['body'])) < 10) {
 			if(isset($form['cfg']['title']))
-				$sb['body'] .= $form['cfg']['title']."\r\n\r\n";
+				$sb['body'] .= $form['cfg']['title']."<br />\r\n\r\n\r\n\r\n";
 			foreach($getdata as $name => $data) {
-				$sb['body'] .= $data['title'].": ".$data['value']."\r\n";
+				$sb['body'] .= $data['title'].": ".$data['value']."<br />\r\n\r\n\r\n\r\n";
 			}
 			if($form['cfg']['referer'])
 				$sb['body'] .= "\r\n\r\n\r\n\r\n".$ref;
@@ -263,7 +279,10 @@ if(isset($form[$act])) {
 		}
 
 		//отправка письма
-		error_log('Mail To: ' . $To . ' From: ' .$fromName . ' Subject: ' . $sb['subject']);
+		error_log('Mail To: ' . $To);
+		error_log('From: ' . $fromName);
+		error_log('Subject: ' . $sb['subject']);
+		error_log('Message: ' . $sb['body'] );
 		mail("center-zakaz@pechati.ru", "the subject", $message,
 		 "From: webmaster@$SERVER_NAME\r\n"
 		."Reply-To: webmaster@$SERVER_NAME\r\n"
@@ -337,7 +356,8 @@ function adds($vars) {
         return $template;
     }
      else {
-      return false;
+		error_log('tpl/contacts.tpl - not exist!');
+		return false;
     }
  }
 	function returnKeys($array){
