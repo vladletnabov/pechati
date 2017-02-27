@@ -1,4 +1,4 @@
-
+<!--
 	
 	<br />
 	<p>
@@ -20,3 +20,4 @@
 	<p><img src="../pics/contacts/prazhskaya/7.jpg" width="491" height="369" alt="" border="1"></p>
 	<p><img src="../pics/contacts/prazhskaya/8.jpg" width="491" height="369" alt="" border="1"></p>
 
+-->
