@@ -29,7 +29,7 @@
 						</div>
 						<div style="padding:5px 0 0 35px;">
 							<div style="margin:5px; width:250px;float:left;display: inline;">
-								<i class="icon2-home" style="float:left;margin-right: 10px;"></i> <div> <a style="color: #efefef; font-size: 1em; text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['addrCity']?>, <?php echo $curFilial ?> <br /><?php  echo $filialDataListCP1251[$curFilial]['addrStreet'] ?> <?php  echo $filialDataListCP1251[$curFilial]['addrHouse'] ?></a></div>
+								<i class="icon2-home" style="float:left;margin-right: 10px;"></i> <div> <a style="color: #efefef; font-size: 1em; text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['addrCity']?>, <?php echo $curFilial ?> <br /><?php  echo $filialDataListCP1251[$curFilial]['addrStreet'] ?> <?php  echo $filialDataListCP1251[$curFilial]['addrHouse'] ?><br /><?php  echo $filialDataListCP1251[$curFilial]['addrOffice'] ?></a></div>
 								<input type="hidden" name="adress" value="<?php echo $curFilial ?>" form="form1">
 							</div>
 							<div style="margin:5px; width:250px; float:left;">
