@@ -25,7 +25,7 @@ $price_url = "";
 		</div>
 		<div id="list">
 			<? list_full( array(
-				array("Пластмассовая с гербом", "9", "/osnastka/data/img/items/osn_plastm_40.gif"),
+				array("Пластмассовая с гербом", "13", "/osnastka/data/img/items/osn_plastm_40.gif"),
 				array("Пластмассовая большая", "16", "/osnastka/data/img/items/osn_plastm_9060.gif"),
 				array("Пластмассовая треугольная", "16", "/osnastka/data/img/items/osn_plast_treug.gif"),
 				array("Карманная", "15", "/osnastka/data/img/items/osn_karm_40.gif"),

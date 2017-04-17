@@ -40,7 +40,7 @@
 								<i class="icon2-time" style="float:left;margin-right: 10px;"></i> <div> <a style="color: #efefef; font-size: 1em; text-decoration: none;"><?php echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim']) ?></a></div>
 							</div>
 							<div style="margin:5px; width:250px;float:left;">
-								<i class="icon2-email" style="float:left;margin-right: 10px;"></i> <div> <a href="<?php echo $filialDataListCP1251[$curFilial]['phone']?>" style="color: #efefef; line-height:2.5em; font-size: 1em; text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['email']?></a></div>
+								<i class="icon2-email" style="float:left;margin-right: 10px;"></i> <div> <a href="mailto:<?php echo $filialDataListCP1251[$curFilial]['email'] , '?subject=Заказ по Email'?>" style="color: #efefef; line-height:2.5em; font-size: 1em; text-decoration: none;"><?php echo $filialDataListCP1251[$curFilial]['email']?></a></div>
 							</div>
 						</div>
 					</div>
@@ -167,7 +167,7 @@ function sendFormCounterYandexMetrika(){
 			?><br />
 			 <?php echo '<img src="../i/0.gif" class="poi2" width="13" height="13" alt="" align="absmiddle">', " ", $filialDataListCP1251[$curFilial]['addrCity'], ", ", $filialDataListCP1251[$curFilial]['addrStreet'], " ", $filialDataListCP1251[$curFilial]['addrHouse'], ", ", $filialDataListCP1251[$curFilial]['addrOffice']; ?></p>
 				<p>Тел.: <b><?php echo $filialDataListCP1251[$curFilial]['phone'] ?></b></p>
-				<p>Почта: <a href="<?php #echo $filialDataListCP1251[$curFilial]['email'] ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>
+				<p>Почта: <a href="mailto:<?php echo $filialDataListCP1251[$curFilial]['email'], '?subject=Заказ по Email (тело страницы)' ?>"><?php echo $filialDataListCP1251[$curFilial]['email'] ?></a></p>
 				<p>Часы работы: <br/>
 				<? echo str_replace(",","<br />",$filialDataListCP1251[$curFilial]['rejim'])?>
 				
