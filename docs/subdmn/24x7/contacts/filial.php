@@ -1,10 +1,22 @@
 <?php
 require_once "../../../extdata/baseparts/filialsData.php";
 $filialName = '';
+
+
+
 if (isset($_GET['filial_name'])) {
     $filialName =urldecode($_GET['filial_name']);
-	/*$filialName = iconv('utf-8', 'windows-1251', $filialName);*/
 	$filialName = str_replace('"', '', $filialName);
+	foreach ($filialDataListCP1251 as $filialKey=>$filailValue ){
+		$url_filial = $filailValue['url'];
+		$url_filial = str_replace('/contacts/', '', $url_filial);
+		$url_filial = str_replace('.html', '', $url_filial);
+		if((strcmp($url_filial, $filialName))==0){
+			$filialName = $filialKey;
+			break;
+		}
+	}
+	/*$filialName = iconv('utf-8', 'windows-1251', $filialName);*/
 } else {
 	redirect_to_main('not_setted');
 }
