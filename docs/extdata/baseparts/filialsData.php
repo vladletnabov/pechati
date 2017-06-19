@@ -764,7 +764,7 @@ $filialDataList = array(
 		'rejim'=>'Пн-Пт:10:00-19:00, Сб-Вс: выходной', 'addrCity'=>'Москва',
 		'addrRegion'=>'Москва',
 		'addrStreet'=>'ул. Образцова', 
-		'addrHouse'=>'д. 22,
+		'addrHouse'=>'д. 22',
 		'addrOffice'=>'',
 		'mapAddr'=>'[55.79471, 37.603783]', 
 		'real-phone'=>'8 (916) 993-19-19',
@@ -773,7 +773,7 @@ $filialDataList = array(
 		'ya-target'=>'ya-target-marina-roscha',
 		'url'=>'/contacts/46.html', 
 		'reqFilialData'=>'/extdata/filials/mariana-roscha.php',
-		'email'=>'nsl@pechati.ru,
+		'email'=>'nsl@pechati.ru',
 		'quickZakaz'=>'quick-zakaz-mariana-roscha',
 		'img'=>'/pics/contacts/marina-rocha.jpg'),
 	"м. Митино"=> array(
